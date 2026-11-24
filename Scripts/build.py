@@ -70,7 +70,7 @@ LAYOUT = """<!doctype html>
 
 HEADER_PILCROW = """<header class="site-header">
 <div class="wrap">
-<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><svg class="mark" aria-hidden="true" focusable="false"><use href="/assets/logo.svg#pc-logo"/></svg>Pilcrow</a>
+<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
 <nav class="nav" aria-label="Main">
 <a href="/pilcrow/#features">Features</a>
 <a href="/pilcrow/#syntax">Syntax</a>
