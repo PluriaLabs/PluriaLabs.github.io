@@ -13,20 +13,23 @@ JavaScript (`assets/site.js`).
 | `Scripts/build.py` | Builds everything below from `src/` and the privacy policies |
 | `index.html`, `pilcrow/`, `404.html` | Build output. Commit it; Pages serves it as it is |
 | `pilcrow/privacy.html`, `pilcrow/privacy/<lang>.html` | The privacy policy in 23 languages, built from the Policies repo |
+| `pilcrow/guide/` | The User Guide: a home page plus one page per chapter, built from `Documentation/User Guide.md` in the app repo (read only) |
+| `assets/guide-index.json`, `assets/guide.js` | The guide's search index (built) and its search script |
 | `pilcrow/assets/` | Icons, social image, banner and the app screenshots |
 | `.nojekyll` | Tells Pages to skip Jekyll |
 
 ## Edit and rebuild
 
 ```bash
-python3 -I Scripts/build.py                      # uses ~/Projects/Policies and Licenses/Pilcrow
-python3 -I Scripts/build.py "/path/to/Pilcrow"   # or name the policies folder
+python3 -I Scripts/build.py                                  # default paths under ~/Projects
+python3 -I Scripts/build.py --policies DIR --guide FILE      # or name the sources
 python3 -m http.server 8000                      # preview at http://localhost:8000
 ```
 
 Do not edit the generated `.html` files at the top level or under `pilcrow/`; edit `src/` and
-rebuild. The privacy pages are generated from `PluriaLabs/Policies-and-Licenses`, so change the
-policy there and rebuild here.
+rebuild. The privacy pages are generated from `PluriaLabs/Policies-and-Licenses` and the User Guide from the
+app repo's `Documentation/User Guide.md`, so change the text there and rebuild here. Parts and
+chapters are taken from the guide's `# Part …` and `# Chapter N: …` headings.
 
 ## Before the App Store launch
 
