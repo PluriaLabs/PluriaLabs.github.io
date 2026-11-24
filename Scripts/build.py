@@ -79,6 +79,7 @@ HEADER_PILCROW = """<header class="site-header">
 <nav class="nav" aria-label="Main">
 <a href="/pilcrow/#features">Features</a>
 <a class="keep" href="/pilcrow/guide/"{cur_guide}>User Guide</a>
+<a href="/pilcrow/compare.html"{cur_compare}>Compare</a>
 <a href="/pilcrow/#privacy">Privacy</a>
 <a class="keep" href="/pilcrow/support.html"{cur_support}>Support</a>
 <a class="btn btn-primary btn-sm" href="/pilcrow/#get">Get Pilcrow</a>
@@ -134,7 +135,8 @@ def render(page: dict) -> str:
     lang = page.get("lang", "en")
     header = HEADER_LABS if page.get("section") == "labs" else HEADER_PILCROW.format(
         cur_support=' aria-current="page"' if path == "/pilcrow/support.html" else "",
-        cur_guide=' aria-current="page"' if path.startswith("/pilcrow/guide/") else "")
+        cur_guide=' aria-current="page"' if path.startswith("/pilcrow/guide/") else "",
+        cur_compare=' aria-current="page"' if path == "/pilcrow/compare.html" else "")
     return LAYOUT.format(
         lang=lang,
         dir=' dir="rtl"' if lang in RTL else "",
