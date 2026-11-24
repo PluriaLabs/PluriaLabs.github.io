@@ -1,0 +1,562 @@
+{
+ "columns": [
+  "Pilcrow",
+  "Typora",
+  "1Writer",
+  "Ulysses",
+  "Obsidian",
+  "Bear"
+ ],
+ "legend": "y = oui, n = non, ? = non vérifié. Un mot après y est une note : module, payant, mots-clés, grammaire.",
+ "groups": [
+  {
+   "name": "Plateformes",
+   "rows": [
+    [
+     "macOS",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPad",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPhone",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Windows ou Linux",
+     "n",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Format d’écriture",
+   "rows": [
+    [
+     "Markdown",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Profils de syntaxe personnalisés",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Source AsciiDoc",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Source reStructuredText",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Source LaTeX",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Texte brut",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Édition",
+   "rows": [
+    [
+     "Coloration syntaxique en direct",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "WYSIWYG, balisage masqué pendant la saisie",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Source et aperçu côte à côte",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Modes concentration et machine à écrire",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n",
+     "n"
+    ],
+    [
+     "Onglets",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Repli du code",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Multicurseur ou mode colonne",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Raccourcis Vim",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Rechercher et remplacer dans le fichier",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Rechercher et remplacer dans un dossier",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Palette de commandes",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "Macros et extraits",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "Fichiers de plusieurs gigaoctets",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Types de contenu",
+   "rows": [
+    [
+     "Tableaux",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Notes de bas de page",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Mathématiques (LaTeX)",
+     "y",
+     "y",
+     "n",
+     "?",
+     "y",
+     "y"
+    ],
+    [
+     "Diagrammes Mermaid",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "?"
+    ],
+    [
+     "Graphiques (Vega-Lite)",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:module",
+     "n"
+    ],
+    [
+     "Métadonnées en en-tête et sommaire automatique",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Images et arrière-plans vidéo",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Organisation",
+   "rows": [
+    [
+     "Barre latérale des dossiers et fichiers",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Plan du document",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Étiquettes",
+     "n",
+     "n",
+     "n",
+     "y:mots-clés",
+     "y",
+     "y"
+    ],
+    [
+     "Wikiliens et rétroliens",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Vue en graphe",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Projets de livre ou de manuscrit avec objectifs de mots",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:module",
+     "n"
+    ],
+    [
+     "Objectifs d’écriture et nombre de mots",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Vérification des liens",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:module",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Export et publication",
+   "rows": [
+    [
+     "PDF",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Word (.docx)",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y:module",
+     "y"
+    ],
+    [
+     "HTML",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y:module",
+     "y"
+    ],
+    [
+     "EPUB",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y:module",
+     "?"
+    ],
+    [
+     "Compiler plusieurs fichiers en un seul document",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:module",
+     "n"
+    ],
+    [
+     "Publier sur un blog ou un site",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y:payant",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Apparence",
+   "rows": [
+    [
+     "Thèmes",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Création de thèmes en CSS",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Assistance",
+   "rows": [
+    [
+     "Assistant IA intégré",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:module",
+     "n"
+    ],
+    [
+     "Révision selon un guide de style",
+     "y",
+     "n",
+     "n",
+     "y:grammaire",
+     "y:module",
+     "n"
+    ],
+    [
+     "Traduction sur l’appareil",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:module",
+     "n"
+    ],
+    [
+     "Parole (lecture à voix haute)",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y:module",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Plateforme et données",
+   "rows": [
+    [
+     "Les fichiers restent de simples fichiers sur le disque",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Synchronisation iCloud",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Historique des versions",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Écosystème de modules d’extension",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Notes chiffrées",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y"
+    ],
+    [
+     "Vote des abonnés sur les fonctionnalités et les icônes",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  }
+ ]
+}
