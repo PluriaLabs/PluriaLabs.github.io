@@ -136,7 +136,9 @@ The Edit menu holds the system's standard commands and many of Pilcrow's own. Me
 | **Find Next** | `⌘G` |
 | **Find Previous** | `⇧⌘G` |
 
-## Spelling and Grammar (Mac)
+## Spelling and Grammar
+
+On iPad this submenu holds only **Check Spelling While Typing**, the same switch as in Settings. The other two items are Mac only, because an iPad text view has no spelling panel.
 
 | Item | Shortcut | What it does |
 | --- | --- | --- |
@@ -386,7 +388,7 @@ For an iPad without a keyboard or mouse, Pilcrow can show the same menus in its 
 In a window 1,100 points wide or more the six menus sit side by side: **File**, **Edit**, **Insert**, **Format**, **View** and **Help**. In a narrower window they collapse into one **Menu** button. The strip is a lighter version of the menu bar:
 
 - **File** adds **Open Folder…**, **Export…** and **Print…** to the usual items.
-- **Edit** has **Undo**, **Redo**, the copy commands, **Find**, **Selection**, **Translate**, **Go to Line…**, **Check Links…**, **Command Palette…**, **Go Back** and **Go Forward**.
+- **Edit** has **Undo**, **Redo**, the copy commands, **Find**, **Spelling and Grammar**, **Selection**, **Translate**, **Go to Line…**, **Check Links…**, **Command Palette…**, **Go Back** and **Go Forward**.
 - **Format** has the inline styles, the **Paragraph** submenu, **Insert Table…** and **Insert Image…**.
 - **View** has **Formatting Toolbar**, **Toggle Sidebar**, **Outline**, **Files**, **Search**, the document mode, **Focus**, **Line Numbers**, **Current-Line Rule**, **Styled Source**, **Heading Folds** and **Open Documents**. For the other display switches, use **More** or Settings.
 - **Help** has **Pilcrow Help**, **Report a Bug…** and **Finish Bug Report**.

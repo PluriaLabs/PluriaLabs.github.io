@@ -542,5 +542,5 @@ On **iPad**, three submenus sit with the system's items:
 | **Interface Size** sets the size of menus, bars and dialogs. | Not available. |
 | Import is in **Settings ▸ Library ▸ Import**. | **File ▸ Import**. |
 | No Save All, Duplicate, Move To, Reload from Disk, Show in Finder or Page Setup. | These are in the File menu. |
-| No Spelling and Grammar submenu; spelling is under **Settings ▸ Editing**. | **Edit ▸ Spelling and Grammar**. |
+| **Edit ▸ Spelling and Grammar** has one item, **Check Spelling While Typing**. | **Edit ▸ Spelling and Grammar** also has **Show Spelling and Grammar** and **Check Document Now**. |
 | Typing sounds are muted by the iPad's silent switch. | Not applicable. |
