@@ -110,6 +110,7 @@ FOOTER = """<footer class="site-footer">
 <li><a href="/pilcrow/">Overview</a></li>
 <li><a href="/pilcrow/#features">Features</a></li>
 <li><a href="/pilcrow/guide/">User Guide</a></li>
+<li><a href="/pilcrow/compare.html">How Pilcrow compares</a></li>
 <li><a href="/pilcrow/support.html">Support</a></li>
 <li><a href="/pilcrow/privacy.html">Privacy policy</a></li>
 </ul>
@@ -156,6 +157,39 @@ def write(rel: str, text: str) -> None:
     out.write_text(text, encoding="utf-8")
 
 
+
+# ---------------------------------------------------------------- comparison table
+
+def compare_cell(code: str) -> str:
+    """One cell of the comparison table: y, n, ? (not verified), with an optional note after a colon."""
+    kind, _, note = code.partition(":")
+    note_html = f'<small>{html.escape(note)}</small>' if note else ""
+    if kind == "y":
+        return f'<td class="y"><span class="mk" aria-hidden="true">✓</span><span class="sr-only">Yes</span>{note_html}</td>'
+    if kind == "?":
+        return '<td class="u"><span class="mk" aria-hidden="true">?</span><span class="sr-only">Not verified</span></td>'
+    return '<td class="n"><span class="mk" aria-hidden="true">–</span><span class="sr-only">No</span></td>'
+
+
+def render_compare() -> str:
+    data = json.loads((ROOT / "src" / "data" / "compare.json").read_text(encoding="utf-8"))
+    cols = data["columns"]
+    us = ' class="us"'
+    head = "".join(f'<th scope="col"{us if i == 0 else ""}>{html.escape(c)}</th>' for i, c in enumerate(cols))
+    out = [
+        '<div class="compare-wrap" tabindex="0" role="region" aria-label="Feature comparison table">',
+        '<table class="compare"><caption class="sr-only">Features of Pilcrow and five other writing editors</caption>',
+        f'<thead><tr><th scope="col" class="feat-h">Feature</th>{head}</tr></thead>',
+    ]
+    for g in data["groups"]:
+        out.append(f'<tbody><tr class="grp"><th scope="colgroup" colspan="{len(cols) + 1}">{html.escape(g["name"])}</th></tr>')
+        for row in g["rows"]:
+            cells = "".join(compare_cell(c) for c in row[1:])
+            out.append(f'<tr><th scope="row">{html.escape(row[0])}</th>{cells}</tr>')
+        out.append("</tbody>")
+    out.append("</table></div>")
+    return "\n".join(out)
+
 # ---------------------------------------------------------------- hand-written pages
 
 def parse_source(path: pathlib.Path) -> dict:
@@ -177,6 +211,8 @@ def build_pages() -> list:
         out = "/" + rel
         url = "/" + rel.removesuffix("index.html") if rel.endswith("index.html") else out
         page["path"] = url
+        if "<!--compare-table-->" in page["body"]:
+            page["body"] = page["body"].replace("<!--compare-table-->", render_compare())
         if page.get("jsonld_file"):
             data = (ROOT / "src" / page["jsonld_file"]).read_text(encoding="utf-8")
             page["jsonld"] = '<script type="application/ld+json">' + data.strip() + "</script>\n"

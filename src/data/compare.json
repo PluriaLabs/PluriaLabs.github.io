@@ -1,0 +1,78 @@
+{
+  "columns": ["Pilcrow", "Typora", "1Writer", "Ulysses", "Obsidian", "Bear"],
+  "legend": "y = yes, n = no, ? = not verified. A word after y is a note: plugin, paid, keywords, grammar.",
+  "groups": [
+    { "name": "Platforms", "rows": [
+      ["macOS",             "y","y","n","y","y","y"],
+      ["iPad",              "y","n","y","y","y","y"],
+      ["iPhone",            "n","n","y","y","y","y"],
+      ["Windows or Linux",  "n","y","n","n","y","n"]
+    ]},
+    { "name": "Writing format", "rows": [
+      ["Markdown",                                   "y","y","y","y","y","y"],
+      ["User-defined syntax profiles",               "y","n","n","n","n","n"],
+      ["AsciiDoc, reStructuredText and LaTeX source","y","n","n","n","n","n"],
+      ["Plain text",                                 "y","y","y","y","y","y"]
+    ]},
+    { "name": "Editing", "rows": [
+      ["Live syntax highlighting",                  "y","y","y","y","y","y"],
+      ["WYSIWYG, markup hidden as you type",        "n","y","n","y","y","y"],
+      ["Split source and preview",                  "y","n","y","n","y","n"],
+      ["Focus and typewriter mode",                 "y","y","n","y","n","n"],
+      ["Tabs",                                      "y","y","y","n","y","n"],
+      ["Code folding",                              "y","n","n","n","y","n"],
+      ["Multi-cursor or column mode",               "y","n","n","n","y","n"],
+      ["Vim keybindings",                           "n","n","n","n","y","n"],
+      ["Find and replace in the file",              "y","y","y","y","y","y"],
+      ["Find and replace across a folder",          "y","y","y","y","y","y"],
+      ["Command palette",                           "y","n","n","y","y","n"],
+      ["Macros and snippets",                       "y","n","y","y","y","n"],
+      ["Multi-gigabyte files",                      "y","n","n","n","n","n"]
+    ]},
+    { "name": "Content types", "rows": [
+      ["Tables",                                      "y","y","y","y","y","y"],
+      ["Footnotes",                                   "y","y","y","y","y","y"],
+      ["Math (LaTeX)",                                "y","y","n","?","y","y"],
+      ["Mermaid diagrams",                            "y","y","n","n","y","?"],
+      ["Charts (Vega-Lite)",                          "y","n","n","n","y:plugin","n"],
+      ["Front matter and automatic table of contents","y","y","n","n","y","y"],
+      ["Images and video backgrounds",                "y","y","y","y","y","y"]
+    ]},
+    { "name": "Organizing", "rows": [
+      ["Folder and file sidebar",                        "y","y","y","y","y","y"],
+      ["Document outline",                               "y","y","y","y","y","y"],
+      ["Tags",                                           "n","n","n","y:keywords","y","y"],
+      ["Wikilinks and backlinks",                        "n","n","n","n","y","y"],
+      ["Graph view",                                     "n","n","n","n","y","n"],
+      ["Book or manuscript projects with word targets",  "y","n","n","y","y:plugin","n"],
+      ["Writing goals and word count",                   "y","y","y","y","y","y"],
+      ["Link checking",                                  "y","n","n","n","y:plugin","n"]
+    ]},
+    { "name": "Export and publish", "rows": [
+      ["PDF",                                  "y","y","y","y","y","y"],
+      ["Word (.docx)",                         "y","y","n","y","y:plugin","y"],
+      ["HTML",                                 "y","y","y","y","y:plugin","y"],
+      ["EPUB",                                 "n","y","n","y","y:plugin","?"],
+      ["Compile many files into one document", "y","n","n","y","y:plugin","n"],
+      ["Publish to a blog or site",            "n","n","n","y","y:paid","n"]
+    ]},
+    { "name": "Appearance", "rows": [
+      ["Themes",                  "y","y","y","y","y","y"],
+      ["Theme authoring in CSS",  "y","y","n","n","y","n"]
+    ]},
+    { "name": "Assistance", "rows": [
+      ["Built-in AI assistant",       "y","n","n","n","y:plugin","n"],
+      ["Style-guide review",          "y","n","n","y:grammar","y:plugin","n"],
+      ["On-device translation",       "y","n","n","n","y:plugin","n"],
+      ["Speech (read aloud)",         "y","n","y","n","y:plugin","n"]
+    ]},
+    { "name": "Platform and data", "rows": [
+      ["Files stay plain files on disk",           "y","y","y","n","y","n"],
+      ["iCloud sync",                              "y","y","y","y","y","y"],
+      ["Version history",                          "y","n","n","y","y","y"],
+      ["Plugin ecosystem",                         "n","n","n","n","y","n"],
+      ["Encrypted notes",                          "n","n","n","n","n","y"],
+      ["Subscriber voting on features and icons",  "y","n","n","n","n","n"]
+    ]}
+  ]
+}

@@ -368,3 +368,41 @@ strong.menu { font-weight: 600; color: var(--teal-deep); background: color-mix(i
   .g-toc a.on { color: var(--teal-deep); border-left-color: var(--teal); font-weight: 600; }
 }
 @media print { .g-side, .g-toc, .g-pager, .crumbs, .anchor { display: none !important; } .guide { display: block; } }
+
+/* ---------- comparison page ---------- */
+.compare-page { padding-bottom: 5rem; }
+.compare-grid { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); margin: .5rem 0 3rem; }
+.compare-grid .card h2 { font-size: 1.35rem; margin: 0 0 .8rem; }
+.checks.gaps li::before { content: "–"; color: var(--ink-faint); }
+.compare-title { font-size: 1.7rem; margin: 0 0 .6rem; }
+.compare-key { display: flex; flex-wrap: wrap; gap: .4rem 1.6rem; font-size: .92rem; color: var(--ink-soft); margin: 0 0 1rem; }
+.compare-key .mk { display: inline-block; width: 1.2rem; font-weight: 700; color: var(--teal); }
+.compare-key .mk.q, td.u .mk { color: #a8741a; }
+@media (prefers-color-scheme: dark) { .compare-key .mk.q, td.u .mk { color: #e0b05f; } }
+
+.compare-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); }
+.compare-wrap:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+table.compare { width: 100%; min-width: 46rem; border-collapse: separate; border-spacing: 0; font-size: .95rem; }
+table.compare th, table.compare td { padding: .55rem .8rem; border-bottom: 1px solid var(--rule); text-align: center; vertical-align: middle; }
+table.compare thead th { position: sticky; top: 0; z-index: 2; background: var(--paper-2); font: 600 .85rem/1.2 var(--sans); letter-spacing: .02em; color: var(--ink-soft); padding-block: .8rem; }
+table.compare thead th.us { color: var(--teal-deep); background: color-mix(in srgb, var(--sage) 85%, var(--paper-2)); }
+table.compare th.feat-h, table.compare tbody th[scope="row"] { text-align: left; position: sticky; left: 0; z-index: 1; background: var(--card); font-weight: 500; color: var(--ink); min-width: 13rem; box-shadow: 1px 0 0 var(--rule); }
+table.compare thead th.feat-h { z-index: 3; background: var(--paper-2); }
+table.compare tr.grp th { text-align: left; position: static; background: var(--paper-2); font: 600 .75rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--teal-deep); padding: .7rem .8rem; box-shadow: none; }
+table.compare td:nth-child(2) { background: color-mix(in srgb, var(--sage) 38%, var(--card)); }
+table.compare tbody tr:hover td, table.compare tbody tr:hover th[scope="row"] { background-color: color-mix(in srgb, var(--sage) 55%, var(--card)); }
+table.compare tr:last-child td, table.compare tr:last-child th { border-bottom: 0; }
+td .mk { font-weight: 700; font-size: 1.05rem; }
+td.y .mk { color: var(--teal); }
+td.n .mk { color: var(--ink-faint); font-weight: 400; }
+td small { display: block; font: 500 .7rem/1.2 var(--sans); color: var(--ink-faint); margin-top: .15rem; }
+.compare-notes { max-width: 46rem; margin: 2rem 0 0; }
+.compare-notes p { color: var(--ink-soft); }
+.compare-notes .fineprint { margin-top: 1.2rem; }
+@media print { .compare-wrap { overflow: visible; box-shadow: none; } table.compare thead th, table.compare th[scope="row"] { position: static; } }
+@media (max-width: 640px) {
+  table.compare { min-width: 33rem; font-size: .85rem; }
+  table.compare th, table.compare td { padding: .5rem .4rem; }
+  table.compare th.feat-h, table.compare tbody th[scope="row"] { min-width: 8.5rem; max-width: 8.5rem; }
+  table.compare thead th { font-size: .75rem; }
+}
