@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Pilcrow",
+  "applicationCategory": "ProductivityApplication",
+  "operatingSystem": "macOS 14 or later, iPadOS 17 or later",
+  "description": "A professional plain-text editor for Mac and iPad with user-defined syntax profiles and export to HTML, PDF and Word.",
+  "image": "https://plurialabs.github.io/pilcrow/assets/icon-512.png",
+  "publisher": { "@type": "Organization", "name": "Pluria Labs", "url": "https://plurialabs.github.io/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
