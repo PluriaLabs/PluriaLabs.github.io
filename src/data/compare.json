@@ -11,7 +11,9 @@
     { "name": "Writing format", "rows": [
       ["Markdown",                                   "y","y","y","y","y","y"],
       ["User-defined syntax profiles",               "y","n","n","n","n","n"],
-      ["AsciiDoc, reStructuredText and LaTeX source","y","n","n","n","n","n"],
+      ["AsciiDoc source",                            "y","n","n","n","n","n"],
+      ["reStructuredText source",                    "y","n","n","n","n","n"],
+      ["LaTeX source",                               "y","n","n","n","n","n"],
       ["Plain text",                                 "y","y","y","y","y","y"]
     ]},
     { "name": "Editing", "rows": [
