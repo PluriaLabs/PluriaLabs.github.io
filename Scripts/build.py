@@ -150,6 +150,7 @@ def header(lang: str, key: str, section: str) -> str:
 <a href="/pilcrow/compare.html"{cur if key == "/pilcrow/compare.html" else ""}>{t['nav_compare']}</a>
 <a href="/pilcrow/#privacy">{t['nav_privacy']}</a>
 <a class="keep" href="/pilcrow/support.html"{cur if key == "/pilcrow/support.html" else ""}>{t['nav_support']}</a>
+<a class="keep" href="/pilcrow/story.html"{cur if key == "/pilcrow/story.html" else ""}>Story</a>
 <a class="btn btn-primary btn-sm" href="/pilcrow/#get">{t['nav_get']}</a>
 </nav>MENU</div>
 </div>
@@ -173,6 +174,7 @@ def footer(lang: str) -> str:
 <li><a href="/pilcrow/guide/">{t['nav_guide']}</a></li>
 <li><a href="/pilcrow/compare.html">{t['foot_compare']}</a></li>
 <li><a href="/pilcrow/support.html">{t['nav_support']}</a></li>
+<li><a href="/pilcrow/story.html">Story</a></li>
 <li><a href="/pilcrow/privacy.html">{t['foot_privacy']}</a></li>
 </ul>
 </div>
