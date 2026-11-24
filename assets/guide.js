@@ -5,6 +5,8 @@
 
   var input = document.getElementById('g-q');
   var box = document.getElementById('g-results');
+  var lang = document.documentElement.lang || 'en';
+  var INDEX = '/assets/guide-index' + (lang === 'en' ? '' : '.' + lang) + '.json';
   var index = null, loading = null;
 
   function fold(s) {
@@ -16,7 +18,7 @@
   function load() {
     if (index) return Promise.resolve(index);
     if (!loading) {
-      loading = fetch('/assets/guide-index.json').then(function (r) { return r.json(); }).then(function (rows) {
+      loading = fetch(INDEX).then(function (r) { return r.json(); }).then(function (rows) {
         rows.forEach(function (r) { r._t = fold(r.c + ' ' + r.s); r._x = fold(r.x); });
         index = rows;
         return rows;
@@ -63,7 +65,7 @@
     if (!terms.length) { box.hidden = true; box.innerHTML = ''; return; }
     var rows = search(q);
     box.hidden = false;
-    if (!rows.length) { box.innerHTML = '<p class="g-none">No matches for “' + esc(q) + '”. Try fewer or different words.</p>'; return; }
+    if (!rows.length) { box.innerHTML = '<p class="g-none">' + esc(box.getAttribute('data-none') || 'No matches for {q}.').replace('{q}', esc(q)) + '</p>'; return; }
     box.innerHTML = '<ul>' + rows.map(function (r) {
       var title = r.s ? esc(r.c) + ' <span aria-hidden="true">›</span> ' + esc(r.s) : esc(r.c);
       return '<li><a href="' + r.u + '"><span class="rt">' + title + '</span><span class="rs">' + snippet(r, terms) + '</span></a></li>';

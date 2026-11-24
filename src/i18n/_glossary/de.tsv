@@ -1,0 +1,958 @@
+1 hour	1 Stunde
+24 hours	24 Stunden
+A macro	Ein Makro
+A style guide	Ein Stilleitfaden
+A syntax profile	Ein Syntaxprofil
+A table	Eine Tabelle
+A table drawn in text	Eine in Text gezeichnete Tabelle
+AI assistant	KI-Assistent
+API key	API-Schlüssel
+Above	Oberhalb
+Accept	Übernehmen
+Accept All Remaining	Alle übrigen übernehmen
+Action	Aktion
+Active	Aktiv
+Actual Size	Originalgröße
+Add	Hinzufügen
+Add ./ for relative paths	./ für relative Pfade hinzufügen
+Add All	Alle hinzufügen
+Add Caret Above	Cursor oberhalb hinzufügen
+Add Caret Below	Cursor unterhalb hinzufügen
+Add Column After	Spalte rechts hinzufügen
+Add Column Before	Spalte links hinzufügen
+Add Connection	Verbindung hinzufügen
+Add Log and Open Form	Protokoll hinzufügen und Formular öffnen
+Add Log to Description	Protokoll zur Beschreibung hinzufügen
+Add Row Above	Zeile oberhalb hinzufügen
+Add Row Below	Zeile unterhalb hinzufügen
+Add Variable	Variable hinzufügen
+Add a table of contents to every export	Jedem Export ein Inhaltsverzeichnis hinzufügen
+Add attribute	Attribut hinzufügen
+Add caption	Beschriftung hinzufügen
+Add format	Format hinzufügen
+Add inline rule	Inline-Regel hinzufügen
+Add nesting rule	Verschachtelungsregel hinzufügen
+Add nothing	Nichts hinzufügen
+Add pair mark	Paarmarkierung hinzufügen
+Add rule	Regel hinzufügen
+Add run mark	Reihenmarkierung hinzufügen
+Add the log	Protokoll hinzufügen
+Add to Library…	Zur Bibliothek hinzufügen …
+Additional syntax	Zusätzliche Syntax
+Address	Adresse
+Address groups	Gruppen der Adresse
+Address written on its own is enclosed by	Eine allein stehende Adresse steht zwischen
+Admonition box	Hinweiskasten
+Admonition line	Hinweiszeile
+Advanced options	Erweiterte Optionen
+Advanced profile JSON	Erweitertes Profil-JSON
+After Return at the end of a line	Nach der Eingabetaste am Zeilenende
+After translating	Nach dem Übersetzen
+Alert	Hinweis
+Aligned columns	Ausgerichtete Spalten
+All	Alle
+All areas	Alle Bereiche
+All parts	Alle Bereiche
+All statuses	Alle Status
+Allow an unencrypted connection on my local network	Unverschlüsselte Verbindung in meinem lokalen Netzwerk erlauben
+Allowed children (comma separated)	Zulässige untergeordnete Knoten (durch Kommas getrennt)
+Always	Immer
+Always Add the Log	Protokoll immer hinzufügen
+Always add	Immer hinzufügen
+Anchor	Anker
+App Icon	App-Symbol
+Appearance	Erscheinungsbild
+Application Theme	App-Theme
+Application Themes	App-Themes
+Apply	Anwenden
+Apply All	Alle anwenden
+Apply to local images	Auf lokale Bilder anwenden
+Apply to online images	Auf Online-Bilder anwenden
+Areas	Bereiche
+Around cursor	Um den Cursor
+Ask each time	Jedes Mal fragen
+Ask the assistant…	Den Assistenten fragen …
+Ask to Fix	Korrektur anfordern
+Assistant	Assistent
+Assistant mode	Assistentenmodus
+At a glance	Auf einen Blick
+Attribute reference	Attributverweis
+Author	Autor
+Auto links (bare URLs)	Automatische Links (reine URLs)
+Auto-Expand Sections	Abschnitte automatisch aufklappen
+Auto-escape image URLs on insert	Bild-URLs beim Einfügen maskieren
+Auto-pair brackets and quotes	Klammern und Anführungszeichen automatisch paaren
+Auto-wrap long lines	Lange Zeilen umbrechen
+Automatic	Automatisch
+Automatically save changes	Änderungen automatisch sichern
+Back matter	Anhang
+Baseline	Basiszustand
+Behind the Sidebar	Hinter der Seitenleiste
+Behind the Text Area	Hinter dem Textbereich
+Below	Unterhalb
+Best quality	Beste Qualität
+Between scenes	Zwischen Szenen
+Block holds	Der Block enthält
+Block rules	Blockregeln
+Blockquote	Zitat
+Blur	Unschärfe
+Bold	Fett
+Book word target	Wortziel für das Buch
+Bottom margin	Rand unten
+Bought	Gekauft
+Browse Enclosing Folder…	Übergeordneten Ordner durchsuchen …
+Built-in	Integriert
+Bulleted List	Aufzählung
+Bulleted list item	Aufzählungspunkt
+CSS diagnostics	CSS-Diagnose
+Cancel	Abbrechen
+Cancel translation	Übersetzung abbrechen
+Capitalize	Anfangsbuchstaben großschreiben
+Caption place	Position der Beschriftung
+Cards	Karten
+Carets in a Column	Einfügemarken in einer Spalte
+Carets in a Column…	Einfügemarken in einer Spalte …
+Caution	Vorsicht
+Cell options pattern	Muster für Zellenoptionen
+Cell separator	Zellentrenner
+Changed by another app	Von einer anderen App geändert
+Change…	Ändern …
+Chapters	Kapitel
+Characters	Zeichen
+Chart	Grafik
+Charts	Datendiagramme
+Check Again	Erneut prüfen
+Check Cross-References	Querverweise prüfen
+Check Document Now	Dokument jetzt prüfen
+Check Links	Links prüfen
+Check Links…	Links prüfen …
+Check Spelling While Typing	Rechtschreibung beim Tippen prüfen
+Check sample	Beispiel prüfen
+Check spelling while typing	Rechtschreibung während der Eingabe prüfen
+Checklist item	Checklisteneintrag
+Choose Another Location…	Anderen Ort auswählen …
+Choose Folder…	Ordner auswählen …
+Choose Model…	Modell auswählen …
+Choose the syntax profile for this document	Syntaxprofil für dieses Dokument wählen
+Choose…	Auswählen…
+Clear	Leeren
+Clear Caches…	Caches leeren …
+Clear Conversation	Unterhaltung löschen
+Clear Format	Formatierung entfernen
+Clear Log	Protokoll löschen
+Clear Log…	Protokoll löschen …
+Clear Menu	Menü löschen
+Clear Recent File Access…	Zugriff auf zuletzt geöffnete Dateien löschen …
+Close	Schließen
+Close All	Alle schließen
+Close All Documents	Alle Dokumente schließen
+Close Document	Dokument schließen
+Close Help	Hilfe schließen
+Close find bar	Suchleiste schließen
+Closing line	Schlusszeile
+Closing line repeats the opening mark, at least as often	Die Schlusszeile wiederholt das Anfangszeichen mindestens ebenso oft
+Code Fence	Codeblock
+Code Fences	Code-Fences
+Code block	Codeblock
+Code fences	Code-Fences
+Code span character	Zeichen für Code-Abschnitte
+Col	Sp
+Collapsible section	Einklappbarer Abschnitt
+Column (for example 100, or 100-105 to select)	Spalte (zum Beispiel 100, oder 100-105 zum Auswählen)
+Column Selection	Spaltenauswahl
+Column list separator	Trenner der Spaltenliste
+Columns	Spalten
+Command Palette	Befehlspalette
+Command Palette…	Befehlspalette …
+Comment (hidden)	Kommentar (ausgeblendet)
+CommonMark Options	CommonMark-Optionen
+Compare Versions	Versionen vergleichen
+Compare with File…	Mit Datei vergleichen …
+Compare…	Vergleichen …
+Compile Manuscript	Manuskript kompilieren
+Compile Manuscript…	Manuskript kompilieren …
+Compile…	Kompilieren …
+Conditional section	Bedingter Abschnitt
+Connections	Verbindungen
+Content group	Gruppe des Inhalts
+Contents	Inhalt
+Contents & Labels	Inhalt und Beschriftungen
+Continue Anyway	Trotzdem fortfahren
+Continue lists and quotes on Return	Listen und Zitate mit der Eingabetaste fortsetzen
+Conversational	Gespräch
+Convert	Konvertieren
+Convert To…	Konvertieren in …
+Convert on Input	Beim Eingeben umwandeln
+Convert on Rendering	Beim Rendern umwandeln
+Converter	Konverter
+Copy	Kopieren
+Copy My Library Here	Meine Bibliothek hierher kopieren
+Copy as HTML Code	Als HTML-Code kopieren
+Copy as Markdown	Als Markdown kopieren
+Copy as Plain Text	Als reinen Text kopieren
+Copy image to ./assets	Bild nach ./assets kopieren
+Copy image to current folder (./)	Bild in den aktuellen Ordner kopieren (./)
+Could Not Rename Document	Dokument konnte nicht umbenannt werden
+Could Not Save Document	Dokument konnte nicht gesichert werden
+Could Not Share	Teilen nicht möglich
+Count code blocks	Codeblöcke zählen
+Count front matter	Vorspann zählen
+Count headings	Überschriften zählen
+Count up	Hochzählen
+Crash details	Absturzdetails
+Crash reports	Absturzberichte
+Create	Erstellen
+Cross-reference	Querverweis
+Current-Line Rule	Linie unter der aktuellen Zeile
+Custom	Eigene
+Custom CSS	Eigenes CSS
+Custom node name	Eigener Knotenname
+Custom…	Benutzerdefiniert …
+Dark	Dunkel
+Decrease Heading Level	Überschriftenebene verringern
+Default	Standard
+Default Language	Standardsprache
+Default file type	Standarddateityp
+Default output style	Standard-Ausgabestil
+Delete	Löschen
+Delete AI Data & Keys…	KI-Daten und Schlüssel löschen …
+Delete All	Alle löschen
+Delete All AI Data…	Alle KI-Daten löschen …
+Delete Collection	Sammlung löschen
+Delete Column	Spalte löschen
+Delete Diagnostics…	Diagnosedaten löschen …
+Delete Line	Zeile löschen
+Delete Paragraph	Absatz löschen
+Delete Permanently	Endgültig löschen
+Delete Row	Zeile löschen
+Delete Selected	Auswahl löschen
+Delete Style Guide…	Stilleitfaden löschen …
+Delete Word	Wort löschen
+Delimiter pair	Trennzeichenpaar
+Depth	Tiefe
+Description	Beschreibung
+Description list term	Begriff einer Beschreibungsliste
+Detailed	Detailliert
+Details…	Details …
+Device and system information	Geräte- und Systeminformationen
+Diagnostic Log	Diagnoseprotokoll
+Diagnostics	Diagnose
+Diagram	Diagramm
+Diagrams	Diagramme
+Diagrams and charts (Mermaid, Vega-Lite)	Diagramme und Grafiken (Mermaid, Vega-Lite)
+Digits 0 to 9	Ziffern 0 bis 9
+Dim	Abschwächung
+Discard Changes	Änderungen verwerfen
+Discard theme changes?	Änderungen am Theme verwerfen?
+Dismiss	Schließen
+Dismiss All Suggestions	Alle Vorschläge verwerfen
+Display	Anzeige
+Display Math	Abgesetzte Formel
+Display line numbers	Zeilennummern anzeigen
+Do nothing	Nichts tun
+Document	Dokument
+Document Information	Dokumentinformationen
+Document Mode	Dokumentmodus
+Document Translation	Dokumentübersetzung
+Document attribute	Dokumentattribut
+Document structure (counts only)	Dokumentstruktur (nur Anzahlen)
+Documents	Dokumente
+Don't expand inside code	Nicht in Code erweitern
+Don't show this again	Nicht mehr anzeigen
+Done	Fertig
+Download	Laden
+Draws	Zeichnet
+Draws as	Wird gezeichnet als
+Duck	Ente
+Duplicate	Duplizieren
+Duplicate Collection	Sammlung duplizieren
+Duplicate Style Guide	Stilleitfaden duplizieren
+Edit	Bearbeiten
+Edit Advanced JSON…	Erweitertes JSON bearbeiten …
+Edit Application Theme	App-Theme bearbeiten
+Edit Block	Block bearbeiten
+Edit Macro	Makro bearbeiten
+Edit Profile	Profil bearbeiten
+Edit Render Theme	Render-Theme bearbeiten
+Edited	Bearbeitet
+Editing	Bearbeitung
+Editing colours for	Farben bearbeiten für
+Editor Background	Editor-Hintergrund
+Editor font	Editor-Schrift
+Editor size and word count	Editorgröße und Wortanzahl
+Edit…	Bearbeiten …
+Emphasis	Betonung
+Empty Recently Deleted	„Zuletzt gelöscht“ leeren
+Enable AI assistant	KI-Assistenten aktivieren
+Enabled	Aktiviert
+Encoding	Codierung
+End of line	Zeilenende
+Entries	Einträge
+Equation	Gleichung
+Equations	Gleichungen
+Errors	Fehler
+Escape character	Escape-Zeichen
+Estimated time: less than a minute	Geschätzte Dauer: weniger als eine Minute
+Everything	Alles
+Exact text	Genauer Text
+Example box	Beispielkasten
+Excluded files	Ausgeschlossene Dateien
+Exit Focus	Fokus beenden
+Expand emoji shortcodes (:smile:)	Emoji-Kurzcodes erweitern (:smile:)
+Export	Exportieren
+Export Collection…	Sammlung exportieren …
+Export Defaults	Export-Standards
+Export Style Guide…	Stilleitfaden exportieren …
+Export and print	Exportieren und Drucken
+Export…	Exportieren…
+Extends Markdown	Erweitert Markdown
+Fast	Schnell
+Fenced block	Umzäunter Block
+Field	Feld
+Fields	Felder
+File	Datei
+File Access	Dateizugriff
+File Changed on Disk	Datei auf dem Datenträger geändert
+File Operation Failed	Dateivorgang fehlgeschlagen
+File extension	Dateiendung
+File extensions (comma-separated)	Dateiendungen (durch Kommas getrennt)
+File tree / library	Dateibaum / Bibliothek
+Files	Dateien
+Files and library	Dateien und Bibliothek
+Files in Another Language	Dateien in einer anderen Sprache
+Fill	Füllen
+Fill-in fields remain	Es sind noch Felder auszufüllen
+Find	Suchen
+Find In	Suchen in
+Find Next	Weitersuchen
+Find Previous	Rückwärts suchen
+Find in document	Im Dokument suchen
+Find…	Suchen…
+Finish Bug Report	Fehlerbericht abschließen
+First line before a blank line is the header	Die erste Zeile vor einer Leerzeile ist die Kopfzeile
+Fit	Einpassen
+Fixed attributes	Feste Attribute
+Focus	Fokus
+Focus Mode	Fokusmodus
+Fold All	Alle falten
+Folder	Ordner
+Folders turned off	Ausgeschaltete Ordner
+Font size	Schriftgröße
+Fonts	Schriften
+Footer template	Fußzeilenvorlage
+Footnote	Fußnote
+Footnote label begins with	Das Label einer Fußnote beginnt mit
+Formats	Formate
+Formatting Toolbar	Formatierungsleiste
+From heading level	Ab Überschriftenebene
+From your subscription	Aus Ihrem Abo
+Front matter	Vorspann
+General	Allgemein
+Get votes	Stimmen erhalten
+GitHub-style alerts	Hinweise im GitHub-Stil
+Give headings ids	Überschriften IDs geben
+Go	Los
+Go Back	Zurück
+Go Forward	Vorwärts
+Go to Line	Gehe zu Zeile
+Go to Line…	Gehe zu Zeile …
+Go to Next Field	Zum nächsten Feld
+Grid with rule lines	Raster mit Trennlinien
+Group (no box)	Gruppe (ohne Kasten)
+Gutter font	Randspaltenschrift
+HTML (without Styles)	HTML (ohne Stile)
+Hard pad with spaces	Hart mit Leerzeichen auffüllen
+Header rule line pattern	Muster der Kopf-Trennlinie
+Header template	Kopfzeilenvorlage
+Header, footer, and metadata	Kopfzeile, Fußzeile und Metadaten
+Heading (level from the rule)	Überschrift (Ebene aus der Regel)
+Heading 1	Überschrift 1
+Heading 2	Überschrift 2
+Heading 3	Überschrift 3
+Heading 4	Überschrift 4
+Heading 5	Überschrift 5
+Heading 6	Überschrift 6
+Heading Folds	Überschriften falten
+Heading id prefix	ID-Präfix
+Heading id word separator	Worttrenner der ID
+Heading labels	Überschriftenbeschriftungen
+Heading level	Überschriftenebene
+Height	Höhe
+Help	Hilfe
+Hide Markers	Markierungen ausblenden
+Hide Scenes	Szenen ausblenden
+Hide Toolbar	Symbolleiste ausblenden
+Hide replace	Ersetzen ausblenden
+Highlight	Hervorhebung
+Highlight (==key==)	Hervorhebung (==key==)
+Horizontal Line	Horizontale Linie
+Horizontal rule	Horizontale Linie
+Ignore trailing whitespace	Leerzeichen am Zeilenende ignorieren
+Image	Bild
+Image prefix	Bildpräfix
+Images	Bilder
+Images in Preview and exports	Bilder in Vorschau und Exporten
+Image…	Bild…
+Import	Importieren
+Import Macros…	Makros importieren …
+Import Style Guide…	Stilleitfaden importieren …
+Import Theme…	Theme importieren…
+Import file	Datei importieren
+Importable file	Importierbare Datei
+Important	Wichtig
+Import…	Importieren…
+Include in Manuscript	In Manuskript aufnehmen
+Include in a report	In einen Bericht aufnehmen
+Increase Heading Level	Überschriftenebene erhöhen
+Indent	Einrücken
+Indent size	Einzugsgröße
+Indentation	Einzug
+Indented block	Eingerückter Block
+Indented text under a line ending in a marker	Eingerückter Text unter einer Zeile, die auf eine Markierung endet
+Indented text under an opening line	Eingerückter Text unter einer Eröffnungszeile
+Index term	Indexbegriff
+Inherits	Erbt von
+Inline Math	Inline-Formel
+Inline code	Inline-Code
+Inline equation	Inline-Gleichung
+Inline math ($…$)	Inline-Formeln ($…$)
+Inline rules	Inline-Regeln
+Insert	Einfügen
+Insert Alert	Hinweis einfügen
+Insert Chart	Grafik einfügen
+Insert Code Fence	Code-Fence einfügen
+Insert Date/Time	Datum/Uhrzeit einfügen
+Insert Diagram	Diagramm einfügen
+Insert Display Math	Abgesetzte Formel einfügen
+Insert Footnote	Fußnote einfügen
+Insert Horizontal Line	Horizontale Linie einfügen
+Insert Image…	Bild einfügen…
+Insert Inline Math	Inline-Formel einfügen
+Insert Link Reference	Link-Referenz einfügen
+Insert Table	Tabelle einfügen
+Insert Table of Contents	Inhaltsverzeichnis einfügen
+Insert Table…	Tabelle einfügen…
+Insert Task List	Aufgabenliste einfügen
+Insert YAML Front Matter	YAML-Front-Matter einfügen
+Insert at Cursor	Am Cursor einfügen
+Insert link	Link einfügen
+Insert spaces when pressing Tab	Beim Drücken von Tab Leerzeichen einfügen
+Insert text	Einfügetext
+Interface Size	Größe der Oberfläche
+Italic	Kursiv
+Join Lines	Zeilen verbinden
+Jump to	Gehe zu
+Jump to Bottom	Zum Ende springen
+Jump to Line End	Zum Zeilenende springen
+Jump to Line Start	Zum Zeilenanfang springen
+Jump to Top	Zum Anfang springen
+Keep Current Version	Aktuelle Version behalten
+Keep Editing	Weiter bearbeiten
+Keep a version of each file first	Zuerst eine Version jeder Datei sichern
+Keep indentation on Return	Einrückung bei der Eingabetaste beibehalten
+Keep it in	Speichern in
+Keep single line breaks	Einfache Zeilenumbrüche beibehalten
+Kept	Aufbewahrt
+Keyboard	Tastatur
+Keyboard key	Taste
+Kind	Art
+Kitten	Kätzchen
+Label	Bezeichnung
+Label headings	Überschriften beschriften
+Landscape	Querformat
+Language	Sprache
+Languages on This Device	Sprachen auf diesem Gerät
+Layout	Anordnung
+Leave Out of Manuscript	Aus Manuskript ausschließen
+Leave the line out	Die Zeile auslassen
+Left margin	Rand links
+Left out	Ausgeschlossen
+Letters	Buchstaben
+Level	Stufe
+Level group	Gruppe der Ebene
+Library	Bibliothek
+Library location	Speicherort der Bibliothek
+Light	Hell
+Line Numbers	Zeilennummern
+Line break	Zeilenumbruch
+Line spacing	Zeilenabstand
+Line that defines a label has	Eine Zeile, die ein Label definiert, hat
+Line-start prefix	Präfix am Zeilenanfang
+Lines	Zeilen
+Lines (for example 3-17)	Zeilen (zum Beispiel 3-17)
+Link Reference	Link-Referenz
+Link each heading back to its contents entry	Jede Überschrift mit ihrem Eintrag im Inhaltsverzeichnis verknüpfen
+Links and web addresses	Links und Webadressen
+List	Liste
+List continuation line	Zeile zur Listenfortsetzung
+List only headings below the [TOC] line	Nur Überschriften unterhalb der Zeile [TOC] auflisten
+Literal exact	Literal exakt
+Literal prefix	Literales Präfix
+Ln	Z
+Load images from the internet	Bilder aus dem Internet laden
+Loading models…	Modelle werden geladen …
+Location	Ort
+Lowercase letters	Kleinbuchstaben
+Machine-translated — may contain errors.	Maschinell übersetzt – kann Fehler enthalten.
+Macro Collection	Makrosammlung
+Macros	Makros
+Make Active	Aktivieren
+Make Folder a Book Project	Ordner zum Buchprojekt machen
+Make It a Project	Zum Projekt machen
+Make Lower Case	In Kleinbuchstaben umwandeln
+Make Upper Case	In Großbuchstaben umwandeln
+Manuscript	Manuskript
+Mark	Markierung
+Markdown file	Markdown-Datei
+Marker group	Gruppe der Markierung
+Match	Übereinstimmung
+Match case	Groß-/Kleinschreibung beachten
+May open or close inside a word	Darf innerhalb eines Wortes öffnen oder schließen
+Media	Medien
+Menu	Menü
+Menus in the Header	Menüs in der Kopfzeile
+Missing	Fehlt
+Model	Modell
+Monospace	Dicktengleich
+More	Mehr
+More formatting	Weitere Formatierung
+More…	Mehr…
+Move Chapter Down	Kapitel nach unten
+Move Chapter Up	Kapitel nach oben
+Move My Library Here	Meine Bibliothek hierher verschieben
+Move Row Down	Zeile nach unten verschieben
+Move Row Up	Zeile nach oben verschieben
+Move To…	Bewegen nach…
+Move to Trash	In den Papierkorb legen
+Moving your library…	Ihre Bibliothek wird verschoben …
+Named parts become attributes	Benannte Teile werden zu Attributen
+Needs an API key	Benötigt einen API-Schlüssel
+Nest lists by marker	Listen nach Markierung verschachteln
+Nesting rules	Verschachtelungsregeln
+Never	Nie
+Never add	Nie hinzufügen
+Never for This File	Nie für diese Datei
+New	Neu
+New Back Matter	Neuer Anhang
+New Book	Neues Buch
+New Book…	Neues Buch …
+New Chapter	Neues Kapitel
+New Collection	Neue Sammlung
+New Document	Neues Dokument
+New File	Neue Datei
+New File Below	Neue Datei darunter
+New Folder	Neuer Ordner
+New Front Matter	Neuer Vorspann
+New Macro	Neues Makro
+New Scene	Neue Szene
+New files are written in	Neue Dateien werden verfasst in
+Newer	Neuer
+Next Document	Nächstes Dokument
+Next Field	Nächstes Feld
+Next match	Nächster Treffer
+No	Nein
+No Syntax	Keine Syntax
+No headings	Keine Überschriften
+No special action	Keine besondere Aktion
+None	Keine
+Not Loaded	Nicht geladen
+Not Now	Nicht jetzt
+Not a picture	Kein Bild
+Not available	Nicht verfügbar
+Not in the manuscript	Nicht im Manuskript
+Not styled	Ohne Stil
+Note	Hinweis
+Nothing from the document	Nichts aus dem Dokument
+Nothing yet	Noch nichts
+Nothing — hidden	Nichts – ausgeblendet
+Number headings	Überschriften nummerieren
+Number headings (1., 1.1.)	Überschriften nummerieren (1., 1.1.)
+Numbered List	Nummerierte Liste
+Numbered captions	Nummerierte Beschriftungen
+Numbered list item	Nummerierter Listeneintrag
+Numbers	Zahlen
+Off	Aus
+Offer Again for All Files	Für alle Dateien wieder anbieten
+Offer to translate	Übersetzung anbieten
+Older	Älter
+On Launch	Beim Starten
+On This Page	Auf dieser Seite
+On this device	Auf diesem Gerät
+One Step Smaller	Eine Stufe kleiner
+One mark draws	Eine Markierung zeichnet
+Only after a blank line	Nur nach einer Leerzeile
+Only at the start of a line	Nur am Zeilenanfang
+Only when this setting is on	Nur wenn diese Einstellung an ist
+Open	Öffnen
+Open Copy	Kopie öffnen
+Open Diagnostics	Diagnose öffnen
+Open Documents	Geöffnete Dokumente
+Open File	Datei öffnen
+Open File…	Datei öffnen …
+Open Folder	Ordner öffnen
+Open Folder…	Ordner öffnen …
+Open Form Without Log	Formular ohne Protokoll öffnen
+Open Quickly…	Schnell öffnen…
+Open Recent	Benutzte Dokumente
+Open Theme Folder	Theme-Ordner öffnen
+Open custom folder	Eigenen Ordner öffnen
+Open documents and document actions	Geöffnete Dokumente und Dokumentaktionen
+Open in New Tab	In neuem Tab öffnen
+Open in a new tab	In einem neuen Tab öffnen
+Open in editor	Im Editor öffnen
+Open new file	Neue Datei öffnen
+Open…	Öffnen…
+Options	Optionen
+Order	Reihenfolge
+Ordered List	Nummerierte Liste
+Orientation	Ausrichtung
+Other	Sonstiges
+Other blocks, in a box	Andere Blöcke, in einem Kasten
+Other blocks, no box	Andere Blöcke, ohne Kasten
+Other…	Andere…
+Out of sync	Nicht synchron
+Outdent	Ausrücken
+Outline	Gliederung
+Output	Ausgabe
+PDF Archive (.zip)	PDF-Archiv (.zip)
+Page	Seite
+Page Setup…	Papierformat…
+Page break between top-level headings	Seitenumbruch zwischen Überschriften der obersten Ebene
+Pair marks	Paarmarkierungen
+Pane divider	Bereichstrenner
+Paper size	Papierformat
+Paragraph	Absatz
+Parent node	Übergeordneter Knoten
+Parsing and profiles	Parsen und Profile
+Parsing warning	Analysewarnung
+Part	Bereich
+Parts	Teile
+Paste as Plain Text	Als reinen Text einsetzen
+Pattern	Muster
+Pilcrow Help	Pilcrow-Hilfe
+Pilcrow settings	Pilcrow-Einstellungen
+Place	Setzen
+Play	Abspielen
+Play a sound as I type	Beim Tippen einen Klang abspielen
+Play on Battery	Im Akkubetrieb abspielen
+Point of view	Erzählperspektive
+Portrait	Hochformat
+Preferred image syntax	Bevorzugte Bildsyntax
+Prefix	Präfix
+Preformatted text	Vorformatierter Text
+Preset	Voreinstellung
+Preset name	Name der Voreinstellung
+Press any key…	Beliebige Taste drücken …
+Preview	Vorschau
+Previous Document	Vorheriges Dokument
+Previous Field	Vorheriges Feld
+Previous match	Vorheriger Treffer
+Print	Drucken
+Print…	Drucken…
+Priority	Priorität
+Privacy	Datenschutz
+Privacy Policy	Datenschutzerklärung
+Private & Support Data	Private Daten und Supportdaten
+Problems only	Nur Probleme
+Produces	Erzeugt
+Profile	Profil
+Profile Help	Profilhilfe
+Profile section	Profilabschnitt
+Project	Projekt
+Project Settings	Projekteinstellungen
+Put Back	Zurücklegen
+Quit Now	Jetzt beenden
+Quit Pilcrow when last window is closed	Pilcrow beenden, wenn das letzte Fenster geschlossen wird
+Quote	Zitat
+Quote line marker	Zitatzeilen-Markierung
+Raw HTML	Unverarbeitetes HTML
+Raw HTML (inline)	Unverarbeitetes HTML (inline)
+Read marks by what stands around them	Markierungen nach ihrer Umgebung lesen
+Reading speed	Lesegeschwindigkeit
+Reading time	Lesezeit
+Recently Deleted	Zuletzt gelöscht
+Reconsider	Erneut prüfen
+Record diagnostic log	Diagnoseprotokoll aufzeichnen
+Record recent files and folders	Zuletzt benutzte Dateien und Ordner merken
+Record the Problem First	Problem zuerst aufzeichnen
+Record the Problem First?	Das Problem zuerst aufzeichnen?
+Recording log	Protokoll läuft
+Recover	Wiederherstellen
+Recover All	Alle wiederherstellen
+Recover Documents	Dokumente wiederherstellen
+Redo	Wiederholen
+Regex (bounded)	Regex (begrenzt)
+Regular expression	Regulärer Ausdruck
+Reject	Ablehnen
+Reload	Neu laden
+Reload from Disk	Vom Datenträger neu laden
+Remove	Entfernen
+Remove Blank Lines	Leere Zeilen entfernen
+Remove Duplicate Lines	Doppelte Zeilen entfernen
+Rename	Umbenennen
+Rename…	Umbenennen…
+Render Theme	Render-Theme
+Render Themes	Render-Themes
+Rendered Blocks	Gerenderte Blöcke
+Rendered preview	Gerenderte Vorschau
+Rendering and diagrams	Darstellung und Diagramme
+Reorder	Neu anordnen
+Repeat marker	Wiederholungszeichen
+Repeat the marker	Marker wiederholen
+Replace	Ersetzen
+Replace All	Alle ersetzen
+Replace Existing File?	Vorhandene Datei ersetzen?
+Replace Selection	Auswahl ersetzen
+Replace a [TOC] line with the list	Eine Zeile [TOC] durch die Liste ersetzen
+Replace the document	Dokument ersetzen
+Replace with	Ersetzen durch
+Replacement	Ersetzung
+Replacement text	Ersatztext
+Replaces Markdown	Ersetzt Markdown
+Replace…	Ersetzen …
+Report Now	Jetzt melden
+Report a Bug	Fehler melden
+Report a Bug…	Fehler melden …
+Report on GitHub…	Auf GitHub melden …
+Reproduce an issue	Problem reproduzieren
+Reproducing — Finish Report	Wird reproduziert — Bericht abschließen
+Reset	Zurücksetzen
+Reset All Shortcuts	Alle Kurzbefehle zurücksetzen
+Reset to Baseline	Auf Basiszustand zurücksetzen
+Restore	Wiederherstellen
+Restore Purchases	Käufe wiederherstellen
+Restore last closed files and folders	Zuletzt geschlossene Dateien und Ordner wiederherstellen
+Restore last closed folders	Zuletzt geschlossene Ordner wiederherstellen
+Restore…	Wiederherstellen …
+Retry	Erneut versuchen
+Reveal in Finder	Im Finder zeigen
+Reverse Lines	Zeilen umkehren
+Review	Prüfen
+Review Recovery Data…	Wiederherstellungsdaten prüfen …
+Review Remaining	Rest prüfen
+Review Version History…	Versionsverlauf prüfen …
+Right margin	Rand rechts
+Role	Rolle
+Row ends with	Zeile endet mit
+Rows	Zeilen
+Rule line pattern	Muster der Trennlinie
+Run	Ausführen
+Run marks	Reihenmarkierungen
+Sample and results	Beispiel und Ergebnisse
+Sans-serif	Serifenlos
+Save	Sichern
+Save & recover	Sichern und wiederherstellen
+Save All	Alle sichern
+Save As:	Sichern unter:
+Save As…	Sichern unter…
+Save Document	Dokument sichern
+Save Report…	Bericht sichern …
+Save a copy beside the original	Kopie neben dem Original sichern
+Save and Attach File	Sichern und Datei anhängen
+Save as preset	Als Voreinstellung sichern
+Save failed	Sichern fehlgeschlagen
+Save new documents as	Neue Dokumente sichern als
+Save without asking when closing a file	Beim Schließen ohne Nachfrage sichern
+Saved	Gesichert
+Schemes that begin a bare address	Schemata, mit denen eine bloße Adresse beginnt
+Search	Suchen
+Search Again	Erneut suchen
+Search Folder	Ordner durchsuchen
+Search Folder…	Ordner durchsuchen …
+Search Open Documents	Geöffnete Dokumente durchsuchen
+Search models	Modelle suchen
+Search settings	Einstellungen durchsuchen
+Search the log	Im Protokoll suchen
+Section	Abschnitt
+Select All	Alles auswählen
+Select All Occurrences	Alle Vorkommen auswählen
+Select Line	Zeile auswählen
+Select Next Occurrence	Nächstes Vorkommen auswählen
+Select None	Nichts auswählen
+Select Paragraph	Absatz auswählen
+Select Word	Wort auswählen
+Selection	Auswahl
+Send	Senden
+Send Report	Bericht senden
+Send and Translate	Senden und übersetzen
+Serif	Serifen
+Sessions	Sitzungen
+Set as New Baseline	Als neuen Basiszustand festlegen
+Settings	Einstellungen
+Settings for the next block	Einstellungen für den nächsten Block
+Settings…	Einstellungen …
+Share Report…	Bericht teilen …
+Share…	Teilen …
+Short lines in column mode	Kurze Zeilen im Spaltenmodus
+Shortcuts	Kurzbefehle
+Show Diagnostics Settings	Diagnoseeinstellungen anzeigen
+Show Scenes	Szenen einblenden
+Show Source	Quelle anzeigen
+Show Spelling and Grammar	Rechtschreibung und Grammatik einblenden
+Show all models	Alle Modelle anzeigen
+Show current-line rule	Linie unter der aktuellen Zeile anzeigen
+Show hidden folders and files	Ausgeblendete Ordner und Dateien anzeigen
+Show in Finder	Im Finder zeigen
+Show line numbers	Zeilennummern anzeigen
+Show parsing warnings	Analysewarnungen anzeigen
+Show replace	Ersetzen einblenden
+Show status bar	Statusleiste anzeigen
+Show the translation notice when Pilcrow starts	Übersetzungshinweis beim Start von Pilcrow anzeigen
+Side by Side	Nebeneinander
+Sidebar	Seitenleiste
+Skipped	Übersprungen
+Smart dashes	Intelligente Gedankenstriche
+Smart ellipsis	Intelligente Auslassungspunkte
+Smart punctuation	Intelligente Interpunktion
+Smart quotes	Intelligente Anführungszeichen
+Soft pad with spaces	Weich mit Leerzeichen auffüllen
+Sort Lines Ascending	Zeilen aufsteigend sortieren
+Sort Lines Descending	Zeilen absteigend sortieren
+Sound	Ton
+Space	Leertaste
+Spanning cell pattern	Muster für verbundene Zellen
+Speech	Sprache
+Speed	Geschwindigkeit
+Speed and memory	Geschwindigkeit und Speicher
+Spelling	Rechtschreibung
+Spelling and Grammar	Rechtschreibung und Grammatik
+Start Speaking	Sprachausgabe starten
+Start fresh from the marker	Neu vom Marker aus beginnen
+Start on a new page	Auf neuer Seite beginnen
+Status and formatting bars	Status- und Formatierungsleisten
+Stop	Stopp
+Stop Speaking	Sprachausgabe beenden
+Stop at the line	An der Zeile anhalten
+Stop recording after	Aufzeichnung beenden nach
+Stop recording and finish the bug report	Aufzeichnung beenden und Fehlerbericht abschließen
+Storage & Privacy	Speicher und Datenschutz
+Strikethrough	Durchgestrichen
+Strong	Fett
+Style	Stil
+Style Guide	Stilleitfaden
+Style Guides	Stilleitfäden
+Style Review	Stilprüfung
+Style guide	Stilleitfaden
+Styled Source	Formatierter Quelltext
+Styled source	Formatierter Quelltext
+Styles to the end of the line	Formatiert bis zum Zeilenende
+Subscript	Tiefgestellt
+Subscript (H~2~O)	Tiefgestellt (H~2~O)
+Subscription & Credits	Abonnement & Guthaben
+Super Tab keys	Super-Tab-Tasten
+Superscript	Hochgestellt
+Superscript (X^2^)	Hochgestellt (X^2^)
+Support Pilcrow	Pilcrow unterstützen
+Symbols and punctuation	Symbole und Satzzeichen
+Synopses	Exposés
+Synopsis	Exposé
+Syntax Profile	Syntaxprofil
+Syntax Profiles	Syntaxprofile
+Syntax support	Syntaxunterstützung
+System Default	Systemstandard
+System Monospace	System-Dicktengleich
+System Size	Systemgröße
+System default	Systemstandard
+Tab	Tabulator
+Tab width	Tabulatorbreite
+Table	Tabelle
+Table of Contents	Inhaltsverzeichnis
+Table of contents	Inhaltsverzeichnis
+Table row line	Tabellenzeile
+Table…	Tabelle…
+Take Back	Zurücknehmen
+Task List	Aufgabenliste
+Terms of Use	Nutzungsbedingungen
+Test Connection	Verbindung testen
+Text Size & Fonts	Textgröße und Schriften
+Text editor	Texteditor
+Text width	Textbreite
+Text, shown as written	Text, wie geschrieben angezeigt
+Theme & Backdrop	Theme und Hintergrund
+This Document	Dieses Dokument
+Three Steps Smaller	Drei Stufen kleiner
+Tile	Kacheln
+Tip	Tipp
+Title	Titel
+Toggle Sidebar	Seitenleiste ein-/ausblenden
+Toggle Task Status	Aufgabenstatus umschalten
+Top margin	Rand oben
+Trail of recent actions	Spur der letzten Aktionen
+Translate	Übersetzen
+Translate Document	Dokument übersetzen
+Translate Selection	Auswahl übersetzen
+Translate automatically	Automatisch übersetzen
+Translate into	Übersetzen in
+Translate to	Übersetzen in
+Translated with AI	Mit KI übersetzt
+Translation	Übersetzung
+Trigger	Auslöser
+Trigger — e.g. /sig	Auslöser – z. B. /sig
+Trim Trailing Whitespace	Leerzeichen am Zeilenende entfernen
+Try Again	Erneut versuchen
+Turn Off for This Folder	Für diesen Ordner ausschalten
+Turn On	Einschalten
+Turn On for This Folder	Für diesen Ordner einschalten
+Turn off Column Selection	Spaltenauswahl ausschalten
+Two Steps Smaller	Zwei Stufen kleiner
+Two marks draw	Zwei Markierungen zeichnen
+Type a command	Befehl eingeben
+Type a filename	Dateinamen eingeben
+Typewriter	Schreibmaschine
+Typing	Eingabe
+Typing sounds	Tippgeräusche
+Unbind	Zuordnung aufheben
+Underline	Unterstrichen
+Undo	Widerrufen
+Unfold All	Alle entfalten
+Unordered List	Aufzählung
+Upload image	Bild hochladen
+Uppercase letters	Großbuchstaben
+Use This Device	Dieses Gerät verwenden
+Use What Is There	Vorhandene verwenden
+Use relative path if possible	Nach Möglichkeit relativen Pfad verwenden
+Use the end of the line	Das Zeilenende verwenden
+Use these page settings as default	Diese Seiteneinstellungen als Standard verwenden
+Value	Wert
+Variables	Variablen
+Variant	Variante
+Version History	Versionsverlauf
+Version History…	Versionsverlauf …
+Versions to keep	Aufzubewahrende Versionen
+View	Darstellung
+View Log…	Protokoll ansehen …
+Volume	Lautstärke
+Vote	Abstimmen
+Warning	Warnung
+Warnings	Warnungen
+Web address	Webadresse
+What counts as a word	Was als Wort zählt
+What is sent	Was gesendet wird
+What to record	Was aufgezeichnet wird
+What to review	Was geprüft wird
+What to share	Was geteilt wird
+What to write	Was geschrieben wird
+When a file is in another language	Wenn eine Datei in einer anderen Sprache ist
+When finished	Wenn fertig
+When inserting an image	Beim Einfügen eines Bildes
+When something is dropped onto the app	Wenn etwas auf die App gezogen wird
+When starting	Beim Start
+When the document defines	Wenn das Dokument definiert
+Where	Ort
+Where:	Ort:
+Whole document	Ganzes Dokument
+Whole word	Ganzes Wort
+Width	Breite
+Word target	Wortziel
+Words	Wörter
+Wrap Lines	Zeilen umbrechen
+Wrap long lines	Lange Zeilen umbrechen
+Write in	Schreiben in
+YAML Front Matter	YAML-Front-Matter
+YAML front matter	YAML-Frontmatter
+Yes	Ja
+Your name	Dein Name
+Your own sounds	Eigene Klänge
+Your votes	Ihre Stimmen
+Zoom In	Vergrößern
+Zoom Out	Verkleinern

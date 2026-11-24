@@ -1,0 +1,967 @@
+1 hour	1 time
+24 hours	24 timer
+A macro	En makro
+A style guide	En stilguide
+A syntax profile	En syntaksprofil
+A table	En tabell
+A table drawn in text	En tabell tegnet i tekst
+AI assistant	AI-assistent
+API key	API-nøkkel
+Above	Over
+Accept	Godta
+Accept All Remaining	Godta alle gjenværende
+Action	Handling
+Active	Aktiv
+Actual Size	Faktisk størrelse
+Add	Legg til
+Add ./ for relative paths	Legg til ./ for relative stier
+Add All	Legg til alle
+Add Caret Above	Legg til markør over
+Add Caret Below	Legg til markør under
+Add Column After	Legg til kolonne etter
+Add Column Before	Legg til kolonne før
+Add Connection	Legg til tilkobling
+Add Log and Open Form	Legg til loggen og åpne skjemaet
+Add Log to Description	Legg loggen til beskrivelsen
+Add Row Above	Legg til rad over
+Add Row Below	Legg til rad under
+Add Variable	Legg til variabel
+Add a table of contents to every export	Legg til en innholdsfortegnelse i hver eksport
+Add attribute	Legg til attributt
+Add caption	Legg til bildetekst
+Add format	Legg til format
+Add inline rule	Legg til innebygd regel
+Add nesting rule	Legg til nestingregel
+Add nothing	Legg ikke til noe
+Add pair mark	Legg til parmerke
+Add rule	Legg til regel
+Add run mark	Legg til rekkemerke
+Add the log	Legg til loggen
+Add to Library…	Legg til i biblioteket…
+Additional syntax	Tilleggssyntaks
+Address	Adresse
+Address groups	Adressegrupper
+Address written on its own is enclosed by	En adresse skrevet alene omsluttes av
+Admonition box	Merknadsboks
+Admonition line	Merknadslinje
+Advanced options	Avanserte valg
+Advanced profile JSON	Avansert profil-JSON
+After Return at the end of a line	Etter Retur på slutten av en linje
+After translating	Etter oversettelse
+Alert	Varsel
+Aligned columns	Justerte kolonner
+All	Alle
+All areas	Alle områder
+All parts	Alle deler
+All statuses	Alle statuser
+Allow an unencrypted connection on my local network	Tillat en ukryptert tilkobling på mitt lokale nettverk
+Allowed children (comma separated)	Tillatte underordnede (kommadelt)
+Always	Alltid
+Always Add the Log	Legg alltid til loggen
+Always add	Legg alltid til
+Anchor	Anker
+App Icon	Appikon
+Appearance	Utseende
+Application Theme	Apptema
+Application Themes	Apptemaer
+Apply	Bruk
+Apply All	Bruk alle
+Apply to local images	Bruk på lokale bilder
+Apply to online images	Bruk på nettbilder
+Areas	Områder
+Around cursor	Rundt markøren
+Ask each time	Spør hver gang
+Ask the assistant…	Spør assistenten…
+Ask to Fix	Be om retting
+Assistant	Assistent
+Assistant mode	Assistentmodus
+At a glance	Kort oppsummert
+Attribute reference	Attributtreferanse
+Audio	Lyd
+Author	Forfatter
+Auto links (bare URLs)	Automatiske lenker (rene nettadresser)
+Auto-Expand Sections	Utvid deler automatisk
+Auto-escape image URLs on insert	Escape bilde-URL-er automatisk ved innsetting
+Auto-pair brackets and quotes	Sett automatisk inn par av parenteser og sitattegn
+Auto-wrap long lines	Bryt lange linjer automatisk
+Automatic	Automatisk
+Automatically save changes	Arkiver endringer automatisk
+Back matter	Etterspill
+Baseline	Grunnlinje
+Behind the Sidebar	Bak sidepanelet
+Behind the Text Area	Bak tekstområdet
+Below	Under
+Best quality	Best kvalitet
+Between scenes	Mellom scener
+Block holds	Blokken inneholder
+Block rules	Blokkregler
+Blockquote	Sitatblokk
+Blur	Uskarphet
+Bold	Fet
+Book word target	Ordmål for boken
+Bottom margin	Bunnmarg
+Bought	Kjøpt
+Browse Enclosing Folder…	Bla gjennom omsluttende mappe…
+Built-in	Innebygd
+Bulleted List	Punktliste
+Bulleted list item	Punktlisteelement
+CSS diagnostics	CSS-diagnostikk
+Cancel	Avbryt
+Cancel translation	Avbryt oversettelse
+Capitalize	Stor forbokstav
+Caption place	Plassering av bildetekst
+Cards	Kort
+Carets in a Column	Markører i en kolonne
+Carets in a Column…	Markører i en kolonne…
+Caution	Forsiktig
+Cell options pattern	Mønster for celleinnstillinger
+Cell separator	Celleskilletegn
+Changed by another app	Endret av en annen app
+Change…	Endre…
+Chapters	Kapitler
+Characters	Tegn
+Chart	Diagram
+Charts	Diagrammer
+Check Again	Kontroller på nytt
+Check Cross-References	Kontroller kryssreferanser
+Check Document Now	Kontroller dokumentet nå
+Check Links	Kontroller lenker
+Check Links…	Kontroller lenker…
+Check Spelling While Typing	Kontroller stavemåten mens du skriver
+Check sample	Kontroller eksempel
+Check spelling while typing	Kontroller stavemåten mens du skriver
+Checklist item	Sjekklisteelement
+Choose Another Location…	Velg et annet sted…
+Choose Folder…	Velg mappe…
+Choose Model…	Velg modell…
+Choose the syntax profile for this document	Velg syntaksprofilen for dette dokumentet
+Choose…	Velg…
+Clear	Tøm
+Clear Caches…	Tøm hurtigbufre…
+Clear Conversation	Tøm samtalen
+Clear Format	Fjern formatering
+Clear Log	Tøm logg
+Clear Log…	Tøm logg…
+Clear Menu	Tøm meny
+Clear Recent File Access…	Fjern tilgang til nylige filer…
+Close	Lukk
+Close All	Lukk alle
+Close All Documents	Lukk alle dokumenter
+Close Document	Lukk dokument
+Close Help	Lukk Hjelp
+Close find bar	Lukk søkelinjen
+Closing line	Avsluttende linje
+Closing line repeats the opening mark, at least as often	Den avsluttende linjen gjentar åpningsmerket, minst like mange ganger
+Code	Kode
+Code Fence	Kodegjerde
+Code Fences	Kodegjerder
+Code block	Kodeblokk
+Code fences	Kodegjerder
+Code span character	Tegn for kodeintervall
+Col	Kol.
+Collapsible section	Sammenleggbar del
+Column (for example 100, or 100-105 to select)	Kolonne (for eksempel 100, eller 100-105 for å markere)
+Column Selection	Kolonnemarkering
+Column list separator	Skilletegn for kolonneliste
+Columns	Kolonner
+Command Palette	Kommandopalett
+Command Palette…	Kommandopalett…
+Comment (hidden)	Kommentar (skjult)
+CommonMark Options	CommonMark-valg
+Compare Versions	Sammenlign versjoner
+Compare with File…	Sammenlign med fil…
+Compare…	Sammenlign…
+Compile Manuscript	Kompiler manuskript
+Compile Manuscript…	Kompiler manuskript…
+Compile…	Kompiler…
+Conditional section	Betinget del
+Connections	Tilkoblinger
+Content group	Innholdsgruppe
+Contents	Innhold
+Contents & Labels	Innhold og etiketter
+Continue Anyway	Fortsett likevel
+Continue lists and quotes on Return	Fortsett lister og sitater ved Retur
+Conversational	Samtalepreget
+Convert	Konverter
+Convert To…	Konverter til…
+Convert on Input	Konverter ved inntasting
+Convert on Rendering	Konverter ved gjengivelse
+Converter	Konverterer
+Copy	Kopier
+Copy My Library Here	Kopier biblioteket mitt hit
+Copy as HTML Code	Kopier som HTML-kode
+Copy as Markdown	Kopier som Markdown
+Copy as Plain Text	Kopier som ren tekst
+Copy image to ./assets	Kopier bildet til ./assets
+Copy image to current folder (./)	Kopier bildet til gjeldende mappe (./)
+Could Not Rename Document	Kunne ikke endre navn på dokumentet
+Could Not Save Document	Kunne ikke arkivere dokumentet
+Could Not Share	Kunne ikke dele
+Count code blocks	Ta med kodeblokker
+Count front matter	Ta med forstoff
+Count headings	Ta med overskrifter
+Count up	Tell opp
+Crash details	Krasjdetaljer
+Crash reports	Krasjrapporter
+Create	Opprett
+Cross-reference	Kryssreferanse
+Current-Line Rule	Linjeregel for gjeldende linje
+Cursor	Markør
+Custom	Egendefinert
+Custom CSS	Egendefinert CSS
+Custom node name	Egendefinert nodenavn
+Custom…	Egendefinert…
+Dark	Mørk
+Decrease Heading Level	Reduser overskriftsnivå
+Default	Standard
+Default Language	Standardspråk
+Default file type	Standard filtype
+Default output style	Standard utdatastil
+Delete	Slett
+Delete AI Data & Keys…	Slett AI-data og nøkler…
+Delete All	Slett alle
+Delete All AI Data…	Slett alle AI-data…
+Delete Collection	Slett samling
+Delete Column	Slett kolonne
+Delete Diagnostics…	Slett diagnostikk…
+Delete Line	Slett linje
+Delete Paragraph	Slett avsnitt
+Delete Permanently	Slett permanent
+Delete Row	Slett rad
+Delete Selected	Slett valgte
+Delete Style Guide…	Slett stilguide…
+Delete Word	Slett ord
+Delimiter pair	Skilletegnpar
+Depth	Dybde
+Description	Beskrivelse
+Description list term	Begrep i beskrivelsesliste
+Detailed	Detaljert
+Details…	Detaljer…
+Device and system information	Enhets- og systeminformasjon
+Diagnostic Log	Diagnoselogg
+Diagnostics	Diagnostikk
+Diagrams	Diagrammer
+Diagrams and charts (Mermaid, Vega-Lite)	Diagrammer og grafer (Mermaid, Vega-Lite)
+Digits 0 to 9	Sifre fra 0 til 9
+Dim	Demp
+Discard Changes	Forkast endringer
+Discard theme changes?	Forkaste temaendringer?
+Dismiss	Lukk
+Dismiss All Suggestions	Avvis alle forslag
+Display	Visning
+Display Math	Visningsmatematikk
+Display line numbers	Vis linjenumre
+Do nothing	Gjør ingenting
+Document	Dokument
+Document Information	Dokumentinformasjon
+Document Mode	Dokumentmodus
+Document Translation	Dokumentoversettelse
+Document attribute	Dokumentattributt
+Document structure (counts only)	Dokumentstruktur (bare antall)
+Documents	Dokumenter
+Don't expand inside code	Ikke utvid inni kode
+Don't show this again	Ikke vis dette igjen
+Done	Ferdig
+Download	Last ned
+Draws	Tegner
+Draws as	Tegnes som
+Duck	And
+Duplicate	Dupliser
+Duplicate Collection	Dupliser samling
+Duplicate Style Guide	Dupliser stilguide
+Edit	Rediger
+Edit Advanced JSON…	Rediger avansert JSON…
+Edit Application Theme	Rediger apptema
+Edit Block	Rediger blokk
+Edit Macro	Rediger makro
+Edit Profile	Rediger profil
+Edit Render Theme	Rediger gjengivelsestema
+Edited	Redigert
+Editing	Redigerer
+Editing colours for	Redigerer farger for
+Editor	Redigering
+Editor Background	Redigeringsbakgrunn
+Editor font	Redigeringsskrift
+Editor size and word count	Redigeringsstørrelse og ordtelling
+Edit…	Rediger…
+Emphasis	Utheving
+Empty Recently Deleted	Tøm Nylig slettet
+Enable AI assistant	Slå på AI-assistent
+Enabled	Slått på
+Encoding	Tegnkoding
+End of line	Linjeslutt
+Entries	Oppføringer
+Equation	Ligning
+Equations	Ligninger
+Errors	Feil
+Escape character	Escape-tegn
+Estimated time: less than a minute	Anslått tid: under ett minutt
+Everything	Alt
+Exact text	Nøyaktig tekst
+Example box	Eksempelboks
+Excluded files	Ekskluderte filer
+Exit Focus	Avslutt fokus
+Expand emoji shortcodes (:smile:)	Utvid emoji-kortkoder (:smile:)
+Export	Eksporter
+Export Collection…	Eksporter samling…
+Export Defaults	Eksportstandarder
+Export Style Guide…	Eksporter stilguide…
+Export and print	Eksport og utskrift
+Export…	Eksporter…
+Extends Markdown	Utvider Markdown
+Fast	Rask
+Fenced block	Gjerdet blokk
+Field	Felt
+Fields	Felt
+File	Fil
+File Access	Filtilgang
+File Changed on Disk	Filen er endret på disken
+File Operation Failed	Filoperasjonen mislyktes
+File extension	Filtype
+File extensions (comma-separated)	Filtyper (kommadelt)
+File tree / library	Filtre / bibliotek
+Files	Filer
+Files and library	Filer og bibliotek
+Files in Another Language	Filer på et annet språk
+Fill	Fyll ut
+Fill-in fields remain	Utfyllingsfelt gjenstår
+Find	Søk
+Find In	Søk i
+Find Next	Finn neste
+Find Previous	Finn forrige
+Find in document	Søk i dokument
+Find…	Søk…
+Finish Bug Report	Fullfør feilrapport
+First line before a blank line is the header	Første linje før en tom linje er overskriften
+Fit	Tilpass
+Fixed attributes	Faste attributter
+Focus	Fokus
+Focus Mode	Fokusmodus
+Fold All	Brett sammen alle
+Folder	Mappe
+Folders turned off	Mapper som er slått av
+Font size	Skriftstørrelse
+Fonts	Skrifter
+Footer template	Bunntekstmal
+Footnote	Fotnote
+Footnote label begins with	Fotnoteetiketten begynner med
+Formats	Formater
+Formatting Toolbar	Formateringsverktøylinje
+From heading level	Fra overskriftsnivå
+From your subscription	Fra abonnementet ditt
+Front matter	Forstoff
+General	Generelt
+Get votes	Få stemmer
+GitHub-style alerts	Varsler i GitHub-stil
+Give headings ids	Gi overskrifter id-er
+Go	Gå
+Go Back	Gå tilbake
+Go Forward	Gå fremover
+Go to Line	Gå til linje
+Go to Line…	Gå til linje…
+Go to Next Field	Gå til neste felt
+Grid with rule lines	Rutenett med hjelpelinjer
+Group (no box)	Gruppe (ingen boks)
+Gutter font	Marginskrift
+HTML (without Styles)	HTML (uten stiler)
+Hard pad with spaces	Fyll hardt ut med mellomrom
+Header rule line pattern	Mønster for linje under topptekst
+Header template	Topptekstmal
+Header, footer, and metadata	Topptekst, bunntekst og metadata
+Heading (level from the rule)	Overskrift (nivå fra regelen)
+Heading 1	Overskrift 1
+Heading 2	Overskrift 2
+Heading 3	Overskrift 3
+Heading 4	Overskrift 4
+Heading 5	Overskrift 5
+Heading 6	Overskrift 6
+Heading Folds	Overskriftsfolding
+Heading id prefix	Prefiks for overskrifts-id
+Heading id word separator	Ordskille i overskrifts-id
+Heading labels	Overskriftsetiketter
+Heading level	Overskriftsnivå
+Height	Høyde
+Help	Hjelp
+Hide Markers	Skjul merker
+Hide Scenes	Skjul scener
+Hide Toolbar	Skjul verktøylinjen
+Hide replace	Skjul erstatt
+Highlight	Uthev
+Highlight (==key==)	Uthev (==key==)
+Horizontal Line	Horisontal linje
+Horizontal rule	Horisontal strek
+Hyperlink	Hyperlenke
+Ignore trailing whitespace	Ignorer etterfølgende mellomrom
+Image	Bilde
+Image prefix	Bildeprefiks
+Images	Bilder
+Images in Preview and exports	Bilder i forhåndsvisning og eksporter
+Image…	Bilde…
+Import	Importer
+Import Macros…	Importer makroer…
+Import Style Guide…	Importer stilguide…
+Import Theme…	Importer tema…
+Import file	Importer fil
+Importable file	Importerbar fil
+Important	Viktig
+Import…	Importer…
+Include in Manuscript	Ta med i manuskriptet
+Include in a report	Ta med i en rapport
+Increase Heading Level	Øk overskriftsnivå
+Indent	Rykk inn
+Indent size	Innrykksstørrelse
+Indentation	Innrykk
+Indented block	Innrykket blokk
+Indented text under a line ending in a marker	Innrykket tekst under en linje som slutter med et merke
+Indented text under an opening line	Innrykket tekst under en åpningslinje
+Index term	Stikkord
+Inherits	Arver
+Inline Math	Innebygd matematikk
+Inline code	Innebygd kode
+Inline equation	Innebygd ligning
+Inline math ($…$)	Innebygd matematikk ($…$)
+Inline rules	Innebygde regler
+Insert	Sett inn
+Insert Alert	Sett inn varsel
+Insert Chart	Sett inn diagram
+Insert Code Fence	Sett inn kodegjerde
+Insert Date/Time	Sett inn dato/klokkeslett
+Insert Diagram	Sett inn diagram
+Insert Display Math	Sett inn visningsmatematikk
+Insert Footnote	Sett inn fotnote
+Insert Horizontal Line	Sett inn horisontal linje
+Insert Image…	Sett inn bilde…
+Insert Inline Math	Sett inn innebygd matematikk
+Insert Link Reference	Sett inn lenkereferanse
+Insert Table	Sett inn tabell
+Insert Table of Contents	Sett inn innholdsfortegnelse
+Insert Table…	Sett inn tabell…
+Insert Task List	Sett inn oppgaveliste
+Insert YAML Front Matter	Sett inn YAML-frontmatter
+Insert at Cursor	Sett inn ved markøren
+Insert link	Sett inn lenke
+Insert spaces when pressing Tab	Sett inn mellomrom når du trykker på Tab
+Insert text	Sett inn tekst
+Interface Size	Grensesnittstørrelse
+Italic	Kursiv
+Join Lines	Slå sammen linjer
+Jump to	Hopp til
+Jump to Bottom	Hopp til bunnen
+Jump to Line End	Hopp til linjeslutt
+Jump to Line Start	Hopp til linjestart
+Jump to Top	Hopp til toppen
+Keep Current Version	Behold gjeldende versjon
+Keep Editing	Fortsett redigeringen
+Keep a version of each file first	Behold først en versjon av hver fil
+Keep indentation on Return	Behold innrykk ved Retur
+Keep it in	Behold den i
+Keep single line breaks	Behold enkle linjeskift
+Kept	Beholdt
+Keyboard	Tastatur
+Keyboard key	Tastaturtast
+Kind	Type
+Kitten	Kattunge
+Label	Etikett
+Label headings	Gi overskrifter etiketter
+Landscape	Liggende
+Language	Språk
+Languages on This Device	Språk på denne enheten
+Layout	Oppsett
+Leave Out of Manuscript	Utelat fra manuskriptet
+Leave the line out	Utelat linjen
+Left margin	Venstremarg
+Left out	Utelatt
+Letters	Bokstaver
+Level	Nivå
+Level group	Nivågruppe
+Library	Bibliotek
+Library location	Bibliotekets plassering
+Light	Lys
+Line Numbers	Linjenumre
+Line break	Linjeskift
+Line spacing	Linjeavstand
+Line that defines a label has	Linjen som definerer en etikett har
+Line-start prefix	Prefiks ved linjestart
+Lines	Linjer
+Lines (for example 3-17)	Linjer (for eksempel 3-17)
+Link	Lenke
+Link Reference	Lenkereferanse
+Link each heading back to its contents entry	Lenk hver overskrift tilbake til oppføringen i innholdsfortegnelsen
+Links	Lenker
+Links and web addresses	Lenker og nettadresser
+List	Liste
+List continuation line	Fortsettelseslinje i liste
+List only headings below the [TOC] line	Vis bare overskrifter under linjen [TOC]
+Literal exact	Bokstavelig nøyaktig
+Literal prefix	Bokstavelig prefiks
+Ln	Lin.
+Load images from the internet	Last inn bilder fra internett
+Loading models…	Laster inn modeller…
+Location	Plassering
+Lowercase letters	Små bokstaver
+Machine-translated — may contain errors.	Maskinoversatt — kan inneholde feil.
+Macro Collection	Makrosamling
+Macros	Makroer
+Make Active	Gjør aktiv
+Make Folder a Book Project	Gjør mappen til et bokprosjekt
+Make It a Project	Gjør den til et prosjekt
+Make Lower Case	Gjør til små bokstaver
+Make Upper Case	Gjør til store bokstaver
+Manuscript	Manuskript
+Mark	Merke
+Markdown file	Markdown-fil
+Marker group	Merkegruppe
+Match	Treff
+Match case	Skill mellom store og små bokstaver
+May open or close inside a word	Kan åpne eller lukke inni et ord
+Media	Medier
+Menu	Meny
+Menus in the Header	Menyer i toppfeltet
+Missing	Mangler
+Model	Modell
+Monospace	Fastbredde
+More	Mer
+More formatting	Mer formatering
+More…	Mer…
+Move Chapter Down	Flytt kapittel ned
+Move Chapter Up	Flytt kapittel opp
+Move My Library Here	Flytt biblioteket mitt hit
+Move Row Down	Flytt rad ned
+Move Row Up	Flytt rad opp
+Move To…	Flytt til…
+Move to Trash	Flytt til papirkurven
+Moving your library…	Flytter biblioteket ditt…
+Name	Navn
+Named parts become attributes	Navngitte deler blir attributter
+Needs an API key	Trenger en API-nøkkel
+Nest lists by marker	Nest lister etter merke
+Nesting rules	Nestingregler
+Never	Aldri
+Never add	Legg aldri til
+Never for This File	Aldri for denne filen
+New	Ny
+New Back Matter	Nytt etterspill
+New Book	Ny bok
+New Book…	Ny bok…
+New Chapter	Nytt kapittel
+New Collection	Ny samling
+New Document	Nytt dokument
+New File	Ny fil
+New File Below	Ny fil under
+New Folder	Ny mappe
+New Front Matter	Nytt forstoff
+New Macro	Ny makro
+New Scene	Ny scene
+New files are written in	Nye filer skrives i
+Newer	Nyere
+Next Document	Neste dokument
+Next Field	Neste felt
+Next match	Neste treff
+No	Nei
+No Syntax	Ingen syntaks
+No headings	Ingen overskrifter
+No special action	Ingen spesiell handling
+None	Ingen
+Not Loaded	Ikke lastet inn
+Not Now	Ikke nå
+Not a picture	Ikke et bilde
+Not available	Ikke tilgjengelig
+Not in the manuscript	Ikke i manuskriptet
+Not styled	Uten stil
+Note	Merknad
+Nothing from the document	Ingenting fra dokumentet
+Nothing yet	Ingenting ennå
+Nothing — hidden	Ingenting — skjult
+Number headings	Nummerer overskrifter
+Number headings (1., 1.1.)	Nummerer overskrifter (1., 1.1.)
+Numbered List	Nummerert liste
+Numbered captions	Nummererte bildetekster
+Numbered list item	Nummerert listeelement
+Numbers	Tall
+Off	Av
+Offer Again for All Files	Tilby på nytt for alle filer
+Offer to translate	Tilby oversettelse
+Older	Eldre
+On Launch	Ved oppstart
+On This Page	På denne siden
+On this device	På denne enheten
+One Step Smaller	Ett trinn mindre
+One mark draws	Ett merke tegner
+Only after a blank line	Bare etter en tom linje
+Only at the start of a line	Bare ved starten av en linje
+Only when this setting is on	Bare når denne innstillingen er på
+Open	Åpne
+Open Copy	Åpne kopi
+Open Diagnostics	Åpne diagnostikk
+Open Documents	Åpne dokumenter
+Open File	Åpne fil
+Open File…	Åpne fil…
+Open Folder	Åpne mappe
+Open Folder…	Åpne mappe…
+Open Form Without Log	Åpne skjemaet uten logg
+Open Quickly…	Åpne raskt…
+Open Recent	Åpne nylige
+Open Theme Folder	Åpne temamappen
+Open custom folder	Åpne egendefinert mappe
+Open documents and document actions	Åpne dokumenter og dokumenthandlinger
+Open in New Tab	Åpne i ny fane
+Open in a new tab	Åpne i en ny fane
+Open in editor	Åpne i redigering
+Open new file	Åpne ny fil
+Open…	Åpne…
+Options	Valg
+Order	Rekkefølge
+Ordered List	Nummerert liste
+Orientation	Retning
+Other	Annet
+Other blocks, in a box	Andre blokker, i en boks
+Other blocks, no box	Andre blokker, uten boks
+Other…	Annet…
+Out of sync	Ikke synkronisert
+Outdent	Rykk ut
+Outline	Disposisjon
+Output	Utdata
+PDF Archive (.zip)	PDF-arkiv (.zip)
+Page	Side
+Page Setup…	Sideoppsett…
+Page break between top-level headings	Sideskift mellom overskrifter på øverste nivå
+Pair marks	Parmerker
+Pane divider	Panelskille
+Paper size	Papirstørrelse
+Paragraph	Avsnitt
+Parent node	Overordnet node
+Parsing and profiles	Tolking og profiler
+Parsing warning	Tolkingsadvarsel
+Part	Del
+Parts	Deler
+Paste as Plain Text	Lim inn som ren tekst
+Pattern	Mønster
+Pilcrow Help	Pilcrow-hjelp
+Pilcrow settings	Pilcrow-innstillinger
+Place	Plassering
+Play	Spill av
+Play a sound as I type	Spill av en lyd mens jeg skriver
+Play on Battery	Spill av på batteri
+Point of view	Synsvinkel
+Portrait	Stående
+Preferred image syntax	Foretrukket bildesyntaks
+Prefix	Prefiks
+Preformatted text	Forhåndsformatert tekst
+Preset	Forhåndsinnstilling
+Preset name	Navn på forhåndsinnstilling
+Press any key…	Trykk på en tast…
+Preview	Forhåndsvisning
+Previous Document	Forrige dokument
+Previous Field	Forrige felt
+Previous match	Forrige treff
+Print	Skriv ut
+Print…	Skriv ut…
+Priority	Prioritet
+Privacy	Personvern
+Privacy Policy	Personvernerklæring
+Private & Support Data	Private data og støttedata
+Problems only	Bare problemer
+Produces	Lager
+Profile	Profil
+Profile Help	Profilhjelp
+Profile section	Profildel
+Project	Prosjekt
+Project Settings	Prosjektinnstillinger
+Put Back	Legg tilbake
+Quit Now	Avslutt nå
+Quit Pilcrow when last window is closed	Avslutt Pilcrow når det siste vinduet lukkes
+Quote	Sitat
+Quote line marker	Merke for sitatlinje
+Raw HTML	Rå HTML
+Raw HTML (inline)	Rå HTML (innebygd)
+Read marks by what stands around them	Les merker ut fra det som står rundt dem
+Reading speed	Lesehastighet
+Reading time	Lesetid
+Recently Deleted	Nylig slettet
+Reconsider	Vurder på nytt
+Record diagnostic log	Ta opp diagnoselogg
+Record recent files and folders	Husk nylige filer og mapper
+Record the Problem First	Ta opp problemet først
+Record the Problem First?	Ta opp problemet først?
+Recording log	Tar opp logg
+Recover	Gjenopprett
+Recover All	Gjenopprett alle
+Recover Documents	Gjenopprett dokumenter
+Redo	Gjør om
+Regex (bounded)	Regex (avgrenset)
+Regular expression	Regulært uttrykk
+Reject	Avvis
+Reload	Last inn på nytt
+Reload from Disk	Last inn på nytt fra disk
+Remove	Fjern
+Remove Blank Lines	Fjern tomme linjer
+Remove Duplicate Lines	Fjern dupliserte linjer
+Rename	Gi nytt navn
+Rename…	Gi nytt navn…
+Render Theme	Gjengivelsestema
+Render Themes	Gjengivelsestemaer
+Rendered Blocks	Gjengitte blokker
+Rendered preview	Gjengitt forhåndsvisning
+Rendering and diagrams	Gjengivelse og diagrammer
+Reorder	Omorganiser
+Repeat marker	Gjenta merket
+Repeat the marker	Gjenta merket
+Replace	Erstatt
+Replace All	Erstatt alle
+Replace Existing File?	Erstatte eksisterende fil?
+Replace Selection	Erstatt markering
+Replace a [TOC] line with the list	Erstatt en linje [TOC] med listen
+Replace the document	Erstatt dokumentet
+Replace with	Erstatt med
+Replacement	Erstatning
+Replacement text	Erstatningstekst
+Replaces Markdown	Erstatter Markdown
+Replace…	Erstatt…
+Report Now	Rapporter nå
+Report a Bug	Rapporter en feil
+Report a Bug…	Rapporter en feil…
+Report on GitHub…	Rapporter på GitHub…
+Reproduce an issue	Gjenskap et problem
+Reproducing — Finish Report	Gjentar — Fullfør rapport
+Reset	Tilbakestill
+Reset All Shortcuts	Tilbakestill alle snarveier
+Reset to Baseline	Tilbakestill til grunnlinjen
+Restore	Gjenopprett
+Restore Purchases	Gjenopprett kjøp
+Restore last closed files and folders	Gjenopprett sist lukkede filer og mapper
+Restore last closed folders	Gjenopprett sist lukkede mapper
+Restore…	Gjenopprett…
+Retry	Prøv igjen
+Return	Retur
+Reveal in Finder	Vis i Finder
+Reverse Lines	Snu linjene
+Review	Gjennomgang
+Review Recovery Data…	Se gjennom gjenopprettingsdata…
+Review Remaining	Gjennomgå resten
+Review Version History…	Se gjennom versjonsloggen…
+Right margin	Høyremarg
+Roadmap	Veikart
+Role	Rolle
+Row ends with	Raden slutter med
+Rows	Rader
+Rule line pattern	Mønster for hjelpelinje
+Run	Kjør
+Run marks	Rekkemerker
+Sample and results	Eksempel og resultater
+Save	Arkiver
+Save & recover	Arkivering og gjenoppretting
+Save All	Arkiver alle
+Save As:	Arkiver som:
+Save As…	Arkiver som…
+Save Document	Arkiver dokument
+Save Report…	Arkiver rapport…
+Save a copy beside the original	Arkiver en kopi ved siden av originalen
+Save and Attach File	Arkiver og legg ved fil
+Save as preset	Lagre som forhåndsinnstilling
+Save failed	Arkiveringen mislyktes
+Save new documents as	Arkiver nye dokumenter som
+Save without asking when closing a file	Arkiver uten å spørre når en fil lukkes
+Saved	Arkivert
+Schemes that begin a bare address	Skjema som innleder en ren adresse
+Search	Søk
+Search Again	Søk igjen
+Search Folder	Søk i mappe
+Search Folder…	Søk i mappe…
+Search Open Documents	Søk i åpne dokumenter
+Search models	Søk etter modeller
+Search settings	Søk i innstillinger
+Search the log	Søk i loggen
+Section	Del
+Select All	Velg alle
+Select All Occurrences	Marker alle forekomster
+Select Line	Marker linje
+Select Next Occurrence	Marker neste forekomst
+Select None	Fjern alle valg
+Select Paragraph	Marker avsnitt
+Select Word	Marker ord
+Selection	Markering
+Send Report	Send rapport
+Send and Translate	Send og oversett
+Sessions	Økter
+Set as New Baseline	Angi som ny grunnlinje
+Settings	Innstillinger
+Settings for the next block	Innstillinger for neste blokk
+Settings…	Innstillinger…
+Share Report…	Del rapport…
+Share…	Del…
+Short lines in column mode	Korte linjer i kolonnemodus
+Shortcuts	Snarveier
+Show Diagnostics Settings	Vis diagnostikkinnstillinger
+Show Scenes	Vis scener
+Show Source	Vis kilde
+Show Spelling and Grammar	Vis stavekontroll og grammatikk
+Show all models	Vis alle modeller
+Show current-line rule	Vis linjeregel for gjeldende linje
+Show hidden folders and files	Vis skjulte mapper og filer
+Show in Finder	Vis i Finder
+Show line numbers	Vis linjenumre
+Show parsing warnings	Vis tolkingsadvarsler
+Show replace	Vis erstatt
+Show status bar	Vis statuslinje
+Show the translation notice when Pilcrow starts	Vis oversettelsesmerknaden når Pilcrow starter
+Side by Side	Side ved side
+Sidebar	Sidepanel
+Skipped	Hoppet over
+Smart dashes	Smarte tankestreker
+Smart ellipsis	Smart ellipse
+Smart punctuation	Smart tegnsetting
+Smart quotes	Smarte sitattegn
+Soft pad with spaces	Myk utfylling med mellomrom
+Sort Lines Ascending	Sorter linjer stigende
+Sort Lines Descending	Sorter linjer synkende
+Sound	Lyd
+Space	Mellomrom
+Spanning cell pattern	Mønster for celler som spenner over flere kolonner
+Speech	Tale
+Speed	Hastighet
+Speed and memory	Hastighet og minne
+Spelling	Stavekontroll
+Spelling and Grammar	Stavekontroll og grammatikk
+Start Speaking	Begynn å lese opp
+Start fresh from the marker	Begynn på nytt fra merket
+Start on a new page	Start på en ny side
+Status and formatting bars	Status- og formateringslinjer
+Stop	Stopp
+Stop Speaking	Stopp opplesing
+Stop at the line	Stopp ved linjen
+Stop recording after	Stopp opptaket etter
+Stop recording and finish the bug report	Stopp opptaket og fullfør feilrapporten
+Storage & Privacy	Lagring og personvern
+Strikethrough	Gjennomstreking
+Strong	Sterk
+Style	Stil
+Style Guide	Stilguide
+Style Guides	Stilguider
+Style Review	Stilgjennomgang
+Style guide	Stilguide
+Styled Source	Kilde med stil
+Styled source	Kilde med stil
+Styles to the end of the line	Stiler til slutten av linjen
+Subscript	Senket skrift
+Subscript (H~2~O)	Senket skrift (H~2~O)
+Subscription & Credits	Abonnement og kreditter
+Super Tab keys	Super-Tab-taster
+Superscript	Hevet skrift
+Superscript (X^2^)	Hevet skrift (X^2^)
+Support Pilcrow	Støtt Pilcrow
+Symbols and punctuation	Symboler og tegnsetting
+Synopses	Synopser
+Syntax	Syntaks
+Syntax Profile	Syntaksprofil
+Syntax Profiles	Syntaksprofiler
+Syntax support	Syntaksstøtte
+System Default	Systemstandard
+System Monospace	System fastbredde
+System Size	Systemstørrelse
+System default	Systemstandard
+Tab	Tabulator
+Tab width	Tabulatorbredde
+Table	Tabell
+Table of Contents	Innholdsfortegnelse
+Table of contents	Innholdsfortegnelse
+Table row line	Tabellradlinje
+Table…	Tabell…
+Tags:	Etiketter:
+Take Back	Ta tilbake
+Task List	Oppgaveliste
+Terms of Use	Bruksvilkår
+Test Connection	Test tilkoblingen
+Text	Tekst
+Text Size & Fonts	Tekststørrelse og skrifter
+Text editor	Tekstredigering
+Text width	Tekstbredde
+Text, shown as written	Tekst, vist som skrevet
+Theme	Tema
+Theme & Backdrop	Tema og bakgrunn
+Themes	Temaer
+This Document	Dette dokumentet
+Three Steps Smaller	Tre trinn mindre
+Tile	Fliser
+Tip	Tips
+Title	Tittel
+Toggle Sidebar	Vis/skjul sidepanel
+Toggle Task Status	Bytt oppgavestatus
+Top margin	Toppmarg
+Trail of recent actions	Spor av nylige handlinger
+Translate	Oversett
+Translate Document	Oversett dokument
+Translate Selection	Oversett markering
+Translate automatically	Oversett automatisk
+Translate into	Oversett til
+Translate to	Oversett til
+Translated with AI	Oversatt med AI
+Translation	Oversettelse
+Trigger	Utløser
+Trigger — e.g. /sig	Utløser — f.eks. /sig
+Trim Trailing Whitespace	Fjern etterfølgende mellomrom
+Try Again	Prøv igjen
+Turn Off for This Folder	Slå av for denne mappen
+Turn On	Slå på
+Turn On for This Folder	Slå på for denne mappen
+Turn off Column Selection	Slå av kolonnemarkering
+Two Steps Smaller	To trinn mindre
+Two marks draw	To merker tegner
+Type a command	Skriv en kommando
+Type a filename	Skriv et filnavn
+Typewriter	Skrivemaskin
+Typing	Skriving
+Typing sounds	Skrivelyder
+Unbind	Fjern binding
+Underline	Understreking
+Undo	Angre
+Unfold All	Fold ut alle
+Unordered List	Usortert liste
+Upload image	Last opp bilde
+Uppercase letters	Store bokstaver
+Use This Device	Bruk denne enheten
+Use What Is There	Bruk det som ligger der
+Use relative path if possible	Bruk relativ sti hvis mulig
+Use the end of the line	Bruk slutten av linjen
+Use these page settings as default	Bruk disse sideinnstillingene som standard
+Value	Verdi
+Variables	Variabler
+Version History	Versjonslogg
+Version History…	Versjonslogg…
+Versions to keep	Versjoner å beholde
+View	Vis
+View Log…	Vis logg…
+Volume	Volum
+Vote	Stem
+Warning	Advarsel
+Warnings	Advarsler
+Web address	Nettadresse
+What counts as a word	Hva som teller som et ord
+What is sent	Hva som sendes
+What to record	Hva som skal tas opp
+What to review	Hva som skal gjennomgås
+What to share	Hva som skal deles
+What to write	Hva du vil skrive
+When a file is in another language	Når en fil er på et annet språk
+When finished	Når ferdig
+When inserting an image	Når et bilde settes inn
+When something is dropped onto the app	Når noe slippes på appen
+When starting	Ved oppstart
+When the document defines	Når dokumentet definerer
+Where	Hvor
+Where:	Hvor:
+Whole document	Hele dokumentet
+Whole word	Helt ord
+Width	Bredde
+Word target	Ordmål
+Words	Ord
+Wrap Lines	Bryt linjer
+Wrap long lines	Bryt lange linjer
+Write in	Skriv i
+YAML Front Matter	YAML-frontmatter
+YAML front matter	YAML-frontmatter
+Yes	Ja
+Your name	Navnet ditt
+Your own sounds	Dine egne lyder
+Your votes	Stemmene dine
+Zoom In	Zoom inn
+Zoom Out	Zoom ut

@@ -1,0 +1,980 @@
+1 hour	1 час
+24 hours	24 часа
+A macro	Макрос
+A style guide	Руководство по стилю
+A syntax profile	Профиль синтаксиса
+A table	Таблица
+A table drawn in text	Таблица, нарисованная текстом
+AI assistant	ИИ-ассистент
+API key	Ключ API
+Above	Сверху
+Accept	Принять
+Accept All Remaining	Принять все оставшиеся
+Action	Действие
+Active	Активно
+Actual Size	Реальный размер
+Add	Добавить
+Add ./ for relative paths	Добавлять ./ к относительным путям
+Add All	Добавить все
+Add Caret Above	Добавить курсор выше
+Add Caret Below	Добавить курсор ниже
+Add Column After	Добавить столбец справа
+Add Column Before	Добавить столбец слева
+Add Connection	Добавить подключение
+Add Log and Open Form	Добавить журнал и открыть форму
+Add Log to Description	Добавить журнал в описание
+Add Row Above	Добавить строку выше
+Add Row Below	Добавить строку ниже
+Add Variable	Добавить переменную
+Add a table of contents to every export	Добавлять оглавление при каждом экспорте
+Add attribute	Добавить атрибут
+Add caption	Добавить подпись
+Add format	Добавить формат
+Add inline rule	Добавить внутристрочное правило
+Add nesting rule	Добавить правило вложенности
+Add nothing	Ничего не добавлять
+Add pair mark	Добавить парную метку
+Add rule	Добавить правило
+Add run mark	Добавить метку-серию
+Add the log	Добавить журнал
+Add to Library…	Добавить в библиотеку…
+Additional syntax	Дополнительный синтаксис
+Address	Адрес
+Address groups	Группы адреса
+Address written on its own is enclosed by	Адрес сам по себе заключается в
+Admonition box	Блок примечания
+Admonition line	Строка примечания
+Advanced options	Дополнительные параметры
+Advanced profile JSON	Расширенный JSON профиля
+After Return at the end of a line	После Return в конце строки
+After translating	После перевода
+Alert	Предупреждение
+Aligned columns	Выровненные столбцы
+All	Все
+All areas	Все области
+All parts	Все части
+All statuses	Все статусы
+Allow an unencrypted connection on my local network	Разрешить незашифрованное подключение в моей локальной сети
+Allowed children (comma separated)	Допустимые дочерние узлы (через запятую)
+Always	Всегда
+Always Add the Log	Всегда добавлять журнал
+Always add	Всегда добавлять
+Anchor	Якорь
+App	Приложение
+App Icon	Значок приложения
+Appearance	Оформление
+Application Theme	Тема приложения
+Application Themes	Темы приложения
+Apply	Применить
+Apply All	Применить все
+Apply to local images	Применять к локальным изображениям
+Apply to online images	Применять к изображениям из сети
+Areas	Области
+Around cursor	Вокруг курсора
+Ask each time	Спрашивать каждый раз
+Ask the assistant…	Спросите ассистента…
+Ask to Fix	Попросить исправить
+Assistant	Ассистент
+Assistant mode	Режим помощника
+At a glance	Кратко
+Attribute reference	Ссылка на атрибут
+Audio	Аудио
+Author	Автор
+Auto links (bare URLs)	Автоссылки (простые URL)
+Auto-Expand Sections	Автоматически разворачивать разделы
+Auto-escape image URLs on insert	Экранировать URL изображений при вставке
+Auto-pair brackets and quotes	Автопарные скобки и кавычки
+Auto-wrap long lines	Переносить длинные строки
+Automatic	Автоматически
+Automatically save changes	Автоматически сохранять изменения
+Back matter	Приложения
+Baseline	Исходная версия
+Behind the Sidebar	За боковой панелью
+Behind the Text Area	За областью текста
+Below	Снизу
+Best quality	Лучшее качество
+Between scenes	Между сценами
+Block holds	Блок содержит
+Block rules	Правила блоков
+Blockquote	Цитата
+Blur	Размытие
+Bold	Жирный
+Book word target	Цель по числу слов в книге
+Bottom margin	Нижнее поле
+Bought	Купленные
+Browse Enclosing Folder…	Просмотреть папку с файлом…
+Built-in	Встроенный
+Bulleted List	Маркированный список
+Bulleted list item	Элемент маркированного списка
+CSS diagnostics	Диагностика CSS
+Cancel	Отменить
+Cancel translation	Отменить перевод
+Capitalize	Каждое слово с заглавной буквы
+Caption place	Положение подписи
+Cards	Карточки
+Carets in a Column	Курсоры в столбце
+Carets in a Column…	Курсоры в столбце…
+Caution	Осторожно
+Cell options pattern	Шаблон параметров ячейки
+Cell separator	Разделитель ячеек
+Changed by another app	Изменено другим приложением
+Change…	Изменить…
+Chapters	Главы
+Characters	Символы
+Chart	График
+Charts	Графики
+Check Again	Проверить снова
+Check Cross-References	Проверить перекрёстные ссылки
+Check Document Now	Проверить документ сейчас
+Check Links	Проверить ссылки
+Check Links…	Проверить ссылки…
+Check Spelling While Typing	Проверять орфографию при вводе
+Check sample	Проверить образец
+Check spelling while typing	Проверять орфографию при вводе
+Checklist item	Пункт контрольного списка
+Choose Another Location…	Выбрать другое место…
+Choose Folder…	Выбрать папку…
+Choose Model…	Выбрать модель…
+Choose the syntax profile for this document	Выберите синтаксический профиль для этого документа
+Choose…	Выбрать…
+Clear	Очистить
+Clear Caches…	Очистить кэши…
+Clear Conversation	Очистить беседу
+Clear Format	Очистить форматирование
+Clear Log	Очистить журнал
+Clear Log…	Очистить журнал…
+Clear Menu	Очистить меню
+Clear Recent File Access…	Очистить доступ к недавним файлам…
+Close	Закрыть
+Close All	Закрыть все
+Close All Documents	Закрыть все документы
+Close Document	Закрыть документ
+Close Help	Закрыть справку
+Close find bar	Закрыть панель поиска
+Closing line	Закрывающая строка
+Closing line repeats the opening mark, at least as often	Закрывающая строка повторяет открывающий знак не меньше раз
+Code	Код
+Code Fence	Блок кода
+Code Fences	Огороженные блоки кода
+Code block	Блок кода
+Code fences	Огороженные блоки кода
+Code span character	Символ фрагмента кода
+Col	Ст
+Collapsible section	Сворачиваемый раздел
+Column (for example 100, or 100-105 to select)	Столбец (например, 100 или 100-105 для выделения)
+Column Selection	Выделение столбцом
+Column list separator	Разделитель списка столбцов
+Columns	Столбцы
+Command Palette	Палитра команд
+Command Palette…	Палитра команд…
+Comment (hidden)	Комментарий (скрыт)
+CommonMark Options	Параметры CommonMark
+Compare Versions	Сравнение версий
+Compare with File…	Сравнить с файлом…
+Compare…	Сравнить…
+Compile Manuscript	Скомпилировать рукопись
+Compile Manuscript…	Скомпилировать рукопись…
+Compile…	Скомпилировать…
+Conditional section	Условный раздел
+Connections	Подключения
+Content group	Группа содержимого
+Contents	Содержание
+Contents & Labels	Оглавление и метки
+Continue Anyway	Всё равно продолжить
+Continue lists and quotes on Return	Продолжать списки и цитаты по Return
+Conversational	Беседа
+Convert	Преобразовать
+Convert To…	Преобразовать в…
+Convert on Input	Преобразовывать при вводе
+Convert on Rendering	Преобразовывать при отображении
+Converter	Конвертер
+Copy	Копировать
+Copy My Library Here	Скопировать сюда мою библиотеку
+Copy as HTML Code	Копировать как HTML-код
+Copy as Markdown	Копировать как Markdown
+Copy as Plain Text	Копировать как обычный текст
+Copy image to ./assets	Копировать изображение в ./assets
+Copy image to current folder (./)	Копировать изображение в текущую папку (./)
+Could Not Rename Document	Не удалось переименовать документ
+Could Not Save Document	Не удалось сохранить документ
+Could Not Share	Не удалось поделиться
+Count code blocks	Учитывать блоки кода
+Count front matter	Учитывать вводную часть
+Count headings	Учитывать заголовки
+Count up	Увеличить номер
+Crash details	Сведения о сбоях
+Crash reports	Отчёты о сбоях
+Create	Создать
+Cross-reference	Перекрёстная ссылка
+Current-Line Rule	Линия под текущей строкой
+Cursor	Курсор
+Custom	Пользовательский
+Custom CSS	Свой CSS
+Custom node name	Своё имя узла
+Custom…	Своё…
+Dark	Тёмная
+Decrease Heading Level	Понизить уровень заголовка
+Default	По умолчанию
+Default Language	Язык по умолчанию
+Default file type	Тип файла по умолчанию
+Default output style	Стиль вывода по умолчанию
+Delete	Удалить
+Delete AI Data & Keys…	Удалить данные и ключи ИИ…
+Delete All	Удалить все
+Delete All AI Data…	Удалить все данные ИИ…
+Delete Collection	Удалить коллекцию
+Delete Column	Удалить столбец
+Delete Diagnostics…	Удалить диагностику…
+Delete Line	Удалить строку
+Delete Paragraph	Удалить абзац
+Delete Permanently	Удалить навсегда
+Delete Row	Удалить строку
+Delete Selected	Удалить выбранное
+Delete Style Guide…	Удалить руководство по стилю…
+Delete Word	Удалить слово
+Delimiter pair	Пара разделителей
+Depth	Глубина
+Description	Описание
+Description list term	Термин списка определений
+Detailed	Подробный
+Details…	Подробности…
+Device and system information	Сведения об устройстве и системе
+Diagnostic Log	Журнал диагностики
+Diagnostics	Диагностика
+Diagram	Диаграмма
+Diagrams	Диаграммы
+Diagrams and charts (Mermaid, Vega-Lite)	Диаграммы и графики (Mermaid, Vega-Lite)
+Digits 0 to 9	Цифры от 0 до 9
+Dim	Приглушение
+Discard Changes	Отменить изменения
+Discard theme changes?	Отменить изменения темы?
+Dismiss	Закрыть
+Dismiss All Suggestions	Отклонить все предложения
+Display	Отображение
+Display Math	Выключная формула
+Display line numbers	Показывать номера строк
+Do nothing	Ничего не делать
+Document	Документ
+Document Information	Сведения о документе
+Document Mode	Режим документа
+Document Translation	Перевод документов
+Document attribute	Атрибут документа
+Document structure (counts only)	Структура документа (только числа)
+Documents	Документы
+Don't expand inside code	Не разворачивать в коде
+Don't show this again	Больше не показывать
+Done	Готово
+Download	Загрузить
+Draws	Рисует
+Draws as	Отображается как
+Duck	Утка
+Duplicate	Дублировать
+Duplicate Collection	Дублировать коллекцию
+Duplicate Style Guide	Дублировать руководство по стилю
+Edit	Изменить
+Edit Advanced JSON…	Изменить расширенный JSON…
+Edit Application Theme	Изменить тему приложения
+Edit Block	Править блок
+Edit Macro	Изменить макрос
+Edit Profile	Изменить профиль
+Edit Render Theme	Изменить тему отображения
+Edited	Изменено
+Editing	Редактирование
+Editing colours for	Редактирование цветов для
+Editor	Редактор
+Editor Background	Фон редактора
+Editor font	Шрифт редактора
+Editor size and word count	Размер редактора и число слов
+Edit…	Изменить…
+Emphasis	Курсив
+Empty Recently Deleted	Очистить «Недавно удалённые»
+Enable AI assistant	Включить ИИ-ассистента
+Enabled	Включено
+Encoding	Кодировка
+End of line	Конец строки
+Entries	Записи
+Equation	Формула
+Equations	Уравнения
+Errors	Ошибки
+Escape character	Символ экранирования
+Estimated time: less than a minute	Примерное время: меньше минуты
+Everything	Всё
+Exact text	Точный текст
+Example box	Блок примера
+Excluded files	Исключённые файлы
+Exit Focus	Выйти из режима фокусировки
+Expand emoji shortcodes (:smile:)	Разворачивать коды эмодзи (:smile:)
+Export	Экспорт
+Export Collection…	Экспортировать коллекцию…
+Export Defaults	Параметры экспорта по умолчанию
+Export Style Guide…	Экспортировать руководство по стилю…
+Export and print	Экспорт и печать
+Export…	Экспорт…
+Extends Markdown	Расширяет Markdown
+Fast	Быстрый
+Fenced block	Огражденный блок
+Field	Поле
+Fields	Поля
+File	Файл
+File Access	Доступ к файлам
+File Changed on Disk	Файл изменён на диске
+File Operation Failed	Не удалось выполнить операцию с файлом
+File extension	Расширение файла
+File extensions (comma-separated)	Расширения файлов (через запятую)
+File tree / library	Дерево файлов / библиотека
+Files	Файлы
+Files and library	Файлы и библиотека
+Files in Another Language	Файлы на другом языке
+Fill	Заполнить
+Fill-in fields remain	Остались незаполненные поля
+Find	Найти
+Find In	Искать в
+Find Next	Найти далее
+Find Previous	Найти ранее
+Find in document	Найти в документе
+Find…	Найти…
+Finish Bug Report	Завершить отчёт об ошибке
+First line before a blank line is the header	Первая строка перед пустой строкой — заголовок
+Fit	Вписать
+Fixed attributes	Постоянные атрибуты
+Focus	Фокусировка
+Focus Mode	Режим фокусировки
+Fold All	Свернуть всё
+Folder	Папка
+Folders turned off	Отключённые папки
+Font size	Размер шрифта
+Fonts	Шрифты
+Footer template	Шаблон нижнего колонтитула
+Footnote	Сноска
+Footnote label begins with	Метка сноски начинается с
+Format	Формат
+Formats	Форматы
+Formatting Toolbar	Панель форматирования
+From heading level	С уровня заголовка
+From your subscription	По подписке
+Front matter	Вводная часть
+General	Основные
+Get votes	Получить голоса
+GitHub-style alerts	Предупреждения в стиле GitHub
+Give headings ids	Присваивать заголовкам идентификаторы
+Go	Перейти
+Go Back	Назад
+Go Forward	Вперёд
+Go to Line	Перейти к строке
+Go to Line…	Перейти к строке…
+Go to Next Field	К следующему полю
+Grid with rule lines	Сетка с разделительными линиями
+Group (no box)	Группа (без рамки)
+Gutter font	Шрифт поля
+HTML (without Styles)	HTML (без стилей)
+Hard pad with spaces	Жёстко дополнять пробелами
+Header rule line pattern	Шаблон разделительной строки заголовка
+Header template	Шаблон верхнего колонтитула
+Header, footer, and metadata	Колонтитулы и метаданные
+Heading (level from the rule)	Заголовок (уровень из правила)
+Heading 1	Заголовок 1
+Heading 2	Заголовок 2
+Heading 3	Заголовок 3
+Heading 4	Заголовок 4
+Heading 5	Заголовок 5
+Heading 6	Заголовок 6
+Heading Folds	Сворачивание заголовков
+Heading id prefix	Префикс идентификатора
+Heading id word separator	Разделитель слов в идентификаторе
+Heading labels	Метки заголовков
+Heading level	Уровень заголовка
+Height	Высота
+Help	Помощь
+Hide Markers	Скрыть разметку
+Hide Scenes	Скрыть сцены
+Hide Toolbar	Скрыть панель инструментов
+Hide replace	Скрыть замену
+Highlight	Выделение
+Highlight (==key==)	Выделение (==key==)
+Horizontal Line	Горизонтальная линия
+Horizontal rule	Горизонтальная линия
+Hyperlink	Гиперссылка
+Ignore trailing whitespace	Игнорировать пробелы в конце строк
+Image	Изображение
+Image prefix	Префикс изображения
+Images	Изображения
+Images in Preview and exports	Изображения в предпросмотре и экспорте
+Image…	Изображение…
+Import	Импорт
+Import Macros…	Импортировать макросы…
+Import Style Guide…	Импортировать руководство по стилю…
+Import Theme…	Импортировать тему…
+Import file	Импортировать файл
+Importable file	Импортируемый файл
+Important	Важно
+Import…	Импорт…
+Include in Manuscript	Включить в рукопись
+Include in a report	Включить в отчёт
+Increase Heading Level	Повысить уровень заголовка
+Indent	Увеличить отступ
+Indent size	Размер отступа
+Indentation	Отступ
+Indented block	Блок с отступом
+Indented text under a line ending in a marker	Текст с отступом под строкой, оканчивающейся маркером
+Indented text under an opening line	Текст с отступом под открывающей строкой
+Index term	Термин указателя
+Inherits	Наследует
+Inline Math	Строчная формула
+Inline code	Встроенный код
+Inline equation	Формула в строке
+Inline math ($…$)	Строчные формулы ($…$)
+Inline rules	Внутристрочные правила
+Insert	Вставка
+Insert Alert	Вставить предупреждение
+Insert Chart	Вставить график
+Insert Code Fence	Вставить блок кода
+Insert Date/Time	Вставить дату/время
+Insert Diagram	Вставить диаграмму
+Insert Display Math	Вставить выключную формулу
+Insert Footnote	Вставить сноску
+Insert Horizontal Line	Вставить горизонтальную линию
+Insert Image…	Вставить изображение…
+Insert Inline Math	Вставить строчную формулу
+Insert Link Reference	Вставить ссылку-сноску
+Insert Table	Вставить таблицу
+Insert Table of Contents	Вставить оглавление
+Insert Table…	Вставить таблицу…
+Insert Task List	Вставить список задач
+Insert YAML Front Matter	Вставить YAML-заголовок
+Insert at Cursor	Вставить в позицию курсора
+Insert link	Вставить ссылку
+Insert spaces when pressing Tab	Вставлять пробелы при нажатии Tab
+Insert text	Текст вставки
+Interface Size	Размер интерфейса
+Italic	Курсив
+Join Lines	Объединить строки
+Jump to	Перейти
+Jump to Bottom	Перейти в конец
+Jump to Line End	Перейти в конец строки
+Jump to Line Start	Перейти в начало строки
+Jump to Top	Перейти в начало
+Keep Current Version	Оставить текущую версию
+Keep Editing	Продолжить редактирование
+Keep a version of each file first	Сначала сохранять версию каждого файла
+Keep indentation on Return	Сохранять отступ по Return
+Keep it in	Хранить в
+Keep single line breaks	Сохранять одиночные переводы строк
+Kept	Хранится
+Keyboard	Клавиатура
+Keyboard key	Клавиша
+Kind	Тип
+Kitten	Котёнок
+Label	Метка
+Label headings	Помечать заголовки
+Landscape	Альбомная
+Language	Язык
+Languages on This Device	Языки на этом устройстве
+Layout	Расположение
+Leave Out of Manuscript	Исключить из рукописи
+Leave the line out	Пропускать строку
+Left margin	Левое поле
+Left out	Исключено
+Letters	Буквы
+Level	Уровень
+Level group	Группа уровня
+Library	Библиотека
+Library location	Расположение библиотеки
+Light	Светлая
+Line Numbers	Номера строк
+Line break	Перевод строки
+Line spacing	Межстрочный интервал
+Line that defines a label has	Строка, определяющая метку, содержит
+Line-start prefix	Префикс в начале строки
+Lines	Строки
+Lines (for example 3-17)	Строки (например, 3-17)
+Link	Ссылка
+Link Reference	Ссылка-сноска
+Link each heading back to its contents entry	Связать каждый заголовок со своей записью в оглавлении
+Links	Ссылки
+Links and web addresses	Ссылки и веб-адреса
+List	Список
+List continuation line	Строка продолжения списка
+List only headings below the [TOC] line	Показывать только заголовки ниже строки [TOC]
+Literal exact	Точное совпадение
+Literal prefix	Буквальный префикс
+Ln	Стр
+Load images from the internet	Загружать изображения из интернета
+Loading models…	Загрузка моделей…
+Location	Расположение
+Lowercase letters	Строчные буквы
+Machine-translated — may contain errors.	Машинный перевод — возможны ошибки.
+Macro Collection	Набор макросов
+Macros	Макросы
+Make Active	Сделать активным
+Make Folder a Book Project	Сделать папку проектом книги
+Make It a Project	Сделать проектом
+Make Lower Case	Сделать строчными
+Make Upper Case	Сделать прописными
+Manuscript	Рукопись
+Mark	Метка
+Markdown file	Файл Markdown
+Marker group	Группа маркера
+Match	Совпадение
+Match case	Учитывать регистр
+May open or close inside a word	Может открываться и закрываться внутри слова
+Media	Медиа
+Menu	Меню
+Menus in the Header	Меню в заголовке
+Missing	Отсутствует
+Model	Модель
+Monospace	Моноширинный
+More	Ещё
+More formatting	Больше форматирования
+More…	Ещё…
+Move Chapter Down	Переместить главу вниз
+Move Chapter Up	Переместить главу вверх
+Move My Library Here	Переместить сюда мою библиотеку
+Move Row Down	Переместить строку вниз
+Move Row Up	Переместить строку вверх
+Move To…	Переместить в…
+Move to Trash	Переместить в Корзину
+Moving your library…	Перемещение библиотеки…
+Name	Имя
+Named parts become attributes	Именованные части становятся атрибутами
+Navigator	Навигатор
+Needs an API key	Требуется ключ API
+Nest lists by marker	Вкладывать списки по маркеру
+Nesting rules	Правила вложенности
+Never	Никогда
+Never add	Никогда не добавлять
+Never for This File	Никогда для этого файла
+New	Создать
+New Back Matter	Новые приложения
+New Book	Новая книга
+New Book…	Новая книга…
+New Chapter	Новая глава
+New Collection	Новая коллекция
+New Document	Новый документ
+New File	Новый файл
+New File Below	Новый файл ниже
+New Folder	Новая папка
+New Front Matter	Новая вводная часть
+New Macro	Новый макрос
+New Scene	Новая сцена
+New files are written in	Новые файлы создаются в формате
+Newer	Новая
+Next Document	Следующий документ
+Next Field	Следующее поле
+Next match	Следующее совпадение
+No	Нет
+No Syntax	Без синтаксиса
+No headings	Нет заголовков
+No special action	Без особых действий
+None	Нет
+Normal	Обычный
+Not Loaded	Не загружены
+Not Now	Не сейчас
+Not a picture	Не изображение
+Not available	Недоступно
+Not in the manuscript	Не в рукописи
+Not styled	Без оформления
+Note	Примечание
+Nothing from the document	Ничего из документа
+Nothing yet	Пока ничего
+Nothing — hidden	Ничего — скрыто
+Number headings	Нумеровать заголовки
+Number headings (1., 1.1.)	Нумеровать заголовки (1., 1.1.)
+Numbered List	Нумерованный список
+Numbered captions	Нумерованные подписи
+Numbered list item	Элемент нумерованного списка
+Numbers	Цифры
+OK	ОК
+Off	Выкл.
+Offer Again for All Files	Снова предлагать для всех файлов
+Offer to translate	Предлагать перевод
+Older	Старая
+On Launch	При запуске
+On This Page	На этой странице
+On this device	На этом устройстве
+One Step Smaller	На шаг меньше
+One mark draws	Одна метка рисует
+Only after a blank line	Только после пустой строки
+Only at the start of a line	Только в начале строки
+Only when this setting is on	Только если включён этот параметр
+Open	Открыть
+Open Copy	Открыть копию
+Open Diagnostics	Открыть диагностику
+Open Documents	Открытые документы
+Open File	Открыть файл
+Open File…	Открыть файл…
+Open Folder	Открыть папку
+Open Folder…	Открыть папку…
+Open Form Without Log	Открыть форму без журнала
+Open Quickly…	Быстрое открытие…
+Open Recent	Недавние
+Open Theme Folder	Открыть папку тем
+Open custom folder	Открыть выбранную папку
+Open documents and document actions	Открытые документы и действия с документом
+Open in New Tab	Открыть в новой вкладке
+Open in a new tab	Открыть в новой вкладке
+Open in editor	Открыть в редакторе
+Open new file	Открыть новый файл
+Open…	Открыть…
+Options	Параметры
+Order	Порядок
+Ordered List	Нумерованный список
+Orientation	Ориентация
+Other	Прочее
+Other blocks, in a box	Другие блоки, в рамке
+Other blocks, no box	Другие блоки, без рамки
+Other…	Другое…
+Out of sync	Рассинхронизировано
+Outdent	Уменьшить отступ
+Outline	Структура
+Output	Вывод
+PDF Archive (.zip)	Архив PDF (.zip)
+Page	Страница
+Page Setup…	Параметры страницы…
+Page break between top-level headings	Разрыв страницы между заголовками верхнего уровня
+Pair marks	Парные метки
+Pane divider	Разделитель панелей
+Paper size	Размер бумаги
+Paragraph	Абзац
+Parent node	Родительский узел
+Parsing and profiles	Разбор и профили
+Parsing warning	Предупреждение разбора
+Part	Часть
+Parts	Части
+Paste as Plain Text	Вставить как обычный текст
+Pattern	Шаблон
+Pilcrow Help	Справка Pilcrow
+Pilcrow settings	Настройки Pilcrow
+Place	Поставить
+Play	Воспроизвести
+Play a sound as I type	Воспроизводить звук при наборе
+Play on Battery	Воспроизведение от батареи
+Point of view	Точка зрения
+Portrait	Книжная
+Preferred image syntax	Предпочтительный синтаксис изображений
+Prefix	Префикс
+Preformatted text	Форматированный текст
+Preset	Пресет
+Preset name	Название пресета
+Press any key…	Нажмите любую клавишу…
+Preview	Предпросмотр
+Previous Document	Предыдущий документ
+Previous Field	Предыдущее поле
+Previous match	Предыдущее совпадение
+Print	Напечатать
+Print…	Напечатать…
+Priority	Приоритет
+Privacy	Конфиденциальность
+Privacy Policy	Политика конфиденциальности
+Private & Support Data	Личные данные и данные поддержки
+Problems only	Только проблемы
+Produces	Создаёт
+Profile	Профиль
+Profile Help	Справка по профилям
+Profile section	Раздел профиля
+Project	Проект
+Project Settings	Настройки проекта
+Put Back	Вернуть
+Quit Now	Выйти сейчас
+Quit Pilcrow when last window is closed	Завершать Pilcrow при закрытии последнего окна
+Quote	Цитата
+Quote line marker	Маркер строки цитаты
+Raw HTML	Исходный HTML
+Raw HTML (inline)	Исходный HTML (в строке)
+Read marks by what stands around them	Читать метки по их окружению
+Reading speed	Скорость чтения
+Reading time	Время чтения
+Recently Deleted	Недавно удалённые
+Reconsider	Пересмотреть
+Record diagnostic log	Вести журнал диагностики
+Record recent files and folders	Запоминать недавние файлы и папки
+Record the Problem First	Сначала записать проблему
+Record the Problem First?	Сначала записать проблему?
+Recording log	Запись журнала
+Recover	Восстановить
+Recover All	Восстановить все
+Recover Documents	Восстановить документы
+Redo	Повторить
+Regex (bounded)	Regex (ограниченная)
+Regular expression	Регулярное выражение
+Reject	Отклонить
+Reload	Обновить
+Reload from Disk	Перезагрузить с диска
+Remove	Удалить
+Remove Blank Lines	Удалить пустые строки
+Remove Duplicate Lines	Удалить повторяющиеся строки
+Rename	Переименовать
+Rename…	Переименовать…
+Render Theme	Тема отображения
+Render Themes	Темы отображения
+Rendered Blocks	Отрисованные блоки
+Rendered preview	Отрисованный предпросмотр
+Rendering and diagrams	Отрисовка и диаграммы
+Reorder	Изменить порядок
+Repeat marker	Знак повтора
+Repeat the marker	Повторить маркер
+Replace	Заменить
+Replace All	Заменить все
+Replace Existing File?	Заменить существующий файл?
+Replace Selection	Заменить выделенное
+Replace a [TOC] line with the list	Заменять строку [TOC] списком
+Replace the document	Заменить документ
+Replace with	Заменить на
+Replacement	Замена
+Replacement text	Текст замены
+Replaces Markdown	Заменяет Markdown
+Replace…	Заменить…
+Report Now	Сообщить сейчас
+Report a Bug	Сообщить об ошибке
+Report a Bug…	Сообщить об ошибке…
+Report on GitHub…	Сообщить на GitHub…
+Reproduce an issue	Воспроизвести проблему
+Reproducing — Finish Report	Воспроизведение — завершить отчёт
+Reset	Сбросить
+Reset All Shortcuts	Сбросить все сочетания клавиш
+Reset to Baseline	Вернуть к исходной версии
+Restore	Восстановить
+Restore Purchases	Восстановить покупки
+Restore last closed files and folders	Восстановить последние закрытые файлы и папки
+Restore last closed folders	Восстановить последние закрытые папки
+Restore…	Восстановить…
+Retry	Повторить
+Reveal in Finder	Показать в Finder
+Reverse Lines	Обратить порядок строк
+Review	Проверить
+Review Recovery Data…	Просмотреть данные восстановления…
+Review Remaining	Проверить остальное
+Review Version History…	Просмотреть историю версий…
+Right margin	Правое поле
+Roadmap	Дорожная карта
+Role	Роль
+Row ends with	Строка заканчивается на
+Rows	Строки
+Rule line pattern	Шаблон разделительной строки
+Run	Выполнить
+Run marks	Метки-серии
+Sample and results	Образец и результаты
+Sans-serif	Без засечек
+Save	Сохранить
+Save & recover	Сохранение и восстановление
+Save All	Сохранить все
+Save As:	Сохранить как:
+Save As…	Сохранить как…
+Save Document	Сохранить документ
+Save Report…	Сохранить отчёт…
+Save a copy beside the original	Сохранить копию рядом с оригиналом
+Save and Attach File	Сохранить и прикрепить файл
+Save as preset	Сохранить как пресет
+Save failed	Не удалось сохранить
+Save new documents as	Сохранять новые документы как
+Save without asking when closing a file	Сохранять без запроса при закрытии файла
+Saved	Сохранено
+Schemes that begin a bare address	Схемы, с которых начинается простой адрес
+Search	Поиск
+Search Again	Искать снова
+Search Folder	Поиск в папке
+Search Folder…	Поиск в папке…
+Search Open Documents	Поиск по открытым документам
+Search models	Поиск моделей
+Search settings	Поиск в настройках
+Search the log	Поиск по журналу
+Section	Раздел
+Select All	Выбрать все
+Select All Occurrences	Выделить все вхождения
+Select Line	Выделить строку
+Select Next Occurrence	Выделить следующее вхождение
+Select None	Снять выделение
+Select Paragraph	Выделить абзац
+Select Word	Выделить слово
+Selection	Выделение
+Send	Отправить
+Send Report	Отправить отчёт
+Send and Translate	Отправить и перевести
+Serif	С засечками
+Sessions	Сеансы
+Set as New Baseline	Сделать новой исходной версией
+Settings	Настройки
+Settings for the next block	Настройки следующего блока
+Settings…	Настройки…
+Share Report…	Поделиться отчётом…
+Share…	Поделиться…
+Short lines in column mode	Короткие строки в режиме столбца
+Shortcuts	Сокращения
+Show Diagnostics Settings	Показать настройки диагностики
+Show Scenes	Показать сцены
+Show Source	Показать исходный текст
+Show Spelling and Grammar	Показать орфографию и грамматику
+Show all models	Показать все модели
+Show current-line rule	Показывать линию под текущей строкой
+Show hidden folders and files	Показывать скрытые папки и файлы
+Show in Finder	Показать в Finder
+Show line numbers	Показывать номера строк
+Show parsing warnings	Показывать предупреждения разбора
+Show replace	Показать замену
+Show status bar	Показывать строку состояния
+Show the translation notice when Pilcrow starts	Показывать уведомление о переводе при запуске Pilcrow
+Side by Side	Рядом
+Sidebar	Врезка
+Skipped	Пропущено
+Smart dashes	Умные тире
+Smart ellipsis	Умное многоточие
+Smart punctuation	Умная пунктуация
+Smart quotes	Умные кавычки
+Soft pad with spaces	Мягко дополнять пробелами
+Sort Lines Ascending	Сортировать строки по возрастанию
+Sort Lines Descending	Сортировать строки по убыванию
+Sound	Звук
+Space	Пробел
+Spanning cell pattern	Шаблон объединённой ячейки
+Speech	Речь
+Speed	Скорость
+Speed and memory	Скорость и память
+Spelling	Орфография
+Spelling and Grammar	Орфография и грамматика
+Start Speaking	Начать озвучивание
+Start fresh from the marker	Начать заново с маркера
+Start on a new page	Начинать с новой страницы
+Status	Статус
+Status and formatting bars	Строки состояния и форматирования
+Stop	Остановить
+Stop Speaking	Остановить озвучивание
+Stop at the line	Остановиться на строке
+Stop recording after	Остановить запись через
+Stop recording and finish the bug report	Остановить запись и завершить отчёт об ошибке
+Storage & Privacy	Хранилище и конфиденциальность
+Strikethrough	Зачёркнутый
+Strong	Полужирный
+Style	Стиль
+Style Guide	Руководство по стилю
+Style Guides	Руководства по стилю
+Style Review	Проверка стиля
+Style guide	Руководство по стилю
+Styled Source	Стилизованный исходник
+Styled source	Оформленный исходный текст
+Styles to the end of the line	Оформляет до конца строки
+Subscript	Подстрочный
+Subscript (H~2~O)	Нижний индекс (H~2~O)
+Subscription & Credits	Подписка и кредиты
+Super Tab keys	Клавиши Super Tab
+Superscript	Надстрочный
+Superscript (X^2^)	Верхний индекс (X^2^)
+Support Pilcrow	Поддержать Pilcrow
+Symbols and punctuation	Символы и знаки препинания
+Synopses	Аннотации
+Synopsis	Аннотация
+Syntax	Синтаксис
+Syntax Profile	Синтаксический профиль
+Syntax Profiles	Синтаксические профили
+Syntax support	Поддержка синтаксиса
+System Default	Системная настройка
+System Monospace	Системный моноширинный
+System Size	Как в системе
+System default	Как в системе
+Tab	Табуляция
+Tab width	Ширина табуляции
+Table	Таблица
+Table of Contents	Оглавление
+Table of contents	Оглавление
+Table row line	Строка таблицы
+Table…	Таблица…
+Tags:	Теги:
+Take Back	Вернуть
+Task List	Список задач
+Terms of Use	Условия использования
+Test Connection	Проверить подключение
+Text	Текст
+Text Size & Fonts	Размер текста и шрифты
+Text editor	Текстовый редактор
+Text width	Ширина текста
+Text, shown as written	Текст, как написан
+Theme	Тема
+Theme & Backdrop	Тема и фон
+Themes	Темы
+This Document	Этот документ
+Three Steps Smaller	На три шага меньше
+Tile	Мозаика
+Tip	Совет
+Title	Название
+Toggle Sidebar	Показать/скрыть боковую панель
+Toggle Task Status	Переключить статус задачи
+Top margin	Верхнее поле
+Trail of recent actions	След последних действий
+Translate	Перевести
+Translate Document	Перевести документ
+Translate Selection	Перевести выделенное
+Translate automatically	Переводить автоматически
+Translate into	Переводить на
+Translate to	Перевести на
+Translated with AI	Переведено с помощью ИИ
+Translation	Перевод
+Trigger	Триггер
+Trigger — e.g. /sig	Триггер — например /sig
+Trim Trailing Whitespace	Удалить пробелы в конце строк
+Try Again	Повторить
+Turn Off for This Folder	Отключить для этой папки
+Turn On	Включить
+Turn On for This Folder	Включить для этой папки
+Turn off Column Selection	Выключить выделение столбцом
+Two Steps Smaller	На два шага меньше
+Two marks draw	Две метки рисуют
+Type a command	Введите команду
+Type a filename	Введите имя файла
+Typewriter	Печатная машинка
+Typing	Ввод
+Typing sounds	Звуки набора
+Unbind	Отвязать
+Underline	Подчёркивание
+Undo	Отменить
+Unfold All	Развернуть всё
+Unordered List	Маркированный список
+Upload image	Загрузить изображение
+Uppercase letters	Заглавные буквы
+Use This Device	Использовать это устройство
+Use What Is There	Использовать имеющуюся
+Use relative path if possible	По возможности использовать относительный путь
+Use the end of the line	Использовать конец строки
+Use these page settings as default	Использовать эти параметры страницы по умолчанию
+Value	Значение
+Variables	Переменные
+Variant	Вариант
+Version History	История версий
+Version History…	История версий…
+Versions to keep	Хранить версий
+Video	Видео
+View	Вид
+View Log…	Показать журнал…
+Volume	Громкость
+Vote	Голосовать
+Warning	Предупреждение
+Warnings	Предупреждения
+Web address	Веб-адрес
+What counts as a word	Что считается словом
+What is sent	Что отправляется
+What to record	Что записывать
+What to review	Что проверять
+What to share	Чем поделиться
+What to write	Что написать
+When a file is in another language	Если файл на другом языке
+When finished	По завершении
+When inserting an image	При вставке изображения
+When something is dropped onto the app	Когда что-то перетаскивается в приложение
+When starting	При старте
+When the document defines	Когда документ определяет
+Where	Где
+Where:	Где:
+Whole document	Весь документ
+Whole word	Слово целиком
+Width	Ширина
+Word target	Цель по числу слов
+Words	Слова
+Wrap Lines	Переносить строки
+Wrap long lines	Переносить длинные строки
+Write in	Формат
+YAML Front Matter	YAML-заголовок
+YAML front matter	YAML-заголовок (front matter)
+Yes	Да
+Your name	Ваше имя
+Your own sounds	Ваши звуки
+Your votes	Ваши голоса
+Zoom	Масштаб
+Zoom In	Увеличить
+Zoom Out	Уменьшить

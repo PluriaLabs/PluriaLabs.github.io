@@ -1,0 +1,981 @@
+1 hour	1 小时
+24 hours	24 小时
+A macro	宏
+A style guide	风格指南
+A syntax profile	语法描述文件
+A table	表格
+A table drawn in text	用文本绘制的表格
+AI assistant	AI 助手
+API key	API 密钥
+Above	上方
+Accept	接受
+Accept All Remaining	接受其余全部
+Action	操作
+Active	当前
+Actual Size	实际大小
+Add	添加
+Add ./ for relative paths	为相对路径添加 ./
+Add All	全部添加
+Add Caret Above	在上方添加光标
+Add Caret Below	在下方添加光标
+Add Column After	在右侧添加列
+Add Column Before	在左侧添加列
+Add Connection	添加连接
+Add Log and Open Form	添加日志并打开表单
+Add Log to Description	将日志添加到描述
+Add Row Above	在上方添加行
+Add Row Below	在下方添加行
+Add Variable	添加变量
+Add a table of contents to every export	为每次导出添加目录
+Add attribute	添加属性
+Add caption	添加题注
+Add format	添加格式
+Add inline rule	添加行内规则
+Add nesting rule	添加嵌套规则
+Add nothing	不添加任何内容
+Add pair mark	添加成对标记
+Add rule	添加规则
+Add run mark	添加连续标记
+Add the log	添加日志
+Add to Library…	添加到资源库…
+Additional syntax	其他语法
+Address	地址
+Address groups	地址分组
+Address written on its own is enclosed by	单独书写的地址由以下字符包围
+Admonition box	提示框
+Admonition line	提示行
+Advanced options	高级选项
+Advanced profile JSON	配置的高级 JSON
+After Return at the end of a line	在行尾按回车后
+After translating	翻译后
+Alert	提醒
+Aligned columns	对齐的列
+All	全部
+All areas	所有范围
+All parts	所有部分
+All statuses	所有状态
+Allow an unencrypted connection on my local network	允许在我的本地网络中使用未加密的连接
+Allowed children (comma separated)	允许的子节点（以逗号分隔）
+Always	始终
+Always Add the Log	始终添加日志
+Always add	始终添加
+Anchor	锚点
+App	应用
+App Icon	App 图标
+Appearance	外观
+Application Theme	应用主题
+Application Themes	应用主题
+Apply	应用
+Apply All	全部应用
+Apply to local images	应用于本地图像
+Apply to online images	应用于在线图像
+Areas	范围
+Around cursor	光标附近
+Ask each time	每次询问
+Ask the assistant…	向助手提问…
+Ask to Fix	请求修正
+Assistant	助手
+Assistant mode	助手模式
+At a glance	概览
+Attribute reference	属性引用
+Audio	音频
+Author	作者
+Auto links (bare URLs)	自动链接（纯 URL）
+Auto-Expand Sections	自动展开章节
+Auto-escape image URLs on insert	插入时转义图像 URL
+Auto-pair brackets and quotes	自动配对括号和引号
+Auto-wrap long lines	长行自动换行
+Automatic	自动
+Automatically save changes	自动保存更改
+Back matter	附录
+Baseline	基线
+Behind the Sidebar	侧栏后面
+Behind the Text Area	文本区域后面
+Below	下方
+Best quality	最佳质量
+Between scenes	场景之间
+Block holds	块包含
+Block rules	块规则
+Blockquote	引用
+Blur	模糊
+Bold	粗体
+Book word target	全书字数目标
+Bottom margin	下边距
+Bought	已购买
+Browse Enclosing Folder…	浏览所在文件夹…
+Built-in	内置
+Bulleted List	项目符号列表
+Bulleted list item	项目符号列表项
+CSS diagnostics	CSS 诊断
+Cancel	取消
+Cancel translation	取消翻译
+Capitalize	首字母大写
+Caption place	题注位置
+Cards	卡片
+Carets in a Column	在某一列放置光标
+Carets in a Column…	在某一列放置光标…
+Caution	注意
+Cell options pattern	单元格选项模式
+Cell separator	单元格分隔符
+Changed by another app	已被其他 App 更改
+Change…	更改…
+Chapters	章节
+Characters	字符
+Chart	统计图
+Charts	图表
+Check Again	重新检查
+Check Cross-References	检查交叉引用
+Check Document Now	立即检查文稿
+Check Links	检查链接
+Check Links…	检查链接…
+Check Spelling While Typing	键入时检查拼写
+Check sample	检查示例
+Check spelling while typing	键入时检查拼写
+Checklist item	核对清单项
+Choose Another Location…	选择其他位置…
+Choose Folder…	选择文件夹…
+Choose Model…	选择模型…
+Choose the syntax profile for this document	为此文稿选择语法配置
+Choose…	选择…
+Clear	清除
+Clear Caches…	清除缓存…
+Clear Conversation	清除对话
+Clear Format	清除格式
+Clear Log	清除日志
+Clear Log…	清除日志…
+Clear Menu	清除菜单
+Clear Recent File Access…	清除最近文件的访问权限…
+Close	关闭
+Close All	全部关闭
+Close All Documents	关闭所有文稿
+Close Document	关闭文稿
+Close Help	关闭帮助
+Close find bar	关闭查找栏
+Closing line	结束行
+Closing line repeats the opening mark, at least as often	结束行重复开头的标记，次数不少于开头行
+Code	代码
+Code Fence	代码块
+Code Fences	围栏代码块
+Code block	代码块
+Code fences	围栏代码块
+Code span character	行内代码字符
+Col	列
+Collapsible section	可折叠部分
+Column (for example 100, or 100-105 to select)	列（例如 100，或用 100-105 来选择）
+Column Selection	列选择
+Column list separator	列列表分隔符
+Columns	列
+Command Palette	命令面板
+Command Palette…	命令面板…
+Comment (hidden)	注释（隐藏）
+CommonMark Options	CommonMark 选项
+Compare Versions	比较版本
+Compare with File…	与文件比较…
+Compare…	比较…
+Compile Manuscript	编译书稿
+Compile Manuscript…	编译书稿…
+Compile…	编译…
+Conditional section	条件部分
+Connections	连接
+Content group	内容分组
+Contents	目录
+Contents & Labels	目录与标签
+Continue Anyway	仍然继续
+Continue lists and quotes on Return	按回车键延续列表和引用
+Conversational	对话
+Convert	转换
+Convert To…	转换为…
+Convert on Input	输入时转换
+Convert on Rendering	渲染时转换
+Converter	转换器
+Copy	拷贝
+Copy My Library Here	将我的资源库拷贝到此处
+Copy as HTML Code	拷贝为 HTML 代码
+Copy as Markdown	拷贝为 Markdown
+Copy as Plain Text	拷贝为纯文本
+Copy image to ./assets	将图像复制到 ./assets
+Copy image to current folder (./)	将图像复制到当前文件夹 (./)
+Could Not Rename Document	无法重新命名文稿
+Could Not Save Document	无法存储文稿
+Could Not Share	无法共享
+Count code blocks	统计代码块
+Count front matter	统计前置内容
+Count headings	统计标题
+Count up	递增
+Crash details	崩溃详情
+Crash reports	崩溃报告
+Create	创建
+Cross-reference	交叉引用
+Current-Line Rule	当前行下划线
+Cursor	光标
+Custom	自定
+Custom CSS	自定 CSS
+Custom node name	自定义节点名称
+Custom…	自定义…
+Dark	深色
+Decrease Heading Level	降低标题级别
+Default	默认
+Default Language	默认语言
+Default file type	默认文件类型
+Default output style	默认输出样式
+Delete	删除
+Delete AI Data & Keys…	删除 AI 数据和密钥…
+Delete All	全部删除
+Delete All AI Data…	删除所有 AI 数据…
+Delete Collection	删除合集
+Delete Column	删除列
+Delete Diagnostics…	删除诊断信息…
+Delete Line	删除行
+Delete Paragraph	删除段落
+Delete Permanently	永久删除
+Delete Row	删除行
+Delete Selected	删除所选
+Delete Style Guide…	删除风格指南…
+Delete Word	删除单词
+Delimiter pair	分隔符对
+Depth	深度
+Description	说明
+Description list term	描述列表术语
+Detailed	详细
+Details…	详细信息…
+Device and system information	设备与系统信息
+Diagnostic Log	诊断日志
+Diagnostics	诊断
+Diagram	图表
+Diagrams	图示
+Diagrams and charts (Mermaid, Vega-Lite)	图表与统计图（Mermaid、Vega-Lite）
+Digits 0 to 9	数字 0 到 9
+Dim	淡化
+Discard Changes	放弃更改
+Discard theme changes?	要放弃主题的更改吗？
+Dismiss	关闭
+Dismiss All Suggestions	忽略所有建议
+Display	显示
+Display Math	行间公式
+Display line numbers	显示行号
+Do nothing	不执行任何操作
+Document	文稿
+Document Information	文稿信息
+Document Mode	文稿模式
+Document Translation	文稿翻译
+Document attribute	文稿属性
+Document structure (counts only)	文档结构（仅计数）
+Documents	文稿
+Don't expand inside code	不在代码中展开
+Don't show this again	不再显示
+Done	完成
+Download	下载
+Draws	绘制为
+Draws as	绘制为
+Duck	鸭子
+Duplicate	复制
+Duplicate Collection	复制合集
+Duplicate Style Guide	复制风格指南
+Edit	编辑
+Edit Advanced JSON…	编辑高级 JSON…
+Edit Application Theme	编辑应用主题
+Edit Block	编辑块
+Edit Macro	编辑宏
+Edit Profile	编辑配置
+Edit Render Theme	编辑渲染主题
+Edited	已编辑
+Editing	编辑
+Editing colours for	正在编辑颜色：
+Editor	编辑器
+Editor Background	编辑器背景
+Editor font	编辑器字体
+Editor size and word count	编辑器大小与字数
+Edit…	编辑…
+Emphasis	强调
+Empty Recently Deleted	清空“最近删除”
+Enable AI assistant	启用 AI 助手
+Enabled	已启用
+Encoding	编码
+End of line	行尾
+Entries	条目
+Equation	公式
+Equations	公式
+Errors	错误
+Escape character	转义字符
+Estimated time: less than a minute	预计用时：不到一分钟
+Everything	全部
+Exact text	精确文本
+Example box	示例框
+Excluded files	已排除的文件
+Exit Focus	退出专注
+Expand emoji shortcodes (:smile:)	展开表情符号短代码（:smile:）
+Export	导出
+Export Collection…	导出合集…
+Export Defaults	导出默认设置
+Export Style Guide…	导出风格指南…
+Export and print	导出与打印
+Export…	导出…
+Extends Markdown	扩展 Markdown
+Fast	快速
+Fenced block	围栏块
+Field	字段
+Fields	字段
+File	文件
+File Access	文件访问
+File Changed on Disk	磁盘上的文件已更改
+File Operation Failed	文件操作失败
+File extension	文件扩展名
+File extensions (comma-separated)	文件扩展名(以逗号分隔)
+File tree / library	文件树 / 资源库
+Files	文件
+Files and library	文件与资源库
+Files in Another Language	其他语言的文件
+Fill	填充
+Fill-in fields remain	仍有未填写的字段
+Find	查找
+Find In	查找范围
+Find Next	查找下一个
+Find Previous	查找上一个
+Find in document	在文稿中查找
+Find…	查找…
+Finish Bug Report	完成错误报告
+First line before a blank line is the header	空行前的第一行为表头
+Fit	适应
+Fixed attributes	固定属性
+Focus	专注
+Focus Mode	专注模式
+Fold All	全部折叠
+Folder	文件夹
+Folders turned off	已关闭的文件夹
+Font size	字体大小
+Fonts	字体
+Footer template	页脚模板
+Footnote	脚注
+Footnote label begins with	脚注标签以此开头
+Format	格式
+Formats	格式
+Formatting Toolbar	格式工具栏
+From heading level	从标题级别
+From your subscription	来自订阅
+Front matter	前置内容
+General	通用
+Get votes	获取投票数
+GitHub-style alerts	GitHub 样式提醒
+Give headings ids	为标题生成 ID
+Go	前往
+Go Back	后退
+Go Forward	前进
+Go to Line	前往行
+Go to Line…	前往行…
+Go to Next Field	转到下一个字段
+Grid with rule lines	带分隔线的网格
+Group (no box)	组（不带框）
+Gutter font	边栏字体
+HTML (without Styles)	HTML（无样式）
+Hard pad with spaces	用空格硬补齐
+Header rule line pattern	表头分隔线模式
+Header template	页眉模板
+Header, footer, and metadata	页眉、页脚和元数据
+Heading (level from the rule)	标题（级别由规则决定）
+Heading 1	标题 1
+Heading 2	标题 2
+Heading 3	标题 3
+Heading 4	标题 4
+Heading 5	标题 5
+Heading 6	标题 6
+Heading Folds	标题折叠
+Heading id prefix	ID 前缀
+Heading id word separator	ID 单词分隔符
+Heading labels	标题标签
+Heading level	标题级别
+Height	高度
+Help	帮助
+Hide Markers	隐藏标记
+Hide Scenes	隐藏场景
+Hide Toolbar	隐藏工具栏
+Hide replace	隐藏替换
+Highlight	高亮
+Highlight (==key==)	高亮（==key==）
+Horizontal Line	水平线
+Horizontal rule	水平线
+Hyperlink	超链接
+Ignore trailing whitespace	忽略行尾空白
+Image	图像
+Image prefix	图片前缀
+Images	图像
+Images in Preview and exports	预览和导出中的图像
+Image…	图像…
+Import	导入
+Import Macros…	导入宏…
+Import Style Guide…	导入风格指南…
+Import Theme…	导入主题…
+Import file	导入文件
+Importable file	可导入的文件
+Important	重要
+Import…	导入…
+Include in Manuscript	纳入书稿
+Include in a report	包含在报告中
+Increase Heading Level	提高标题级别
+Indent	增加缩进
+Indent size	缩进大小
+Indentation	缩进
+Indented block	缩进块
+Indented text under a line ending in a marker	以标记结尾的行下方的缩进文本
+Indented text under an opening line	开头行下方的缩进文本
+Index term	索引词条
+Inherits	继承
+Inline Math	行内公式
+Inline code	行内代码
+Inline equation	行内公式
+Inline math ($…$)	行内公式（$…$）
+Inline rules	行内规则
+Insert	插入
+Insert Alert	插入提醒
+Insert Chart	插入统计图
+Insert Code Fence	插入代码块
+Insert Date/Time	插入日期/时间
+Insert Diagram	插入图表
+Insert Display Math	插入行间公式
+Insert Footnote	插入脚注
+Insert Horizontal Line	插入水平线
+Insert Image…	插入图像…
+Insert Inline Math	插入行内公式
+Insert Link Reference	插入链接引用
+Insert Table	插入表格
+Insert Table of Contents	插入目录
+Insert Table…	插入表格…
+Insert Task List	插入任务列表
+Insert YAML Front Matter	插入 YAML 前言
+Insert at Cursor	在光标处插入
+Insert link	插入链接
+Insert spaces when pressing Tab	按 Tab 键时插入空格
+Insert text	插入文本
+Interface Size	界面大小
+Italic	斜体
+Join Lines	合并行
+Jump to	跳转到
+Jump to Bottom	跳到底部
+Jump to Line End	跳到行尾
+Jump to Line Start	跳到行首
+Jump to Top	跳到顶部
+Keep Current Version	保留当前版本
+Keep Editing	继续编辑
+Keep a version of each file first	先保留每个文件的一个版本
+Keep indentation on Return	按回车键保持缩进
+Keep it in	保存位置
+Keep single line breaks	保留单个换行
+Kept	保存位置
+Keyboard	键盘
+Keyboard key	按键
+Kind	种类
+Kitten	小猫
+Label	标签
+Label headings	为标题添加标签
+Landscape	横向
+Language	语言
+Languages on This Device	此设备上的语言
+Layout	布局
+Leave Out of Manuscript	从书稿中排除
+Leave the line out	跳过该行
+Left margin	左边距
+Left out	已排除
+Letters	字母
+Level	级别
+Level group	级别分组
+Library	资源库
+Library location	资源库位置
+Light	浅色
+Line Numbers	行号
+Line break	换行
+Line spacing	行距
+Line that defines a label has	定义标签的行带有
+Line-start prefix	行首前缀
+Lines	行
+Lines (for example 3-17)	行（例如 3-17）
+Link	链接
+Link Reference	链接引用
+Link each heading back to its contents entry	让每个标题链接回其目录条目
+Links	链接
+Links and web addresses	链接和网址
+List	列表
+List continuation line	列表续行
+List only headings below the [TOC] line	只列出 [TOC] 行下方的标题
+Literal exact	字面精确
+Literal prefix	字面前缀
+Ln	行
+Load images from the internet	从互联网加载图像
+Loading models…	正在加载模型…
+Location	位置
+Lowercase letters	小写字母
+Machine-translated — may contain errors.	机器翻译，可能包含错误。
+Macro Collection	宏集合
+Macros	宏
+Make Active	设为当前
+Make Folder a Book Project	将文件夹设为书籍项目
+Make It a Project	设为项目
+Make Lower Case	变为小写
+Make Upper Case	变为大写
+Manuscript	书稿
+Mark	标记
+Markdown file	Markdown 文件
+Marker group	标记分组
+Match	匹配
+Match case	区分大小写
+May open or close inside a word	可在单词内部开始或结束
+Media	媒体
+Menu	菜单
+Menus in the Header	标题栏中的菜单
+Missing	缺失
+Model	模型
+Monospace	等宽
+More	更多
+More formatting	更多格式
+More…	更多…
+Move Chapter Down	下移章节
+Move Chapter Up	上移章节
+Move My Library Here	将我的资源库移到此处
+Move Row Down	下移一行
+Move Row Up	上移一行
+Move To…	移到…
+Move to Trash	移到废纸篓
+Moving your library…	正在移动你的资源库…
+Name	名称
+Named parts become attributes	命名部分成为属性
+Navigator	导航器
+Needs an API key	需要 API 密钥
+Nest lists by marker	按标记嵌套列表
+Nesting rules	嵌套规则
+Never	从不
+Never add	从不添加
+Never for This File	不再对此文件提示
+New	新建
+New Back Matter	新建附录
+New Book	新建书籍
+New Book…	新建书籍…
+New Chapter	新建章节
+New Collection	新建合集
+New Document	新建文稿
+New File	新建文件
+New File Below	在下方新建文件
+New Folder	新建文件夹
+New Front Matter	新建前置内容
+New Macro	新建宏
+New Scene	新建场景
+New files are written in	新文件使用的格式
+Newer	较新
+Next Document	下一个文稿
+Next Field	下一个字段
+Next match	下一个匹配项
+No	否
+No Syntax	无语法
+No headings	无标题
+No special action	无特殊操作
+None	无
+Normal	常规
+Not Loaded	未加载
+Not Now	暂不
+Not a picture	不是图片
+Not available	不可用
+Not in the manuscript	不在书稿中
+Not styled	无样式
+Note	备注
+Nothing from the document	不分享文档内容
+Nothing yet	暂无
+Nothing — hidden	无——隐藏
+Number headings	为标题编号
+Number headings (1., 1.1.)	为标题编号（1.、1.1.）
+Numbered List	编号列表
+Numbered captions	编号题注
+Numbered list item	编号列表项
+Numbers	数字
+OK	好
+Off	关闭
+Offer Again for All Files	对所有文件再次提示
+Offer to translate	提示翻译
+Older	较旧
+On Launch	启动时
+On This Page	本页内容
+On this device	在此设备上
+One Step Smaller	小一级
+One mark draws	一个标记绘制为
+Only after a blank line	仅在空行之后
+Only at the start of a line	仅在行首
+Only when this setting is on	仅当此设置开启时
+Open	打开
+Open Copy	打开副本
+Open Diagnostics	打开诊断
+Open Documents	打开的文稿
+Open File	打开文件
+Open File…	打开文件…
+Open Folder	打开文件夹
+Open Folder…	打开文件夹…
+Open Form Without Log	不带日志打开表单
+Open Quickly…	快速打开…
+Open Recent	最近打开
+Open Theme Folder	打开主题文件夹
+Open custom folder	打开自定文件夹
+Open documents and document actions	打开的文稿和文稿操作
+Open in New Tab	在新标签页中打开
+Open in a new tab	在新标签页中打开
+Open in editor	在编辑器中打开
+Open new file	打开新文件
+Open…	打开…
+Options	选项
+Order	顺序
+Ordered List	有序列表
+Orientation	方向
+Other	其他
+Other blocks, in a box	其他块，带框
+Other blocks, no box	其他块，不带框
+Other…	其他…
+Out of sync	不同步
+Outdent	减少缩进
+Outline	大纲
+Output	输出
+PDF Archive (.zip)	PDF 归档 (.zip)
+Page	页面
+Page Setup…	页面设置…
+Page break between top-level headings	在顶级标题之间分页
+Pair marks	成对标记
+Pane divider	窗格分隔条
+Paper size	纸张大小
+Paragraph	段落
+Parent node	父节点
+Parsing and profiles	解析与描述文件
+Parsing warning	解析警告
+Part	部分
+Parts	部分
+Paste as Plain Text	粘贴为纯文本
+Pattern	模式
+Pilcrow Help	Pilcrow 帮助
+Pilcrow settings	Pilcrow 设置
+Place	放置
+Play	播放
+Play a sound as I type	输入时播放声音
+Play on Battery	使用电池时也播放
+Point of view	视角
+Portrait	纵向
+Preferred image syntax	首选图像语法
+Prefix	前缀
+Preformatted text	预格式化文本
+Preset	预设
+Preset name	预设名称
+Press any key…	按任意键…
+Preview	预览
+Previous Document	上一个文稿
+Previous Field	上一个字段
+Previous match	上一个匹配项
+Print	打印
+Print…	打印…
+Priority	优先级
+Privacy	隐私
+Privacy Policy	隐私政策
+Private & Support Data	私有数据与支持数据
+Problems only	仅问题
+Produces	生成
+Profile	配置
+Profile Help	配置帮助
+Profile section	配置分区
+Project	项目
+Project Settings	项目设置
+Put Back	放回原处
+Quit Now	立即退出
+Quit Pilcrow when last window is closed	关闭最后一个窗口时退出 Pilcrow
+Quote	引用
+Quote line marker	引用行标记
+Raw HTML	原始 HTML
+Raw HTML (inline)	原始 HTML（行内）
+Read marks by what stands around them	按周围字符判定标记
+Reading speed	阅读速度
+Reading time	阅读时间
+Recently Deleted	最近删除
+Reconsider	重新考虑
+Record diagnostic log	记录诊断日志
+Record recent files and folders	记录最近使用的文件和文件夹
+Record the Problem First	先记录问题
+Record the Problem First?	先记录问题吗？
+Recording log	正在记录日志
+Recover	恢复
+Recover All	全部恢复
+Recover Documents	恢复文稿
+Redo	重做
+Regex (bounded)	正则(有界)
+Regular expression	正则表达式
+Reject	拒绝
+Reload	重新加载
+Reload from Disk	从磁盘重新载入
+Remove	移除
+Remove Blank Lines	删除空行
+Remove Duplicate Lines	删除重复行
+Rename	重命名
+Rename…	重命名…
+Render Theme	渲染主题
+Render Themes	渲染主题
+Rendered Blocks	渲染块
+Rendered preview	渲染后的预览
+Rendering and diagrams	渲染与图表
+Reorder	重新排序
+Repeat marker	重复标记
+Repeat the marker	重复标记
+Replace	替换
+Replace All	全部替换
+Replace Existing File?	要替换现有文件吗？
+Replace Selection	替换所选内容
+Replace a [TOC] line with the list	用列表替换 [TOC] 行
+Replace the document	替换文稿
+Replace with	替换为
+Replacement	替换
+Replacement text	替换文本
+Replaces Markdown	替换 Markdown
+Replace…	替换…
+Report Now	立即报告
+Report a Bug	报告错误
+Report a Bug…	报告错误…
+Report on GitHub…	在 GitHub 上报告…
+Reproduce an issue	重现问题
+Reproducing — Finish Report	重现中 — 完成报告
+Reset	重置
+Reset All Shortcuts	重置所有快捷键
+Reset to Baseline	重置为基线
+Restore	还原
+Restore Purchases	恢复购买项目
+Restore last closed files and folders	恢复上次关闭的文件和文件夹
+Restore last closed folders	恢复上次关闭的文件夹
+Restore…	还原…
+Retry	重试
+Return	换行
+Reveal in Finder	在“访达”中显示
+Reverse Lines	反转行顺序
+Review	审阅
+Review Recovery Data…	查看恢复数据…
+Review Remaining	审阅其余部分
+Review Version History…	查看版本历史…
+Right margin	右边距
+Roadmap	路线图
+Role	角色
+Row ends with	行以此结尾
+Rows	行
+Rule line pattern	分隔线模式
+Run	运行
+Run marks	连续标记
+Sample and results	示例和结果
+Sans-serif	无衬线
+Save	保存
+Save & recover	存储与恢复
+Save All	全部保存
+Save As:	存储为：
+Save As…	存储为…
+Save Document	存储文稿
+Save Report…	存储报告…
+Save a copy beside the original	在原文件旁保存副本
+Save and Attach File	存储并附加文件
+Save as preset	存储为预设
+Save failed	保存失败
+Save new documents as	新文稿存储为
+Save without asking when closing a file	关闭文件时不询问直接保存
+Saved	已存储
+Schemes that begin a bare address	裸地址的起始协议
+Search	搜索
+Search Again	再次搜索
+Search Folder	搜索文件夹
+Search Folder…	搜索文件夹…
+Search Open Documents	搜索打开的文稿
+Search models	搜索模型
+Search settings	搜索设置
+Search the log	搜索日志
+Section	分区
+Select All	全选
+Select All Occurrences	选择所有匹配项
+Select Line	选择行
+Select Next Occurrence	选择下一个匹配项
+Select None	全不选
+Select Paragraph	选择段落
+Select Word	选择单词
+Selection	选择
+Send	发送
+Send Report	发送报告
+Send and Translate	发送并翻译
+Serif	衬线
+Sessions	会话
+Set as New Baseline	设为新基线
+Settings	设置
+Settings for the next block	下一个块的设置
+Settings…	设置…
+Share Report…	共享报告…
+Share…	共享…
+Short lines in column mode	列模式中的短行
+Shortcuts	快捷输入
+Show Diagnostics Settings	显示诊断设置
+Show Scenes	显示场景
+Show Source	显示源文件
+Show Spelling and Grammar	显示拼写和语法
+Show all models	显示所有模型
+Show current-line rule	在当前行下方显示横线
+Show hidden folders and files	显示隐藏的文件夹和文件
+Show in Finder	在“访达”中显示
+Show line numbers	显示行号
+Show parsing warnings	显示解析警告
+Show replace	显示替换
+Show status bar	显示状态栏
+Show the translation notice when Pilcrow starts	启动 Pilcrow 时显示翻译提示
+Side by Side	并排
+Sidebar	侧栏
+Skipped	已跳过
+Smart dashes	智能破折号
+Smart ellipsis	智能省略号
+Smart punctuation	智能标点
+Smart quotes	智能引号
+Soft pad with spaces	用空格软补齐
+Sort Lines Ascending	按升序排序行
+Sort Lines Descending	按降序排序行
+Sound	声音
+Space	空格
+Spanning cell pattern	合并单元格模式
+Speech	语音
+Speed	速度
+Speed and memory	速度与内存
+Spelling	拼写
+Spelling and Grammar	拼写和语法
+Start Speaking	开始朗读
+Start fresh from the marker	从标记重新开始
+Start on a new page	从新页开始
+Status	状态
+Status and formatting bars	状态栏和格式栏
+Stop	停止
+Stop Speaking	停止朗读
+Stop at the line	在该行处停止
+Stop recording after	记录停止时间
+Stop recording and finish the bug report	停止记录并完成错误报告
+Storage & Privacy	存储与隐私
+Strikethrough	删除线
+Strong	加粗
+Style	样式
+Style Guide	风格指南
+Style Guides	风格指南
+Style Review	风格审阅
+Style guide	风格指南
+Styled Source	样式化源码
+Styled source	带样式的源文本
+Styles to the end of the line	样式延续到行尾
+Subscript	下标
+Subscript (H~2~O)	下标（H~2~O）
+Subscription & Credits	订阅与积分
+Super Tab keys	Super Tab 按键
+Superscript	上标
+Superscript (X^2^)	上标（X^2^）
+Support Pilcrow	支持 Pilcrow
+Symbols and punctuation	符号和标点
+Synopses	概要
+Synopsis	概要
+Syntax	语法
+Syntax Profile	语法配置
+Syntax Profiles	语法配置
+Syntax support	语法支持
+System Default	系统默认
+System Monospace	系统等宽
+System Size	系统大小
+System default	系统默认
+Tab	制表符
+Tab width	制表符宽度
+Table	表格
+Table of Contents	目录
+Table of contents	目录
+Table row line	表格行
+Table…	表格…
+Tags:	标签：
+Take Back	撤回
+Task List	任务列表
+Terms of Use	使用条款
+Test Connection	测试连接
+Text	文本
+Text Size & Fonts	文字大小和字体
+Text editor	文本编辑器
+Text width	文本宽度
+Text, shown as written	文本，按原样显示
+Theme	主题
+Theme & Backdrop	主题与背景
+Themes	主题
+This Document	此文稿
+Three Steps Smaller	小三级
+Tile	拼贴
+Tip	提示
+Title	标题
+Toggle Sidebar	显示或隐藏边栏
+Toggle Task Status	切换任务状态
+Top margin	上边距
+Trail of recent actions	近期操作轨迹
+Translate	翻译
+Translate Document	翻译文稿
+Translate Selection	翻译所选内容
+Translate automatically	自动翻译
+Translate into	翻译为
+Translate to	翻译为
+Translated with AI	由 AI 翻译
+Translation	翻译
+Trigger	触发词
+Trigger — e.g. /sig	触发词 — 例如 /sig
+Trim Trailing Whitespace	删除行尾空白
+Try Again	重试
+Turn Off for This Folder	为此文件夹关闭
+Turn On	开启
+Turn On for This Folder	为此文件夹开启
+Turn off Column Selection	关闭列选择
+Two Steps Smaller	小两级
+Two marks draw	两个标记绘制为
+Type a command	输入命令
+Type a filename	输入文件名
+Typewriter	打字机
+Typing	输入
+Typing sounds	键入声音
+Unbind	取消绑定
+Underline	下划线
+Undo	撤销
+Unfold All	全部展开
+Unordered List	无序列表
+Upload image	上传图像
+Uppercase letters	大写字母
+Use This Device	使用此设备
+Use What Is There	使用现有内容
+Use relative path if possible	尽可能使用相对路径
+Use the end of the line	使用行尾
+Use these page settings as default	将这些页面设置用作默认设置
+Value	值
+Variables	变量
+Variant	变体
+Version History	版本历史
+Version History…	版本历史…
+Versions to keep	保留的版本数
+Video	视频
+View	视图
+View Log…	查看日志…
+Volume	音量
+Vote	投票
+Warning	警告
+Warnings	警告
+Web address	网址
+What counts as a word	哪些内容算作词
+What is sent	发送的内容
+What to record	记录内容
+What to review	审阅范围
+What to share	要分享的内容
+What to write	编写内容
+When a file is in another language	当文件使用其他语言时
+When finished	完成后
+When inserting an image	插入图像时
+When something is dropped onto the app	当有项目拖放到 App 上时
+When starting	启动时
+When the document defines	当文档定义
+Where	位置
+Where:	位置：
+Whole document	整个文档
+Whole word	全字匹配
+Width	宽度
+Word target	字数目标
+Words	字数
+Wrap Lines	自动换行
+Wrap long lines	长行自动换行
+Write in	写作格式
+YAML Front Matter	YAML 前言
+YAML front matter	YAML 前置元数据
+Yes	是
+Your name	你的姓名
+Your own sounds	自定声音
+Your votes	你的投票数
+Zoom	缩放
+Zoom In	放大
+Zoom Out	缩小

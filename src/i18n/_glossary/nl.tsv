@@ -1,0 +1,934 @@
+1 hour	1 uur
+24 hours	24 uur
+A macro	Een macro
+A style guide	Een stijlgids
+A syntax profile	Een syntaxisprofiel
+A table	Een tabel
+A table drawn in text	Een tabel getekend in tekst
+AI assistant	AI-assistent
+API key	API-sleutel
+Above	Boven
+Accept	Accepteren
+Accept All Remaining	Alle overige accepteren
+Action	Actie
+Active	Actief
+Actual Size	Werkelijke grootte
+Add	Voeg toe
+Add ./ for relative paths	./ toevoegen voor relatieve paden
+Add All	Alles toevoegen
+Add Caret Above	Cursor erboven toevoegen
+Add Caret Below	Cursor eronder toevoegen
+Add Column After	Kolom rechts toevoegen
+Add Column Before	Kolom links toevoegen
+Add Connection	Verbinding toevoegen
+Add Log and Open Form	Logboek toevoegen en formulier openen
+Add Log to Description	Logboek aan de beschrijving toevoegen
+Add Row Above	Rij erboven toevoegen
+Add Row Below	Rij eronder toevoegen
+Add Variable	Variabele toevoegen
+Add a table of contents to every export	Een inhoudsopgave aan elke export toevoegen
+Add attribute	Attribuut toevoegen
+Add caption	Bijschrift toevoegen
+Add format	Formaat toevoegen
+Add inline rule	Inline-regel toevoegen
+Add nesting rule	Nestingsregel toevoegen
+Add nothing	Niets toevoegen
+Add pair mark	Paarmarkering toevoegen
+Add rule	Regel toevoegen
+Add run mark	Reeksmarkering toevoegen
+Add the log	Logboek toevoegen
+Add to Library…	Toevoegen aan bibliotheek…
+Additional syntax	Extra syntaxis
+Address	Adres
+Address groups	Groepen van het adres
+Address written on its own is enclosed by	Een los geschreven adres staat tussen
+Admonition box	Waarschuwingskader
+Admonition line	Waarschuwingsregel
+Advanced options	Geavanceerde opties
+Advanced profile JSON	Geavanceerde profiel-JSON
+After Return at the end of a line	Na Return aan het einde van een regel
+After translating	Na het vertalen
+Alert	Melding
+Aligned columns	Uitgelijnde kolommen
+All	Alles
+All areas	Alle gebieden
+All parts	Alle onderdelen
+All statuses	Alle statussen
+Allow an unencrypted connection on my local network	Een onversleutelde verbinding op mijn lokale netwerk toestaan
+Allowed children (comma separated)	Toegestane onderliggende knooppunten (gescheiden door komma’s)
+Always	Altijd
+Always Add the Log	Logboek altijd toevoegen
+Always add	Altijd toevoegen
+Anchor	Anker
+App Icon	Appicoon
+Appearance	Weergave
+Application Theme	App-thema
+Application Themes	App-thema’s
+Apply	Pas toe
+Apply All	Alles toepassen
+Apply to local images	Toepassen op lokale afbeeldingen
+Apply to online images	Toepassen op online afbeeldingen
+Areas	Gebieden
+Around cursor	Rond de cursor
+Ask each time	Elke keer vragen
+Ask the assistant…	Vraag het de assistent…
+Ask to Fix	Om correctie vragen
+Assistant	Assistent
+Assistant mode	Assistentmodus
+At a glance	In één oogopslag
+Attribute reference	Attribuutverwijzing
+Author	Auteur
+Auto links (bare URLs)	Automatische links (kale URL’s)
+Auto-Expand Sections	Secties automatisch uitklappen
+Auto-escape image URLs on insert	Afbeeldings-URL’s escapen bij invoegen
+Auto-pair brackets and quotes	Haakjes en aanhalingstekens automatisch sluiten
+Auto-wrap long lines	Lange regels automatisch afbreken
+Automatic	Automatisch
+Automatically save changes	Wijzigingen automatisch bewaren
+Back matter	Achterwerk
+Baseline	Basislijn
+Behind the Sidebar	Achter de zijbalk
+Behind the Text Area	Achter het tekstgebied
+Below	Onder
+Best quality	Beste kwaliteit
+Between scenes	Tussen scènes
+Block holds	Het blok bevat
+Block rules	Blokregels
+Blockquote	Citaat
+Blur	Vervagen
+Bold	Vet
+Book word target	Woorddoel voor het boek
+Bottom margin	Ondermarge
+Bought	Gekocht
+Browse Enclosing Folder…	Bovenliggende map doorbladeren…
+Built-in	Ingebouwd
+Bulleted List	Lijst met opsommingstekens
+Bulleted list item	Item van opsommingslijst
+CSS diagnostics	CSS-diagnostiek
+Cancel	Annuleer
+Cancel translation	Vertaling annuleren
+Capitalize	Hoofdletter aan begin van woorden
+Caption place	Plaats van het bijschrift
+Cards	Kaarten
+Carets in a Column	Cursors in een kolom
+Carets in a Column…	Cursors in een kolom…
+Caution	Let op
+Cell options pattern	Patroon voor celopties
+Cell separator	Celscheidingsteken
+Changed by another app	Gewijzigd door een andere app
+Change…	Wijzig…
+Chapters	Hoofdstukken
+Characters	Tekens
+Chart	Grafiek
+Charts	Grafieken
+Check Again	Opnieuw controleren
+Check Cross-References	Kruisverwijzingen controleren
+Check Document Now	Controleer document nu
+Check Links	Links controleren
+Check Links…	Links controleren…
+Check Spelling While Typing	Controleer spelling tijdens het typen
+Check sample	Voorbeeld controleren
+Check spelling while typing	Spelling controleren tijdens typen
+Checklist item	Item van checklist
+Choose Another Location…	Kies een andere locatie…
+Choose Folder…	Kies map…
+Choose Model…	Kies model…
+Choose the syntax profile for this document	Kies het syntaxisprofiel voor dit document
+Choose…	Kies…
+Clear	Wissen
+Clear Caches…	Caches wissen…
+Clear Conversation	Gesprek wissen
+Clear Format	Opmaak wissen
+Clear Log	Logboek wissen
+Clear Log…	Logboek wissen…
+Clear Menu	Menu wissen
+Clear Recent File Access…	Toegang tot recente bestanden wissen…
+Close	Sluiten
+Close All	Alles sluiten
+Close All Documents	Alle documenten sluiten
+Close Document	Document sluiten
+Close Help	Help sluiten
+Close find bar	Zoekbalk sluiten
+Closing line	Afsluitende regel
+Closing line repeats the opening mark, at least as often	De sluitregel herhaalt het openingsteken minstens even vaak
+Code Fence	Codeblok
+Code Fences	Afgebakende codeblokken
+Code block	Codeblok
+Code fences	Afgebakende codeblokken
+Code span character	Teken voor codefragmenten
+Col	Kol
+Collapsible section	Inklapbare sectie
+Column (for example 100, or 100-105 to select)	Kolom (bijvoorbeeld 100, of 100-105 om te selecteren)
+Column Selection	Kolomselectie
+Column list separator	Scheidingsteken kolomlijst
+Columns	Kolommen
+Command Palette	Opdrachtenpalet
+Command Palette…	Opdrachtenpalet…
+Comment (hidden)	Opmerking (verborgen)
+CommonMark Options	CommonMark-opties
+Compare Versions	Versies vergelijken
+Compare with File…	Vergelijk met bestand…
+Compare…	Vergelijk…
+Compile Manuscript	Manuscript compileren
+Compile Manuscript…	Manuscript compileren…
+Compile…	Compileren…
+Conditional section	Voorwaardelijke sectie
+Connections	Verbindingen
+Content group	Groep van de inhoud
+Contents	Inhoud
+Contents & Labels	Inhoud en labels
+Continue Anyway	Toch doorgaan
+Continue lists and quotes on Return	Lijsten en citaten voortzetten met Return
+Conversational	Gesprek
+Convert	Converteer
+Convert To…	Converteren naar…
+Convert on Input	Converteren bij invoer
+Convert on Rendering	Converteren bij renderen
+Copy	Kopieer
+Copy My Library Here	Mijn bibliotheek hierheen kopiëren
+Copy as HTML Code	Kopieer als HTML-code
+Copy as Markdown	Kopieer als Markdown
+Copy as Plain Text	Kopieer als platte tekst
+Copy image to ./assets	Kopieer afbeelding naar ./assets
+Copy image to current folder (./)	Kopieer afbeelding naar de huidige map (./)
+Could Not Rename Document	Kan document niet hernoemen
+Could Not Save Document	Kan document niet bewaren
+Could Not Share	Delen is mislukt
+Count code blocks	Codeblokken meetellen
+Count front matter	Voorwerk meetellen
+Count headings	Koppen meetellen
+Count up	Optellen
+Crash details	Crashdetails
+Crash reports	Crashrapporten
+Create	Maak aan
+Cross-reference	Kruisverwijzing
+Current-Line Rule	Lijn onder de huidige regel
+Custom	Aangepast
+Custom CSS	Aangepaste CSS
+Custom node name	Aangepaste knooppuntnaam
+Custom…	Aangepast…
+Dark	Donker
+Decrease Heading Level	Kopniveau verlagen
+Default	Standaard
+Default Language	Standaardtaal
+Default file type	Standaard bestandstype
+Default output style	Standaard uitvoerstijl
+Delete	Verwijder
+Delete AI Data & Keys…	AI-gegevens en sleutels verwijderen…
+Delete All	Alles verwijderen
+Delete All AI Data…	Alle AI-gegevens verwijderen…
+Delete Collection	Verzameling verwijderen
+Delete Column	Verwijder kolom
+Delete Diagnostics…	Diagnostiek verwijderen…
+Delete Line	Verwijder regel
+Delete Paragraph	Verwijder alinea
+Delete Permanently	Definitief verwijderen
+Delete Row	Verwijder rij
+Delete Selected	Selectie verwijderen
+Delete Style Guide…	Stijlgids verwijderen…
+Delete Word	Verwijder woord
+Delimiter pair	Scheidingstekenpaar
+Depth	Diepte
+Description	Beschrijving
+Description list term	Term van beschrijvingslijst
+Detailed	Gedetailleerd
+Device and system information	Apparaat- en systeeminformatie
+Diagnostic Log	Diagnoselogboek
+Diagnostics	Diagnostiek
+Diagrams	Diagrammen
+Diagrams and charts (Mermaid, Vega-Lite)	Diagrammen en grafieken (Mermaid, Vega-Lite)
+Digits 0 to 9	Cijfers 0 tot 9
+Dim	Dempen
+Discard Changes	Wijzigingen negeren
+Discard theme changes?	Wijzigingen aan het thema negeren?
+Dismiss	Sluiten
+Dismiss All Suggestions	Alle suggesties negeren
+Display	Weergave
+Display Math	Losstaande formule
+Display line numbers	Regelnummers weergeven
+Do nothing	Niets doen
+Document Information	Documentinformatie
+Document Mode	Documentmodus
+Document Translation	Documenten vertalen
+Document attribute	Documentattribuut
+Document structure (counts only)	Documentstructuur (alleen aantallen)
+Documents	Documenten
+Don't expand inside code	Niet uitvouwen in code
+Don't show this again	Niet opnieuw tonen
+Done	Gereed
+Draws	Tekent
+Draws as	Wordt getekend als
+Duck	Eend
+Duplicate	Dupliceer
+Duplicate Collection	Verzameling dupliceren
+Duplicate Style Guide	Stijlgids dupliceren
+Edit	Bewerk
+Edit Advanced JSON…	Geavanceerde JSON bewerken…
+Edit Application Theme	App-thema bewerken
+Edit Block	Blok bewerken
+Edit Macro	Macro bewerken
+Edit Profile	Profiel bewerken
+Edit Render Theme	Render-thema bewerken
+Edited	Bewerkt
+Editing	Bewerken
+Editing colours for	Kleuren bewerken voor
+Editor Background	Editorachtergrond
+Editor font	Lettertype editor
+Editor size and word count	Editorgrootte en aantal woorden
+Edit…	Bewerk…
+Emphasis	Nadruk
+Empty Recently Deleted	Recent verwijderd legen
+Enable AI assistant	AI-assistent inschakelen
+Enabled	Ingeschakeld
+Encoding	Codering
+End of line	Regeleinde
+Entries	Items
+Equation	Vergelijking
+Equations	Vergelijkingen
+Errors	Fouten
+Escape character	Escapeteken
+Estimated time: less than a minute	Geschatte tijd: minder dan een minuut
+Everything	Alles
+Exact text	Exacte tekst
+Example box	Voorbeeldkader
+Excluded files	Uitgesloten bestanden
+Exit Focus	Focus verlaten
+Expand emoji shortcodes (:smile:)	Emoji-shortcodes uitvouwen (:smile:)
+Export	Exporteer
+Export Collection…	Verzameling exporteren…
+Export Defaults	Standaardinstellingen voor export
+Export Style Guide…	Stijlgids exporteren…
+Export and print	Exporteren en afdrukken
+Export…	Exporteer…
+Extends Markdown	Breidt Markdown uit
+Fast	Snel
+Fenced block	Afgebakend blok
+Field	Veld
+Fields	Velden
+File	Bestand
+File Access	Toegang tot bestanden
+File Changed on Disk	Bestand op schijf gewijzigd
+File Operation Failed	Bestandsbewerking mislukt
+File extension	Bestandsextensie
+File extensions (comma-separated)	Bestandsextensies (kommagescheiden)
+File tree / library	Bestandsboom / bibliotheek
+Files	Bestanden
+Files and library	Bestanden en bibliotheek
+Files in Another Language	Bestanden in een andere taal
+Fill	Vullen
+Fill-in fields remain	Er zijn nog in te vullen velden
+Find	Zoek
+Find In	Zoeken in
+Find Next	Zoek volgende
+Find Previous	Zoek vorige
+Find in document	Zoek in document
+Find…	Zoek…
+Finish Bug Report	Bugmelding afronden
+First line before a blank line is the header	De eerste regel vóór een lege regel is de koprij
+Fit	Passend maken
+Fixed attributes	Vaste attributen
+Focus Mode	Focusmodus
+Fold All	Alles inklappen
+Folder	Map
+Folders turned off	Uitgeschakelde mappen
+Font size	Tekengrootte
+Fonts	Lettertypen
+Footer template	Voettekstsjabloon
+Footnote	Voetnoot
+Footnote label begins with	Het label van een voetnoot begint met
+Format	Formaat
+Formats	Formaten
+Formatting Toolbar	Opmaakbalk
+From heading level	Vanaf kopniveau
+From your subscription	Uit je abonnement
+Front matter	Voorwerk
+General	Algemeen
+Get votes	Stemmen krijgen
+GitHub-style alerts	Meldingen in GitHub-stijl
+Give headings ids	Koppen een id geven
+Go	Ga
+Go Back	Terug
+Go Forward	Vooruit
+Go to Line	Ga naar regel
+Go to Line…	Ga naar regel…
+Go to Next Field	Naar volgend veld
+Grid with rule lines	Raster met scheidingslijnen
+Group (no box)	Groep (zonder kader)
+Gutter font	Lettertype marge
+HTML (without Styles)	HTML (zonder stijlen)
+Hard pad with spaces	Hard aanvullen met spaties
+Header rule line pattern	Patroon van de koptekst-scheidingslijn
+Header template	Koptekstsjabloon
+Header, footer, and metadata	Koptekst, voettekst en metadata
+Heading (level from the rule)	Kop (niveau uit de regel)
+Heading 1	Kop 1
+Heading 2	Kop 2
+Heading 3	Kop 3
+Heading 4	Kop 4
+Heading 5	Kop 5
+Heading 6	Kop 6
+Heading Folds	Koppen inklappen
+Heading id prefix	Id-voorvoegsel
+Heading id word separator	Woordscheiding in de id
+Heading labels	Koplabels
+Heading level	Niveau van de kop
+Height	Hoogte
+Hide Markers	Markeringen verbergen
+Hide Scenes	Scènes verbergen
+Hide Toolbar	Verberg knoppenbalk
+Hide replace	Vervangen verbergen
+Highlight	Markering
+Highlight (==key==)	Markering (==key==)
+Horizontal Line	Horizontale lijn
+Horizontal rule	Horizontale lijn
+Ignore trailing whitespace	Spaties aan het einde van regels negeren
+Image	Afbeelding
+Image prefix	Afbeeldingsprefix
+Images	Afbeeldingen
+Images in Preview and exports	Afbeeldingen in voorbeeld en exports
+Image…	Afbeelding…
+Import	Importeer
+Import Macros…	Macro’s importeren…
+Import Style Guide…	Stijlgids importeren…
+Import Theme…	Importeer thema…
+Import file	Bestand importeren
+Importable file	Importeerbaar bestand
+Important	Belangrijk
+Import…	Importeren…
+Include in Manuscript	Opnemen in manuscript
+Include in a report	Opnemen in een rapport
+Increase Heading Level	Kopniveau verhogen
+Indent	Inspringen
+Indent size	Inspringgrootte
+Indentation	Inspringing
+Indented block	Ingesprongen blok
+Indented text under a line ending in a marker	Ingesprongen tekst onder een regel die op een markering eindigt
+Indented text under an opening line	Ingesprongen tekst onder een openingsregel
+Index term	Indexterm
+Inherits	Erft van
+Inline Math	Inline-formule
+Inline equation	Inline vergelijking
+Inline math ($…$)	Inline-formules ($…$)
+Inline rules	Inline-regels
+Insert	Invoegen
+Insert Alert	Melding invoegen
+Insert Chart	Grafiek invoegen
+Insert Code Fence	Codeblok invoegen
+Insert Date/Time	Datum/tijd invoegen
+Insert Diagram	Diagram invoegen
+Insert Display Math	Losstaande formule invoegen
+Insert Footnote	Voetnoot invoegen
+Insert Horizontal Line	Horizontale lijn invoegen
+Insert Image…	Afbeelding invoegen…
+Insert Inline Math	Inline-formule invoegen
+Insert Link Reference	Linkverwijzing invoegen
+Insert Table	Tabel invoegen
+Insert Table of Contents	Inhoudsopgave invoegen
+Insert Table…	Tabel invoegen…
+Insert Task List	Takenlijst invoegen
+Insert YAML Front Matter	YAML-front matter invoegen
+Insert at Cursor	Invoegen bij cursor
+Insert link	Koppeling invoegen
+Insert spaces when pressing Tab	Spaties invoegen bij Tab
+Insert text	Invoegtekst
+Interface Size	Grootte van de interface
+Italic	Cursief
+Join Lines	Regels samenvoegen
+Jump to	Ga naar
+Jump to Bottom	Naar onderen
+Jump to Line End	Naar einde van regel
+Jump to Line Start	Naar begin van regel
+Jump to Top	Naar boven
+Keep Current Version	Huidige versie behouden
+Keep Editing	Doorgaan met bewerken
+Keep a version of each file first	Eerst een versie van elk bestand bewaren
+Keep indentation on Return	Inspringing behouden met Return
+Keep it in	Bewaren in
+Keep single line breaks	Enkele regeleinden behouden
+Kept	Bewaard
+Keyboard	Toetsenbord
+Keyboard key	Toets
+Kind	Soort
+Label headings	Koppen labelen
+Landscape	Liggend
+Language	Taal
+Languages on This Device	Talen op dit apparaat
+Layout	Indeling
+Leave Out of Manuscript	Weglaten uit manuscript
+Leave the line out	De regel overslaan
+Left margin	Linkermarge
+Left out	Weggelaten
+Level	Niveau
+Level group	Groep van het niveau
+Library	Bibliotheek
+Library location	Locatie van de bibliotheek
+Light	Licht
+Line Numbers	Regelnummers
+Line break	Regeleinde
+Line spacing	Regelafstand
+Line that defines a label has	Een regel die een label definieert heeft
+Line-start prefix	Prefix aan regelbegin
+Lines	Regels
+Lines (for example 3-17)	Regels (bijvoorbeeld 3-17)
+Link Reference	Linkverwijzing
+Link each heading back to its contents entry	Elke kop terugkoppelen naar zijn item in de inhoudsopgave
+Links	Koppelingen
+Links and web addresses	Links en webadressen
+List	Lijst
+List continuation line	Lijstvoortzettingsregel
+List only headings below the [TOC] line	Alleen koppen onder de regel [TOC] tonen
+Literal exact	Letterlijk exact
+Literal prefix	Letterlijke prefix
+Ln	Rg
+Load images from the internet	Afbeeldingen van internet laden
+Loading models…	Modellen laden…
+Location	Locatie
+Lowercase letters	Kleine letters
+Machine-translated — may contain errors.	Automatisch vertaald — kan fouten bevatten.
+Macro Collection	Macroverzameling
+Macros	Macro’s
+Make Active	Actief maken
+Make Folder a Book Project	Map omzetten in boekproject
+Make It a Project	Maak er een project van
+Make Lower Case	Maak kleine letters
+Make Upper Case	Maak hoofdletters
+Mark	Markering
+Markdown file	Markdown-bestand
+Marker group	Groep van de markering
+Match	Overeenkomst
+Match case	Hoofdlettergevoelig
+May open or close inside a word	Mag binnen een woord openen of sluiten
+Menus in the Header	Menu’s in de koptekst
+Missing	Ontbreekt
+Monospace	Vaste breedte
+More	Meer
+More formatting	Meer opmaak
+More…	Meer…
+Move Chapter Down	Hoofdstuk omlaag
+Move Chapter Up	Hoofdstuk omhoog
+Move My Library Here	Mijn bibliotheek hierheen verplaatsen
+Move Row Down	Rij omlaag verplaatsen
+Move Row Up	Rij omhoog verplaatsen
+Move To…	Verplaats naar…
+Move to Trash	Verplaats naar prullenmand
+Moving your library…	Je bibliotheek wordt verplaatst…
+Name	Naam
+Named parts become attributes	Benoemde delen worden attributen
+Needs an API key	Heeft een API-sleutel nodig
+Nest lists by marker	Lijsten nesten op markering
+Nesting rules	Nestingsregels
+Never	Nooit
+Never add	Nooit toevoegen
+Never for This File	Nooit voor dit bestand
+New	Nieuw
+New Back Matter	Nieuw achterwerk
+New Book	Nieuw boek
+New Book…	Nieuw boek…
+New Chapter	Nieuw hoofdstuk
+New Collection	Nieuwe verzameling
+New Document	Nieuw document
+New File	Nieuw bestand
+New File Below	Nieuw bestand eronder
+New Folder	Nieuwe map
+New Front Matter	Nieuw voorwerk
+New Macro	Nieuwe macro
+New Scene	Nieuwe scène
+New files are written in	Nieuwe bestanden worden geschreven in
+Newer	Nieuwer
+Next Document	Volgend document
+Next Field	Volgend veld
+Next match	Volgende overeenkomst
+No	Nee
+No Syntax	Geen syntaxis
+No headings	Geen koppen
+No special action	Geen speciale actie
+None	Geen
+Normal	Normaal
+Not Loaded	Niet geladen
+Not Now	Niet nu
+Not a picture	Geen afbeelding
+Not available	Niet beschikbaar
+Not in the manuscript	Niet in het manuscript
+Not styled	Zonder stijl
+Note	Opmerking
+Nothing from the document	Niets uit het document
+Nothing yet	Nog niets
+Nothing — hidden	Niets — verborgen
+Number headings	Koppen nummeren
+Number headings (1., 1.1.)	Koppen nummeren (1., 1.1.)
+Numbered List	Genummerde lijst
+Numbered captions	Genummerde bijschriften
+Numbered list item	Item van genummerde lijst
+Numbers	Cijfers
+Off	Uit
+Offer Again for All Files	Opnieuw aanbieden voor alle bestanden
+Offer to translate	Vertaling aanbieden
+Older	Ouder
+On Launch	Bij openen
+On This Page	Op deze pagina
+On this device	Op dit apparaat
+One Step Smaller	Eén stap kleiner
+One mark draws	Eén markering tekent
+Only after a blank line	Alleen na een lege regel
+Only at the start of a line	Alleen aan het begin van een regel
+Only when this setting is on	Alleen als deze instelling aan staat
+Open Copy	Kopie openen
+Open Diagnostics	Diagnostiek openen
+Open Documents	Geopende documenten
+Open File	Bestand openen
+Open File…	Open bestand…
+Open Folder	Map openen
+Open Folder…	Open map…
+Open Form Without Log	Formulier openen zonder logboek
+Open Quickly…	Snel openen…
+Open Recent	Recent geopend
+Open Theme Folder	Open themamap
+Open custom folder	Open aangepaste map
+Open documents and document actions	Geopende documenten en documentacties
+Open in New Tab	Openen in nieuw tabblad
+Open in a new tab	Openen in een nieuw tabblad
+Open in editor	Openen in de editor
+Open new file	Open een nieuw bestand
+Options	Opties
+Order	Volgorde
+Ordered List	Genummerde lijst
+Orientation	Richting
+Other	Overig
+Other blocks, in a box	Andere blokken, in een kader
+Other blocks, no box	Andere blokken, zonder kader
+Other…	Anders…
+Out of sync	Niet synchroon
+Outdent	Uitspringen
+Outline	Overzicht
+Output	Uitvoer
+PDF Archive (.zip)	PDF-archief (.zip)
+Page	Pagina
+Page Setup…	Pagina-instelling…
+Page break between top-level headings	Pagina-einde tussen koppen op hoofdniveau
+Pair marks	Paarmarkeringen
+Pane divider	Paneelscheiding
+Paper size	Papierformaat
+Paragraph	Alinea
+Parent node	Bovenliggend knooppunt
+Parsing and profiles	Parseren en profielen
+Parsing warning	Parseerwaarschuwing
+Part	Onderdeel
+Parts	Delen
+Paste as Plain Text	Plak als platte tekst
+Pattern	Patroon
+Pilcrow settings	Pilcrow-instellingen
+Place	Plaatsen
+Play	Afspelen
+Play a sound as I type	Geluid afspelen terwijl ik typ
+Play on Battery	Afspelen op batterij
+Point of view	Gezichtspunt
+Portrait	Staand
+Preferred image syntax	Voorkeurssyntaxis voor afbeeldingen
+Preformatted text	Voorgeformatteerde tekst
+Preset name	Naam van preset
+Press any key…	Druk op een toets…
+Preview	Voorvertoning
+Previous Document	Vorig document
+Previous Field	Vorig veld
+Previous match	Vorige overeenkomst
+Print	Druk af
+Print…	Druk af…
+Priority	Prioriteit
+Privacy Policy	Privacybeleid
+Private & Support Data	Privé- en ondersteuningsgegevens
+Problems only	Alleen problemen
+Produces	Levert
+Profile	Profiel
+Profile Help	Profielhulp
+Profile section	Profielsectie
+Project Settings	Projectinstellingen
+Put Back	Zet terug
+Quit Now	Nu afsluiten
+Quit Pilcrow when last window is closed	Stop Pilcrow wanneer het laatste venster sluit
+Quote	Citaat
+Quote line marker	Markering voor citaatregel
+Raw HTML	Onbewerkte HTML
+Raw HTML (inline)	Onbewerkte HTML (inline)
+Read marks by what stands around them	Tekens lezen op basis van wat eromheen staat
+Reading speed	Leessnelheid
+Reading time	Leestijd
+Recently Deleted	Recent verwijderd
+Reconsider	Heroverwegen
+Record diagnostic log	Diagnoselogboek opnemen
+Record recent files and folders	Recente bestanden en mappen onthouden
+Record the Problem First	Probleem eerst opnemen
+Record the Problem First?	Het probleem eerst opnemen?
+Recording log	Logboek actief
+Recover	Herstel
+Recover All	Alles herstellen
+Recover Documents	Documenten herstellen
+Redo	Opnieuw
+Regex (bounded)	Regex (begrensd)
+Regular expression	Reguliere expressie
+Reject	Weigeren
+Reload	Herlaad
+Reload from Disk	Opnieuw laden van schijf
+Remove	Verwijder
+Remove Blank Lines	Lege regels verwijderen
+Remove Duplicate Lines	Dubbele regels verwijderen
+Rename	Wijzig naam
+Rename…	Wijzig naam…
+Render Theme	Render-thema
+Render Themes	Render-thema’s
+Rendered Blocks	Weergegeven blokken
+Rendered preview	Gerenderde voorvertoning
+Rendering and diagrams	Weergave en diagrammen
+Reorder	Herordenen
+Repeat marker	Herhalingsteken
+Repeat the marker	Markering herhalen
+Replace	Vervang
+Replace All	Vervang alles
+Replace Existing File?	Bestaand bestand vervangen?
+Replace Selection	Selectie vervangen
+Replace a [TOC] line with the list	Een regel [TOC] vervangen door de lijst
+Replace the document	Het document vervangen
+Replace with	Vervang door
+Replacement	Vervanging
+Replacement text	Vervangende tekst
+Replaces Markdown	Vervangt Markdown
+Replace…	Vervang…
+Report Now	Nu melden
+Report a Bug	Een bug melden
+Report a Bug…	Een bug melden…
+Report on GitHub…	Melden op GitHub…
+Reproduce an issue	Een probleem reproduceren
+Reproducing — Finish Report	Reproduceren — Melding afronden
+Reset	Herstel
+Reset All Shortcuts	Alle toetscombinaties herstellen
+Reset to Baseline	Terugzetten naar basislijn
+Restore	Herstellen
+Restore Purchases	Aankopen herstellen
+Restore last closed files and folders	Laatst gesloten bestanden en mappen herstellen
+Restore last closed folders	Laatst gesloten mappen herstellen
+Restore…	Herstellen…
+Retry	Opnieuw proberen
+Reveal in Finder	Toon in Finder
+Reverse Lines	Regels omkeren
+Review	Controleren
+Review Recovery Data…	Herstelgegevens bekijken…
+Review Remaining	Rest controleren
+Review Version History…	Versiegeschiedenis bekijken…
+Right margin	Rechtermarge
+Role	Rol
+Row ends with	Rij eindigt met
+Rows	Rijen
+Rule line pattern	Patroon van de scheidingslijn
+Run	Uitvoeren
+Run marks	Reeksmarkeringen
+Sample and results	Voorbeeld en resultaten
+Sans-serif	Schreefloos
+Save	Bewaren
+Save & recover	Bewaren en herstellen
+Save All	Alles bewaren
+Save As:	Bewaar als:
+Save As…	Bewaren als…
+Save Document	Bewaar document
+Save Report…	Rapport bewaren…
+Save a copy beside the original	Kopie naast het origineel bewaren
+Save and Attach File	Bewaren en bestand bijvoegen
+Save as preset	Bewaar als preset
+Save failed	Bewaren mislukt
+Save new documents as	Nieuwe documenten bewaren als
+Save without asking when closing a file	Bewaren zonder te vragen bij sluiten
+Saved	Bewaard
+Schemes that begin a bare address	Schema’s waarmee een kaal adres begint
+Search	Zoek
+Search Again	Opnieuw zoeken
+Search Folder	Map doorzoeken
+Search Folder…	Map doorzoeken…
+Search Open Documents	Geopende documenten zoeken
+Search models	Modellen zoeken
+Search settings	Zoek in instellingen
+Search the log	Zoeken in het logboek
+Section	Sectie
+Select All	Alles selecteren
+Select All Occurrences	Alle voorkomens selecteren
+Select Line	Selecteer regel
+Select Next Occurrence	Volgende voorkomen selecteren
+Select None	Niets selecteren
+Select Paragraph	Selecteer alinea
+Select Word	Selecteer woord
+Selection	Selectie
+Send	Verstuur
+Send Report	Rapport verzenden
+Send and Translate	Verzenden en vertalen
+Serif	Met schreef
+Sessions	Sessies
+Set as New Baseline	Instellen als nieuwe basislijn
+Settings	Instellingen
+Settings for the next block	Instellingen voor het volgende blok
+Settings…	Instellingen…
+Share Report…	Rapport delen…
+Share…	Deel…
+Short lines in column mode	Korte regels in de kolommodus
+Shortcuts	Afkortingen
+Show Diagnostics Settings	Diagnose-instellingen tonen
+Show Scenes	Scènes tonen
+Show Source	Toon bron
+Show Spelling and Grammar	Toon spelling en grammatica
+Show all models	Alle modellen tonen
+Show current-line rule	Toon een lijn onder de huidige regel
+Show hidden folders and files	Verborgen mappen en bestanden tonen
+Show in Finder	Toon in Finder
+Show line numbers	Regelnummers tonen
+Show parsing warnings	Parseerwaarschuwingen tonen
+Show replace	Vervangen tonen
+Show status bar	Statusbalk tonen
+Show the translation notice when Pilcrow starts	Vertaalmelding tonen bij het starten van Pilcrow
+Side by Side	Naast elkaar
+Sidebar	Zijbalk
+Skipped	Overgeslagen
+Smart dashes	Slimme streepjes
+Smart ellipsis	Slim beletselteken
+Smart punctuation	Slimme interpunctie
+Smart quotes	Slimme aanhalingstekens
+Soft pad with spaces	Zacht aanvullen met spaties
+Sort Lines Ascending	Regels oplopend sorteren
+Sort Lines Descending	Regels aflopend sorteren
+Sound	Geluid
+Space	Spatie
+Spanning cell pattern	Patroon voor samengevoegde cellen
+Speech	Spraak
+Speed	Snelheid
+Speed and memory	Snelheid en geheugen
+Spelling and Grammar	Spelling en grammatica
+Start Speaking	Begin met spreken
+Start fresh from the marker	Opnieuw beginnen vanaf de markering
+Start on a new page	Op een nieuwe pagina beginnen
+Status and formatting bars	Status- en opmaakbalken
+Stop Speaking	Stop met spreken
+Stop at the line	Bij de regel stoppen
+Stop recording after	Opname stoppen na
+Stop recording and finish the bug report	Opname stoppen en de bugmelding afronden
+Storage & Privacy	Opslag en privacy
+Strikethrough	Doorhalen
+Strong	Vet
+Style	Stijl
+Style Guide	Stijlgids
+Style Guides	Stijlgidsen
+Style Review	Stijlcontrole
+Style guide	Stijlgids
+Styled Source	Opgemaakte bron
+Styled source	Gestileerde bron
+Styles to the end of the line	Past de stijl toe tot het einde van de regel
+Subscript	Subschrift
+Subscription & Credits	Abonnement en tegoed
+Super Tab keys	Super Tab-toetsen
+Superscript	Superschrift
+Support Pilcrow	Steun Pilcrow
+Symbols and punctuation	Symbolen en leestekens
+Synopses	Synopsissen
+Syntax	Syntaxis
+Syntax Profile	Syntaxisprofiel
+Syntax Profiles	Syntaxisprofielen
+Syntax support	Syntaxisondersteuning
+System Default	Systeemstandaard
+System Monospace	Systeem vaste breedte
+System Size	Systeemgrootte
+System default	Systeemstandaard
+Tab width	Tabbreedte
+Table	Tabel
+Table of Contents	Inhoudsopgave
+Table of contents	Inhoudsopgave
+Table row line	Tabelregel
+Table…	Tabel…
+Take Back	Terugzetten
+Task List	Takenlijst
+Terms of Use	Gebruiksvoorwaarden
+Test Connection	Verbinding testen
+Text	Tekst
+Text Size & Fonts	Tekstgrootte en lettertypen
+Text editor	Teksteditor
+Text width	Tekstbreedte
+Text, shown as written	Tekst, getoond zoals geschreven
+Theme	Thema
+Theme & Backdrop	Thema en achtergrond
+Themes	Thema’s
+This Document	Dit document
+Three Steps Smaller	Drie stappen kleiner
+Tile	Tegels
+Title	Titel
+Toggle Sidebar	Navigatiekolom tonen/verbergen
+Toggle Task Status	Taakstatus omschakelen
+Top margin	Bovenmarge
+Trail of recent actions	Spoor van recente acties
+Translate	Vertalen
+Translate Document	Document vertalen
+Translate Selection	Selectie vertalen
+Translate automatically	Automatisch vertalen
+Translate into	Vertalen naar
+Translate to	Vertalen naar
+Translated with AI	Vertaald met AI
+Translation	Vertaling
+Trigger — e.g. /sig	Trigger — bijv. /sig
+Trim Trailing Whitespace	Spaties aan het einde van regels verwijderen
+Try Again	Probeer opnieuw
+Turn Off for This Folder	Uitschakelen voor deze map
+Turn On	Inschakelen
+Turn On for This Folder	Inschakelen voor deze map
+Turn off Column Selection	Kolomselectie uitzetten
+Two Steps Smaller	Twee stappen kleiner
+Two marks draw	Twee markeringen tekenen
+Type a command	Typ een opdracht
+Type a filename	Typ een bestandsnaam
+Typewriter	Typemachine
+Typing	Typen
+Typing sounds	Typgeluiden
+Unbind	Ontkoppel
+Underline	Onderstreept
+Undo	Herstel
+Unfold All	Alles uitklappen
+Unordered List	Lijst met opsommingstekens
+Upload image	Afbeelding uploaden
+Uppercase letters	Hoofdletters
+Use This Device	Dit apparaat gebruiken
+Use What Is There	Bestaande gebruiken
+Use relative path if possible	Relatief pad gebruiken indien mogelijk
+Use the end of the line	Het einde van de regel gebruiken
+Use these page settings as default	Deze pagina-instellingen als standaard gebruiken
+Value	Waarde
+Variables	Variabelen
+Version History	Versiegeschiedenis
+Version History…	Versiegeschiedenis…
+Versions to keep	Te bewaren versies
+View	Weergave
+View Log…	Logboek bekijken…
+Vote	Stem
+Warning	Waarschuwing
+Warnings	Waarschuwingen
+Web address	Webadres
+What counts as a word	Wat als woord telt
+What is sent	Wat er wordt verzonden
+What to record	Wat er wordt opgenomen
+What to review	Wat te controleren
+What to share	Wat te delen
+What to write	Wat te schrijven
+When a file is in another language	Als een bestand in een andere taal is
+When finished	Als het klaar is
+When inserting an image	Bij invoegen van een afbeelding
+When something is dropped onto the app	Wanneer iets op de app wordt neergezet
+When starting	Bij starten
+When the document defines	Wanneer het document definieert
+Where	Locatie
+Where:	Locatie:
+Whole document	Hele document
+Whole word	Heel woord
+Width	Breedte
+Word target	Woorddoel
+Words	Woorden
+Wrap Lines	Regels afbreken
+Wrap long lines	Lange regels afbreken
+Write in	Schrijven in
+YAML Front Matter	YAML-front matter
+YAML front matter	YAML-frontmatter
+Yes	Ja
+Your name	Je naam
+Your own sounds	Je eigen geluiden
+Your votes	Je stemmen
+Zoom In	Zoom in
+Zoom Out	Zoom uit

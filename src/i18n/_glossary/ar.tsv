@@ -1,0 +1,979 @@
+1 hour	ساعة واحدة
+24 hours	24 ساعة
+A macro	ماكرو
+A style guide	دليل أسلوب
+A syntax profile	ملف تعريف للصياغة
+A table	جدول
+A table drawn in text	جدول مرسوم بالنص
+AI assistant	مساعد الذكاء الاصطناعي
+API key	مفتاح API
+Above	أعلى
+Accept	قبول
+Accept All Remaining	قبول كل المتبقي
+Action	إجراء
+Active	نشط
+Actual Size	الحجم الفعلي
+Add	إضافة
+Add ./ for relative paths	أضف ./ للمسارات النسبية
+Add All	إضافة الكل
+Add Caret Above	إضافة مؤشر إدخال أعلاه
+Add Caret Below	إضافة مؤشر إدخال أدناه
+Add Column After	إضافة عمود بعده
+Add Column Before	إضافة عمود قبله
+Add Connection	إضافة اتصال
+Add Log and Open Form	إضافة السجل وفتح النموذج
+Add Log to Description	إضافة السجل إلى الوصف
+Add Row Above	إضافة صف أعلاه
+Add Row Below	إضافة صف أدناه
+Add Variable	إضافة متغيّر
+Add a table of contents to every export	إضافة جدول محتويات إلى كل تصدير
+Add attribute	إضافة خاصية
+Add caption	إضافة تعليق توضيحي
+Add format	إضافة تنسيق
+Add inline rule	إضافة قاعدة ضمن السطر
+Add nesting rule	إضافة قاعدة تداخل
+Add nothing	عدم إضافة شيء
+Add pair mark	إضافة علامة زوج
+Add rule	إضافة قاعدة
+Add run mark	إضافة علامة تشغيل
+Add the log	إضافة السجل
+Add to Library…	إضافة إلى المكتبة…
+Additional syntax	صياغة إضافية
+Address	العنوان
+Address groups	مجموعات العناوين
+Address written on its own is enclosed by	العنوان المكتوب بمفرده محاط بـ
+Admonition box	مربع تنبيه
+Admonition line	سطر تنبيه
+Advanced options	خيارات متقدمة
+Advanced profile JSON	JSON متقدم للملف التعريفي
+After Return at the end of a line	بعد الضغط على Return في نهاية سطر
+After translating	بعد الترجمة
+Alert	تنبيه
+Aligned columns	أعمدة محاذاة
+All	الكل
+All areas	كل المناطق
+All parts	كل الأجزاء
+All statuses	كل الحالات
+Allow an unencrypted connection on my local network	السماح باتصال غير مشفّر على شبكتي المحلية
+Allowed children (comma separated)	العناصر الفرعية المسموح بها (مفصولة بفواصل)
+Always	دائمًا
+Always Add the Log	إضافة السجل دائمًا
+Always add	إضافة دائمًا
+Anchor	مرساة
+App	التطبيق
+App Icon	أيقونة التطبيق
+Appearance	المظهر
+Application Theme	سمة التطبيق
+Application Themes	سمات التطبيق
+Apply	تطبيق
+Apply All	تطبيق الكل
+Apply to local images	تطبيق على الصور المحلية
+Apply to online images	تطبيق على الصور عبر الإنترنت
+Areas	مناطق
+Around cursor	حول المؤشر
+Ask each time	اسأل في كل مرة
+Ask the assistant…	اسأل المساعد…
+Ask to Fix	اطلب الإصلاح
+Assistant	المساعد
+Assistant mode	وضع المساعد
+At a glance	لمحة سريعة
+Attribute reference	مرجع الخصائص
+Audio	صوت
+Author	المؤلف
+Auto links (bare URLs)	الروابط التلقائية (عناوين URL المجرّدة)
+Auto-Expand Sections	توسيع الأقسام تلقائيًا
+Auto-escape image URLs on insert	تهريب عناوين URL للصور تلقائيًا عند الإدراج
+Auto-pair brackets and quotes	إقران الأقواس وعلامات الاقتباس تلقائيًا
+Auto-wrap long lines	التفاف الأسطر الطويلة تلقائيًا
+Automatic	تلقائي
+Automatically save changes	حفظ التغييرات تلقائيًا
+Back matter	الصفحات الأخيرة
+Baseline	خط الأساس
+Behind the Sidebar	خلف الشريط الجانبي
+Behind the Text Area	خلف منطقة النص
+Below	أدناه
+Best quality	أفضل جودة
+Between scenes	بين المشاهد
+Block holds	تحتوي الكتلة على
+Block rules	قواعد الكتل
+Blockquote	اقتباس
+Blur	طمس
+Bold	غامق
+Book word target	هدف عدد كلمات الكتاب
+Bottom margin	أسفل الهامش
+Bought	المشتراة
+Browse Enclosing Folder…	تصفّح المجلد المحيط…
+Built-in	مدمج
+Bulleted List	قائمة نقطية
+Bulleted list item	عنصر قائمة نقطية
+CSS diagnostics	تشخيصات CSS
+Cancel	إلغاء
+Cancel translation	إلغاء الترجمة
+Capitalize	تحويل إلى أحرف كبيرة أولًا
+Caption place	موضع التعليق التوضيحي
+Cards	البطاقات
+Carets in a Column	مؤشرات إدخال في عمود
+Carets in a Column…	مؤشرات إدخال في عمود…
+Caution	تحذير
+Cell options pattern	نمط خيارات الخلية
+Cell separator	فاصل الخلايا
+Changed by another app	تم التغيير بواسطة تطبيق آخر
+Change…	تغيير…
+Chapters	الفصول
+Characters	الأحرف
+Chart	مخطط
+Charts	مخططات
+Check Again	فحص مرة أخرى
+Check Cross-References	فحص الإحالات المرجعية
+Check Document Now	فحص المستند الآن
+Check Links	فحص الروابط
+Check Links…	فحص الروابط…
+Check Spelling While Typing	التدقيق الإملائي أثناء الكتابة
+Check sample	فحص العيّنة
+Check spelling while typing	التدقيق الإملائي أثناء الكتابة
+Checklist item	عنصر قائمة مرجعية
+Choose Another Location…	اختيار موقع آخر…
+Choose Folder…	اختيار مجلد…
+Choose Model…	اختيار نموذج…
+Choose the syntax profile for this document	اختر ملف تعريف الصياغة لهذا المستند
+Choose…	اختيار…
+Clear	مسح
+Clear Caches…	مسح ذاكرات التخزين المؤقت…
+Clear Conversation	مسح المحادثة
+Clear Format	مسح التنسيق
+Clear Log	مسح السجل
+Clear Log…	مسح السجل…
+Clear Menu	مسح القائمة
+Clear Recent File Access…	مسح الوصول إلى الملفات الأخيرة…
+Close	إغلاق
+Close All	إغلاق الكل
+Close All Documents	إغلاق كل المستندات
+Close Document	إغلاق المستند
+Close Help	إغلاق التعليمات
+Close find bar	إغلاق شريط البحث
+Closing line	سطر الإغلاق
+Closing line repeats the opening mark, at least as often	يكرر سطر الإغلاق علامة الفتح، وبعدد مرات لا يقل عنها
+Code	شيفرة
+Code Fence	سياج شيفرة
+Code Fences	أسيجة الشيفرة
+Code block	كتلة شيفرة
+Code fences	أسيجة الشيفرة
+Code span character	حرف مقطع الشيفرة
+Col	عمود
+Collapsible section	قسم قابل للطيّ
+Column (for example 100, or 100-105 to select)	العمود (مثل 100، أو 100-105 للتحديد)
+Column Selection	تحديد الأعمدة
+Column list separator	فاصل قائمة الأعمدة
+Columns	الأعمدة
+Command Palette	لوحة الأوامر
+Command Palette…	لوحة الأوامر…
+Comment (hidden)	تعليق (مخفي)
+CommonMark Options	خيارات CommonMark
+Compare Versions	مقارنة الإصدارات
+Compare with File…	مقارنة مع ملف…
+Compare…	مقارنة…
+Compile Manuscript	تجميع المخطوطة
+Compile Manuscript…	تجميع المخطوطة…
+Compile…	تجميع…
+Conditional section	قسم شرطي
+Connections	الاتصالات
+Content group	مجموعة المحتوى
+Contents	المحتويات
+Contents & Labels	المحتويات والتسميات
+Continue Anyway	المتابعة على أي حال
+Continue lists and quotes on Return	متابعة القوائم والاقتباسات عند الضغط على Return
+Conversational	حواري
+Convert	تحويل
+Convert To…	تحويل إلى…
+Convert on Input	التحويل عند الإدخال
+Convert on Rendering	التحويل عند العرض
+Converter	المحوّل
+Copy	نسخ
+Copy My Library Here	نسخ مكتبتي إلى هنا
+Copy as HTML Code	نسخ كشيفرة HTML
+Copy as Markdown	نسخ كـ Markdown
+Copy as Plain Text	نسخ كنص عادي
+Copy image to ./assets	نسخ الصورة إلى ./assets
+Copy image to current folder (./)	نسخ الصورة إلى المجلد الحالي (./)
+Could Not Rename Document	تعذّرت إعادة تسمية المستند
+Could Not Save Document	تعذّر حفظ المستند
+Could Not Share	تعذّرت المشاركة
+Count code blocks	احتساب كتل الشيفرة
+Count front matter	احتساب الصفحات الأولى
+Count headings	احتساب العناوين
+Count up	عدّ تصاعدي
+Crash details	تفاصيل الأعطال
+Crash reports	تقارير الأعطال
+Create	إنشاء
+Cross-reference	إحالة مرجعية
+Current-Line Rule	قاعدة السطر الحالي
+Cursor	المؤشر
+Custom	مخصص
+Custom CSS	CSS مخصص
+Custom node name	اسم عقدة مخصص
+Custom…	مخصص…
+Dark	داكن
+Decrease Heading Level	خفض مستوى العنوان
+Default	افتراضي
+Default Language	اللغة الافتراضية
+Default file type	نوع الملف الافتراضي
+Default output style	نمط الإخراج الافتراضي
+Delete	حذف
+Delete AI Data & Keys…	حذف بيانات الذكاء الاصطناعي ومفاتيحه…
+Delete All	حذف الكل
+Delete All AI Data…	حذف كل بيانات الذكاء الاصطناعي…
+Delete Collection	حذف المجموعة
+Delete Column	حذف العمود
+Delete Diagnostics…	حذف بيانات التشخيص…
+Delete Line	حذف السطر
+Delete Paragraph	حذف الفقرة
+Delete Permanently	حذف نهائي
+Delete Row	حذف الصف
+Delete Selected	حذف المحدّد
+Delete Style Guide…	حذف دليل الأسلوب…
+Delete Word	حذف الكلمة
+Delimiter pair	زوج محدِّدات
+Depth	العمق
+Description	الوصف
+Description list term	مصطلح قائمة الأوصاف
+Detailed	مفصّل
+Details…	التفاصيل…
+Device and system information	معلومات الجهاز والنظام
+Diagnostic Log	سجل التشخيص
+Diagnostics	التشخيصات
+Diagram	مخطط توضيحي
+Diagrams	مخططات توضيحية
+Diagrams and charts (Mermaid, Vega-Lite)	المخططات التوضيحية والرسوم البيانية (Mermaid وVega-Lite)
+Digits 0 to 9	الأرقام من 0 إلى 9
+Dim	تعتيم
+Discard Changes	تجاهل التغييرات
+Discard theme changes?	هل تريد تجاهل تغييرات السمة؟
+Dismiss	تجاهل
+Dismiss All Suggestions	تجاهل كل الاقتراحات
+Display	العرض
+Display Math	معادلة معروضة
+Display line numbers	عرض أرقام الأسطر
+Do nothing	عدم فعل شيء
+Document	مستند
+Document Information	معلومات المستند
+Document Mode	وضع المستند
+Document Translation	ترجمة المستند
+Document attribute	خاصية المستند
+Document structure (counts only)	بنية المستند (أعداد فقط)
+Documents	المستندات
+Don't expand inside code	عدم التوسيع داخل الشيفرة
+Don't show this again	عدم الإظهار مرة أخرى
+Done	تم
+Download	تنزيل
+Draws	يرسم
+Draws as	يُرسَم كـ
+Duck	بطة
+Duplicate	تكرار
+Duplicate Collection	تكرار المجموعة
+Duplicate Style Guide	تكرار دليل الأسلوب
+Edit	تحرير
+Edit Advanced JSON…	تحرير JSON المتقدم…
+Edit Application Theme	تحرير سمة التطبيق
+Edit Block	تحرير الكتلة
+Edit Macro	تحرير الماكرو
+Edit Profile	تحرير الملف التعريفي
+Edit Render Theme	تحرير سمة العرض
+Edited	معدَّل
+Editing	التحرير
+Editing colours for	تحرير الألوان لـ
+Editor	المحرر
+Editor Background	خلفية المحرر
+Editor font	خط المحرر
+Editor size and word count	حجم المحرر وعدد الكلمات
+Edit…	تحرير…
+Emphasis	تأكيد
+Empty Recently Deleted	إفراغ المحذوفة مؤخرًا
+Enable AI assistant	تفعيل مساعد الذكاء الاصطناعي
+Enabled	مفعَّل
+Encoding	الترميز
+End of line	نهاية السطر
+Entries	الإدخالات
+Equation	معادلة
+Equations	المعادلات
+Errors	الأخطاء
+Escape character	حرف الإفلات
+Estimated time: less than a minute	الوقت المقدَّر: أقل من دقيقة
+Everything	كل شيء
+Exact text	النص المطابق تمامًا
+Example box	مربع مثال
+Excluded files	الملفات المستبعدة
+Exit Focus	إنهاء التركيز
+Expand emoji shortcodes (:smile:)	توسيع رموز الإيموجي المختصرة (:smile:)
+Export	تصدير
+Export Collection…	تصدير المجموعة…
+Export Defaults	تصدير الإعدادات الافتراضية
+Export Style Guide…	تصدير دليل الأسلوب…
+Export and print	التصدير والطباعة
+Export…	تصدير…
+Extends Markdown	يمدّد Markdown
+Fast	سريع
+Fenced block	كتلة مسيَّجة
+Field	حقل
+Fields	الحقول
+File	ملف
+File Access	الوصول إلى الملفات
+File Changed on Disk	تغيّر الملف على القرص
+File Operation Failed	فشلت عملية الملف
+File extension	امتداد الملف
+File extensions (comma-separated)	امتدادات الملفات (مفصولة بفواصل)
+File tree / library	شجرة الملفات / المكتبة
+Files	الملفات
+Files and library	الملفات والمكتبة
+Files in Another Language	ملفات بلغة أخرى
+Fill	ملء
+Fill-in fields remain	لا تزال هناك حقول للملء
+Find	بحث
+Find In	بحث في
+Find Next	بحث عن التالي
+Find Previous	بحث عن السابق
+Find in document	بحث في المستند
+Find…	بحث…
+Finish Bug Report	إنهاء تقرير الخطأ
+First line before a blank line is the header	السطر الأول قبل سطر فارغ هو الرأس
+Fit	ملاءمة
+Fixed attributes	خصائص ثابتة
+Focus	التركيز
+Focus Mode	وضع التركيز
+Fold All	طيّ الكل
+Folder	مجلد
+Folders turned off	مجلدات متوقفة
+Font size	حجم الخط
+Fonts	الخطوط
+Footer template	قالب التذييل
+Footnote	حاشية سفلية
+Footnote label begins with	تبدأ تسمية الحاشية بـ
+Format	تنسيق
+Formats	التنسيقات
+Formatting Toolbar	شريط أدوات التنسيق
+From heading level	من مستوى العنوان
+From your subscription	من اشتراكك
+Front matter	الصفحات الأولى
+General	عام
+Get votes	الحصول على أصوات
+GitHub-style alerts	تنبيهات بنمط GitHub
+Give headings ids	إعطاء العناوين معرّفات
+Go	انتقال
+Go Back	رجوع
+Go Forward	تقدّم
+Go to Line	انتقال إلى سطر
+Go to Line…	انتقال إلى سطر…
+Go to Next Field	انتقال إلى الحقل التالي
+Grid with rule lines	شبكة بخطوط فاصلة
+Group (no box)	مجموعة (بلا مربع)
+Gutter font	خط الهامش
+HTML (without Styles)	HTML (بدون أنماط)
+Hard pad with spaces	حشو إجباري بالمسافات
+Header rule line pattern	نمط سطر فاصل الرأس
+Header template	قالب الرأس
+Header, footer, and metadata	الرأس والتذييل والبيانات الوصفية
+Heading (level from the rule)	عنوان (المستوى من القاعدة)
+Heading 1	العنوان 1
+Heading 2	العنوان 2
+Heading 3	العنوان 3
+Heading 4	العنوان 4
+Heading 5	العنوان 5
+Heading 6	العنوان 6
+Heading Folds	طيّ العناوين
+Heading id prefix	بادئة معرّف العنوان
+Heading id word separator	فاصل كلمات معرّف العنوان
+Heading labels	تسميات العناوين
+Heading level	مستوى العنوان
+Height	الارتفاع
+Help	مساعدة
+Hide Markers	إخفاء العلامات
+Hide Scenes	إخفاء المشاهد
+Hide Toolbar	إخفاء شريط الأدوات
+Hide replace	إخفاء الاستبدال
+Highlight	تمييز
+Highlight (==key==)	تمييز (==key==)
+Horizontal Line	خط أفقي
+Horizontal rule	قاعدة أفقية
+Hyperlink	رابط تشعبي
+Ignore trailing whitespace	تجاهل المسافات الزائدة في النهاية
+Image	صورة
+Image prefix	بادئة الصورة
+Images	الصور
+Images in Preview and exports	الصور في المعاينة وعمليات التصدير
+Image…	صورة…
+Import	استيراد
+Import Macros…	استيراد ماكرو…
+Import Style Guide…	استيراد دليل أسلوب…
+Import Theme…	استيراد سمة…
+Import file	استيراد ملف
+Importable file	ملف قابل للاستيراد
+Important	مهم
+Import…	استيراد…
+Include in Manuscript	تضمين في المخطوطة
+Include in a report	تضمين في التقرير
+Increase Heading Level	رفع مستوى العنوان
+Indent	إزاحة
+Indent size	حجم الإزاحة
+Indentation	المسافة البادئة
+Indented block	كتلة مُزاحة
+Indented text under a line ending in a marker	نص مُزاح تحت سطر ينتهي بعلامة
+Indented text under an opening line	نص مُزاح تحت سطر افتتاحي
+Index term	مصطلح الفهرس
+Inherits	يرث
+Inline Math	رياضيات ضمن السطر
+Inline code	شيفرة ضمن السطر
+Inline equation	معادلة ضمن السطر
+Inline math ($…$)	رياضيات ضمن السطر ($…$)
+Inline rules	القواعد ضمن السطر
+Insert	إدراج
+Insert Alert	إدراج تنبيه
+Insert Chart	إدراج مخطط
+Insert Code Fence	إدراج سياج شيفرة
+Insert Date/Time	إدراج التاريخ/الوقت
+Insert Diagram	إدراج مخطط توضيحي
+Insert Display Math	إدراج رياضيات معروضة
+Insert Footnote	إدراج حاشية سفلية
+Insert Horizontal Line	إدراج خط أفقي
+Insert Image…	إدراج صورة…
+Insert Inline Math	إدراج رياضيات ضمن السطر
+Insert Link Reference	إدراج مرجع رابط
+Insert Table	إدراج جدول
+Insert Table of Contents	إدراج جدول المحتويات
+Insert Table…	إدراج جدول…
+Insert Task List	إدراج قائمة مهام
+Insert YAML Front Matter	إدراج YAML في مقدمة المستند
+Insert at Cursor	إدراج عند المؤشر
+Insert link	إدراج رابط
+Insert spaces when pressing Tab	إدراج مسافات عند الضغط على Tab
+Insert text	إدراج نص
+Interface Size	حجم الواجهة
+Italic	مائل
+Join Lines	ضم الأسطر
+Jump to	انتقال إلى
+Jump to Bottom	انتقال إلى الأسفل
+Jump to Line End	انتقال إلى نهاية السطر
+Jump to Line Start	انتقال إلى بداية السطر
+Jump to Top	انتقال إلى الأعلى
+Keep Current Version	الإبقاء على الإصدار الحالي
+Keep Editing	متابعة التحرير
+Keep a version of each file first	الاحتفاظ أولًا بنسخة من كل ملف
+Keep indentation on Return	الحفاظ على الإزاحة عند الضغط على Return
+Keep it in	حفظه في
+Keep single line breaks	الحفاظ على فواصل الأسطر المفردة
+Kept	محفوظ
+Keyboard	لوحة المفاتيح
+Keyboard key	مفتاح لوحة المفاتيح
+Kind	النوع
+Kitten	قطة صغيرة
+Label	التسمية
+Label headings	وضع تسميات للعناوين
+Landscape	أفقي
+Language	اللغة
+Languages on This Device	اللغات على هذا الجهاز
+Layout	التخطيط
+Leave Out of Manuscript	استبعاد من المخطوطة
+Leave the line out	استبعاد السطر
+Left margin	الهامش الأيسر
+Left out	مستبعد
+Letters	الحروف
+Level	المستوى
+Level group	مجموعة المستوى
+Library	المكتبة
+Library location	موقع المكتبة
+Light	فاتح
+Line Numbers	أرقام الأسطر
+Line break	فاصل سطر
+Line spacing	تباعد الأسطر
+Line that defines a label has	السطر الذي يعرّف تسمية يحتوي على
+Line-start prefix	بادئة بداية السطر
+Lines	الأسطر
+Lines (for example 3-17)	الأسطر (مثل 3-17)
+Link	رابط
+Link Reference	مرجع رابط
+Link each heading back to its contents entry	ربط كل عنوان بمدخله في جدول المحتويات
+Links	الروابط
+Links and web addresses	الروابط وعناوين الويب
+List	قائمة
+List continuation line	سطر متابعة القائمة
+List only headings below the [TOC] line	سرد العناوين الواقعة أسفل السطر [TOC] فقط
+Literal exact	حرفي مطابق تمامًا
+Literal prefix	بادئة حرفية
+Ln	سطر
+Load images from the internet	تحميل الصور من الإنترنت
+Loading models…	جارٍ تحميل النماذج…
+Location	الموقع
+Lowercase letters	الأحرف الصغيرة
+Machine-translated — may contain errors.	ترجمة آلية — قد تحتوي على أخطاء.
+Macro Collection	مجموعة ماكرو
+Macros	الماكرو
+Make Active	تعيين كنشط
+Make Folder a Book Project	تحويل المجلد إلى مشروع كتاب
+Make It a Project	تحويله إلى مشروع
+Make Lower Case	تحويل إلى أحرف صغيرة
+Make Upper Case	تحويل إلى أحرف كبيرة
+Manuscript	المخطوطة
+Mark	علامة
+Markdown file	ملف Markdown
+Marker group	مجموعة العلامة
+Match	تطابق
+Match case	مطابقة حالة الأحرف
+May open or close inside a word	قد يُفتح أو يُغلق داخل كلمة
+Media	الوسائط
+Menu	القائمة
+Menus in the Header	القوائم في الترويسة
+Missing	مفقود
+Model	النموذج
+Monospace	خط أحادي المسافة
+More	المزيد
+More formatting	مزيد من التنسيق
+More…	المزيد…
+Move Chapter Down	نقل الفصل لأسفل
+Move Chapter Up	نقل الفصل لأعلى
+Move My Library Here	نقل مكتبتي إلى هنا
+Move Row Down	نقل الصف لأسفل
+Move Row Up	نقل الصف لأعلى
+Move To…	نقل إلى…
+Move to Trash	نقل إلى المهملات
+Moving your library…	جارٍ نقل مكتبتك…
+Name	الاسم
+Named parts become attributes	الأجزاء المسماة تصبح خصائص
+Navigator	المستعرض
+Needs an API key	يحتاج إلى مفتاح API
+Nest lists by marker	تداخل القوائم بحسب العلامة
+Nesting rules	قواعد التداخل
+Never	أبدًا
+Never add	عدم الإضافة أبدًا
+Never for This File	أبدًا لهذا الملف
+New	جديد
+New Back Matter	صفحات أخيرة جديدة
+New Book	كتاب جديد
+New Book…	كتاب جديد…
+New Chapter	فصل جديد
+New Collection	مجموعة جديدة
+New Document	مستند جديد
+New File	ملف جديد
+New File Below	ملف جديد أدناه
+New Folder	مجلد جديد
+New Front Matter	صفحات أولى جديدة
+New Macro	ماكرو جديد
+New Scene	مشهد جديد
+New files are written in	تُكتب الملفات الجديدة بصيغة
+Newer	الأحدث
+Next Document	المستند التالي
+Next Field	الحقل التالي
+Next match	النتيجة التالية
+No	لا
+No Syntax	بلا صياغة
+No headings	لا توجد عناوين
+No special action	بلا إجراء خاص
+None	بلا
+Normal	عادي
+Not Loaded	غير محمَّل
+Not Now	ليس الآن
+Not a picture	ليست صورة
+Not available	غير متاح
+Not in the manuscript	ليس في المخطوطة
+Not styled	بلا تنسيق
+Note	ملاحظة
+Nothing from the document	لا شيء من المستند
+Nothing yet	لا شيء بعد
+Nothing — hidden	لا شيء — مخفي
+Number headings	ترقيم العناوين
+Number headings (1., 1.1.)	ترقيم العناوين (1.، 1.1.)
+Numbered List	قائمة مرقمة
+Numbered captions	تعليقات توضيحية مرقمة
+Numbered list item	عنصر قائمة مرقمة
+Numbers	الأرقام
+OK	حسنًا
+Off	إيقاف
+Offer Again for All Files	الاقتراح مجددًا لكل الملفات
+Offer to translate	اقتراح الترجمة
+Older	الأقدم
+On Launch	عند التشغيل
+On This Page	في هذه الصفحة
+On this device	على هذا الجهاز
+One Step Smaller	أصغر بدرجة واحدة
+One mark draws	علامة واحدة ترسم
+Only after a blank line	فقط بعد سطر فارغ
+Only at the start of a line	فقط في بداية السطر
+Only when this setting is on	فقط عندما يكون هذا الإعداد مفعّلًا
+Open	فتح
+Open Copy	فتح النسخة
+Open Diagnostics	فتح التشخيصات
+Open Documents	المستندات المفتوحة
+Open File	فتح ملف
+Open File…	فتح ملف…
+Open Folder	فتح مجلد
+Open Folder…	فتح مجلد…
+Open Form Without Log	فتح النموذج بدون السجل
+Open Quickly…	فتح سريع…
+Open Recent	فتح حديث
+Open Theme Folder	فتح مجلد السمات
+Open custom folder	فتح مجلد مخصص
+Open documents and document actions	المستندات المفتوحة وإجراءات المستند
+Open in New Tab	فتح في علامة تبويب جديدة
+Open in a new tab	فتح في علامة تبويب جديدة
+Open in editor	فتح في المحرر
+Open new file	فتح ملف جديد
+Open…	فتح…
+Options	الخيارات
+Order	الترتيب
+Ordered List	قائمة مرتبة
+Orientation	الاتجاه
+Other	أخرى
+Other blocks, in a box	كتل أخرى، في مربع
+Other blocks, no box	كتل أخرى، بلا مربع
+Other…	أخرى…
+Out of sync	غير متزامن
+Outdent	إلغاء الإزاحة
+Outline	المخطط التفصيلي
+Output	المخرجات
+PDF Archive (.zip)	أرشيف PDF (‎.zip)
+Page	الصفحة
+Page Setup…	إعداد الصفحة…
+Page break between top-level headings	فاصل صفحات بين العناوين الرئيسية
+Pair marks	علامات الأزواج
+Pane divider	فاصل الألواح
+Paper size	حجم الورق
+Paragraph	فقرة
+Parent node	العقدة الأصل
+Parsing and profiles	التحليل وملفات التعريف
+Parsing warning	تحذير التحليل
+Part	جزء
+Parts	الأجزاء
+Paste as Plain Text	لصق كنص عادي
+Pattern	النمط
+Pilcrow Help	تعليمات Pilcrow
+Pilcrow settings	إعدادات Pilcrow
+Place	المكان
+Play	تشغيل
+Play a sound as I type	تشغيل صوت أثناء الكتابة
+Play on Battery	التشغيل على البطارية
+Point of view	وجهة النظر
+Portrait	رأسي
+Preferred image syntax	صياغة الصور المفضلة
+Prefix	البادئة
+Preformatted text	نص مُنسَّق مسبقًا
+Preset	إعداد مسبق
+Preset name	اسم الإعداد المسبق
+Press any key…	اضغط أي مفتاح…
+Preview	معاينة
+Previous Document	المستند السابق
+Previous Field	الحقل السابق
+Previous match	النتيجة السابقة
+Print	طباعة
+Print…	طباعة…
+Priority	الأولوية
+Privacy	الخصوصية
+Privacy Policy	سياسة الخصوصية
+Private & Support Data	البيانات الخاصة وبيانات الدعم
+Problems only	المشكلات فقط
+Produces	ينتج
+Profile	ملف تعريف
+Profile Help	تعليمات الملف التعريفي
+Profile section	قسم الملف التعريفي
+Project	المشروع
+Project Settings	إعدادات المشروع
+Put Back	إرجاع
+Quit Now	إنهاء الآن
+Quit Pilcrow when last window is closed	إنهاء Pilcrow عند إغلاق آخر نافذة
+Quote	اقتباس
+Quote line marker	علامة سطر الاقتباس
+Raw HTML	HTML خام
+Raw HTML (inline)	HTML خام (ضمن السطر)
+Read marks by what stands around them	قراءة العلامات بحسب ما يحيط بها
+Reading speed	سرعة القراءة
+Reading time	وقت القراءة
+Recently Deleted	المحذوفة مؤخرًا
+Reconsider	إعادة النظر
+Record diagnostic log	تسجيل سجل التشخيص
+Record recent files and folders	تسجيل الملفات والمجلدات الأخيرة
+Record the Problem First	سجّل المشكلة أولًا
+Record the Problem First?	هل تريد تسجيل المشكلة أولًا؟
+Recording log	جارٍ تسجيل السجل
+Recover	استرداد
+Recover All	استرداد الكل
+Recover Documents	استرداد المستندات
+Redo	إعادة
+Regular expression	تعبير نمطي
+Reject	رفض
+Reload	إعادة التحميل
+Reload from Disk	إعادة التحميل من القرص
+Remove	إزالة
+Remove Blank Lines	إزالة الأسطر الفارغة
+Remove Duplicate Lines	إزالة الأسطر المكررة
+Rename	إعادة تسمية
+Rename…	إعادة تسمية…
+Render Theme	سمة العرض
+Render Themes	سمات العرض
+Rendered Blocks	الكتل المعروضة
+Rendered preview	المعاينة المعروضة
+Rendering and diagrams	العرض والمخططات التوضيحية
+Reorder	إعادة الترتيب
+Repeat marker	تكرار العلامة
+Repeat the marker	كرّر العلامة
+Replace	استبدال
+Replace All	استبدال الكل
+Replace Existing File?	هل تريد استبدال الملف الموجود؟
+Replace Selection	استبدال التحديد
+Replace a [TOC] line with the list	استبدال السطر [TOC] بالقائمة
+Replace the document	استبدال المستند
+Replace with	استبدال بـ
+Replacement	الاستبدال
+Replacement text	نص الاستبدال
+Replaces Markdown	يستبدل Markdown
+Replace…	استبدال…
+Report Now	أبلغ الآن
+Report a Bug	الإبلاغ عن خطأ
+Report a Bug…	الإبلاغ عن خطأ…
+Report on GitHub…	إبلاغ على GitHub…
+Reproduce an issue	إعادة إنتاج مشكلة
+Reproducing — Finish Report	إعادة إنتاج — إنهاء التقرير
+Reset	إعادة ضبط
+Reset All Shortcuts	إعادة ضبط كل الاختصارات
+Reset to Baseline	إعادة الضبط إلى خط الأساس
+Restore	استعادة
+Restore Purchases	استعادة المشتريات
+Restore last closed files and folders	استعادة آخر الملفات والمجلدات المغلقة
+Restore last closed folders	استعادة آخر المجلدات المغلقة
+Restore…	استعادة…
+Retry	إعادة المحاولة
+Reveal in Finder	إظهار في Finder
+Reverse Lines	عكس ترتيب الأسطر
+Review	مراجعة
+Review Recovery Data…	مراجعة بيانات الاسترداد…
+Review Remaining	مراجعة المتبقي
+Review Version History…	مراجعة سجل الإصدارات…
+Right margin	الهامش الأيمن
+Roadmap	خارطة الطريق
+Role	الدور
+Row ends with	ينتهي الصف بـ
+Rows	الصفوف
+Rule line pattern	نمط الخط الفاصل
+Run	تشغيل
+Run marks	علامات التشغيل
+Sample and results	العيّنة والنتائج
+Sans-serif	بلا زخارف
+Save	حفظ
+Save & recover	الحفظ والاسترداد
+Save All	حفظ الكل
+Save As:	حفظ باسم:
+Save As…	حفظ باسم…
+Save Document	حفظ المستند
+Save Report…	حفظ التقرير…
+Save a copy beside the original	حفظ نسخة بجوار الأصل
+Save and Attach File	حفظ وإرفاق ملف
+Save as preset	حفظ كإعداد مسبق
+Save failed	فشل الحفظ
+Save new documents as	حفظ المستندات الجديدة بصيغة
+Save without asking when closing a file	الحفظ دون سؤال عند إغلاق ملف
+Saved	محفوظ
+Schemes that begin a bare address	المخططات التي يبدأ بها العنوان المجرّد
+Search	بحث
+Search Again	البحث مرة أخرى
+Search Folder	البحث في المجلد
+Search Folder…	البحث في المجلد…
+Search Open Documents	البحث في المستندات المفتوحة
+Search models	البحث في النماذج
+Search settings	البحث في الإعدادات
+Search the log	البحث في السجل
+Section	قسم
+Select All	تحديد الكل
+Select All Occurrences	تحديد كل التكرارات
+Select Line	تحديد السطر
+Select Next Occurrence	تحديد التكرار التالي
+Select None	إلغاء تحديد الكل
+Select Paragraph	تحديد الفقرة
+Select Word	تحديد الكلمة
+Selection	التحديد
+Send	إرسال
+Send Report	إرسال التقرير
+Send and Translate	إرسال وترجمة
+Serif	بخطوط زخرفية
+Sessions	الجلسات
+Set as New Baseline	تعيين كخط أساس جديد
+Settings	الإعدادات
+Settings for the next block	إعدادات الكتلة التالية
+Settings…	الإعدادات…
+Share Report…	مشاركة التقرير…
+Share…	مشاركة…
+Short lines in column mode	الأسطر القصيرة في وضع الأعمدة
+Shortcuts	الاختصارات
+Show Diagnostics Settings	إظهار إعدادات التشخيص
+Show Scenes	إظهار المشاهد
+Show Source	إظهار المصدر
+Show Spelling and Grammar	إظهار الإملاء والقواعد
+Show all models	إظهار كل النماذج
+Show current-line rule	إظهار قاعدة السطر الحالي
+Show hidden folders and files	إظهار المجلدات والملفات المخفية
+Show in Finder	إظهار في Finder
+Show line numbers	إظهار أرقام الأسطر
+Show parsing warnings	إظهار تحذيرات التحليل
+Show replace	إظهار الاستبدال
+Show status bar	إظهار شريط الحالة
+Show the translation notice when Pilcrow starts	إظهار إشعار الترجمة عند بدء Pilcrow
+Side by Side	جنبًا إلى جنب
+Sidebar	الشريط الجانبي
+Skipped	تم تخطيه
+Smart dashes	الشرطات الذكية
+Smart ellipsis	علامة الحذف الذكية
+Smart punctuation	علامات الترقيم الذكية
+Smart quotes	علامات الاقتباس الذكية
+Soft pad with spaces	حشو مرن بالمسافات
+Sort Lines Ascending	ترتيب الأسطر تصاعديًا
+Sort Lines Descending	ترتيب الأسطر تنازليًا
+Sound	الصوت
+Space	مسافة
+Spanning cell pattern	نمط الخلية الممتدة
+Speech	النطق
+Speed	السرعة
+Speed and memory	السرعة والذاكرة
+Spelling	الإملاء
+Spelling and Grammar	الإملاء والقواعد
+Start Speaking	بدء النطق
+Start fresh from the marker	البدء من جديد من العلامة
+Start on a new page	البدء في صفحة جديدة
+Status	الحالة
+Status and formatting bars	أشرطة الحالة والتنسيق
+Stop	إيقاف
+Stop Speaking	إيقاف النطق
+Stop at the line	التوقف عند السطر
+Stop recording after	إيقاف التسجيل بعد
+Stop recording and finish the bug report	أوقف التسجيل وأنهِ تقرير الخطأ
+Storage & Privacy	التخزين والخصوصية
+Strikethrough	يتوسطه خط
+Strong	غامق
+Style	النمط
+Style Guide	دليل الأسلوب
+Style Guides	أدلة الأسلوب
+Style Review	مراجعة الأسلوب
+Style guide	دليل الأسلوب
+Styled Source	مصدر منسَّق
+Styled source	مصدر منسَّق
+Styles to the end of the line	أنماط حتى نهاية السطر
+Subscript	كتابة سفلية
+Subscript (H~2~O)	كتابة سفلية (H~2~O)
+Subscription & Credits	الاشتراك والرصيد
+Super Tab keys	مفاتيح Tab الفائقة
+Superscript	كتابة علوية
+Superscript (X^2^)	كتابة علوية (X^2^)
+Support Pilcrow	ادعم Pilcrow
+Symbols and punctuation	الرموز وعلامات الترقيم
+Synopses	الملخصات
+Synopsis	الملخص
+Syntax	الصياغة
+Syntax Profile	ملف تعريف الصياغة
+Syntax Profiles	ملفات تعريف الصياغة
+Syntax support	دعم الصياغة
+System Default	افتراضي النظام
+System Monospace	أحادي المسافة للنظام
+System Size	حجم النظام
+System default	افتراضي النظام
+Tab width	عرض Tab
+Table	جدول
+Table of Contents	جدول المحتويات
+Table of contents	جدول المحتويات
+Table row line	سطر صف الجدول
+Table…	جدول…
+Tags:	الوسوم:
+Take Back	سحب
+Task List	قائمة المهام
+Terms of Use	شروط الاستخدام
+Test Connection	اختبار الاتصال
+Text	نص
+Text Size & Fonts	حجم النص والخطوط
+Text editor	محرر النصوص
+Text width	عرض النص
+Text, shown as written	نص يُعرَض كما كُتب
+Theme	السمة
+Theme & Backdrop	السمة والخلفية
+Themes	السمات
+This Document	هذا المستند
+Three Steps Smaller	أصغر بثلاث درجات
+Tile	تجانب
+Tip	نصيحة
+Title	العنوان
+Toggle Sidebar	إظهار الشريط الجانبي أو إخفاؤه
+Toggle Task Status	تبديل حالة المهمة
+Top margin	الهامش العلوي
+Trail of recent actions	سجل الإجراءات الأخيرة
+Translate	ترجمة
+Translate Document	ترجمة المستند
+Translate Selection	ترجمة التحديد
+Translate automatically	الترجمة تلقائيًا
+Translate into	الترجمة إلى
+Translate to	الترجمة إلى
+Translated with AI	تمت الترجمة بالذكاء الاصطناعي
+Translation	الترجمة
+Trigger	المشغّل
+Trigger — e.g. /sig	المشغّل — مثل /sig
+Trim Trailing Whitespace	حذف المسافات الزائدة في النهاية
+Try Again	حاول مرة أخرى
+Turn Off for This Folder	إيقاف لهذا المجلد
+Turn On	تشغيل
+Turn On for This Folder	تشغيل لهذا المجلد
+Turn off Column Selection	إيقاف تحديد الأعمدة
+Two Steps Smaller	أصغر بدرجتين
+Two marks draw	علامتان ترسمان
+Type a command	اكتب أمرًا
+Type a filename	اكتب اسم ملف
+Typewriter	آلة كاتبة
+Typing	الكتابة
+Typing sounds	أصوات الكتابة
+Unbind	إلغاء الربط
+Underline	تسطير
+Undo	تراجع
+Unfold All	فتح كل الطيّات
+Unordered List	قائمة غير مرتبة
+Upload image	رفع صورة
+Uppercase letters	الأحرف الكبيرة
+Use This Device	استخدام هذا الجهاز
+Use What Is There	استخدام الموجود
+Use relative path if possible	استخدام المسار النسبي إن أمكن
+Use the end of the line	استخدام نهاية السطر
+Use these page settings as default	استخدام إعدادات الصفحة هذه كإعدادات افتراضية
+Value	القيمة
+Variables	المتغيّرات
+Variant	المتغير
+Version History	سجل الإصدارات
+Version History…	سجل الإصدارات…
+Versions to keep	الإصدارات المحتفَظ بها
+Video	فيديو
+View	عرض
+View Log…	عرض السجل…
+Volume	مستوى الصوت
+Vote	صوّت
+Warning	تحذير
+Warnings	تحذيرات
+Web address	عنوان ويب
+What counts as a word	ما الذي يُحتسب كلمة
+What is sent	ما يُرسَل
+What to record	ما يُسجَّل
+What to review	ما يُراجَع
+What to share	ما يُشارَك
+What to write	ما تكتبه
+When a file is in another language	عندما يكون الملف بلغة أخرى
+When finished	عند الانتهاء
+When inserting an image	عند إدراج صورة
+When something is dropped onto the app	عند إسقاط شيء على التطبيق
+When starting	عند البدء
+When the document defines	عندما يعرّف المستند
+Where	المكان
+Where:	المكان:
+Whole document	المستند بأكمله
+Whole word	الكلمة كاملة
+Width	العرض
+Word (.docx)	Word (‎.docx)
+Word target	هدف عدد الكلمات
+Words	الكلمات
+Wrap Lines	التفاف الأسطر
+Wrap long lines	التفاف الأسطر الطويلة
+Write in	الكتابة بصيغة
+YAML Front Matter	YAML في مقدمة المستند
+YAML front matter	YAML في مقدمة المستند
+Yes	نعم
+Your name	اسمك
+Your own sounds	أصواتك الخاصة
+Your votes	أصواتك
+Zoom	تكبير/تصغير
+Zoom In	تكبير
+Zoom Out	تصغير

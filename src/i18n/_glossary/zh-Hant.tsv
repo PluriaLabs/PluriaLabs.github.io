@@ -1,0 +1,980 @@
+1 hour	1 小時
+24 hours	24 小時
+A macro	巨集
+A style guide	風格指南
+A syntax profile	語法設定檔
+A table	表格
+A table drawn in text	以文字繪製的表格
+AI assistant	AI 助理
+API key	API 金鑰
+Above	上方
+Accept	接受
+Accept All Remaining	接受其餘全部
+Action	動作
+Active	使用中
+Actual Size	實際大小
+Add	加入
+Add ./ for relative paths	為相對路徑加上 ./
+Add All	全部加入
+Add Caret Above	在上方加入插入點
+Add Caret Below	在下方加入插入點
+Add Column After	在後方加入欄
+Add Column Before	在前方加入欄
+Add Connection	加入連線
+Add Log and Open Form	加入記錄並開啟表單
+Add Log to Description	將記錄加入描述
+Add Row Above	在上方加入列
+Add Row Below	在下方加入列
+Add Variable	新增變數
+Add a table of contents to every export	為每次匯出加入目錄
+Add attribute	加入屬性
+Add caption	加入標題說明
+Add format	加入格式
+Add inline rule	加入行內規則
+Add nesting rule	加入巢狀規則
+Add nothing	不加入任何內容
+Add pair mark	加入成對標記
+Add rule	加入規則
+Add run mark	加入連續標記
+Add the log	加入記錄
+Add to Library…	加入資料庫…
+Additional syntax	其他語法
+Address	位址
+Address groups	位址群組
+Address written on its own is enclosed by	單獨書寫的位址會被以下符號包住
+Admonition box	提示框
+Admonition line	提示行
+Advanced options	進階選項
+Advanced profile JSON	進階設定檔 JSON
+After Return at the end of a line	在行尾按下 Return 之後
+After translating	翻譯之後
+Alert	提醒
+Aligned columns	對齊的欄
+All	全部
+All areas	所有區域
+All parts	所有部分
+All statuses	所有狀態
+Allow an unencrypted connection on my local network	允許在我的區域網路上使用未加密連線
+Allowed children (comma separated)	允許的子節點（以逗號分隔）
+Always	永遠
+Always Add the Log	一律加入記錄
+Always add	一律加入
+Anchor	錨點
+App Icon	App 圖示
+Appearance	外觀
+Application Theme	應用程式佈景主題
+Application Themes	應用程式佈景主題
+Apply	套用
+Apply All	全部套用
+Apply to local images	套用於本機圖片
+Apply to online images	套用於線上圖片
+Areas	區域
+Around cursor	游標周圍
+Ask each time	每次詢問
+Ask the assistant…	詢問助理…
+Ask to Fix	請求修正
+Assistant	助理
+Assistant mode	助理模式
+At a glance	概覽
+Attribute reference	屬性參考
+Audio	音訊
+Author	作者
+Auto links (bare URLs)	自動連結（純網址）
+Auto-Expand Sections	自動展開段落
+Auto-escape image URLs on insert	插入時自動跳脫圖片網址
+Auto-pair brackets and quotes	自動配對括號與引號
+Auto-wrap long lines	自動換行長行
+Automatic	自動
+Automatically save changes	自動儲存變更
+Back matter	附錄
+Baseline	基線
+Behind the Sidebar	在側邊欄後方
+Behind the Text Area	在文字區域後方
+Below	下方
+Best quality	最佳品質
+Between scenes	場景之間
+Block holds	區塊包含
+Block rules	區塊規則
+Blockquote	引用區塊
+Blur	模糊
+Bold	粗體
+Book word target	全書字數目標
+Bottom margin	下邊界
+Bought	已購買
+Browse Enclosing Folder…	瀏覽所在資料夾…
+Built-in	內建
+Bulleted List	項目符號清單
+Bulleted list item	項目符號清單項目
+CSS diagnostics	CSS 診斷
+Cancel	取消
+Cancel translation	取消翻譯
+Capitalize	首字母大寫
+Caption place	標題說明位置
+Cards	卡片
+Carets in a Column	單欄多插入點
+Carets in a Column…	單欄多插入點…
+Caution	注意
+Cell options pattern	儲存格選項模式
+Cell separator	儲存格分隔符號
+Changed by another app	已被其他 App 變更
+Change…	更改…
+Chapters	章節
+Characters	字元
+Chart	圖表
+Charts	圖表
+Check Again	再次檢查
+Check Cross-References	檢查交叉參照
+Check Document Now	立即檢查文件
+Check Links	檢查連結
+Check Links…	檢查連結…
+Check Spelling While Typing	輸入時檢查拼字
+Check sample	檢查範例
+Check spelling while typing	輸入時檢查拼字
+Checklist item	待辦事項項目
+Choose Another Location…	選擇其他位置…
+Choose Folder…	選擇資料夾…
+Choose Model…	選擇模型…
+Choose the syntax profile for this document	為此文件選擇語法設定檔
+Choose…	選擇…
+Clear	清除
+Clear Caches…	清除快取…
+Clear Conversation	清除對話
+Clear Format	清除格式
+Clear Log	清除記錄
+Clear Log…	清除記錄…
+Clear Menu	清除選單
+Clear Recent File Access…	清除最近檔案的存取權限…
+Close	關閉
+Close All	全部關閉
+Close All Documents	關閉所有文件
+Close Document	關閉文件
+Close Help	關閉說明
+Close find bar	關閉尋找列
+Closing line	結尾行
+Closing line repeats the opening mark, at least as often	結尾行重複開頭的標記，且次數至少相同
+Code	程式碼
+Code Fence	程式碼圍欄
+Code Fences	程式碼圍欄
+Code block	程式碼區塊
+Code fences	程式碼圍欄
+Code span character	行內程式碼字元
+Col	欄
+Collapsible section	可收合段落
+Column (for example 100, or 100-105 to select)	欄（例如 100，或 100-105 表示選取範圍）
+Column Selection	欄選取
+Column list separator	欄清單分隔符號
+Columns	欄數
+Command Palette	指令面板
+Command Palette…	指令面板…
+Comment (hidden)	註解（隱藏）
+CommonMark Options	CommonMark 選項
+Compare Versions	比較版本
+Compare with File…	與檔案比較…
+Compare…	比較…
+Compile Manuscript	編譯書稿
+Compile Manuscript…	編譯書稿…
+Compile…	編譯…
+Conditional section	條件式段落
+Connections	連線
+Content group	內容群組
+Contents	內容
+Contents & Labels	目錄與標籤
+Continue Anyway	仍要繼續
+Continue lists and quotes on Return	按下 Return 時延續清單與引用
+Conversational	對話式
+Convert	轉換
+Convert To…	轉換為…
+Convert on Input	輸入時轉換
+Convert on Rendering	渲染時轉換
+Converter	轉換器
+Copy	拷貝
+Copy My Library Here	將我的資料庫拷貝到此處
+Copy as HTML Code	拷貝為 HTML 程式碼
+Copy as Markdown	拷貝為 Markdown
+Copy as Plain Text	拷貝為純文字
+Copy image to ./assets	將圖片拷貝到 ./assets
+Copy image to current folder (./)	將圖片拷貝到目前資料夾 (./)
+Could Not Rename Document	無法重新命名文件
+Could Not Save Document	無法儲存文件
+Could Not Share	無法分享
+Count code blocks	計入程式碼區塊
+Count front matter	計入前置內容
+Count headings	計入標題
+Count up	遞增計數
+Crash details	當機詳細資料
+Crash reports	當機報告
+Create	建立
+Cross-reference	交叉參照
+Current-Line Rule	目前行標線
+Cursor	游標
+Custom	自訂
+Custom CSS	自訂 CSS
+Custom node name	自訂節點名稱
+Custom…	自訂…
+Dark	深色
+Decrease Heading Level	降低標題層級
+Default	預設
+Default Language	預設語言
+Default file type	預設檔案類型
+Default output style	預設輸出樣式
+Delete	刪除
+Delete AI Data & Keys…	刪除 AI 資料與金鑰…
+Delete All	全部刪除
+Delete All AI Data…	刪除所有 AI 資料…
+Delete Collection	刪除集合
+Delete Column	刪除欄
+Delete Diagnostics…	刪除診斷資訊…
+Delete Line	刪除行
+Delete Paragraph	刪除段落
+Delete Permanently	永久刪除
+Delete Row	刪除列
+Delete Selected	刪除所選
+Delete Style Guide…	刪除風格指南…
+Delete Word	刪除字詞
+Delimiter pair	分隔符號成對
+Depth	深度
+Description	描述
+Description list term	描述清單詞彙
+Detailed	詳細
+Details…	詳細資訊…
+Device and system information	裝置與系統資訊
+Diagnostic Log	診斷記錄
+Diagnostics	診斷
+Diagram	圖解
+Diagrams	圖解
+Diagrams and charts (Mermaid, Vega-Lite)	圖解與圖表（Mermaid、Vega-Lite）
+Digits 0 to 9	數字 0 到 9
+Dim	調暗
+Discard Changes	捨棄變更
+Discard theme changes?	要捨棄佈景主題的變更嗎？
+Dismiss	忽略
+Dismiss All Suggestions	忽略所有建議
+Display	顯示
+Display Math	顯示數學式
+Display line numbers	顯示行號
+Do nothing	不執行任何動作
+Document	文件
+Document Information	文件資訊
+Document Mode	文件模式
+Document Translation	文件翻譯
+Document attribute	文件屬性
+Document structure (counts only)	文件結構（僅計數）
+Documents	文件
+Don't expand inside code	不在程式碼內展開
+Don't show this again	不再顯示此訊息
+Done	完成
+Download	下載
+Draws	繪製
+Draws as	繪製為
+Duck	鴨子
+Duplicate	複製
+Duplicate Collection	複製集合
+Duplicate Style Guide	複製風格指南
+Edit	編輯
+Edit Advanced JSON…	編輯進階 JSON…
+Edit Application Theme	編輯應用程式佈景主題
+Edit Block	編輯區塊
+Edit Macro	編輯巨集
+Edit Profile	編輯設定檔
+Edit Render Theme	編輯渲染佈景主題
+Edited	已編輯
+Editing	編輯中
+Editing colours for	正在編輯顏色：
+Editor	編輯器
+Editor Background	編輯器背景
+Editor font	編輯器字體
+Editor size and word count	編輯器大小與字數統計
+Edit…	編輯…
+Emphasis	強調
+Empty Recently Deleted	清空「最近刪除」
+Enable AI assistant	啟用 AI 助理
+Enabled	已啟用
+Encoding	編碼
+End of line	行尾
+Entries	項目
+Equation	方程式
+Equations	方程式
+Errors	錯誤
+Escape character	跳脫字元
+Estimated time: less than a minute	預估時間：不到一分鐘
+Everything	全部
+Exact text	完全相符的文字
+Example box	範例框
+Excluded files	排除的檔案
+Exit Focus	結束專注
+Expand emoji shortcodes (:smile:)	展開表情符號簡碼 (:smile:)
+Export	匯出
+Export Collection…	匯出集合…
+Export Defaults	匯出預設值
+Export Style Guide…	匯出風格指南…
+Export and print	匯出與列印
+Export…	匯出…
+Extends Markdown	擴充 Markdown
+Fast	快速
+Fenced block	圍欄區塊
+Field	欄位
+Fields	欄位
+File	檔案
+File Access	檔案存取權限
+File Changed on Disk	磁碟上的檔案已變更
+File Operation Failed	檔案操作失敗
+File extension	副檔名
+File extensions (comma-separated)	副檔名（以逗號分隔）
+File tree / library	檔案樹 / 資料庫
+Files	檔案
+Files and library	檔案與資料庫
+Files in Another Language	其他語言的檔案
+Fill	填滿
+Fill-in fields remain	仍有待填寫的欄位
+Find	尋找
+Find In	尋找範圍
+Find Next	尋找下一個
+Find Previous	尋找上一個
+Find in document	在文件中尋找
+Find…	尋找…
+Finish Bug Report	完成錯誤回報
+First line before a blank line is the header	空白行之前的第一行為標頭
+Fit	符合
+Fixed attributes	固定屬性
+Focus	專注
+Focus Mode	專注模式
+Fold All	全部摺疊
+Folder	資料夾
+Folders turned off	已關閉的資料夾
+Font size	字體大小
+Fonts	字體
+Footer template	頁尾範本
+Footnote	註腳
+Footnote label begins with	註腳標籤開頭為
+Format	格式
+Formats	格式
+Formatting Toolbar	格式工具列
+From heading level	從標題層級
+From your subscription	來自訂閱
+Front matter	前置內容
+General	一般
+Get votes	取得投票數
+GitHub-style alerts	GitHub 風格提醒
+Give headings ids	為標題加上 id
+Go	前往
+Go Back	返回
+Go Forward	前進
+Go to Line	前往行
+Go to Line…	前往行…
+Go to Next Field	前往下一個欄位
+Grid with rule lines	含框線的格線
+Group (no box)	群組（無框）
+Gutter font	行號欄字體
+HTML (without Styles)	HTML（不含樣式）
+Hard pad with spaces	以空格強制填補
+Header rule line pattern	標頭分隔線模式
+Header template	頁首範本
+Header, footer, and metadata	頁首、頁尾與中繼資料
+Heading (level from the rule)	標題（層級取自規則）
+Heading 1	標題 1
+Heading 2	標題 2
+Heading 3	標題 3
+Heading 4	標題 4
+Heading 5	標題 5
+Heading 6	標題 6
+Heading Folds	標題摺疊
+Heading id prefix	標題 id 前置詞
+Heading id word separator	標題 id 字詞分隔符號
+Heading labels	標題標籤
+Heading level	標題層級
+Height	高度
+Help	說明
+Hide Markers	隱藏標記
+Hide Scenes	隱藏場景
+Hide Toolbar	隱藏工具列
+Hide replace	隱藏取代
+Highlight	醒目標示
+Highlight (==key==)	醒目標示 (==key==)
+Horizontal Line	水平線
+Horizontal rule	水平分隔線
+Hyperlink	超連結
+Ignore trailing whitespace	忽略行尾空白
+Image	圖片
+Image prefix	圖片前置詞
+Images	圖片
+Images in Preview and exports	預覽與匯出中的圖片
+Image…	圖片…
+Import	匯入
+Import Macros…	匯入巨集…
+Import Style Guide…	匯入風格指南…
+Import Theme…	匯入佈景主題…
+Import file	匯入檔案
+Importable file	可匯入的檔案
+Important	重要
+Import…	匯入…
+Include in Manuscript	納入書稿
+Include in a report	報告包含內容
+Increase Heading Level	提高標題層級
+Indent	增加縮排
+Indent size	縮排大小
+Indentation	縮排
+Indented block	縮排區塊
+Indented text under a line ending in a marker	以標記結尾的行之下的縮排文字
+Indented text under an opening line	開頭行之下的縮排文字
+Index term	索引詞
+Inherits	繼承自
+Inline Math	行內數學式
+Inline code	行內程式碼
+Inline equation	行內方程式
+Inline math ($…$)	行內數學式 ($…$)
+Inline rules	行內規則
+Insert	插入
+Insert Alert	插入提醒
+Insert Chart	插入圖表
+Insert Code Fence	插入程式碼圍欄
+Insert Date/Time	插入日期／時間
+Insert Diagram	插入圖解
+Insert Display Math	插入顯示數學式
+Insert Footnote	插入註腳
+Insert Horizontal Line	插入水平線
+Insert Image…	插入圖片…
+Insert Inline Math	插入行內數學式
+Insert Link Reference	插入連結參照
+Insert Table	插入表格
+Insert Table of Contents	插入目錄
+Insert Table…	插入表格…
+Insert Task List	插入待辦事項清單
+Insert YAML Front Matter	插入 YAML 前置資料
+Insert at Cursor	插入到游標處
+Insert link	插入連結
+Insert spaces when pressing Tab	按下 Tab 時插入空格
+Insert text	插入文字
+Interface Size	介面大小
+Italic	斜體
+Join Lines	合併行
+Jump to	跳至
+Jump to Bottom	跳到底部
+Jump to Line End	跳到行尾
+Jump to Line Start	跳到行首
+Jump to Top	跳到頂端
+Keep Current Version	保留目前版本
+Keep Editing	繼續編輯
+Keep a version of each file first	先保留每個檔案的一個版本
+Keep indentation on Return	按下 Return 時保留縮排
+Keep it in	儲存位置
+Keep single line breaks	保留單一換行
+Kept	已保留
+Keyboard	鍵盤
+Keyboard key	鍵盤按鍵
+Kind	種類
+Kitten	小貓
+Label	標籤
+Label headings	為標題加上標籤
+Landscape	橫向
+Language	語言
+Languages on This Device	此裝置上的語言
+Layout	版面配置
+Leave Out of Manuscript	從書稿中排除
+Leave the line out	略過此行
+Left margin	左邊界
+Left out	已排除
+Letters	字母
+Level	層級
+Level group	層級群組
+Library	資料庫
+Library location	資料庫位置
+Light	淺色
+Line Numbers	行號
+Line break	換行
+Line spacing	行距
+Line that defines a label has	定義標籤的行具有
+Line-start prefix	行首前置詞
+Lines	行
+Lines (for example 3-17)	行（例如 3-17）
+Link	連結
+Link Reference	連結參照
+Link each heading back to its contents entry	讓每個標題連結回其目錄項目
+Links	連結
+Links and web addresses	連結與網址
+List	清單
+List continuation line	清單接續行
+List only headings below the [TOC] line	只列出 [TOC] 行下方的標題
+Literal exact	完全照字面
+Literal prefix	字面前置詞
+Ln	行
+Load images from the internet	從網際網路載入圖片
+Loading models…	正在載入模型…
+Location	位置
+Lowercase letters	小寫字母
+Machine-translated — may contain errors.	機器翻譯——可能含有錯誤。
+Macro Collection	巨集集合
+Macros	巨集
+Make Active	設為使用中
+Make Folder a Book Project	將資料夾設為書籍專案
+Make It a Project	設為專案
+Make Lower Case	轉為小寫
+Make Upper Case	轉為大寫
+Manuscript	書稿
+Mark	標記
+Markdown file	Markdown 檔案
+Marker group	標記群組
+Match	符合
+Match case	區分大小寫
+May open or close inside a word	可在字詞內開啟或關閉
+Media	媒體
+Menu	選單
+Menus in the Header	標頭中的選單
+Missing	遺失
+Model	模型
+Monospace	等寬
+More	更多
+More formatting	更多格式
+More…	更多…
+Move Chapter Down	下移章節
+Move Chapter Up	上移章節
+Move My Library Here	將我的資料庫移到此處
+Move Row Down	下移列
+Move Row Up	上移列
+Move To…	移到…
+Move to Trash	移到垃圾桶
+Moving your library…	正在移動你的資料庫…
+Name	名稱
+Named parts become attributes	具名的部分會成為屬性
+Navigator	導覽器
+Needs an API key	需要 API 金鑰
+Nest lists by marker	依標記巢狀排列清單
+Nesting rules	巢狀規則
+Never	永不
+Never add	永不加入
+Never for This File	此檔案永不
+New	新增
+New Back Matter	新增附錄
+New Book	新增書籍
+New Book…	新增書籍…
+New Chapter	新增章節
+New Collection	新增集合
+New Document	新增文件
+New File	新增檔案
+New File Below	在下方新增檔案
+New Folder	新增資料夾
+New Front Matter	新增前置內容
+New Macro	新增巨集
+New Scene	新增場景
+New files are written in	新檔案使用的格式
+Newer	較新
+Next Document	下一個文件
+Next Field	下一個欄位
+Next match	下一個符合項目
+No	否
+No Syntax	無語法
+No headings	沒有標題
+No special action	無特殊動作
+None	無
+Normal	一般
+Not Loaded	未載入
+Not Now	現在不要
+Not a picture	不是圖片
+Not available	無法使用
+Not in the manuscript	不在書稿中
+Not styled	未套用樣式
+Note	附註
+Nothing from the document	不含文件的任何內容
+Nothing yet	目前沒有
+Nothing — hidden	無——隱藏
+Number headings	為標題編號
+Number headings (1., 1.1.)	為標題編號（1.、1.1.）
+Numbered List	編號清單
+Numbered captions	有編號的標題說明
+Numbered list item	編號清單項目
+Numbers	數字
+OK	好
+Off	關閉
+Offer Again for All Files	對所有檔案再次提供翻譯
+Offer to translate	提供翻譯
+Older	較舊
+On Launch	啟動時
+On This Page	本頁內容
+On this device	在此裝置上
+One Step Smaller	小一級
+One mark draws	單一標記繪製為
+Only after a blank line	僅在空白行之後
+Only at the start of a line	僅在行首
+Only when this setting is on	僅在此設定開啟時
+Open	開啟
+Open Copy	開啟副本
+Open Diagnostics	開啟診斷
+Open Documents	開啟的文件
+Open File	開啟檔案
+Open File…	開啟檔案…
+Open Folder	開啟資料夾
+Open Folder…	開啟資料夾…
+Open Form Without Log	不含記錄開啟表單
+Open Quickly…	快速開啟…
+Open Recent	開啟最近項目
+Open Theme Folder	開啟佈景主題資料夾
+Open custom folder	開啟自訂資料夾
+Open documents and document actions	開啟的文件與文件動作
+Open in New Tab	在新標籤頁中開啟
+Open in a new tab	在新標籤頁中開啟
+Open in editor	在編輯器中開啟
+Open new file	開啟新檔案
+Open…	開啟…
+Options	選項
+Order	順序
+Ordered List	有序清單
+Orientation	方向
+Other	其他
+Other blocks, in a box	其他區塊，含框
+Other blocks, no box	其他區塊，無框
+Other…	其他…
+Out of sync	不同步
+Outdent	減少縮排
+Outline	大綱
+Output	輸出
+PDF Archive (.zip)	PDF 封存檔 (.zip)
+Page	頁面
+Page Setup…	頁面設定…
+Page break between top-level headings	在頂層標題之間分頁
+Pair marks	成對標記
+Pane divider	窗格分隔線
+Paper size	紙張大小
+Paragraph	段落
+Parent node	父節點
+Parsing and profiles	解析與設定檔
+Parsing warning	解析警告
+Part	部分
+Parts	部
+Paste as Plain Text	以純文字貼上
+Pattern	模式
+Pilcrow Help	Pilcrow 說明
+Pilcrow settings	Pilcrow 設定
+Place	位置
+Play	播放
+Play a sound as I type	輸入時播放聲音
+Play on Battery	使用電池時播放
+Point of view	視角
+Portrait	直向
+Preferred image syntax	偏好的圖片語法
+Prefix	前置詞
+Preformatted text	預先格式化的文字
+Preset	預設
+Preset name	預設名稱
+Press any key…	按下任意鍵…
+Preview	預覽
+Previous Document	上一個文件
+Previous Field	上一個欄位
+Previous match	上一個符合項目
+Print	列印
+Print…	列印…
+Priority	優先順序
+Privacy	隱私權
+Privacy Policy	隱私權政策
+Private & Support Data	私人資料與支援資料
+Problems only	僅問題
+Produces	產生
+Profile	設定檔
+Profile Help	設定檔說明
+Profile section	設定檔段落
+Project	專案
+Project Settings	專案設定
+Put Back	放回
+Quit Now	立即結束
+Quit Pilcrow when last window is closed	關閉最後一個視窗時結束 Pilcrow
+Quote	引用
+Quote line marker	引用行標記
+Raw HTML	原始 HTML
+Raw HTML (inline)	原始 HTML（行內）
+Read marks by what stands around them	依標記周圍的字元來讀取標記
+Reading speed	閱讀速度
+Reading time	閱讀時間
+Recently Deleted	最近刪除
+Reconsider	重新考慮
+Record diagnostic log	記錄診斷記錄
+Record recent files and folders	記錄最近使用的檔案與資料夾
+Record the Problem First	先記錄問題
+Record the Problem First?	要先記錄問題嗎？
+Recording log	正在記錄
+Recover	復原
+Recover All	全部復原
+Recover Documents	復原文件
+Redo	重做
+Regex (bounded)	正規表示式（有界）
+Regular expression	正規表示式
+Reject	拒絕
+Reload	重新載入
+Reload from Disk	從磁碟重新載入
+Remove	移除
+Remove Blank Lines	移除空白行
+Remove Duplicate Lines	移除重複行
+Rename	重新命名
+Rename…	重新命名…
+Render Theme	渲染佈景主題
+Render Themes	渲染佈景主題
+Rendered Blocks	渲染區塊
+Rendered preview	渲染後的預覽
+Rendering and diagrams	渲染與圖解
+Reorder	重新排序
+Repeat marker	重複標記
+Repeat the marker	重複標記
+Replace	取代
+Replace All	全部取代
+Replace Existing File?	要取代現有檔案嗎？
+Replace Selection	取代選取內容
+Replace a [TOC] line with the list	以清單取代 [TOC] 行
+Replace the document	取代文件
+Replace with	取代為
+Replacement	取代內容
+Replacement text	取代文字
+Replaces Markdown	取代 Markdown
+Replace…	取代…
+Report Now	立即回報
+Report a Bug	回報錯誤
+Report a Bug…	回報錯誤…
+Report on GitHub…	在 GitHub 上回報…
+Reproduce an issue	重現問題
+Reproducing — Finish Report	重現中 — 完成回報
+Reset	重置
+Reset All Shortcuts	重置所有快速鍵
+Reset to Baseline	重置為基準
+Restore	還原
+Restore Purchases	回復購買項目
+Restore last closed files and folders	還原上次關閉的檔案與資料夾
+Restore last closed folders	還原上次關閉的資料夾
+Restore…	還原…
+Retry	重試
+Return	換行
+Reveal in Finder	在 Finder 中顯示
+Reverse Lines	反轉行順序
+Review	審閱
+Review Recovery Data…	檢視復原資料…
+Review Remaining	審閱其餘部分
+Review Version History…	檢視版本記錄…
+Right margin	右邊界
+Roadmap	路線圖
+Role	角色
+Row ends with	列結尾為
+Rows	列數
+Rule line pattern	分隔線模式
+Run	執行
+Run marks	連續標記
+Sample and results	範例與結果
+Sans-serif	無襯線
+Save	儲存
+Save & recover	儲存與復原
+Save All	全部儲存
+Save As:	儲存為：
+Save As…	另存新檔…
+Save Document	儲存文件
+Save Report…	儲存報告…
+Save a copy beside the original	在原檔旁儲存副本
+Save and Attach File	儲存並附加檔案
+Save as preset	儲存為預設
+Save failed	儲存失敗
+Save new documents as	將新文件儲存為
+Save without asking when closing a file	關閉檔案時不詢問直接儲存
+Saved	已儲存
+Schemes that begin a bare address	開頭為純位址的協定
+Search	搜尋
+Search Again	再次搜尋
+Search Folder	搜尋資料夾
+Search Folder…	搜尋資料夾…
+Search Open Documents	搜尋開啟的文件
+Search models	搜尋模型
+Search settings	搜尋設定
+Search the log	搜尋記錄
+Section	段落
+Select All	全選
+Select All Occurrences	選取所有出現處
+Select Line	選取行
+Select Next Occurrence	選取下一個出現處
+Select None	全不選
+Select Paragraph	選取段落
+Select Word	選取字詞
+Selection	選取範圍
+Send	傳送
+Send Report	傳送報告
+Send and Translate	傳送並翻譯
+Serif	襯線
+Sessions	工作階段
+Set as New Baseline	設為新基準
+Settings	設定
+Settings for the next block	下一個區塊的設定
+Settings…	設定…
+Share Report…	分享報告…
+Share…	分享…
+Short lines in column mode	單欄模式中的短行
+Shortcuts	快速鍵
+Show Diagnostics Settings	顯示診斷設定
+Show Scenes	顯示場景
+Show Source	顯示原始碼
+Show Spelling and Grammar	顯示拼字與文法
+Show all models	顯示所有模型
+Show current-line rule	顯示目前行標線
+Show hidden folders and files	顯示隱藏的資料夾與檔案
+Show in Finder	在 Finder 中顯示
+Show line numbers	顯示行號
+Show parsing warnings	顯示解析警告
+Show replace	顯示取代
+Show status bar	顯示狀態列
+Show the translation notice when Pilcrow starts	Pilcrow 啟動時顯示翻譯通知
+Side by Side	並排
+Sidebar	側邊欄
+Skipped	已略過
+Smart dashes	智慧型破折號
+Smart ellipsis	智慧型省略號
+Smart punctuation	智慧型標點符號
+Smart quotes	智慧型引號
+Soft pad with spaces	以空格柔性填補
+Sort Lines Ascending	行遞增排序
+Sort Lines Descending	行遞減排序
+Sound	聲音
+Space	間距
+Spanning cell pattern	跨欄儲存格模式
+Speech	語音
+Speed	速度
+Speed and memory	速度與記憶體
+Spelling	拼字
+Spelling and Grammar	拼字與文法
+Start Speaking	開始朗讀
+Start fresh from the marker	從標記重新開始
+Start on a new page	從新頁開始
+Status	狀態
+Status and formatting bars	狀態列與格式列
+Stop	停止
+Stop Speaking	停止朗讀
+Stop at the line	在該行停止
+Stop recording after	在以下時間後停止記錄
+Stop recording and finish the bug report	停止記錄並完成錯誤回報
+Storage & Privacy	儲存空間與隱私
+Strikethrough	刪除線
+Strong	粗體
+Style	樣式
+Style Guide	風格指南
+Style Guides	風格指南
+Style Review	風格審閱
+Style guide	風格指南
+Styled Source	套用樣式的原始碼
+Styled source	套用樣式的原始碼
+Styles to the end of the line	將樣式套用到行尾
+Subscript	下標
+Subscript (H~2~O)	下標 (H~2~O)
+Subscription & Credits	訂閱與點數
+Super Tab keys	Super Tab 按鍵
+Superscript	上標
+Superscript (X^2^)	上標 (X^2^)
+Support Pilcrow	支持 Pilcrow
+Symbols and punctuation	符號和標點
+Synopses	概要
+Synopsis	概要
+Syntax	語法
+Syntax Profile	語法設定檔
+Syntax Profiles	語法設定檔
+Syntax support	語法支援
+System Default	系統預設
+System Monospace	系統等寬字體
+System Size	系統大小
+System default	系統預設
+Tab	定位字元
+Tab width	Tab 寬度
+Table	表格
+Table of Contents	目錄
+Table of contents	目錄
+Table row line	表格列分隔線
+Table…	表格…
+Tags:	標籤：
+Take Back	取回
+Task List	待辦事項清單
+Terms of Use	使用條款
+Test Connection	測試連線
+Text	文字
+Text Size & Fonts	文字大小與字體
+Text editor	文字編輯器
+Text width	文字寬度
+Text, shown as written	文字，依原樣顯示
+Theme	佈景主題
+Theme & Backdrop	佈景主題與背景圖
+Themes	佈景主題
+This Document	此文件
+Three Steps Smaller	小三級
+Tile	並排顯示
+Tip	提示
+Title	標題
+Toggle Sidebar	切換側邊欄
+Toggle Task Status	切換待辦事項狀態
+Top margin	上邊界
+Trail of recent actions	最近操作軌跡
+Translate	翻譯
+Translate Document	翻譯文件
+Translate Selection	翻譯選取內容
+Translate automatically	自動翻譯
+Translate into	翻譯成
+Translate to	翻譯為
+Translated with AI	已由 AI 翻譯
+Translation	翻譯
+Trigger	觸發條件
+Trigger — e.g. /sig	觸發條件——例如 /sig
+Trim Trailing Whitespace	修剪行尾空白
+Try Again	重試
+Turn Off for This Folder	對此資料夾關閉
+Turn On	開啟
+Turn On for This Folder	對此資料夾開啟
+Turn off Column Selection	關閉欄選取
+Two Steps Smaller	小兩級
+Two marks draw	兩個標記繪製為
+Type a command	輸入指令
+Type a filename	輸入檔名
+Typewriter	打字機
+Typing	輸入
+Typing sounds	鍵入聲音
+Unbind	解除綁定
+Underline	底線
+Undo	復原
+Unfold All	全部展開
+Unordered List	無序清單
+Upload image	上傳圖片
+Uppercase letters	大寫字母
+Use This Device	使用此裝置
+Use What Is There	使用現有的
+Use relative path if possible	可能時使用相對路徑
+Use the end of the line	使用行尾
+Use these page settings as default	將這些頁面設定作為預設值
+Value	值
+Variables	變數
+Variant	變體
+Version History	版本記錄
+Version History…	版本記錄…
+Versions to keep	保留的版本數
+Video	視訊
+View	檢視
+View Log…	檢視記錄…
+Volume	音量
+Vote	投票
+Warning	警告
+Warnings	警告
+Web address	網址
+What counts as a word	哪些內容算作詞
+What is sent	傳送內容
+What to record	要記錄的內容
+What to review	要審閱的內容
+What to share	要分享的內容
+What to write	要撰寫的內容
+When a file is in another language	當檔案使用其他語言時
+When finished	完成時
+When inserting an image	插入圖片時
+When something is dropped onto the app	當有項目拖放到 App 上時
+When starting	啟動時
+When the document defines	當文件定義了
+Where	位置
+Where:	位置：
+Whole document	整份文件
+Whole word	全字拼寫相符
+Width	寬度
+Word target	字數目標
+Words	字數
+Wrap Lines	換行
+Wrap long lines	長行自動換行
+Write in	寫作格式
+YAML Front Matter	YAML 前置資料
+YAML front matter	YAML 前置資料
+Yes	是
+Your name	你的姓名
+Your own sounds	自訂聲音
+Your votes	你的投票數
+Zoom	縮放
+Zoom In	放大
+Zoom Out	縮小

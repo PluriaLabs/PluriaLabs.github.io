@@ -33,10 +33,46 @@ LANGS = [
     ("sv", "Svenska"), ("th", "ไทย"), ("tr", "Türkçe"), ("uk", "Українська"), ("vi", "Tiếng Việt"),
 ]
 RTL = {"ar"}
+I18N = ROOT / "src" / "i18n"
+CODES = [c for c, _ in LANGS]
+NATIVE = dict(LANGS)
+_UI = {}
+
+
+def ui(lang: str) -> dict:
+    """Interface strings for a language, with English filling any gap."""
+    if lang not in _UI:
+        data = json.loads((I18N / "en" / "ui.json").read_text(encoding="utf-8"))
+        f = I18N / lang / "ui.json"
+        if lang != "en" and f.exists():
+            data.update(json.loads(f.read_text(encoding="utf-8")))
+        _UI[lang] = data
+    return _UI[lang]
+
+
+def prefix(lang: str, path: str) -> str:
+    """The URL of an English-site path in another language: /pilcrow/ becomes /es/pilcrow/."""
+    return path if lang == "en" else f"/{lang}{path}"
 
 
 def privacy_url(code: str) -> str:
     return "/pilcrow/privacy.html" if code == "en" else f"/pilcrow/privacy/{code}.html"
+
+
+def localize(markup: str, lang: str) -> str:
+    """Point root-relative links at the language's own copy of the site."""
+    if lang == "en":
+        return markup
+
+    def fix(m):
+        url = m.group(2)
+        if url.startswith("//") or url.startswith(("/assets/", "/pilcrow/assets/", "/pilcrow/privacy")):
+            return m.group(0)
+        if url.split("#")[0] == "/pilcrow/privacy.html":
+            return m.group(1) + privacy_url(lang) + url[len("/pilcrow/privacy.html"):] + m.group(3)
+        return m.group(1) + prefix(lang, url) + m.group(3)
+
+    return re.sub(r'(href=")(/[^"]*)(")', fix, markup)
 
 
 LAYOUT = """<!doctype html>
@@ -54,6 +90,7 @@ LAYOUT = """<!doctype html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:url" content="{canonical}">
+<meta property="og:locale" content="{locale}">
 <meta property="og:image" content="{site}/pilcrow/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="/pilcrow/assets/favicon.svg">
@@ -62,10 +99,10 @@ LAYOUT = """<!doctype html>
 <link rel="stylesheet" href="/assets/site.css">
 {jsonld}</head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">{skip}</a>
 {header}
 <main id="main">
-{body}
+{notice}{body}
 </main>
 {footer}
 <script src="/assets/site.js" defer></script>
@@ -73,82 +110,125 @@ LAYOUT = """<!doctype html>
 </html>
 """
 
-HEADER_PILCROW = """<header class="site-header">
-<div class="wrap">
-<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
-<nav class="nav" aria-label="Main">
-<a href="/pilcrow/#features">Features</a>
-<a class="keep" href="/pilcrow/guide/"{cur_guide}>User Guide</a>
-<a href="/pilcrow/compare.html"{cur_compare}>Compare</a>
-<a href="/pilcrow/#privacy">Privacy</a>
-<a class="keep" href="/pilcrow/support.html"{cur_support}>Support</a>
-<a class="btn btn-primary btn-sm" href="/pilcrow/#get">Get Pilcrow</a>
-</nav>
-</div>
-</header>"""
+GLOBE = ('<svg class="globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" '
+         'stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/>'
+         '<path d="M3 12h18M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9s1.3-6.3 3.9-9z"/></svg>')
 
-HEADER_LABS = """<header class="site-header">
+
+def lang_menu(lang: str, key: str) -> str:
+    """The language chooser: a plain <details> list, so it needs no script. key is the English path."""
+    items = []
+    for code, native in LANGS:
+        url = privacy_url(code) if key.startswith("/pilcrow/privacy") else prefix(code, key)
+        cur = ' aria-current="true"' if code == lang else ""
+        items.append(f'<li><a href="{url}" hreflang="{code}" lang="{code}" data-lang="{code}"{cur}>{native}</a></li>')
+    return (f'<details class="lang-menu"><summary aria-label="{html.escape(ui(lang)["lang_menu"], quote=True)}">{GLOBE}'
+            f'<span lang="{lang}">{NATIVE[lang]}</span></summary><ul>{"".join(items)}</ul></details>')
+
+
+def header(lang: str, key: str, section: str) -> str:
+    t = ui(lang)
+    cur = ' aria-current="page"'
+    menu = lang_menu(lang, key)
+    if section == "labs":
+        return localize(f"""<header class="site-header">
 <div class="wrap">
-<a class="brand" href="/" aria-label="Pluria Labs home">Pluria Labs</a>
-<nav class="nav" aria-label="Main">
+<a class="brand" href="/" aria-label="{html.escape(t['labs_aria'], quote=True)}">Pluria Labs</a>
+<div class="hdr-end"><nav class="nav" aria-label="{html.escape(t['nav_aria'], quote=True)}">
 <a class="keep" href="/pilcrow/">Pilcrow</a>
-<a href="/pilcrow/support.html">Support</a>
-<a href="https://github.com/PluriaLabs">GitHub</a>
-</nav>
+<a href="/pilcrow/support.html">{t['nav_support']}</a>
+<a href="https://github.com/PluriaLabs">{t['nav_github']}</a>
+</nav>MENU</div>
 </div>
-</header>"""
+</header>""", lang).replace("MENU", menu)
+    return localize(f"""<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/pilcrow/" aria-label="{html.escape(t['brand_aria'], quote=True)}"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
+<div class="hdr-end"><nav class="nav" aria-label="{html.escape(t['nav_aria'], quote=True)}">
+<a href="/pilcrow/#features">{t['nav_features']}</a>
+<a class="keep" href="/pilcrow/guide/"{cur if key.startswith("/pilcrow/guide/") else ""}>{t['nav_guide']}</a>
+<a href="/pilcrow/compare.html"{cur if key == "/pilcrow/compare.html" else ""}>{t['nav_compare']}</a>
+<a href="/pilcrow/#privacy">{t['nav_privacy']}</a>
+<a class="keep" href="/pilcrow/support.html"{cur if key == "/pilcrow/support.html" else ""}>{t['nav_support']}</a>
+<a class="btn btn-primary btn-sm" href="/pilcrow/#get">{t['nav_get']}</a>
+</nav>MENU</div>
+</div>
+</header>""", lang).replace("MENU", menu)
 
-FOOTER = """<footer class="site-footer">
+
+def footer(lang: str) -> str:
+    t = ui(lang)
+    return localize(f"""<footer class="site-footer">
 <div class="wrap">
 <div class="foot-grid">
 <div>
 <a class="brand" href="/">Pluria Labs</a>
-<p style="margin-top:.8rem;max-width:26rem">Software for people who write. Made with care, and with no tracking.</p>
+<p style="margin-top:.8rem;max-width:26rem">{t['foot_tag']}</p>
 </div>
 <div>
 <h4>Pilcrow</h4>
 <ul>
-<li><a href="/pilcrow/">Overview</a></li>
-<li><a href="/pilcrow/#features">Features</a></li>
-<li><a href="/pilcrow/guide/">User Guide</a></li>
-<li><a href="/pilcrow/compare.html">How Pilcrow compares</a></li>
-<li><a href="/pilcrow/support.html">Support</a></li>
-<li><a href="/pilcrow/privacy.html">Privacy policy</a></li>
+<li><a href="/pilcrow/">{t['foot_overview']}</a></li>
+<li><a href="/pilcrow/#features">{t['nav_features']}</a></li>
+<li><a href="/pilcrow/guide/">{t['nav_guide']}</a></li>
+<li><a href="/pilcrow/compare.html">{t['foot_compare']}</a></li>
+<li><a href="/pilcrow/support.html">{t['nav_support']}</a></li>
+<li><a href="/pilcrow/privacy.html">{t['foot_privacy']}</a></li>
 </ul>
 </div>
 <div>
 <h4>Pluria Labs</h4>
 <ul>
-<li><a href="mailto:""" + EMAIL + """">""" + EMAIL + """</a></li>
+<li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
 <li><a href="https://github.com/PluriaLabs">GitHub</a></li>
-<li><a href="https://github.com/PluriaLabs/Support/issues/new/choose">Report a bug</a></li>
+<li><a href="https://github.com/PluriaLabs/Support/issues/new/choose">{t['foot_bug']}</a></li>
 </ul>
 </div>
 </div>
-<div class="legal"><span>&copy; 2026 Pluria Labs.</span><span>Mac and iPad are trademarks of Apple Inc.</span></div>
+<div class="legal"><span>{t['foot_copyright']}</span><span>{t['foot_trademark']}</span></div>
 </div>
-</footer>"""
+</footer>""", lang)
+
+
+def alternates_for(key: str, langs: list) -> str:
+    """hreflang links for the languages that really have this page (English is x-default)."""
+    if len(langs) < 2:
+        return ""
+    out = "".join(f'<link rel="alternate" hreflang="{c}" href="{SITE}{prefix(c, key)}">\n' for c in langs)
+    return out + f'<link rel="alternate" hreflang="x-default" href="{SITE}{key}">\n'
 
 
 def render(page: dict) -> str:
-    path = page["path"]
-    lang = page.get("lang", "en")
-    header = HEADER_LABS if page.get("section") == "labs" else HEADER_PILCROW.format(
-        cur_support=' aria-current="page"' if path == "/pilcrow/support.html" else "",
-        cur_guide=' aria-current="page"' if path.startswith("/pilcrow/guide/") else "",
-        cur_compare=' aria-current="page"' if path == "/pilcrow/compare.html" else "")
+    """page: key (the English path), lang, translated (False when English stands in), title, description, body."""
+    key, lang = page["key"], page.get("lang", "en")
+    t = ui(lang)
+    url = page.get("url") or prefix(lang, key)
+    translated = page.get("translated", True)
+    notice, body = "", page["body"]
+    if lang != "en" and not key.startswith("/pilcrow/privacy"):
+        english = f'<a href="{key}" hreflang="en" lang="en">{html.escape(t["mt_original"])}</a>'
+        if translated:
+            notice = f'<p class="mt-note" role="note">{html.escape(t["mt_note"])} {english}</p>\n'
+        else:
+            msg = html.escape(t["fb_note"].format(language=NATIVE[lang]))
+            notice = f'<p class="mt-note" role="note">{msg}</p>\n'
+            body = f'<div lang="en" dir="ltr">\n{body}\n</div>'
+    canonical = SITE + (url if translated else key)
     return LAYOUT.format(
         lang=lang,
         dir=' dir="rtl"' if lang in RTL else "",
         title=html.escape(page["title"]),
         description=html.escape(page["description"], quote=True),
-        canonical=SITE + path,
+        canonical=canonical,
         alternates=page.get("alternates", ""),
+        locale=lang.replace("-", "_"),
         site=SITE,
         jsonld=page.get("jsonld", ""),
-        header=header,
-        body=page["body"],
-        footer=FOOTER,
+        skip=html.escape(t["skip"]),
+        header=header(lang, key, page.get("section", "pilcrow")),
+        notice=notice,
+        body=localize(body, lang),
+        footer=footer(lang),
         extra=page.get("extra", ""),
     )
 
@@ -159,34 +239,37 @@ def write(rel: str, text: str) -> None:
     out.write_text(text, encoding="utf-8")
 
 
-
 # ---------------------------------------------------------------- comparison table
 
-def compare_cell(code: str) -> str:
+def compare_cell(code: str, t: dict) -> str:
     """One cell of the comparison table: y, n, ? (not verified), with an optional note after a colon."""
     kind, _, note = code.partition(":")
     note_html = f'<small>{html.escape(note)}</small>' if note else ""
     if kind == "y":
-        return f'<td class="y"><span class="mk" aria-hidden="true">✓</span><span class="sr-only">Yes</span>{note_html}</td>'
+        return f'<td class="y"><span class="mk" aria-hidden="true">✓</span><span class="sr-only">{html.escape(t["compare_yes"])}</span>{note_html}</td>'
     if kind == "?":
-        return '<td class="u"><span class="mk" aria-hidden="true">?</span><span class="sr-only">Not verified</span></td>'
-    return '<td class="n"><span class="mk" aria-hidden="true">–</span><span class="sr-only">No</span></td>'
+        return f'<td class="u"><span class="mk" aria-hidden="true">?</span><span class="sr-only">{html.escape(t["compare_unverified"])}</span></td>'
+    return f'<td class="n"><span class="mk" aria-hidden="true">–</span><span class="sr-only">{html.escape(t["compare_no"])}</span></td>'
 
 
-def render_compare() -> str:
-    data = json.loads((ROOT / "src" / "data" / "compare.json").read_text(encoding="utf-8"))
+def render_compare(lang: str) -> str:
+    t = ui(lang)
+    f = I18N / lang / "compare.json"
+    if lang == "en" or not f.exists():
+        f = ROOT / "src" / "data" / "compare.json"
+    data = json.loads(f.read_text(encoding="utf-8"))
     cols = data["columns"]
     us = ' class="us"'
     head = "".join(f'<th scope="col"{us if i == 0 else ""}>{html.escape(c)}</th>' for i, c in enumerate(cols))
     out = [
-        '<div class="compare-wrap" tabindex="0" role="region" aria-label="Feature comparison table">',
-        '<table class="compare"><caption class="sr-only">Features of Pilcrow and five other writing editors</caption>',
-        f'<thead><tr><th scope="col" class="feat-h">Feature</th>{head}</tr></thead>',
+        f'<div class="compare-wrap" tabindex="0" role="region" aria-label="{html.escape(t["compare_aria"], quote=True)}">',
+        f'<table class="compare"><caption class="sr-only">{html.escape(t["compare_caption"])}</caption>',
+        f'<thead><tr><th scope="col" class="feat-h">{html.escape(t["compare_feature"])}</th>{head}</tr></thead>',
     ]
     for g in data["groups"]:
         out.append(f'<tbody><tr class="grp"><th scope="colgroup" colspan="{len(cols) + 1}">{html.escape(g["name"])}</th></tr>')
         for row in g["rows"]:
-            cells = "".join(compare_cell(c) for c in row[1:])
+            cells = "".join(compare_cell(c, t) for c in row[1:])
             out.append(f'<tr><th scope="row">{html.escape(row[0])}</th>{cells}</tr>')
         out.append("</tbody>")
     out.append("</table></div>")
@@ -205,19 +288,37 @@ def parse_source(path: pathlib.Path) -> dict:
     return meta
 
 
-def build_pages() -> list:
-    urls = []
+def page_sources() -> list:
+    """Every hand-written page: (path of the English source, English URL path)."""
+    out = []
     for src in sorted(SRC.rglob("*.html")):
         rel = src.relative_to(SRC).as_posix()
-        page = parse_source(src)
-        out = "/" + rel
-        url = "/" + rel.removesuffix("index.html") if rel.endswith("index.html") else out
-        page["path"] = url
+        out.append((rel, "/" + rel.removesuffix("index.html") if rel.endswith("index.html") else "/" + rel))
+    return out
+
+
+def translated_langs(rel: str) -> list:
+    return ["en"] + [c for c in CODES[1:] if (I18N / c / "pages" / rel).exists()]
+
+
+def build_pages(lang: str) -> list:
+    urls = []
+    for rel, key in page_sources():
+        if rel == "404.html" and lang != "en":
+            continue  # GitHub Pages serves a single 404 page
+        mine = I18N / lang / "pages" / rel
+        translated = lang == "en" or mine.exists()
+        page = parse_source(mine if lang != "en" and translated else SRC / rel)
+        page.update(key=key, lang=lang, translated=translated)
         if "<!--compare-table-->" in page["body"]:
-            page["body"] = page["body"].replace("<!--compare-table-->", render_compare())
+            page["body"] = page["body"].replace("<!--compare-table-->", render_compare(lang if translated else "en"))
         if page.get("jsonld_file"):
             data = (ROOT / "src" / page["jsonld_file"]).read_text(encoding="utf-8")
             page["jsonld"] = '<script type="application/ld+json">' + data.strip() + "</script>\n"
+        if rel != "404.html":
+            page["alternates"] = alternates_for(key, translated_langs(rel))
+        url = prefix(lang, key)
+        out = url + "index.html" if url.endswith("/") else url
         write(out, render(page))
         if rel != "404.html":
             urls.append(url)
@@ -320,7 +421,7 @@ def build_privacy() -> list:
         src = POLICIES / ("privacy-policy.md" if code == "en" else f"privacy-policy.{code}.md")
         title, desc, body = markdown(src.read_text(encoding="utf-8"), code)
         cur = ' aria-current="page"'
-        bar = '<nav class="langs" aria-label="Languages">' + " ".join(
+        bar = f'<nav class="langs" aria-label="{html.escape(ui(code)["langs_aria"], quote=True)}">' + " ".join(
             f'<a href="{privacy_url(c)}" hreflang="{c}" lang="{c}"{cur if c == code else ""}>{n}</a>'
             for c, n in LANGS
         ) + "</nav>"
@@ -334,8 +435,8 @@ def build_privacy() -> list:
             f'<div class="narrow prose">\n{bar}\n{note}\n{body}\n</div>'
         )
         page = {
-            "path": privacy_url(code), "lang": code, "title": f"{title} · Pilcrow",
-            "description": desc or "How Pilcrow handles your information.",
+            "key": privacy_url(code), "url": privacy_url(code), "lang": code, "title": f"{title} · Pilcrow",
+            "description": desc or title,
             "body": page_body, "alternates": alternates,
         }
         write(privacy_url(code), render(page))
@@ -345,7 +446,10 @@ def build_privacy() -> list:
 
 # ---------------------------------------------------------------- user guide
 
-def slugify(text: str) -> str:
+def slugify(text: str, lang: str = "en") -> str:
+    if lang != "en":  # keep letters of any script, so headings in other languages get readable anchors
+        text = re.sub(r"['’]", "", unicodedata.normalize("NFKC", text).lower())
+        return re.sub(r"[^\w]+", "-", text).strip("-_")
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     text = re.sub(r"['’]", "", text.lower())
     return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
@@ -375,7 +479,7 @@ def split_cells(line: str) -> list:
     return cells
 
 
-def guide_blocks(lines: list):
+def guide_blocks(lines: list, lang: str = "en"):
     """Convert a run of guide Markdown lines to HTML.
 
     Returns (html, headings, sections) where headings is [(id, text)] for each second-level
@@ -413,14 +517,14 @@ def guide_blocks(lines: list):
         if m:
             flush()
             level, text = len(m.group(1)), m.group(2).strip()
-            base = slugify(text) or "section"
+            base = slugify(text, lang) or "section"
             hid, n = base, 2
             while hid in used:
                 hid, n = f"{base}-{n}", n + 1
             used.add(hid)
             inner = inline(text, "en", guide=True)
             out.append(
-                f'<h{level} id="{hid}">{inner}<a class="anchor" href="#{hid}" aria-label="Link to this section">#</a></h{level}>'
+                f'<h{level} id="{hid}">{inner}<a class="anchor" href="#{hid}" aria-label="{html.escape(ui(lang)["link_to_section"], quote=True)}">#</a></h{level}>'
             )
             if level == 2:
                 heads.append((hid, plain(inner)))
@@ -484,11 +588,12 @@ def guide_blocks(lines: list):
     return "\n".join(out), heads, [(a, b, " ".join(c)) for a, b, c in sections]
 
 
-ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50}
 
 
-def parse_guide(md: str) -> dict:
-    """Split the guide into its introduction, parts and chapters."""
+def parse_guide(md: str, slugs: dict = None, lang: str = "en") -> dict:
+    """Split the guide into its introduction, parts and chapters.
+
+    slugs maps a chapter number to its page name; translations reuse the English page names."""
     lines = md.splitlines()
     parts, intro, cur_part, cur_ch, buf, in_fence = [], [], None, None, [], False
     target = intro
@@ -506,7 +611,7 @@ def parse_guide(md: str) -> dict:
     for line in lines:
         if line.startswith("```"):
             in_fence = not in_fence
-        m_part = re.match(r"^# Part ([IVXL]+) — (.+)$", line) if not in_fence else None
+        m_part = re.match(r"^# Part ([IVXL]+) [—–-] (.+)$", line) if not in_fence else None
         m_ch = re.match(r"^# Chapter (\d+): (.+)$", line) if not in_fence else None
         if m_part:
             close()
@@ -517,7 +622,7 @@ def parse_guide(md: str) -> dict:
             close()
             n = int(m_ch.group(1))
             title = m_ch.group(2).strip()
-            cur_ch = {"n": n, "title": title, "slug": f"{n:02d}-{slugify(title)}", "part": cur_part, "lines": []}
+            cur_ch = {"n": n, "title": title, "slug": (slugs or {}).get(n) or f"{n:02d}-{slugify(title)}", "part": cur_part, "lines": []}
             cur_part["chapters"].append(cur_ch)
         elif line.startswith("# ") and not in_fence and cur_part is None:
             continue  # the guide's own title
@@ -527,7 +632,7 @@ def parse_guide(md: str) -> dict:
     return {"intro": intro, "parts": parts}
 
 
-def guide_nav(parts: list, current: str = "") -> str:
+def guide_nav(parts: list, current: str = "") -> str:  # links are localized when the page is rendered
     out = []
     for p in parts:
         is_open = any(c["slug"] == current for c in p["chapters"])
@@ -543,87 +648,123 @@ def guide_nav(parts: list, current: str = "") -> str:
     return "\n".join(out)
 
 
-SEARCH_BOX = """<div class="g-search" role="search">
-<label class="sr-only" for="g-q">Search the User Guide</label>
-<input id="g-q" type="search" placeholder="Search the guide" autocomplete="off" spellcheck="false">
-<div id="g-results" class="g-results" hidden aria-live="polite"></div>
-</div>"""
+def search_box(lang: str) -> str:
+    t = ui(lang)
+    q = lambda k: html.escape(t[k], quote=True)
+    return (f'<div class="g-search" role="search">\n<label class="sr-only" for="g-q">{q("guide_search_label")}</label>\n'
+            f'<input id="g-q" type="search" placeholder="{q("guide_search_ph")}" autocomplete="off" spellcheck="false">\n'
+            f'<div id="g-results" class="g-results" data-none="{q("guide_none")}" hidden aria-live="polite"></div>\n</div>')
 
 GUIDE_SCRIPT = '<script src="/assets/guide.js" defer></script>\n'
 
 
-def read_guide_source(path: pathlib.Path) -> str:
-    """The guide is one Markdown file, or a folder of them that are joined in file-name order."""
-    if path.is_dir():
-        return "\n\n".join(f.read_text(encoding="utf-8") for f in sorted(path.glob("*.md")))
-    return path.read_text(encoding="utf-8")
+def read_guide_source(path: pathlib.Path, lang: str = "en") -> tuple:
+    """The guide is one Markdown file, or a folder of chunks joined in file-name order.
+
+    For another language each chunk comes from src/i18n/<lang>/guide/, or from English when it is missing.
+    Returns (text, numbers of the chapters that are still English)."""
+    if not path.is_dir():
+        return path.read_text(encoding="utf-8"), set()
+    parts, english = [], set()
+    for f in sorted(path.glob("*.md")):
+        mine = I18N / lang / "guide" / f.name
+        if lang != "en" and mine.exists():
+            parts.append(mine.read_text(encoding="utf-8"))
+        else:
+            text = f.read_text(encoding="utf-8")
+            parts.append(text)
+            english |= {int(n) for n in re.findall(r"^# Chapter (\d+):", text, re.M)}
+    return "\n\n".join(parts), (english if lang != "en" else set())
 
 
-def build_guide(path: pathlib.Path) -> list:
-    data = parse_guide(read_guide_source(path))
+def chapter_coverage(path: pathlib.Path) -> dict:
+    """For each chapter number, the languages that have its chunk translated."""
+    cover = {}
+    for f in sorted(path.glob("*.md")):
+        nums = [int(n) for n in re.findall(r"^# Chapter (\d+):", f.read_text(encoding="utf-8"), re.M)]
+        langs = [c for c in CODES[1:] if (I18N / c / "guide" / f.name).exists()]
+        for n in nums:
+            cover[n] = langs
+    return cover
+
+
+COVER: dict = {}
+
+
+def build_guide(path: pathlib.Path, lang: str, slugs: dict) -> tuple:
+    t = ui(lang)
+    text, english = read_guide_source(path, lang)
+    data = parse_guide(text, slugs, lang)
     parts = data["parts"]
     chapters = [c for p in parts for c in p["chapters"]]
-    urls, index = ["/pilcrow/guide/"], []
+    root = prefix(lang, "/pilcrow/guide/")
+    urls, index = [root], []
+    search = search_box(lang)
 
     for k, c in enumerate(chapters):
-        body, heads, sections = guide_blocks(c["lines"])
+        body, heads, sections = guide_blocks(c["lines"], lang)
         c["html"], c["heads"] = body, heads
         c["desc"] = next((plain(x)[:200] for x in re.findall(r"<p>.*?</p>", body)), c["title"])
-        for sid, stitle, text in sections:
-            if text.strip():
+        chapter_label = t["chapter"].format(n=c["n"])
+        part_label = t["part"].format(roman=c["part"]["roman"])
+        for sid, stitle, text_ in sections:
+            if text_.strip():
                 index.append({
-                    "u": f"/pilcrow/guide/{c['slug']}.html" + (f"#{sid}" if sid else ""),
-                    "c": f"Chapter {c['n']}: {c['title']}", "p": f"Part {c['part']['roman']} · {c['part']['name']}",
-                    "s": stitle, "x": text,
+                    "u": prefix(lang, f"/pilcrow/guide/{c['slug']}.html") + (f"#{sid}" if sid else ""),
+                    "c": f"{chapter_label}: {c['title']}", "p": f"{part_label} · {c['part']['name']}",
+                    "s": stitle, "x": text_,
                 })
+
+    def card(target, label, cls):
+        if not target:
+            return "<span></span>"
+        return (
+            f'<a class="{cls}" href="/pilcrow/guide/{target["slug"]}.html"><span class="dir">{label}</span>'
+            f'<span class="ttl">{html.escape(target["title"])}</span></a>'
+        )
 
     for k, c in enumerate(chapters):
         prev_c = chapters[k - 1] if k else None
         next_c = chapters[k + 1] if k + 1 < len(chapters) else None
         toc = ""
         if len(c["heads"]) > 1:
-            toc = '<aside class="g-toc" aria-label="On this page"><h2>On this page</h2><ul>' + "".join(
-                f'<li><a href="#{hid}">{html.escape(t)}</a></li>' for hid, t in c["heads"]
+            toc = f'<aside class="g-toc" aria-label="{html.escape(t["on_this_page"], quote=True)}"><h2>{html.escape(t["on_this_page"])}</h2><ul>' + "".join(
+                f'<li><a href="#{hid}">{html.escape(h)}</a></li>' for hid, h in c["heads"]
             ) + "</ul></aside>"
-
-        def card(target, label, cls):
-            if not target:
-                return "<span></span>"
-            return (
-                f'<a class="{cls}" href="/pilcrow/guide/{target["slug"]}.html"><span class="dir">{label}</span>'
-                f'<span class="ttl">{html.escape(target["title"])}</span></a>'
-            )
-
+        chapter_label = t["chapter"].format(n=c["n"])
+        part_label = t["part"].format(roman=c["part"]["roman"])
         page_body = f"""<div class="guide wrap">
 <aside class="g-side">
-{SEARCH_BOX}
-<details class="g-nav" open><summary>Guide contents</summary>
-<nav aria-label="User Guide">
-<a class="g-home" href="/pilcrow/guide/">Guide home</a>
+{search}
+<details class="g-nav" open><summary>{html.escape(t["guide_contents"])}</summary>
+<nav aria-label="{html.escape(t["guide_nav_aria"], quote=True)}">
+<a class="g-home" href="/pilcrow/guide/">{html.escape(t["guide_home"])}</a>
 {guide_nav(parts, c["slug"])}
 </nav></details>
 </aside>
 <article class="g-main">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/pilcrow/guide/">User Guide</a><span aria-hidden="true">›</span><span>Part {c["part"]["roman"]} · {html.escape(c["part"]["name"])}</span></nav>
-<p class="eyebrow">Chapter {c["n"]}</p>
-<h1>{inline(c["title"], "en")}</h1>
+<nav class="crumbs" aria-label="{html.escape(t["breadcrumb_aria"], quote=True)}"><a href="/pilcrow/guide/">{html.escape(t["guide_title"])}</a><span aria-hidden="true">›</span><span>{html.escape(part_label)} · {html.escape(c["part"]["name"])}</span></nav>
+<p class="eyebrow">{html.escape(chapter_label)}</p>
+<h1>{inline(c["title"], lang)}</h1>
 {c["html"]}
-<nav class="g-pager" aria-label="Chapters">
-{card(prev_c, "Previous", "prev")}
-{card(next_c, "Next", "next")}
+<nav class="g-pager" aria-label="{html.escape(t["chapters_aria"], quote=True)}">
+{card(prev_c, html.escape(t["prev"]), "prev")}
+{card(next_c, html.escape(t["next"]), "next")}
 </nav>
 </article>
 {toc}
 </div>"""
-        url = f"/pilcrow/guide/{c['slug']}.html"
-        write(url, render({
-            "path": url, "title": f"{plain(inline(c['title'], 'en'))} · Pilcrow User Guide",
+        key = f"/pilcrow/guide/{c['slug']}.html"
+        write(prefix(lang, key), render({
+            "key": key, "lang": lang, "translated": c["n"] not in english,
+            "title": f"{plain(inline(c['title'], lang))} · {t['guide_suffix']}",
             "description": c["desc"], "body": page_body, "extra": GUIDE_SCRIPT,
+            "alternates": alternates_for(key, ["en"] + COVER.get(c["n"], [])),
         }))
-        urls.append(url)
+        urls.append(prefix(lang, key))
 
     # the guide's home page
-    intro_html, intro_heads, _ = guide_blocks(data["intro"])
+    intro_html, intro_heads, _ = guide_blocks(data["intro"], lang)
     lede = ""
     m = re.search(r"<h2[^>]*>(.*?)<a class=\"anchor\"", intro_html, re.S)
     if m:
@@ -638,22 +779,24 @@ def build_guide(path: pathlib.Path) -> list:
     )
     home = f"""<div class="page-head g-head"><div class="wrap">
 <p class="eyebrow">Pilcrow</p>
-<h1>User Guide</h1>
-<p class="lede">{lede or "Everything you need to write, organize, review and publish with Pilcrow."}</p>
-{SEARCH_BOX}
+<h1>{html.escape(t["guide_title"])}</h1>
+<p class="lede">{lede or html.escape(t["guide_lede"])}</p>
+{search}
 </div></div>
 <div class="wrap g-home-body">
 <div class="g-intro prose">{intro_html}</div>
 <div class="g-cards">{cards}</div>
 </div>"""
-    write("/pilcrow/guide/index.html", render({
-        "path": "/pilcrow/guide/", "title": "Pilcrow User Guide · Pluria Labs",
-        "description": "The complete task-based guide to Pilcrow for Mac and iPad: writing, organizing, reviewing and publishing plain text.",
-        "body": home, "extra": GUIDE_SCRIPT,
+    write(prefix(lang, "/pilcrow/guide/index.html"), render({
+        "key": "/pilcrow/guide/", "lang": lang, "translated": (I18N / lang / "guide" / "g01.md").exists() or lang == "en",
+        "title": t["guide_home_title"], "description": t["guide_home_desc"], "body": home, "extra": GUIDE_SCRIPT,
+        "alternates": alternates_for("/pilcrow/guide/", ["en"] + [c for c in CODES[1:] if (I18N / c / "guide" / "g01.md").exists()]),
     }))
-    write("/assets/guide-index.json", json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n")
-    print(f"guide: {len(parts)} parts, {len(chapters)} chapters, {len(index)} searchable sections")
-    return urls
+    name = "guide-index.json" if lang == "en" else f"guide-index.{lang}.json"
+    write(f"/assets/{name}", json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n")
+    done = len(chapters) - len(english)
+    print(f"guide {lang}: {len(parts)} parts, {len(chapters)} chapters ({done} translated), {len(index)} searchable sections")
+    return urls, {c["n"]: c["slug"] for c in chapters}
 
 
 def main() -> None:
@@ -661,9 +804,19 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Build the Pluria Labs site.")
     ap.add_argument("--policies", type=pathlib.Path, default=POLICIES, help="folder with the privacy policy Markdown files")
     ap.add_argument("--guide", type=pathlib.Path, default=GUIDE, help="the User Guide: a Markdown file, or a folder of them")
+    ap.add_argument("--lang", action="append", help="build only this language (repeatable); default is all")
     args = ap.parse_args()
     POLICIES, GUIDE = args.policies, args.guide
-    urls = build_pages() + build_privacy() + build_guide(GUIDE)
+    langs = args.lang or CODES
+    COVER.update(chapter_coverage(GUIDE))
+    # English first: its chapter page names are reused by every translation, and the sitemap lists all pages.
+    en_urls, slugs = build_guide(GUIDE, "en", {})
+    urls = build_pages("en") + build_privacy() + en_urls
+    for lang in CODES[1:]:
+        if lang not in langs:
+            continue
+        g_urls, _ = build_guide(GUIDE, lang, slugs)
+        urls += build_pages(lang) + g_urls
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}{u}</loc></url>" for u in sorted(set(urls))]
     sm.append("</urlset>")
