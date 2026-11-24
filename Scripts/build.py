@@ -51,6 +51,7 @@ LAYOUT = """<!doctype html>
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{site}/pilcrow/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="/pilcrow/assets/favicon.svg">
 <link rel="icon" type="image/png" href="/pilcrow/assets/favicon.png">
 <link rel="apple-touch-icon" href="/pilcrow/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css">
@@ -69,7 +70,7 @@ LAYOUT = """<!doctype html>
 
 HEADER_PILCROW = """<header class="site-header">
 <div class="wrap">
-<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><span class="mark" aria-hidden="true">¶</span>Pilcrow</a>
+<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><svg class="mark" aria-hidden="true" focusable="false"><use href="/assets/logo.svg#pc-logo"/></svg>Pilcrow</a>
 <nav class="nav" aria-label="Main">
 <a href="/pilcrow/#features">Features</a>
 <a href="/pilcrow/#syntax">Syntax</a>
@@ -95,7 +96,7 @@ FOOTER = """<footer class="site-footer">
 <div class="wrap">
 <div class="foot-grid">
 <div>
-<a class="brand" href="/"><span class="mark" aria-hidden="true">¶</span>Pluria Labs</a>
+<a class="brand" href="/">Pluria Labs</a>
 <p style="margin-top:.8rem;max-width:26rem">Software for people who write. Made with care, and with no tracking.</p>
 </div>
 <div>
