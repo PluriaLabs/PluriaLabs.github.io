@@ -1,0 +1,80 @@
+{
+  "columns": ["Pilcrow", "Typora", "1Writer", "Ulysses", "Obsidian", "Bear"],
+  "legend": "y = ja, n = nej, ? = ikke bekræftet. Et ord efter y er en note: plugin, betalt, nøgleord, grammatik.",
+  "groups": [
+    { "name": "Platforme", "rows": [
+      ["macOS",             "y","y","n","y","y","y"],
+      ["iPad",              "y","n","y","y","y","y"],
+      ["iPhone",            "n","n","y","y","y","y"],
+      ["Windows eller Linux",  "n","y","n","n","y","n"]
+    ]},
+    { "name": "Skriveformat", "rows": [
+      ["Markdown",                                   "y","y","y","y","y","y"],
+      ["Brugerdefinerede syntaksprofiler",               "y","n","n","n","n","n"],
+      ["AsciiDoc-kilde",                            "y","n","n","n","n","n"],
+      ["reStructuredText-kilde",                    "y","n","n","n","n","n"],
+      ["LaTeX-kilde",                               "y","n","n","n","n","n"],
+      ["Almindelig tekst",                                 "y","y","y","y","y","y"]
+    ]},
+    { "name": "Redigering", "rows": [
+      ["Syntaksfremhævning undervejs",                  "y","y","y","y","y","y"],
+      ["WYSIWYG, markup skjult, mens du skriver",        "n","y","n","y","y","y"],
+      ["Delt kilde og forhåndsvisning",                  "y","n","y","n","y","n"],
+      ["Fokus- og skrivemaskinetilstand",                 "y","y","n","y","n","n"],
+      ["Faner",                                      "y","y","y","n","y","n"],
+      ["Kodefoldning",                              "y","n","n","n","y","n"],
+      ["Flere markører eller kolonnetilstand",               "y","n","n","n","y","n"],
+      ["Vim-tastaturgenveje",                           "n","n","n","n","y","n"],
+      ["Søg og erstat i filen",                  "y","y","y","y","y","y"],
+      ["Søg og erstat på tværs af en mappe",          "y","y","y","y","y","y"],
+      ["Kommandopalet",                           "y","n","n","y","y","n"],
+      ["Makroer og tekstuddrag",                    "y","n","y","y","y","n"],
+      ["Filer på flere gigabyte",                      "y","n","n","n","n","n"]
+    ]},
+    { "name": "Indholdstyper", "rows": [
+      ["Tabeller",                                      "y","y","y","y","y","y"],
+      ["Fodnoter",                                   "y","y","y","y","y","y"],
+      ["Matematik (LaTeX)",                                "y","y","n","?","y","y"],
+      ["Mermaid-diagrammer",                            "y","y","n","n","y","?"],
+      ["Grafer (Vega-Lite)",                          "y","n","n","n","y:plugin","n"],
+      ["Forstof og automatisk indholdsfortegnelse","y","y","n","n","y","y"],
+      ["Billeder og videobaggrunde",                "y","y","y","y","y","y"]
+    ]},
+    { "name": "Organisering", "rows": [
+      ["Sidepanel med mapper og filer",                        "y","y","y","y","y","y"],
+      ["Dokumentoversigt",                               "y","y","y","y","y","y"],
+      ["Tags",                                           "n","n","n","y:nøgleord","y","y"],
+      ["Wikilinks og backlinks",                        "n","n","n","n","y","y"],
+      ["Grafvisning",                                     "n","n","n","n","y","n"],
+      ["Bog- eller manuskriptprojekter med ordmål",  "y","n","n","y","y:plugin","n"],
+      ["Skrivemål og ordtælling",                   "y","y","y","y","y","y"],
+      ["Linkkontrol",                                  "y","n","n","n","y:plugin","n"]
+    ]},
+    { "name": "Eksport og udgivelse", "rows": [
+      ["PDF",                                  "y","y","y","y","y","y"],
+      ["Word (.docx)",                         "y","y","n","y","y:plugin","y"],
+      ["HTML",                                 "y","y","y","y","y:plugin","y"],
+      ["EPUB",                                 "n","y","n","y","y:plugin","?"],
+      ["Saml mange filer i ét dokument", "y","n","n","y","y:plugin","n"],
+      ["Udgiv til en blog eller et websted",            "n","n","n","y","y:betalt","n"]
+    ]},
+    { "name": "Udseende", "rows": [
+      ["Temaer",                  "y","y","y","y","y","y"],
+      ["Temaudvikling i CSS",  "y","y","n","n","y","n"]
+    ]},
+    { "name": "Hjælp", "rows": [
+      ["Indbygget AI-assistent",       "y","n","n","n","y:plugin","n"],
+      ["Gennemgang efter stilguide",          "y","n","n","y:grammatik","y:plugin","n"],
+      ["Oversættelse på enheden",       "y","n","n","n","y:plugin","n"],
+      ["Oplæsning (læs højt)",         "y","n","y","n","y:plugin","n"]
+    ]},
+    { "name": "Platform og data", "rows": [
+      ["Filer forbliver almindelige filer på disken",           "y","y","y","n","y","n"],
+      ["iCloud-synkronisering",                              "y","y","y","y","y","y"],
+      ["Versionshistorik",                          "y","n","n","y","y","y"],
+      ["Plugin-økosystem",                         "n","n","n","n","y","n"],
+      ["Krypterede noter",                          "n","n","n","n","n","y"],
+      ["Abonnenters afstemning om funktioner og ikoner",  "y","n","n","n","n","n"]
+    ]}
+  ]
+}
