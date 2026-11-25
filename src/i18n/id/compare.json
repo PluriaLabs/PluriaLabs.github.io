@@ -1,0 +1,562 @@
+{
+ "columns": [
+  "Pilcrow",
+  "Typora",
+  "1Writer",
+  "Ulysses",
+  "Obsidian",
+  "Bear"
+ ],
+ "legend": "y = ya, n = tidak, ? = belum diverifikasi. Kata setelah y adalah catatan: plugin, berbayar, kata kunci, tata bahasa.",
+ "groups": [
+  {
+   "name": "Platform",
+   "rows": [
+    [
+     "macOS",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPad",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPhone",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Windows atau Linux",
+     "n",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Format penulisan",
+   "rows": [
+    [
+     "Markdown",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Profil sintaks buatan pengguna",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Sumber AsciiDoc",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Sumber reStructuredText",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Sumber LaTeX",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Teks biasa",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Pengeditan",
+   "rows": [
+    [
+     "Penyorotan sintaks langsung",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "WYSIWYG, markup disembunyikan saat mengetik",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Sumber dan pratinjau terpisah",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Mode fokus dan mesin ketik",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n",
+     "n"
+    ],
+    [
+     "Tab",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Pelipatan kode",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Multi-kursor atau mode kolom",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Pintasan tombol Vim",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Cari dan ganti di dalam file",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Cari dan ganti di seluruh folder",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Palet perintah",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "Makro dan cuplikan",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "File multi-gigabyte",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Jenis konten",
+   "rows": [
+    [
+     "Tabel",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Catatan kaki",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Matematika (LaTeX)",
+     "y",
+     "y",
+     "n",
+     "?",
+     "y",
+     "y"
+    ],
+    [
+     "Diagram Mermaid",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "?"
+    ],
+    [
+     "Bagan (Vega-Lite)",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Bagian awal dan daftar isi otomatis",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Gambar dan latar video",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Pengaturan",
+   "rows": [
+    [
+     "Bilah samping folder dan file",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Kerangka dokumen",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Tag",
+     "n",
+     "n",
+     "n",
+     "y:kata kunci",
+     "y",
+     "y"
+    ],
+    [
+     "Wikilink dan backlink",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Tampilan grafik",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Proyek buku atau naskah dengan target kata",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Target menulis dan jumlah kata",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Pemeriksaan tautan",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:plugin",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Ekspor dan penerbitan",
+   "rows": [
+    [
+     "PDF",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Word (.docx)",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y:plugin",
+     "y"
+    ],
+    [
+     "HTML",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y:plugin",
+     "y"
+    ],
+    [
+     "EPUB",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y:plugin",
+     "?"
+    ],
+    [
+     "Kompilasi banyak file menjadi satu dokumen",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Terbitkan ke blog atau situs",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y:berbayar",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Tampilan",
+   "rows": [
+    [
+     "Tema",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Pembuatan tema dengan CSS",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Bantuan",
+   "rows": [
+    [
+     "Asisten AI bawaan",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Tinjauan panduan gaya",
+     "y",
+     "n",
+     "n",
+     "y:tata bahasa",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Terjemahan di perangkat",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:plugin",
+     "n"
+    ],
+    [
+     "Ucapan (dibacakan)",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y:plugin",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Platform dan data",
+   "rows": [
+    [
+     "File tetap berupa file biasa di disk",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Sinkronisasi iCloud",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Riwayat versi",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Ekosistem plugin",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Catatan terenkripsi",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y"
+    ],
+    [
+     "Pemungutan suara pelanggan untuk fitur dan ikon",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  }
+ ]
+}
