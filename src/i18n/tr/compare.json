@@ -1,0 +1,562 @@
+{
+ "columns": [
+  "Pilcrow",
+  "Typora",
+  "1Writer",
+  "Ulysses",
+  "Obsidian",
+  "Bear"
+ ],
+ "legend": "y = evet, n = hayır, ? = doğrulanmadı. y'den sonraki sözcük bir nottur: eklenti, ücretli, anahtar sözcükler, dilbilgisi.",
+ "groups": [
+  {
+   "name": "Platformlar",
+   "rows": [
+    [
+     "macOS",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPad",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "iPhone",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Windows veya Linux",
+     "n",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Yazım biçimi",
+   "rows": [
+    [
+     "Markdown",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Kullanıcı tanımlı sözdizimi profilleri",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "AsciiDoc kaynağı",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "reStructuredText kaynağı",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "LaTeX kaynağı",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ],
+    [
+     "Düz metin",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Düzenleme",
+   "rows": [
+    [
+     "Yazarken sözdizimi renklendirme",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "WYSIWYG, işaretleme siz yazarken gizlenir",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Kaynak ve önizlemeyi bölme",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Odak ve daktilo kipi",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n",
+     "n"
+    ],
+    [
+     "Sekmeler",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Kod katlama",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Birden çok imleç ya da sütun kipi",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Vim tuş atamaları",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Dosyada bulma ve değiştirme",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Klasör genelinde bulma ve değiştirme",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Komut paleti",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "Makrolar ve kod parçacıkları",
+     "y",
+     "n",
+     "y",
+     "y",
+     "y",
+     "n"
+    ],
+    [
+     "Birkaç gigabaytlık dosyalar",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "İçerik türleri",
+   "rows": [
+    [
+     "Tablolar",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Dipnotlar",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Matematik (LaTeX)",
+     "y",
+     "y",
+     "n",
+     "?",
+     "y",
+     "y"
+    ],
+    [
+     "Mermaid diyagramları",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "?"
+    ],
+    [
+     "Grafikler (Vega-Lite)",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Ön madde ve otomatik içindekiler tablosu",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Resimler ve video arka planları",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ]
+   ]
+  },
+  {
+   "name": "Düzenleme ve organizasyon",
+   "rows": [
+    [
+     "Klasör ve dosya kenar çubuğu",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Belge ana hattı",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Etiketler",
+     "n",
+     "n",
+     "n",
+     "y:anahtar sözcükler",
+     "y",
+     "y"
+    ],
+    [
+     "Viki bağlantıları ve geri bağlantılar",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y"
+    ],
+    [
+     "Grafik görünümü",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Sözcük hedefli kitap ya da elyazması projeleri",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Yazma hedefleri ve sözcük sayımı",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Bağlantı denetimi",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:eklenti",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Dışa aktarma ve yayımlama",
+   "rows": [
+    [
+     "PDF",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Word (.docx)",
+     "y",
+     "y",
+     "n",
+     "y",
+     "y:eklenti",
+     "y"
+    ],
+    [
+     "HTML",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y:eklenti",
+     "y"
+    ],
+    [
+     "EPUB",
+     "n",
+     "y",
+     "n",
+     "y",
+     "y:eklenti",
+     "?"
+    ],
+    [
+     "Birçok dosyayı tek belgede derleme",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Bloga ya da siteye yayımlama",
+     "n",
+     "n",
+     "n",
+     "y",
+     "y:ücretli",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Görünüm",
+   "rows": [
+    [
+     "Temalar",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "CSS ile tema yazma",
+     "y",
+     "y",
+     "n",
+     "n",
+     "y",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Yardım",
+   "rows": [
+    [
+     "Yerleşik yapay zekâ asistanı",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Stil kılavuzuna göre gözden geçirme",
+     "y",
+     "n",
+     "n",
+     "y:dilbilgisi",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Cihazda çeviri",
+     "y",
+     "n",
+     "n",
+     "n",
+     "y:eklenti",
+     "n"
+    ],
+    [
+     "Konuşma (sesli okuma)",
+     "y",
+     "n",
+     "y",
+     "n",
+     "y:eklenti",
+     "n"
+    ]
+   ]
+  },
+  {
+   "name": "Platform ve veri",
+   "rows": [
+    [
+     "Dosyalar diskte sıradan dosya olarak kalır",
+     "y",
+     "y",
+     "y",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "iCloud eşitleme",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Sürüm geçmişi",
+     "y",
+     "n",
+     "n",
+     "y",
+     "y",
+     "y"
+    ],
+    [
+     "Eklenti ekosistemi",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y",
+     "n"
+    ],
+    [
+     "Şifreli notlar",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n",
+     "y"
+    ],
+    [
+     "Abonelerin özellikler ve simgeler için oy kullanması",
+     "y",
+     "n",
+     "n",
+     "n",
+     "n",
+     "n"
+    ]
+   ]
+  }
+ ]
+}
