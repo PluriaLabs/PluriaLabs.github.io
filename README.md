@@ -16,6 +16,8 @@ JavaScript (`assets/site.js`).
 | `pilcrow/guide/` | The User Guide: a home page plus one page per chapter, built from `Documentation/User Guide.md` in the app repo (read only) |
 | `assets/guide-index.json`, `assets/guide.js` | The guide's search index (built) and its search script |
 | `pilcrow/assets/` | Icons, social image, banner and the app screenshots |
+| `<lang>/…` | The whole site again in each of the other 22 Pilcrow languages (`/es/`, `/fr/`, `/ja/`, `/zh-Hans/` …), built from `src/i18n/` |
+| `src/i18n/` | Translations of the pages, comparison table, guide and interface strings. See `src/i18n/README.md` |
 | `.nojekyll` | Tells Pages to skip Jekyll |
 
 ## Edit and rebuild
@@ -23,6 +25,7 @@ JavaScript (`assets/site.js`).
 ```bash
 python3 -I Scripts/build.py                                  # default paths under ~/Projects
 python3 -I Scripts/build.py --policies DIR --guide FILE      # or name the sources
+python3 -I Scripts/check_i18n.py ja                          # check a translation against the English
 python3 -m http.server 8000                      # preview at http://localhost:8000
 ```
 
