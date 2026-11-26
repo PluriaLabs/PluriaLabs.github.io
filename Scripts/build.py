@@ -21,7 +21,7 @@ SRC = ROOT / "src" / "pages"
 HOME = pathlib.Path.home() / "Projects"
 POLICIES = HOME / "Policies and Licenses" / "Pilcrow"
 GUIDE = ROOT / "src" / "guide"
-SITE = "https://plurialabs.github.io"
+SITE = "https://plurialabs.com"
 EMAIL = "support@plurialabs.com"
 
 # Shipped languages (Pilcrow/App/AppLanguage.swift), code -> native name.

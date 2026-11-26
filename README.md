@@ -1,6 +1,6 @@
 # Pluria Labs site
 
-Static site for GitHub Pages, served at https://plurialabs.github.io/. No framework and no
+Static site for GitHub Pages, served at https://plurialabs.com/. No framework and no
 external requests: plain HTML, one stylesheet (`assets/site.css`) and a few lines of optional
 JavaScript (`assets/site.js`).
 
