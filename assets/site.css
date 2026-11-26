@@ -290,8 +290,7 @@ section { padding: clamp(3.5rem, 8vw, 6.5rem) 0; }
 .g-none { margin: 0; padding: 1rem; color: var(--ink-soft); font-size: .95rem; }
 
 /* guide home */
-.g-home-body { padding-bottom: 5rem; }
-.g-intro { max-width: 46rem; margin: 0 0 3rem; padding-top: 1rem; }
+.g-home-body { padding-top: 2rem; padding-bottom: 5rem; }
 .g-cards { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
 .g-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); padding: 1.3rem 1.4rem 1.2rem; }
 .g-card h3 { font-size: 1.15rem; margin: 0 0 .7rem; display: flex; gap: .7rem; align-items: baseline; }
@@ -335,7 +334,6 @@ section { padding: clamp(3.5rem, 8vw, 6.5rem) 0; }
 .g-main ul, .g-main ol { padding-left: 1.4rem; margin: 0 0 1.2em; }
 .g-main li { margin-bottom: .45rem; }
 .g-main li::marker { color: var(--teal); font-weight: 600; }
-.g-intro h2, .g-intro h3 { position: relative; }
 .anchor { position: absolute; left: -1.2rem; padding-right: .4rem; color: var(--ink-faint); text-decoration: none; font: 400 1rem/1.4 var(--sans); opacity: 0; transition: opacity .15s; }
 h2:hover > .anchor, h3:hover > .anchor, .anchor:focus { opacity: 1; }
 @media (max-width: 899px) { .anchor { display: none; } }

@@ -625,14 +625,12 @@ def build_guide(path: pathlib.Path) -> list:
         }))
         urls.append(url)
 
-    # the guide's home page
+    # the guide's home page: only the subtitle is taken from the introduction, then the chapter cards
     intro_html, intro_heads, _ = guide_blocks(data["intro"])
     lede = ""
     m = re.search(r"<h2[^>]*>(.*?)<a class=\"anchor\"", intro_html, re.S)
     if m:
         lede = m.group(1)
-        intro_html = re.sub(r"<h2[^>]*>.*?</h2>\n?", "", intro_html, count=1, flags=re.S)
-    intro_html = intro_html.replace("<p>[TOC]</p>", "")
     cards = "".join(
         f'<section class="g-card"><h3><span class="roman">{p["roman"]}</span>{html.escape(p["name"])}</h3><ul>'
         + "".join(f'<li><a href="/pilcrow/guide/{c["slug"]}.html"><span class="num">{c["n"]}</span>{html.escape(c["title"])}</a></li>' for c in p["chapters"])
@@ -646,7 +644,6 @@ def build_guide(path: pathlib.Path) -> list:
 {SEARCH_BOX}
 </div></div>
 <div class="wrap g-home-body">
-<div class="g-intro prose">{intro_html}</div>
 <div class="g-cards">{cards}</div>
 </div>"""
     write("/pilcrow/guide/index.html", render({
