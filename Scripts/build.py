@@ -81,14 +81,14 @@ HEADER_PILCROW = """<header class="site-header">
 <a class="brand" translate="no" href="/pilcrow/" aria-label="Pilcrow home"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
 <nav class="nav" aria-label="Main">
 <a href="/pilcrow/#features">Features</a>
-<a class="keep" href="/pilcrow/guide/"{cur_guide}>User Guide</a>
 <a href="/pilcrow/compare.html"{cur_compare}>Compare</a>
-<a href="/pilcrow/#privacy">Privacy</a>
+<a class="keep" href="/pilcrow/guide/"{cur_guide}>User Guide</a>
 <a class="keep" href="/pilcrow/support.html"{cur_support}>Support</a>
-<a class="keep" href="/pilcrow/story.html"{cur_story}>Story</a>
 <a href="/pilcrow/roadmap.html"{cur_roadmap}>Roadmap</a>
 <a href="/pilcrow/whats-new.html"{cur_whatsnew}>What’s new</a>
 <a href="/pilcrow/themes.html"{cur_themes}>Themes</a>
+<a class="keep" href="/pilcrow/story.html"{cur_story}>Story</a>
+<a href="/pilcrow/#privacy">Privacy</a>
 <a class="btn btn-primary btn-sm" href="/pilcrow/#get">Get Pilcrow</a>
 </nav>
 </div>
