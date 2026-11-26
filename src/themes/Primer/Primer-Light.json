@@ -1,0 +1,35 @@
+{
+  "appearance": "light",
+  "colors": {
+    "accent": "#0969DA",
+    "bars": {
+      "background": "#F6F8FA",
+      "foreground": "#59636E"
+    },
+    "editor": {
+      "background": "#FFFFFF",
+      "cursor": "#0969DA",
+      "foreground": "#1F2328",
+      "gutterBackground": "#FFFFFF",
+      "gutterForeground": "#818B98",
+      "selection": "#B6E3FF"
+    },
+    "sidebar": {
+      "background": "#F6F8FA",
+      "foreground": "#1F2328"
+    },
+    "syntax": {
+      "code": "#0A3069",
+      "codeComment": "#59636E",
+      "codeKeyword": "#CF222E",
+      "codeNumber": "#0550AE",
+      "codeString": "#0A3069",
+      "heading": "#0550AE",
+      "link": "#0969DA",
+      "marker": "#953800",
+      "muted": "#59636E"
+    }
+  },
+  "name": "Primer Light",
+  "pilcrowAppTheme": 1
+}

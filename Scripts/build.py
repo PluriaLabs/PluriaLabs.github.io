@@ -15,6 +15,7 @@ import json
 import pathlib
 import re
 import unicodedata
+import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "src" / "pages"
@@ -115,7 +116,10 @@ FOOTER = """<footer class="site-footer">
 <li><a href="/pilcrow/compare.html">How Pilcrow compares</a></li>
 <li><a href="/pilcrow/support.html">Support</a></li>
 <li><a href="/pilcrow/story.html">Story</a></li>
+<li><a href="/pilcrow/whats-new.html">What’s new</a></li>
+<li><a href="/pilcrow/themes.html">Themes</a></li>
 <li><a href="/pilcrow/privacy.html">Privacy policy</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></li>
 </ul>
 </div>
 <div>
@@ -225,6 +229,73 @@ def build_pages() -> list:
         if rel != "404.html":
             urls.append(url)
     return urls
+
+
+# ---------------------------------------------------------------- theme gallery
+
+THEMES = [  # folder in src/themes, description, palette credit
+    ("Primer", "Clean sans-serif, ruled headings, striped tables and rounded code.",
+     'Colours from GitHub’s <a href="https://primer.style/">Primer</a> (MIT).'),
+    ("Broadsheet", "A newspaper look: justified serif text, a drop cap and ruled tables.", ""),
+    ("Monokai", "Monospace headings, coloured emphasis and accented code.",
+     "Colours from the classic Monokai palette by Wimer Hazenberg."),
+    ("Solarized", "Airy, with large type and generous spacing.",
+     'Colours from Ethan Schoonover’s <a href="https://ethanschoonover.com/solarized/">Solarized</a> (MIT).'),
+    ("Gruvbox", "A typewriter feel that keeps your Markdown marks visible.",
+     'Colours from Pavel Pertsev’s <a href="https://github.com/morhetz/gruvbox">Gruvbox</a> (MIT).'),
+]
+
+
+def swatch(folder: pathlib.Path, name: str) -> str:
+    """A small preview drawn from an Application Theme's own colours."""
+    c = json.loads((folder / f"{name}.json").read_text(encoding="utf-8"))["colors"]
+    e, s = c["editor"], c["syntax"]
+    return (f'<div class="swatch" style="background:{e["background"]};color:{e["foreground"]}" aria-hidden="true">'
+            f'<b style="color:{s["heading"]}"># Field Notes</b><span>The <span style="color:{s["link"]}">river</span> rose '
+            f'<span style="color:{s["code"]}">`overnight`</span>.</span></div>')
+
+
+def build_themes() -> list:
+    cards = []
+    for name, about, credit in THEMES:
+        folder = ROOT / "src" / "themes" / name
+        out = ROOT / "pilcrow" / "assets" / "themes" / f"{name}.zip"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with zipfile.ZipFile(out, "w") as z:  # fixed dates, so an unchanged theme gives an unchanged file
+            for f in sorted(folder.iterdir()):
+                info = zipfile.ZipInfo(f"{name}/{f.name}", date_time=(2026, 1, 1, 0, 0, 0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = 0o644 << 16
+                z.writestr(info, f.read_bytes())
+        cards.append(
+            f'<div class="card"><div class="swatches">{swatch(folder, name + "-Light")}{swatch(folder, name + "-Dark")}</div>'
+            f"<h2>{name}</h2><p>{about}</p>"
+            + (f'<p class="fineprint">{credit}</p>' if credit else "")
+            + f'<a class="btn btn-ghost btn-sm" href="/pilcrow/assets/themes/{name}.zip" download>Download {name}</a></div>'
+        )
+    body = f"""<div class="page-head">
+<div class="wrap">
+<p class="eyebrow">Pilcrow</p>
+<h1>Themes</h1>
+<p class="lede">Free example themes. Each download holds a light and a dark theme for the app, and a light and a dark theme for preview and export.</p>
+</div>
+</div>
+<div class="wrap theme-page">
+<div class="cards2">{"".join(cards)}</div>
+<div class="prose">
+<h2>Install a theme</h2>
+<ol>
+<li>Download a theme. Keep it as a zip file; if your browser unzips it, compress the folder again.</li>
+<li>In Pilcrow, open <strong>Settings ▸ Library ▸ Themes</strong>, choose <strong>Import Theme…</strong> and pick the zip file.</li>
+<li>Choose the app theme under <strong>Settings ▸ Appearance</strong> and the render theme under <strong>Settings ▸ Export</strong>.</li>
+</ol>
+<p>To make your own, see <a href="/pilcrow/guide/41-create-and-manage-themes.html">Create and manage themes</a>.</p>
+</div>
+</div>"""
+    url = "/pilcrow/themes.html"
+    write(url, render({"path": url, "title": "Pilcrow Themes · Pluria Labs",
+                       "description": "Free example themes for Pilcrow, with light and dark versions.", "body": body}))
+    return [url]
 
 
 # ---------------------------------------------------------------- privacy policies
@@ -637,6 +708,15 @@ def build_guide(path: pathlib.Path) -> list:
         + "</ul></section>"
         for p in parts
     )
+    first = {p["roman"]: p["chapters"][0] for p in parts}
+    routes = [("New to Pilcrow", ["I", "II", "III"]), ("Writers and editors", ["IV", "V", "VI", "IX"]),
+              ("Researchers and technical writers", ["IV", "VII", "VIII"]), ("Book authors", ["X"]),
+              ("Syntax, themes and automation", ["XI", "XII", "XIII"])]
+    start = "".join(
+        f"<li><b>{who}</b> " + " ".join(
+            f'<a href="/pilcrow/guide/{first[r]["slug"]}.html" title="{html.escape(first[r]["part"]["name"], quote=True)}">Part {r}</a>'
+            for r in romans) + "</li>"
+        for who, romans in routes)
     home = f"""<div class="page-head g-head"><div class="wrap">
 <p class="eyebrow">Pilcrow</p>
 <h1>User Guide</h1>
@@ -644,6 +724,7 @@ def build_guide(path: pathlib.Path) -> list:
 {SEARCH_BOX}
 </div></div>
 <div class="wrap g-home-body">
+<nav class="g-start" aria-label="Start here"><h2>Start here</h2><ul>{start}</ul></nav>
 <div class="g-cards">{cards}</div>
 </div>"""
     write("/pilcrow/guide/index.html", render({
@@ -663,7 +744,7 @@ def main() -> None:
     ap.add_argument("--guide", type=pathlib.Path, default=GUIDE, help="the User Guide: a Markdown file, or a folder of them")
     args = ap.parse_args()
     POLICIES, GUIDE = args.policies, args.guide
-    urls = build_pages() + build_privacy() + build_guide(GUIDE)
+    urls = build_pages() + build_themes() + build_privacy() + build_guide(GUIDE)
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}{u}</loc></url>" for u in sorted(set(urls))]
     sm.append("</urlset>")

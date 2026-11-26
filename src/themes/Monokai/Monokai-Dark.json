@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#66D9EF",
+    "bars": {
+      "background": "#3E3D32",
+      "foreground": "#CFCFC2"
+    },
+    "editor": {
+      "background": "#272822",
+      "cursor": "#F8F8F0",
+      "foreground": "#F8F8F2",
+      "gutterBackground": "#272822",
+      "gutterForeground": "#75715E",
+      "selection": "#49483E"
+    },
+    "sidebar": {
+      "background": "#1E1F1C",
+      "foreground": "#F8F8F2"
+    },
+    "syntax": {
+      "code": "#E6DB74",
+      "codeComment": "#939081",
+      "codeKeyword": "#FA4989",
+      "codeNumber": "#AE81FF",
+      "codeString": "#E6DB74",
+      "heading": "#A6E22E",
+      "link": "#66D9EF",
+      "marker": "#FA4989",
+      "muted": "#939081"
+    }
+  },
+  "name": "Monokai Dark",
+  "pilcrowAppTheme": 1
+}

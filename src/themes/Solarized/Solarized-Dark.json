@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#268BD2",
+    "bars": {
+      "background": "#073642",
+      "foreground": "#8D9D9E"
+    },
+    "editor": {
+      "background": "#002B36",
+      "cursor": "#93A1A1",
+      "foreground": "#93A1A1",
+      "gutterBackground": "#002B36",
+      "gutterForeground": "#586E75",
+      "selection": "#0A4B5C"
+    },
+    "sidebar": {
+      "background": "#00212B",
+      "foreground": "#9EAAAA"
+    },
+    "syntax": {
+      "code": "#2AA198",
+      "codeComment": "#809196",
+      "codeKeyword": "#859900",
+      "codeNumber": "#DD629D",
+      "codeString": "#2AA198",
+      "heading": "#3794D6",
+      "link": "#3794D6",
+      "marker": "#D67349",
+      "muted": "#809196"
+    }
+  },
+  "name": "Solarized Dark",
+  "pilcrowAppTheme": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "com.pilcrow.examples.gruvbox",
+  "name": "Gruvbox",
+  "version": "1.0",
+  "author": "Pilcrow examples",
+  "license": "MIT",
+  "cssAPIVersion": 1,
+  "variants": [
+    {
+      "id": "app-light",
+      "name": "Gruvbox Light",
+      "file": "Gruvbox-Light.json",
+      "appearance": "light"
+    },
+    {
+      "id": "render-light",
+      "name": "Gruvbox Light",
+      "file": "Gruvbox-Light.css",
+      "appearance": "light"
+    },
+    {
+      "id": "app-dark",
+      "name": "Gruvbox Dark",
+      "file": "Gruvbox-Dark.json",
+      "appearance": "dark"
+    },
+    {
+      "id": "render-dark",
+      "name": "Gruvbox Dark",
+      "file": "Gruvbox-Dark.css",
+      "appearance": "dark"
+    }
+  ]
+}

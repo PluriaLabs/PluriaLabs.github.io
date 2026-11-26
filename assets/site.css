@@ -404,3 +404,19 @@ td small { display: block; font: 500 .7rem/1.2 var(--sans); color: var(--ink-fai
   table.compare th.feat-h, table.compare tbody th[scope="row"] { min-width: 8.5rem; max-width: 8.5rem; }
   table.compare thead th { font-size: .75rem; }
 }
+
+/* Pricing, guide starting points and theme gallery */
+.cards3 { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); margin: 2rem 0 .4rem; }
+.price { font: 600 2rem/1 var(--serif); color: var(--ink); }
+.card p.price { color: var(--ink); }
+.price small { font: 500 .9rem var(--sans); color: var(--ink-faint); }
+.story-teaser { max-width: 36rem; margin: 2rem auto 0; color: var(--ink-soft); }
+.g-start { margin-bottom: 2rem; }
+.g-start h2 { font-size: 1.1rem; margin: 0 0 .6rem; }
+.g-start ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem 1.8rem; font-size: .92rem; }
+.g-start b { display: block; font-weight: 600; }
+.g-start a { margin-inline-end: .6rem; }
+.theme-page { padding-bottom: 4rem; }
+.theme-page .card h2 { font-size: 1.3rem; margin: 1rem 0 .4rem; }
+.swatches { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.swatch { display: flex; flex-direction: column; gap: .3rem; padding: .8rem; border-radius: 10px; border: 1px solid var(--rule); font: .72rem/1.5 var(--mono, ui-monospace, monospace); }

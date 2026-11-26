@@ -1,0 +1,60 @@
+/* Solarized Dark — a Pilcrow Render Theme (CSS API 1). Pixyll-style: airy type, generous space. */
+:root {
+  color-scheme: dark;
+  --pt-background: #002B36;
+  --pt-foreground: #93A1A1;
+  --pt-secondary-background: #073642;
+  --pt-secondary-foreground: #839496;
+  --pt-accent: #268BD2;
+  --pt-link-color: #3794D6;
+  --pt-border-color: #0D4757;
+  --pt-code-background: #073642;
+  --pt-code-foreground: #93A1A1;
+  --pt-code-keyword: #8FA114;
+  --pt-code-string: #3BA9A0;
+  --pt-code-number: #E176AA;
+  --pt-code-comment: #8D9CA1;
+  --pt-body-font-family: "Avenir Next", Avenir, -apple-system, "Helvetica Neue", sans-serif;
+  --pt-mono-font-family: Menlo, "SF Mono", monospace;
+  --pt-base-font-size: 18px;
+  --pt-line-height: 1.8;
+  --pt-table-header-background: #073642;
+  --pt-table-stripe-background: #01313D;
+  --theme-heading: #EEE8D5;
+  --theme-mark: #5C4B0E;
+}
+/* The page around the document column takes the theme's background too. */
+html, body { background: var(--pt-background); margin: 0; }
+
+.pt-document { max-width: 40em; padding: 3em 2em; }
+.pt-heading { color: var(--theme-heading); font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; }
+.pt-heading-1 { font-size: 2.6em; font-weight: 700; margin-bottom: 0.8em; }
+.pt-heading-2 { font-size: 1.8em; margin-top: 2em; }
+.pt-heading-3 { font-size: 1.35em; }
+.pt-paragraph { margin-bottom: 1.4em; }
+.pt-link { color: var(--pt-link-color); text-decoration: none; box-shadow: inset 0 -0.12em 0 color-mix(in srgb, var(--pt-link-color) 35%, transparent); }
+.pt-blockquote { border-left: 3px solid var(--pt-accent); padding: 0.4em 1.5em; font-size: 1.12em; font-style: italic; color: var(--pt-secondary-foreground); }
+.pt-code { font-size: 0.85em; }
+.pt-code-block { border-radius: 8px; padding: 1.2em 1.5em; font-size: 0.82em; line-height: 1.6; }
+.pt-code-block .pt-code, .pt-code-block code { background: transparent; padding: 0; font-size: 100%; }
+.pt-image { display: block; margin: 2em auto; border-radius: 8px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
+.pt-table { width: 100%; border-collapse: collapse; margin: 1.5em 0; }
+.pt-table-cell { padding: 0.6em 1em; border-bottom: 1px solid var(--pt-border-color); text-align: left; }
+.pt-table-section--thead .pt-table-cell { text-transform: uppercase; font-size: 0.75em; letter-spacing: 0.1em; color: var(--pt-secondary-foreground); }
+.pt-thematic-break { border: 0; border-top: 1px solid var(--pt-border-color); width: 30%; margin: 3em auto; }
+.pt-list-item + .pt-list-item { margin-top: 0.4em; }
+
+.pt-admonition {
+  margin: 1.2em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid var(--theme-admonition, var(--pt-accent));
+  background: var(--pt-secondary-background);
+  border-radius: 0 6px 6px 0;
+}
+.pt-admonition--note { --theme-admonition: var(--pt-admonition-note-color, var(--pt-link-color)); }
+.pt-admonition--tip { --theme-admonition: var(--pt-admonition-tip-color, var(--pt-code-string)); }
+.pt-admonition--important { --theme-admonition: var(--pt-admonition-important-color, var(--pt-code-number)); }
+.pt-admonition--warning { --theme-admonition: var(--pt-admonition-warning-color, var(--pt-accent)); }
+.pt-admonition--caution { --theme-admonition: var(--pt-admonition-caution-color, var(--pt-code-keyword)); }
+.pt-mark { background: var(--theme-mark); color: inherit; padding: 0 0.15em; border-radius: 2px; }
+.pt-image { max-width: 100%; }

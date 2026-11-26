@@ -1,0 +1,35 @@
+{
+  "appearance": "light",
+  "colors": {
+    "accent": "#268BD2",
+    "bars": {
+      "background": "#EEE8D5",
+      "foreground": "#576A71"
+    },
+    "editor": {
+      "background": "#FDF6E3",
+      "cursor": "#268BD2",
+      "foreground": "#586E75",
+      "gutterBackground": "#FDF6E3",
+      "gutterForeground": "#93A1A1",
+      "selection": "#E4DDC8"
+    },
+    "sidebar": {
+      "background": "#EEE8D5",
+      "foreground": "#073642"
+    },
+    "syntax": {
+      "code": "#217E77",
+      "codeComment": "#677171",
+      "codeKeyword": "#687700",
+      "codeNumber": "#C6337A",
+      "codeString": "#217E77",
+      "heading": "#2075B0",
+      "link": "#2075B0",
+      "marker": "#C34815",
+      "muted": "#677171"
+    }
+  },
+  "name": "Solarized Light",
+  "pilcrowAppTheme": 1
+}

@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#D9A55B",
+    "bars": {
+      "background": "#221E18",
+      "foreground": "#B5AA96"
+    },
+    "editor": {
+      "background": "#1C1915",
+      "cursor": "#D9A55B",
+      "foreground": "#E9E1D1",
+      "gutterBackground": "#1C1915",
+      "gutterForeground": "#6E6455",
+      "selection": "#4A3F2E"
+    },
+    "sidebar": {
+      "background": "#15120E",
+      "foreground": "#E9E1D1"
+    },
+    "syntax": {
+      "code": "#A8C49A",
+      "codeComment": "#9C907C",
+      "codeKeyword": "#E08D6D",
+      "codeNumber": "#C3A6E0",
+      "codeString": "#A8C49A",
+      "heading": "#E6B873",
+      "link": "#8DB4D9",
+      "marker": "#D98E5B",
+      "muted": "#9C907C"
+    }
+  },
+  "name": "Broadsheet Dark",
+  "pilcrowAppTheme": 1
+}

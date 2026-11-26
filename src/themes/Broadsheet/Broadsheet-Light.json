@@ -1,0 +1,35 @@
+{
+  "appearance": "light",
+  "colors": {
+    "accent": "#8B2E16",
+    "bars": {
+      "background": "#E2DDD1",
+      "foreground": "#5E5446"
+    },
+    "editor": {
+      "background": "#F6F3EC",
+      "cursor": "#8B2E16",
+      "foreground": "#2B2118",
+      "gutterBackground": "#F6F3EC",
+      "gutterForeground": "#A39A8C",
+      "selection": "#E3D3B8"
+    },
+    "sidebar": {
+      "background": "#EAE6DC",
+      "foreground": "#2B2118"
+    },
+    "syntax": {
+      "code": "#3D5A3A",
+      "codeComment": "#786E5D",
+      "codeKeyword": "#8B2E16",
+      "codeNumber": "#6B4C9A",
+      "codeString": "#3D5A3A",
+      "heading": "#6B2410",
+      "link": "#1F4E79",
+      "marker": "#8A5A00",
+      "muted": "#6F6556"
+    }
+  },
+  "name": "Broadsheet Light",
+  "pilcrowAppTheme": 1
+}

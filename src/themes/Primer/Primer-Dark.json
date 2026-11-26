@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#2F81F7",
+    "bars": {
+      "background": "#151B23",
+      "foreground": "#9198A1"
+    },
+    "editor": {
+      "background": "#0D1117",
+      "cursor": "#2F81F7",
+      "foreground": "#E6EDF3",
+      "gutterBackground": "#0D1117",
+      "gutterForeground": "#6E7681",
+      "selection": "#264F78"
+    },
+    "sidebar": {
+      "background": "#010409",
+      "foreground": "#E6EDF3"
+    },
+    "syntax": {
+      "code": "#A5D6FF",
+      "codeComment": "#9198A1",
+      "codeKeyword": "#FF7B72",
+      "codeNumber": "#79C0FF",
+      "codeString": "#A5D6FF",
+      "heading": "#79C0FF",
+      "link": "#4493F8",
+      "marker": "#FFA657",
+      "muted": "#9198A1"
+    }
+  },
+  "name": "Primer Dark",
+  "pilcrowAppTheme": 1
+}

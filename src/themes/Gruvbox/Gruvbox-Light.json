@@ -1,0 +1,35 @@
+{
+  "appearance": "light",
+  "colors": {
+    "accent": "#076678",
+    "bars": {
+      "background": "#EBDBB2",
+      "foreground": "#665C54"
+    },
+    "editor": {
+      "background": "#FBF1C7",
+      "cursor": "#3C3836",
+      "foreground": "#3C3836",
+      "gutterBackground": "#FBF1C7",
+      "gutterForeground": "#A89984",
+      "selection": "#D5C4A1"
+    },
+    "sidebar": {
+      "background": "#F2E5BC",
+      "foreground": "#3C3836"
+    },
+    "syntax": {
+      "code": "#746F0D",
+      "codeComment": "#786B5F",
+      "codeKeyword": "#9D0006",
+      "codeNumber": "#8F3F71",
+      "codeString": "#746F0D",
+      "heading": "#9D0006",
+      "link": "#076678",
+      "marker": "#AF3A03",
+      "muted": "#776B60"
+    }
+  },
+  "name": "Gruvbox Light",
+  "pilcrowAppTheme": 1
+}

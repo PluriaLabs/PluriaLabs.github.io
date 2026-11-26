@@ -1,0 +1,76 @@
+/* Gruvbox Light — a Pilcrow Render Theme (CSS API 1). Typewriter-style: monospace, Markdown's marks kept. */
+:root {
+  color-scheme: light;
+  --pt-background: #FBF1C7;
+  --pt-foreground: #3C3836;
+  --pt-secondary-background: #F2E5BC;
+  --pt-secondary-foreground: #665C54;
+  --pt-accent: #076678;
+  --pt-link-color: #076678;
+  --pt-border-color: #D5C4A1;
+  --pt-code-background: #F2E5BC;
+  --pt-code-foreground: #3C3836;
+  --pt-code-keyword: #9D0006;
+  --pt-code-string: #6D680D;
+  --pt-code-number: #8F3F71;
+  --pt-code-comment: #6F6458;
+  --pt-body-font-family: "iA Writer Quattro S", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --pt-mono-font-family: "iA Writer Mono S", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --pt-base-font-size: 15px;
+  --pt-line-height: 1.75;
+  --pt-table-header-background: #EBDBB2;
+  --pt-table-stripe-background: #F6EAC0;
+  --theme-heading: #3C3836;
+  --theme-mark: #FABD2F;
+  --theme-red: #9D0006;
+  --theme-orange: #AF3A03;
+  --theme-yellow: #946110;
+  --theme-green: #746F0D;
+  --theme-aqua: #417956;
+}
+/* The page around the document column takes the theme's background too. */
+html, body { background: var(--pt-background); margin: 0; }
+
+.pt-document { max-width: 70ch; }
+.pt-heading { font-weight: 700; }
+.pt-heading::before { color: var(--pt-secondary-foreground); font-weight: normal; }
+.pt-heading-1 { font-size: 1.45em; color: var(--theme-red); }
+.pt-heading-1::before { content: "# "; }
+.pt-heading-2 { font-size: 1.25em; color: var(--theme-orange); }
+.pt-heading-2::before { content: "## "; }
+.pt-heading-3 { font-size: 1.1em; color: var(--theme-green); }
+.pt-heading-3::before { content: "### "; }
+.pt-heading-4, .pt-heading-5, .pt-heading-6 { font-size: 1em; color: var(--theme-aqua); }
+.pt-heading-4::before { content: "#### "; }
+.pt-strong::before, .pt-strong::after { content: "**"; color: var(--pt-secondary-foreground); font-weight: normal; }
+.pt-emphasis::before, .pt-emphasis::after { content: "_"; color: var(--pt-secondary-foreground); }
+.pt-code::before, .pt-code::after { content: "`"; color: var(--pt-secondary-foreground); }
+.pt-code { background: transparent; padding: 0; color: var(--theme-green); }
+.pt-code-block .pt-code::before, .pt-code-block .pt-code::after { content: none; }
+.pt-code-block .pt-code, .pt-code-block code { color: inherit; }
+.pt-code-block { border: 1px solid var(--pt-border-color); border-radius: 0; }
+.pt-link { color: var(--pt-link-color); text-decoration: underline; text-decoration-style: dotted; }
+.pt-blockquote { position: relative; border: 0; padding: 0 0 0 1.6em; margin-left: 0; color: var(--pt-secondary-foreground); }
+.pt-blockquote::before { content: ">"; position: absolute; left: 0; color: var(--theme-yellow); }
+.pt-list--unordered { list-style: none; padding-left: 1.6em; }
+.pt-list--unordered > .pt-list-item::before { content: "-"; display: inline-block; width: 1.6em; margin-left: -1.6em; color: var(--theme-yellow); }
+.pt-table { border-collapse: collapse; margin: 1em 0; }
+.pt-table-cell { border: 1px dashed var(--pt-border-color); padding: 0.3em 0.8em; }
+.pt-table-section--thead .pt-table-cell { background: var(--pt-table-header-background); }
+.pt-thematic-break { border: 0; height: auto; margin: 1.5em 0; text-align: center; }
+.pt-thematic-break::before { content: "* * *"; color: var(--pt-secondary-foreground); letter-spacing: 0.4em; }
+
+.pt-admonition {
+  margin: 1.2em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid var(--theme-admonition, var(--pt-accent));
+  background: var(--pt-secondary-background);
+  border-radius: 0 6px 6px 0;
+}
+.pt-admonition--note { --theme-admonition: var(--pt-admonition-note-color, var(--pt-link-color)); }
+.pt-admonition--tip { --theme-admonition: var(--pt-admonition-tip-color, var(--pt-code-string)); }
+.pt-admonition--important { --theme-admonition: var(--pt-admonition-important-color, var(--pt-code-number)); }
+.pt-admonition--warning { --theme-admonition: var(--pt-admonition-warning-color, var(--pt-accent)); }
+.pt-admonition--caution { --theme-admonition: var(--pt-admonition-caution-color, var(--pt-code-keyword)); }
+.pt-mark { background: var(--theme-mark); color: inherit; padding: 0 0.15em; border-radius: 2px; }
+.pt-image { max-width: 100%; }

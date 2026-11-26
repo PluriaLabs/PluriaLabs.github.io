@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#83A598",
+    "bars": {
+      "background": "#3C3836",
+      "foreground": "#BDAE93"
+    },
+    "editor": {
+      "background": "#282828",
+      "cursor": "#EBDBB2",
+      "foreground": "#EBDBB2",
+      "gutterBackground": "#282828",
+      "gutterForeground": "#7C6F64",
+      "selection": "#504945"
+    },
+    "sidebar": {
+      "background": "#1D2021",
+      "foreground": "#EBDBB2"
+    },
+    "syntax": {
+      "code": "#B8BB26",
+      "codeComment": "#9B8D7F",
+      "codeKeyword": "#FB5440",
+      "codeNumber": "#D3869B",
+      "codeString": "#B8BB26",
+      "heading": "#FB5440",
+      "link": "#83A598",
+      "marker": "#FE8019",
+      "muted": "#A89984"
+    }
+  },
+  "name": "Gruvbox Dark",
+  "pilcrowAppTheme": 1
+}

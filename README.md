@@ -10,6 +10,7 @@ JavaScript (`assets/site.js`).
 | --- | --- |
 | `src/pages/` | The hand-written pages (a few header lines, `---`, then the body HTML) |
 | `src/jsonld/` | Structured data for search engines |
+| `src/themes/` | Example themes (copied from the app repo's `Examples/Themes`), zipped into `pilcrow/assets/themes/` for the Themes page |
 | `Scripts/build.py` | Builds everything below from `src/` and the privacy policies |
 | `index.html`, `pilcrow/`, `404.html` | Build output. Commit it; Pages serves it as it is |
 | `pilcrow/privacy.html`, `pilcrow/privacy/<lang>.html` | The privacy policy in 23 languages, built from the Policies repo |

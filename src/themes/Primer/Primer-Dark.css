@@ -1,0 +1,67 @@
+/* Primer Dark — a Pilcrow Render Theme (CSS API 1). GitHub-style: clean sans, ruled headings. */
+:root {
+  color-scheme: dark;
+  --pt-background: #0D1117;
+  --pt-foreground: #E6EDF3;
+  --pt-secondary-background: #151B23;
+  --pt-secondary-foreground: #9198A1;
+  --pt-accent: #2F81F7;
+  --pt-link-color: #4493F8;
+  --pt-border-color: #3D444D;
+  --pt-code-background: #151B23;
+  --pt-code-foreground: #E6EDF3;
+  --pt-code-keyword: #FF7B72;
+  --pt-code-string: #A5D6FF;
+  --pt-code-number: #79C0FF;
+  --pt-code-comment: #9198A1;
+  --pt-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --pt-mono-font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --pt-base-font-size: 16px;
+  --pt-line-height: 1.5;
+  --pt-table-header-background: #151B23;
+  --pt-table-stripe-background: #151B23;
+  --theme-heading: #E6EDF3;
+  --theme-mark: #BB800926;
+}
+/* The page around the document column takes the theme's background too. */
+html, body { background: var(--pt-background); margin: 0; }
+
+.pt-document { max-width: 860px; padding: 32px 45px; }
+.pt-heading { color: var(--theme-heading); font-weight: 600; margin-top: 24px; margin-bottom: 16px; line-height: 1.25; }
+.pt-heading-1, .pt-heading-2 { padding-bottom: 0.3em; border-bottom: 1px solid var(--pt-border-color); }
+.pt-heading-1 { font-size: 2em; }
+.pt-heading-2 { font-size: 1.5em; }
+.pt-heading-3 { font-size: 1.25em; }
+.pt-heading-4 { font-size: 1em; }
+.pt-heading-5 { font-size: 0.875em; }
+.pt-heading-6 { font-size: 0.85em; color: var(--pt-secondary-foreground); }
+.pt-paragraph { margin-bottom: 16px; }
+.pt-link { color: var(--pt-link-color); text-decoration: none; }
+.pt-link:hover { text-decoration: underline; }
+.pt-code { font-size: 85%; padding: 0.2em 0.4em; border-radius: 6px; }
+.pt-code-block { font-size: 85%; line-height: 1.45; padding: 16px; border-radius: 6px; }
+.pt-code-block .pt-code, .pt-code-block code { background: transparent; padding: 0; font-size: 100%; }
+.pt-blockquote { border-left: 0.25em solid var(--pt-border-color); padding: 0 1em; color: var(--pt-secondary-foreground); }
+.pt-list { padding-left: 2em; }
+.pt-list-item + .pt-list-item { margin-top: 0.25em; }
+.pt-table { border-collapse: collapse; border-spacing: 0; margin: 16px 0; display: block; width: max-content; max-width: 100%; overflow: auto; }
+.pt-table-cell { border: 1px solid var(--pt-border-color); padding: 6px 13px; }
+.pt-table-section--thead .pt-table-cell { font-weight: 600; background: var(--pt-table-header-background); }
+.pt-table-section--tbody .pt-table-row:nth-child(2n) { background: var(--pt-table-stripe-background); }
+.pt-thematic-break { height: 0.25em; margin: 24px 0; padding: 0; border: 0; background: var(--pt-border-color); }
+.pt-keyboard { font: 11px var(--pt-mono-font-family); padding: 3px 5px; border: 1px solid var(--pt-border-color); border-bottom-width: 2px; border-radius: 6px; background: var(--pt-secondary-background); }
+
+.pt-admonition {
+  margin: 1.2em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid var(--theme-admonition, var(--pt-accent));
+  background: var(--pt-secondary-background);
+  border-radius: 0 6px 6px 0;
+}
+.pt-admonition--note { --theme-admonition: var(--pt-admonition-note-color, var(--pt-link-color)); }
+.pt-admonition--tip { --theme-admonition: var(--pt-admonition-tip-color, var(--pt-code-string)); }
+.pt-admonition--important { --theme-admonition: var(--pt-admonition-important-color, var(--pt-code-number)); }
+.pt-admonition--warning { --theme-admonition: var(--pt-admonition-warning-color, var(--pt-accent)); }
+.pt-admonition--caution { --theme-admonition: var(--pt-admonition-caution-color, var(--pt-code-keyword)); }
+.pt-mark { background: var(--theme-mark); color: inherit; padding: 0 0.15em; border-radius: 2px; }
+.pt-image { max-width: 100%; }
