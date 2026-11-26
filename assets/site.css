@@ -420,3 +420,6 @@ td small { display: block; font: 500 .7rem/1.2 var(--sans); color: var(--ink-fai
 .theme-page .card h2 { font-size: 1.3rem; margin: 1rem 0 .4rem; }
 .swatches { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
 .swatch { display: flex; flex-direction: column; gap: .3rem; padding: .8rem; border-radius: 10px; border: 1px solid var(--rule); font: .72rem/1.5 var(--mono, ui-monospace, monospace); }
+
+.roadmap-page { padding-bottom: 4rem; }
+.roadmap-page h2 { margin-top: 2.5rem; }

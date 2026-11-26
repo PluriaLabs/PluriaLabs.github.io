@@ -10,6 +10,7 @@ next to them in the repo root, plus sitemap.xml, robots.txt and the guide's sear
 GitHub Pages serves the result as it is; there is no other build step.
 """
 import argparse
+import datetime
 import html
 import json
 import pathlib
@@ -22,6 +23,7 @@ SRC = ROOT / "src" / "pages"
 HOME = pathlib.Path.home() / "Projects"
 POLICIES = HOME / "Policies and Licenses" / "Pilcrow"
 GUIDE = ROOT / "src" / "guide"
+ROADMAPS = HOME / "Support" / "Pilcrow" / "Roadmaps"  # the same round files the app reads
 SITE = "https://plurialabs.com"
 EMAIL = "support@plurialabs.com"
 
@@ -116,6 +118,7 @@ FOOTER = """<footer class="site-footer">
 <li><a href="/pilcrow/compare.html">How Pilcrow compares</a></li>
 <li><a href="/pilcrow/support.html">Support</a></li>
 <li><a href="/pilcrow/story.html">Story</a></li>
+<li><a href="/pilcrow/roadmap.html">Roadmap</a></li>
 <li><a href="/pilcrow/whats-new.html">What’s new</a></li>
 <li><a href="/pilcrow/themes.html">Themes</a></li>
 <li><a href="/pilcrow/privacy.html">Privacy policy</a></li>
@@ -295,6 +298,81 @@ def build_themes() -> list:
     url = "/pilcrow/themes.html"
     write(url, render({"path": url, "title": "Pilcrow Themes · Pluria Labs",
                        "description": "Free example themes for Pilcrow, with light and dark versions.", "body": body}))
+    return [url]
+
+
+# ---------------------------------------------------------------- roadmap
+
+def long_date(day: datetime.date) -> str:
+    return f"{day.day} {day:%B %Y}"
+
+
+def english(value) -> str:
+    """Round files give text as one string, or as an object with one entry per language."""
+    return value if isinstance(value, str) else (value or {}).get("en", "")
+
+
+def pick_round(rounds: list, today: datetime.date):
+    """The round running today, else the next to open, else the last to finish."""
+    dated = sorted(((datetime.date.fromisoformat(r["start"]), datetime.date.fromisoformat(r["end"]), r) for r in rounds),
+                   key=lambda x: x[0])
+    running = [x for x in dated if x[0] <= today <= x[1]]
+    if running:
+        return running[-1]
+    upcoming = [x for x in dated if x[0] > today]
+    if upcoming:
+        return upcoming[0]
+    return max(dated, key=lambda x: x[1]) if dated else None
+
+
+def build_roadmap() -> list:
+    index = json.loads((ROADMAPS / "index.json").read_text(encoding="utf-8"))
+    today = datetime.datetime.now(datetime.timezone.utc).date()
+    chosen = pick_round(index["rounds"], today)
+    when, groups = "The first round of voting has not been announced yet.", ""
+    if chosen:
+        start, end, entry = chosen
+        data = json.loads((ROADMAPS / entry["file"]).read_text(encoding="utf-8"))
+        # Worded so that it stays true between builds; only a round already over at build time reads in the past.
+        verb = "ran" if end < today else "runs"
+        when = f"Voting in this round {verb} from {long_date(start)} to {long_date(end)}."
+        for status, title in (("building", "Being built"), ("open", "Up for a vote"), ("shipped", "Shipped")):
+            items = [i for i in data["items"] if i.get("status") == status and english(i.get("title"))]
+            if not items:
+                continue
+            cards = "".join(
+                f'<div class="card"><h3>{html.escape(english(i["title"]))}</h3>'
+                f'<p>{html.escape(english(i.get("summary")))}</p></div>' for i in items)
+            more = '<p><a href="/pilcrow/whats-new.html">See what’s new</a></p>' if status == "shipped" else ""
+            groups += f'<h2>{title}</h2><div class="cards2">{cards}</div>{more}'
+    body = f"""<div class="page-head">
+<div class="wrap">
+<p class="eyebrow">Pilcrow</p>
+<h1>Roadmap</h1>
+<p class="lede">What might be built next, and how you can help choose. {when}</p>
+</div>
+</div>
+<div class="wrap roadmap-page">
+{groups}
+<h2>How voting works</h2>
+<p>Every feature in Pilcrow is free. Votes only help decide the order of work, and never promise a feature. You vote inside Pilcrow, under <strong>Settings ▸ Subscription &amp; Credits</strong>; this website takes no votes and sells nothing.</p>
+<div class="cards2">
+<div class="card">
+<h3>Supporter</h3>
+<p class="price">$0.99 <small>a month</small></p>
+<p>Three votes every month. Votes you have not used expire at the end of the month they came with. Renews automatically until you cancel in your Apple account settings.</p>
+</div>
+<div class="card">
+<h3>One vote</h3>
+<p class="price">$1.99 <small>each</small></p>
+<p>A single vote, bought once. It never expires.</p>
+</div>
+</div>
+<p class="fineprint">US prices; the App Store shows the price where you are. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a> · <a href="/pilcrow/privacy.html">Privacy Policy</a></p>
+</div>"""
+    url = "/pilcrow/roadmap.html"
+    write(url, render({"path": url, "title": "Pilcrow Roadmap · Pluria Labs",
+                       "description": "What might be built next in Pilcrow, and how voting on it works.", "body": body}))
     return [url]
 
 
@@ -738,13 +816,14 @@ def build_guide(path: pathlib.Path) -> list:
 
 
 def main() -> None:
-    global POLICIES, GUIDE
+    global POLICIES, GUIDE, ROADMAPS
     ap = argparse.ArgumentParser(description="Build the Pluria Labs site.")
     ap.add_argument("--policies", type=pathlib.Path, default=POLICIES, help="folder with the privacy policy Markdown files")
     ap.add_argument("--guide", type=pathlib.Path, default=GUIDE, help="the User Guide: a Markdown file, or a folder of them")
+    ap.add_argument("--roadmaps", type=pathlib.Path, default=ROADMAPS, help="folder with the roadmap round files")
     args = ap.parse_args()
-    POLICIES, GUIDE = args.policies, args.guide
-    urls = build_pages() + build_themes() + build_privacy() + build_guide(GUIDE)
+    POLICIES, GUIDE, ROADMAPS = args.policies, args.guide, args.roadmaps
+    urls = build_pages() + build_themes() + build_roadmap() + build_privacy() + build_guide(GUIDE)
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}{u}</loc></url>" for u in sorted(set(urls))]
     sm.append("</urlset>")

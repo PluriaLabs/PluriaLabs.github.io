@@ -17,6 +17,7 @@ JavaScript (`assets/site.js`).
 | `pilcrow/guide/` | The User Guide: a home page plus one page per chapter, built from `Documentation/User Guide.md` in the app repo (read only) |
 | `assets/guide-index.json`, `assets/guide.js` | The guide's search index (built) and its search script |
 | `pilcrow/assets/` | Icons, social image, banner and the app screenshots |
+| `pilcrow/roadmap.html` | Built from the round files in `PluriaLabs/Support` (`Pilcrow/Roadmaps/`), the same ones the app reads. Rebuild after changing a round (`--roadmaps DIR` to name the folder) |
 | `.nojekyll` | Tells Pages to skip Jekyll |
 
 ## Edit and rebuild
