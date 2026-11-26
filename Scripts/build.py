@@ -86,6 +86,9 @@ HEADER_PILCROW = """<header class="site-header">
 <a href="/pilcrow/#privacy">Privacy</a>
 <a class="keep" href="/pilcrow/support.html"{cur_support}>Support</a>
 <a class="keep" href="/pilcrow/story.html"{cur_story}>Story</a>
+<a href="/pilcrow/roadmap.html"{cur_roadmap}>Roadmap</a>
+<a href="/pilcrow/whats-new.html"{cur_whatsnew}>What’s new</a>
+<a href="/pilcrow/themes.html"{cur_themes}>Themes</a>
 <a class="btn btn-primary btn-sm" href="/pilcrow/#get">Get Pilcrow</a>
 </nav>
 </div>
@@ -145,6 +148,9 @@ def render(page: dict) -> str:
     header = HEADER_LABS if page.get("section") == "labs" else HEADER_PILCROW.format(
         cur_support=' aria-current="page"' if path == "/pilcrow/support.html" else "",
         cur_story=' aria-current="page"' if path == "/pilcrow/story.html" else "",
+        cur_roadmap=' aria-current="page"' if path == "/pilcrow/roadmap.html" else "",
+        cur_whatsnew=' aria-current="page"' if path == "/pilcrow/whats-new.html" else "",
+        cur_themes=' aria-current="page"' if path == "/pilcrow/themes.html" else "",
         cur_guide=' aria-current="page"' if path.startswith("/pilcrow/guide/") else "",
         cur_compare=' aria-current="page"' if path == "/pilcrow/compare.html" else "")
     return LAYOUT.format(
