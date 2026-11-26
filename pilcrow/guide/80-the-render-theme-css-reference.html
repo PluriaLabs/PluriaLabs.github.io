@@ -6,30 +6,6 @@
 <title>The Render Theme CSS reference · Pilcrow User Guide</title>
 <meta name="description" content="A Render Theme is CSS. It styles Preview, HTML, PDF, image and print output, and the Word styles listed at the end of this chapter. A Render Theme may be a single .css file or part of a ZIP package wi">
 <link rel="canonical" href="https://plurialabs.github.io/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="en" href="https://plurialabs.github.io/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="es" href="https://plurialabs.github.io/es/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="fr" href="https://plurialabs.github.io/fr/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="de" href="https://plurialabs.github.io/de/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="it" href="https://plurialabs.github.io/it/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="pt-BR" href="https://plurialabs.github.io/pt-BR/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="nl" href="https://plurialabs.github.io/nl/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="ru" href="https://plurialabs.github.io/ru/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="ja" href="https://plurialabs.github.io/ja/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="ko" href="https://plurialabs.github.io/ko/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://plurialabs.github.io/zh-Hans/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://plurialabs.github.io/zh-Hant/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="ar" href="https://plurialabs.github.io/ar/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="da" href="https://plurialabs.github.io/da/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="hi" href="https://plurialabs.github.io/hi/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="id" href="https://plurialabs.github.io/id/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="nb" href="https://plurialabs.github.io/nb/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="pl" href="https://plurialabs.github.io/pl/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="sv" href="https://plurialabs.github.io/sv/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="th" href="https://plurialabs.github.io/th/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="tr" href="https://plurialabs.github.io/tr/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="uk" href="https://plurialabs.github.io/uk/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="vi" href="https://plurialabs.github.io/vi/pilcrow/guide/80-the-render-theme-css-reference.html">
-<link rel="alternate" hreflang="x-default" href="https://plurialabs.github.io/pilcrow/guide/80-the-render-theme-css-reference.html">
 <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121819" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
@@ -37,7 +13,6 @@
 <meta property="og:title" content="The Render Theme CSS reference · Pilcrow User Guide">
 <meta property="og:description" content="A Render Theme is CSS. It styles Preview, HTML, PDF, image and print output, and the Word styles listed at the end of this chapter. A Render Theme may be a single .css file or part of a ZIP package wi">
 <meta property="og:url" content="https://plurialabs.github.io/pilcrow/guide/80-the-render-theme-css-reference.html">
-<meta property="og:locale" content="en">
 <meta property="og:image" content="https://plurialabs.github.io/pilcrow/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="/pilcrow/assets/favicon.svg">
@@ -49,8 +24,8 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap">
-<a class="brand" href="/pilcrow/" aria-label="Pilcrow home"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
-<div class="hdr-end"><nav class="nav" aria-label="Main">
+<a class="brand" translate="no" href="/pilcrow/" aria-label="Pilcrow home"><img class="mark" src="/assets/logo-mark.svg" alt="" width="32" height="38">Pilcrow</a>
+<nav class="nav" aria-label="Main">
 <a href="/pilcrow/#features">Features</a>
 <a class="keep" href="/pilcrow/guide/" aria-current="page">User Guide</a>
 <a href="/pilcrow/compare.html">Compare</a>
@@ -58,7 +33,7 @@
 <a class="keep" href="/pilcrow/support.html">Support</a>
 <a class="keep" href="/pilcrow/story.html">Story</a>
 <a class="btn btn-primary btn-sm" href="/pilcrow/#get">Get Pilcrow</a>
-</nav><details class="lang-menu"><summary aria-label="Language"><svg class="globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9s1.3-6.3 3.9-9z"/></svg><span lang="en">English</span></summary><ul><li><a href="/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li><li><a href="/es/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt-BR/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/nl/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/ru/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ja/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh-Hans/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="/zh-Hant/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文</a></li><li><a href="/ar/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/da/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="/hi/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/nb/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="nb" lang="nb" data-lang="nb">Norsk bokmål</a></li><li><a href="/pl/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/sv/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="/th/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/pilcrow/guide/80-the-render-theme-css-reference.html" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul></details></div>
+</nav>
 </div>
 </header>
 <main id="main">
@@ -67,7 +42,7 @@
 <div class="g-search" role="search">
 <label class="sr-only" for="g-q">Search the User Guide</label>
 <input id="g-q" type="search" placeholder="Search the guide" autocomplete="off" spellcheck="false">
-<div id="g-results" class="g-results" data-none="No matches for “{q}”. Try fewer or different words." hidden aria-live="polite"></div>
+<div id="g-results" class="g-results" hidden aria-live="polite"></div>
 </div>
 <details class="g-nav" open><summary>Guide contents</summary>
 <nav aria-label="User Guide">
@@ -99,21 +74,21 @@
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/pilcrow/guide/">User Guide</a><span aria-hidden="true">›</span><span>Part XXI · File formats and limits</span></nav>
 <p class="eyebrow">Chapter 80</p>
 <h1>The Render Theme CSS reference</h1>
-<p>A <strong>Render Theme</strong> is CSS. It styles Preview, HTML, PDF, image and print output, and the Word styles listed at the end of this chapter. A Render Theme may be a single <code>.css</code> file or part of a ZIP package with local assets. Syntax profiles define how source text becomes the document; Render Themes only style the result. CSS never styles the app or the editor; that is the Application Theme (Chapter 79).</p>
+<p>A <strong>Render Theme</strong> is CSS. It styles Preview, HTML, PDF, image and print output, and the Word styles listed at the end of this chapter. A Render Theme may be a single <code translate="no">.css</code> file or part of a ZIP package with local assets. Syntax profiles define how source text becomes the document; Render Themes only style the result. CSS never styles the app or the editor; that is the Application Theme (Chapter 79).</p>
 <h2 id="the-cascade">The cascade<a class="anchor" href="#the-cascade" aria-label="Link to this section">#</a></h2>
 <p>Pilcrow applies styles in this order:</p>
 <ol><li>Pilcrow's structural reset;</li><li>the selected theme CSS;</li><li>one-off CSS from the export panel (<strong class="menu">Advanced options ▸ Custom CSS</strong>);</li><li>required print and rendering corrections.</li></ol>
-<p>Later rules win according to the normal CSS cascade. Theme JavaScript, remote resources, <code>file:</code> URLs and <code>@import</code> are not supported.</p>
+<p>Later rules win according to the normal CSS cascade. Theme JavaScript, remote resources, <code translate="no">file:</code> URLs and <code translate="no">@import</code> are not supported.</p>
 <h2 id="resources">Resources<a class="anchor" href="#resources" aria-label="Link to this section">#</a></h2>
-<p>Pilcrow reads theme CSS with a standard CSS tokenizer, so escapes are decoded before anything is checked: <code>u\72 l(…)</code> is a <code>url()</code> and <code>@im\70 ort</code> is an <code>@import</code>. Every place a browser would load from is checked: <code>url(…)</code>, <code>url("…")</code>, <code>src("…")</code>, and strings inside <code>image-set()</code>. Each must be one of:</p>
-<ul><li>a package-relative path (<code>fonts/Body.woff2</code>, <code>./paper.png</code>). A <code>?query</code> or <code>#fragment</code> is allowed and ignored when the file is looked up;</li><li>a <code>data:</code> URL of type PNG, JPEG, GIF, WebP, SVG (<code>image/svg+xml</code>), TTF, OTF, WOFF or WOFF2;</li><li>a fragment reference such as <code>url(#shadow)</code>, which names an element in the page.</li></ul>
-<p>Anything with a scheme other than <code>data:</code> (<code>https:</code>, <code>file:</code>, <code>blob:</code>) or starting with <code>//</code> is refused, as is a path that starts with <code>/</code> or contains <code>..</code>.</p>
+<p>Pilcrow reads theme CSS with a standard CSS tokenizer, so escapes are decoded before anything is checked: <code translate="no">u\72 l(…)</code> is a <code translate="no">url()</code> and <code translate="no">@im\70 ort</code> is an <code translate="no">@import</code>. Every place a browser would load from is checked: <code translate="no">url(…)</code>, <code translate="no">url("…")</code>, <code translate="no">src("…")</code>, and strings inside <code translate="no">image-set()</code>. Each must be one of:</p>
+<ul><li>a package-relative path (<code translate="no">fonts/Body.woff2</code>, <code translate="no">./paper.png</code>). A <code translate="no">?query</code> or <code translate="no">#fragment</code> is allowed and ignored when the file is looked up;</li><li>a <code translate="no">data:</code> URL of type PNG, JPEG, GIF, WebP, SVG (<code translate="no">image/svg+xml</code>), TTF, OTF, WOFF or WOFF2;</li><li>a fragment reference such as <code translate="no">url(#shadow)</code>, which names an element in the page.</li></ul>
+<p>Anything with a scheme other than <code translate="no">data:</code> (<code translate="no">https:</code>, <code translate="no">file:</code>, <code translate="no">blob:</code>) or starting with <code translate="no">//</code> is refused, as is a path that starts with <code translate="no">/</code> or contains <code translate="no">..</code>.</p>
 <h2 id="render-properties">Render properties<a class="anchor" href="#render-properties" aria-label="Link to this section">#</a></h2>
 <p>The built-in reset reads these properties, and supplies fallbacks:</p>
-<div class="table-wrap"><table><thead><tr><th>Group</th><th>Properties</th></tr></thead><tbody><tr><td>Colour</td><td><code>--pt-background</code>, <code>--pt-foreground</code>, <code>--pt-secondary-background</code>, <code>--pt-secondary-foreground</code>, <code>--pt-accent</code>, <code>--pt-link-color</code>, <code>--pt-border-color</code></td></tr><tr><td>Code</td><td><code>--pt-code-background</code>, <code>--pt-code-foreground</code>, <code>--pt-code-keyword</code>, <code>--pt-code-string</code>, <code>--pt-code-number</code>, <code>--pt-code-comment</code></td></tr><tr><td>Type</td><td><code>--pt-body-font-family</code>, <code>--pt-mono-font-family</code>, <code>--pt-base-font-size</code>, <code>--pt-line-height</code></td></tr><tr><td>Spacing</td><td><code>--pt-paragraph-spacing</code>, <code>--pt-blockquote-indent</code>, <code>--pt-list-indent</code>, <code>--pt-code-padding</code>, <code>--pt-heading-top</code>, <code>--pt-heading-bottom</code></td></tr><tr><td>Tables</td><td><code>--pt-table-header-background</code>, <code>--pt-table-stripe-background</code></td></tr><tr><td>Alerts</td><td><code>--pt-admonition-note-color</code>, <code>--pt-admonition-tip-color</code>, <code>--pt-admonition-important-color</code>, <code>--pt-admonition-warning-color</code>, <code>--pt-admonition-caution-color</code></td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Group</th><th>Properties</th></tr></thead><tbody><tr><td>Colour</td><td><code translate="no">--pt-background</code>, <code translate="no">--pt-foreground</code>, <code translate="no">--pt-secondary-background</code>, <code translate="no">--pt-secondary-foreground</code>, <code translate="no">--pt-accent</code>, <code translate="no">--pt-link-color</code>, <code translate="no">--pt-border-color</code></td></tr><tr><td>Code</td><td><code translate="no">--pt-code-background</code>, <code translate="no">--pt-code-foreground</code>, <code translate="no">--pt-code-keyword</code>, <code translate="no">--pt-code-string</code>, <code translate="no">--pt-code-number</code>, <code translate="no">--pt-code-comment</code></td></tr><tr><td>Type</td><td><code translate="no">--pt-body-font-family</code>, <code translate="no">--pt-mono-font-family</code>, <code translate="no">--pt-base-font-size</code>, <code translate="no">--pt-line-height</code></td></tr><tr><td>Spacing</td><td><code translate="no">--pt-paragraph-spacing</code>, <code translate="no">--pt-blockquote-indent</code>, <code translate="no">--pt-list-indent</code>, <code translate="no">--pt-code-padding</code>, <code translate="no">--pt-heading-top</code>, <code translate="no">--pt-heading-bottom</code></td></tr><tr><td>Tables</td><td><code translate="no">--pt-table-header-background</code>, <code translate="no">--pt-table-stripe-background</code></td></tr><tr><td>Alerts</td><td><code translate="no">--pt-admonition-note-color</code>, <code translate="no">--pt-admonition-tip-color</code>, <code translate="no">--pt-admonition-important-color</code>, <code translate="no">--pt-admonition-warning-color</code>, <code translate="no">--pt-admonition-caution-color</code></td></tr></tbody></table></div>
 <h2 id="public-element-classes">Public element classes<a class="anchor" href="#public-element-classes" aria-label="Link to this section">#</a></h2>
 <p>These fixed classes are public:</p>
-<pre><code class="language-text">pt-document pt-heading pt-paragraph pt-blockquote pt-thematic-break
+<pre translate="no"><code class="language-text">pt-document pt-heading pt-paragraph pt-blockquote pt-thematic-break
 pt-list pt-list-item pt-code-block pt-code pt-literal-block pt-html-block
 pt-raw-block pt-text pt-line-break pt-soft-break pt-emphasis pt-strong
 pt-link pt-image pt-html-inline pt-raw-inline pt-table pt-table-section
@@ -127,10 +102,10 @@ pt-bibliography-entry pt-cross-reference pt-anchor pt-index-term pt-video
 pt-audio pt-figure pt-diagram pt-metadata-block pt-attribute-definition
 pt-title-block pt-include pt-conditional pt-macro pt-comment
 pt-table-of-contents</code></pre>
-<p>Public modifiers include <code>pt-heading-1</code> through <code>pt-heading-6</code>, <code>pt-list--ordered</code>, <code>pt-list--unordered</code>, <code>pt-definition-list--side-by-side</code>, <code>pt-code-block--wrap</code>, <code>pt-code-block--numbered</code>, the five standard <code>pt-admonition--*</code> values, and parameterized classes for language, raw format, math notation, diagram format, table-section type, conditional type and macro name. Parameterized suffixes come from the active syntax profile or document and must be CSS-escaped when they contain punctuation.</p>
+<p>Public modifiers include <code translate="no">pt-heading-1</code> through <code translate="no">pt-heading-6</code>, <code translate="no">pt-list--ordered</code>, <code translate="no">pt-list--unordered</code>, <code translate="no">pt-definition-list--side-by-side</code>, <code translate="no">pt-code-block--wrap</code>, <code translate="no">pt-code-block--numbered</code>, the five standard <code translate="no">pt-admonition--*</code> values, and parameterized classes for language, raw format, math notation, diagram format, table-section type, conditional type and macro name. Parameterized suffixes come from the active syntax profile or document and must be CSS-escaped when they contain punctuation.</p>
 <p>Pilcrow may add classes and attributes in an update. Avoid selectors that depend on undocumented wrapper depth, generated IDs, or the absence of additional classes.</p>
 <h2 id="a-minimal-theme">A minimal theme<a class="anchor" href="#a-minimal-theme" aria-label="Link to this section">#</a></h2>
-<pre><code class="language-css">:root {
+<pre translate="no"><code class="language-css">:root {
   color-scheme: light;
   --pt-background: #ffffff;
   --pt-foreground: #202124;
@@ -150,8 +125,8 @@ pt-table-of-contents</code></pre>
 .pt-document { max-width: 72ch; }
 .pt-heading-1 { letter-spacing: -0.025em; }</code></pre>
 <h2 id="zip-packages">ZIP packages<a class="anchor" href="#zip-packages" aria-label="Link to this section">#</a></h2>
-<p>A ZIP package can hold Render Themes (<code>.css</code>) and Application Themes (<code>.json</code>) together; each is listed with its own kind in Settings. A ZIP with at most one CSS file and at most one Application Theme needs no manifest. Anything more needs <code>pilcrow-theme.json</code>, which lists every theme under <code>variants[].file</code>. The file's extension decides its kind:</p>
-<pre><code class="language-json">{
+<p>A ZIP package can hold Render Themes (<code translate="no">.css</code>) and Application Themes (<code translate="no">.json</code>) together; each is listed with its own kind in Settings. A ZIP with at most one CSS file and at most one Application Theme needs no manifest. Anything more needs <code translate="no">pilcrow-theme.json</code>, which lists every theme under <code translate="no">variants[].file</code>. The file's extension decides its kind:</p>
+<pre translate="no"><code class="language-json">{
   &quot;id&quot;: &quot;com.example.paper&quot;,
   &quot;name&quot;: &quot;Paper&quot;,
   &quot;version&quot;: &quot;1.0.0&quot;,
@@ -165,9 +140,9 @@ pt-table-of-contents</code></pre>
   ]
 }</code></pre>
 <p>The manifest describes the package and its themes. It never contains style values: those are in the CSS and Application Theme files.</p>
-<ul><li>The package <code>id</code> names the install folder. It must not start with <code>.</code> or have leading or trailing spaces. Installing a package whose <code>id</code> is already installed replaces it.</li><li>A ZIP made with Finder's <strong>Compress</strong> works as is. Pilcrow skips <code>__MACOSX/</code>, <code>._*</code>, <code>.DS_Store</code> and <code>Thumbs.db</code>, and when every file sits inside one top-level folder, that folder is treated as the package root.</li><li>Deleting one theme removes it from the package and keeps the others along with the shared assets. Deleting the last theme removes the package. A deleted theme that was selected returns that selection to its kind's default: Automatic for the Application Theme, Light for the Render Theme.</li><li>CSS may reference packaged PNG, JPEG, GIF, WebP, TTF, OTF, WOFF and WOFF2 files with relative <code>url(...)</code> paths. Pilcrow verifies their signatures and embeds referenced assets as data URLs so rendering and exported HTML remain offline and self-contained. ZIP paths cannot escape the package, collide by case, or point to links. Archive size, entry count, individual size and compression ratio are bounded.</li></ul>
+<ul><li>The package <code translate="no">id</code> names the install folder. It must not start with <code translate="no">.</code> or have leading or trailing spaces. Installing a package whose <code translate="no">id</code> is already installed replaces it.</li><li>A ZIP made with Finder's <strong>Compress</strong> works as is. Pilcrow skips <code translate="no">__MACOSX/</code>, <code translate="no">._*</code>, <code translate="no">.DS_Store</code> and <code translate="no">Thumbs.db</code>, and when every file sits inside one top-level folder, that folder is treated as the package root.</li><li>Deleting one theme removes it from the package and keeps the others along with the shared assets. Deleting the last theme removes the package. A deleted theme that was selected returns that selection to its kind's default: Automatic for the Application Theme, Light for the Render Theme.</li><li>CSS may reference packaged PNG, JPEG, GIF, WebP, TTF, OTF, WOFF and WOFF2 files with relative <code translate="no">url(...)</code> paths. Pilcrow verifies their signatures and embeds referenced assets as data URLs so rendering and exported HTML remain offline and self-contained. ZIP paths cannot escape the package, collide by case, or point to links. Archive size, entry count, individual size and compression ratio are bounded.</li></ul>
 <h2 id="word">Word<a class="anchor" href="#word" aria-label="Link to this section">#</a></h2>
-<p>Word export uses the light (base) <code>:root</code> values and maps these semantic properties into named Word styles: <code>--pt-foreground</code>, <code>--pt-background</code>, <code>--pt-accent</code>, <code>--pt-link-color</code>, <code>--pt-code-background</code>, <code>--pt-code-foreground</code>, <code>--pt-body-font-family</code>, <code>--pt-mono-font-family</code>, <code>--pt-base-font-size</code> and <code>--pt-line-height</code>. Browser selectors and layout rules have no general Word equivalent. Preview, HTML, PDF and image output use the complete stylesheet; Word uses this subset while preserving document structure, diagrams, math pictures, links and media. The export panel shows this limitation whenever Word is selected.</p>
+<p>Word export uses the light (base) <code translate="no">:root</code> values and maps these semantic properties into named Word styles: <code translate="no">--pt-foreground</code>, <code translate="no">--pt-background</code>, <code translate="no">--pt-accent</code>, <code translate="no">--pt-link-color</code>, <code translate="no">--pt-code-background</code>, <code translate="no">--pt-code-foreground</code>, <code translate="no">--pt-body-font-family</code>, <code translate="no">--pt-mono-font-family</code>, <code translate="no">--pt-base-font-size</code> and <code translate="no">--pt-line-height</code>. Browser selectors and layout rules have no general Word equivalent. Preview, HTML, PDF and image output use the complete stylesheet; Word uses this subset while preserving document structure, diagrams, math pictures, links and media. The export panel shows this limitation whenever Word is selected.</p>
 <p>Pilcrow includes two Render Themes, <strong>Light</strong> and <strong>Dark</strong>, which are complete starting points.</p>
 <nav class="g-pager" aria-label="Chapters">
 <a class="prev" href="/pilcrow/guide/79-the-application-theme-format.html"><span class="dir">Previous</span><span class="ttl">The Application Theme format</span></a>
@@ -181,7 +156,7 @@ pt-table-of-contents</code></pre>
 <div class="wrap">
 <div class="foot-grid">
 <div>
-<a class="brand" href="/">Pluria Labs</a>
+<a class="brand" translate="no" href="/">Pluria Labs</a>
 <p style="margin-top:.8rem;max-width:26rem">Software for people who write. Made with care, and with no tracking.</p>
 </div>
 <div>
@@ -205,7 +180,7 @@ pt-table-of-contents</code></pre>
 </ul>
 </div>
 </div>
-<div class="legal"><span>© 2026 Pluria Labs.</span><span>Mac and iPad are trademarks of Apple Inc.</span></div>
+<div class="legal"><span>&copy; 2026 Pluria Labs.</span><span>Mac and iPad are trademarks of Apple Inc.</span></div>
 </div>
 </footer>
 <script src="/assets/site.js" defer></script>
