@@ -1,0 +1,35 @@
+{
+  "appearance": "dark",
+  "colors": {
+    "accent": "#6FD3C4",
+    "bars": {
+      "background": "#2C2733",
+      "foreground": "#CFC6D8"
+    },
+    "editor": {
+      "background": "#1F1B24",
+      "cursor": "#FFB454",
+      "foreground": "#F3EEF6",
+      "gutterBackground": "#1F1B24",
+      "gutterForeground": "#6F6680",
+      "selection": "#403850"
+    },
+    "sidebar": {
+      "background": "#18151D",
+      "foreground": "#F3EEF6"
+    },
+    "syntax": {
+      "code": "#C3E06C",
+      "codeComment": "#9D93A8",
+      "codeKeyword": "#FF7D99",
+      "codeNumber": "#B79CFF",
+      "codeString": "#C3E06C",
+      "heading": "#FFB454",
+      "link": "#6FD3C4",
+      "marker": "#FF7D99",
+      "muted": "#9D93A8"
+    }
+  },
+  "name": "Ember Dark",
+  "pilcrowAppTheme": 1
+}

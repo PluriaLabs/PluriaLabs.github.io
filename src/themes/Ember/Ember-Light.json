@@ -1,0 +1,35 @@
+{
+  "appearance": "light",
+  "colors": {
+    "accent": "#00857D",
+    "bars": {
+      "background": "#EFE6DD",
+      "foreground": "#5C5265"
+    },
+    "editor": {
+      "background": "#FDF9F5",
+      "cursor": "#2A2430",
+      "foreground": "#2A2430",
+      "gutterBackground": "#FDF9F5",
+      "gutterForeground": "#9A8FA3",
+      "selection": "#E9DDF3"
+    },
+    "sidebar": {
+      "background": "#F5EEE7",
+      "foreground": "#2A2430"
+    },
+    "syntax": {
+      "code": "#4F6B00",
+      "codeComment": "#6E6476",
+      "codeKeyword": "#B4274C",
+      "codeNumber": "#6A47C4",
+      "codeString": "#4F6B00",
+      "heading": "#8A4F00",
+      "link": "#00706A",
+      "marker": "#B4274C",
+      "muted": "#6E6476"
+    }
+  },
+  "name": "Ember Light",
+  "pilcrowAppTheme": 1
+}

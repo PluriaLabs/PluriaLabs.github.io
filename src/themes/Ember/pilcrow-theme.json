@@ -1,6 +1,6 @@
 {
-  "id": "com.pilcrow.examples.monokai",
-  "name": "Monokai",
+  "id": "com.pilcrow.examples.ember",
+  "name": "Ember",
   "version": "1.0",
   "author": "Pilcrow examples",
   "license": "MIT",
@@ -8,26 +8,26 @@
   "variants": [
     {
       "id": "app-light",
-      "name": "Monokai Light",
-      "file": "Monokai-Light.json",
+      "name": "Ember Light",
+      "file": "Ember-Light.json",
       "appearance": "light"
     },
     {
       "id": "render-light",
-      "name": "Monokai Light",
-      "file": "Monokai-Light.css",
+      "name": "Ember Light",
+      "file": "Ember-Light.css",
       "appearance": "light"
     },
     {
       "id": "app-dark",
-      "name": "Monokai Dark",
-      "file": "Monokai-Dark.json",
+      "name": "Ember Dark",
+      "file": "Ember-Dark.json",
       "appearance": "dark"
     },
     {
       "id": "render-dark",
-      "name": "Monokai Dark",
-      "file": "Monokai-Dark.css",
+      "name": "Ember Dark",
+      "file": "Ember-Dark.css",
       "appearance": "dark"
     }
   ]

@@ -1,0 +1,67 @@
+/* Ember Light — a Pilcrow Render Theme (CSS API 1). Warm mono headings on plum charcoal and paper. */
+:root {
+  color-scheme: light;
+  --pt-background: #FDF9F5;
+  --pt-foreground: #2A2430;
+  --pt-secondary-background: #F5EEE7;
+  --pt-secondary-foreground: #5C5265;
+  --pt-accent: #00857D;
+  --pt-link-color: #00706A;
+  --pt-border-color: #E1D6CC;
+  --pt-code-background: #F5EEE7;
+  --pt-code-foreground: #2A2430;
+  --pt-code-keyword: #B4274C;
+  --pt-code-string: #4F6B00;
+  --pt-code-number: #6A47C4;
+  --pt-code-comment: #6E6476;
+  --pt-body-font-family: "Helvetica Neue", -apple-system, "Segoe UI", sans-serif;
+  --pt-mono-font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  --pt-base-font-size: 16px;
+  --pt-line-height: 1.7;
+  --pt-table-header-background: #F5EEE7;
+  --pt-table-stripe-background: #F9F3ED;
+  --theme-heading: #2A2430;
+  --theme-mark: #FBE3A1;
+  --theme-coral: #B4274C;
+  --theme-amber: #8A4F00;
+  --theme-flame: #A8461C;
+  --theme-lime: #4F6B00;
+  --theme-violet: #6A47C4;
+  --theme-teal: #00706A;
+}
+/* The page around the document column takes the theme's background too. */
+html, body { background: var(--pt-background); margin: 0; }
+
+.pt-document { max-width: 72ch; }
+.pt-heading { font-family: var(--pt-mono-font-family); letter-spacing: -0.01em; }
+.pt-heading-1 { font-size: 2em; color: var(--theme-amber); border-left: 6px solid var(--theme-coral); padding-left: 0.45em; }
+.pt-heading-2 { font-size: 1.5em; color: var(--theme-teal); }
+.pt-heading-3 { font-size: 1.25em; color: var(--theme-flame); }
+.pt-heading-4, .pt-heading-5, .pt-heading-6 { font-size: 1.05em; color: var(--theme-violet); }
+.pt-strong { color: var(--theme-flame); }
+.pt-emphasis { color: var(--theme-lime); }
+.pt-link { color: var(--theme-teal); text-decoration: none; border-bottom: 1px dashed currentColor; }
+.pt-code { color: var(--theme-coral); }
+.pt-code-block { border-left: 4px solid var(--theme-coral); border-radius: 0 6px 6px 0; }
+.pt-code-block .pt-code, .pt-code-block code { color: inherit; background: transparent; padding: 0; }
+.pt-blockquote { border-left: 4px solid var(--theme-violet); background: var(--pt-secondary-background); border-radius: 0 6px 6px 0; color: var(--pt-secondary-foreground); }
+.pt-list-item::marker { color: var(--theme-coral); }
+.pt-table { border-collapse: collapse; margin: 1em 0; }
+.pt-table-cell { padding: 0.45em 0.9em; border-bottom: 1px solid var(--pt-border-color); }
+.pt-table-section--thead .pt-table-cell { background: var(--pt-table-header-background); color: var(--theme-amber); font-family: var(--pt-mono-font-family); }
+.pt-thematic-break { border: 0; height: 3px; margin: 2em 0; background: linear-gradient(90deg, var(--theme-coral), var(--theme-flame), var(--theme-lime), var(--theme-amber), var(--theme-teal), var(--theme-violet)); }
+
+.pt-admonition {
+  margin: 1.2em 0;
+  padding: 0.6em 1em;
+  border-left: 4px solid var(--theme-admonition, var(--pt-accent));
+  background: var(--pt-secondary-background);
+  border-radius: 0 6px 6px 0;
+}
+.pt-admonition--note { --theme-admonition: var(--pt-admonition-note-color, var(--pt-link-color)); }
+.pt-admonition--tip { --theme-admonition: var(--pt-admonition-tip-color, var(--pt-code-string)); }
+.pt-admonition--important { --theme-admonition: var(--pt-admonition-important-color, var(--pt-code-number)); }
+.pt-admonition--warning { --theme-admonition: var(--pt-admonition-warning-color, var(--pt-accent)); }
+.pt-admonition--caution { --theme-admonition: var(--pt-admonition-caution-color, var(--pt-code-keyword)); }
+.pt-mark { background: var(--theme-mark); color: inherit; padding: 0 0.15em; border-radius: 2px; }
+.pt-image { max-width: 100%; }
