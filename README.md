@@ -12,13 +12,26 @@ JavaScript (`assets/site.js`).
 | `src/jsonld/` | Structured data for search engines |
 | `src/themes/` | Example themes (copied from the app repo's `Examples/Themes`), zipped into `pilcrow/assets/themes/` for the Themes page |
 | `Scripts/build.py` | Builds everything below from `src/` and the privacy policies |
-| `index.html`, `pilcrow/`, `404.html` | Build output. Commit it; Pages serves it as it is |
+| `index.html`, `pilcrow/`, `polylogue/`, `404.html` | Build output. Commit it; Pages serves it as it is |
 | `pilcrow/privacy.html`, `pilcrow/privacy/<lang>.html` | The privacy policy in 23 languages, built from the Policies repo |
 | `pilcrow/guide/` | The User Guide: a home page plus one page per chapter, built from `Documentation/User Guide.md` in the app repo (read only) |
 | `assets/guide-index.json`, `assets/guide.js` | The guide's search index (built) and its search script |
 | `pilcrow/assets/` | Icons, social image, banner and the app screenshots |
 | `pilcrow/roadmap.html` | Built from the round files in `PluriaLabs/Support` (`Pilcrow/Roadmaps/`), the same ones the app reads. Rebuild after changing a round (`--roadmaps DIR` to name the folder) |
 | `.nojekyll` | Tells Pages to skip Jekyll |
+
+## Polylogue
+
+| Path | What it is |
+| --- | --- |
+| `src/pages/polylogue/` | Overview, Features and Support |
+| `src/guide-polylogue/` | The Polylogue User Guide (Markdown, same headings as Pilcrow's) |
+| `Polylogue/privacy-policy.md` in `PluriaLabs/Policies-and-Licenses` | The privacy policy, English only. `--policies` names Pilcrow's folder; Polylogue's is found beside it |
+| `polylogue/assets/` | Icons and screenshots (taken in the iOS Simulator with the demo account) |
+| `polylogue/` (HTML), `assets/polylogue-guide-index.json` | Build output |
+
+Before Polylogue's launch: add the App Store link, set the policy's effective date, and update the
+"not in the app yet" wording about support and voting once it ships.
 
 ## Edit and rebuild
 

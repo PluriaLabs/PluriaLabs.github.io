@@ -5,7 +5,8 @@ Usage:  python3 -I Scripts/build.py [--policies DIR] [--guide FILE]
 
 Reads  src/pages/**/*.html   (a small header, a line of three dashes, then the body),
 the privacy policies (Markdown, one per language) from the Policies repo, and the
-Pilcrow User Guide (Markdown files in src/guide/, joined in file-name order), and writes plain HTML
+Pilcrow User Guide (Markdown files in src/guide/, joined in file-name order), plus Polylogue's guide
+(src/guide-polylogue/) and privacy policy (also from the Policies repo), and writes plain HTML
 next to them in the repo root, plus sitemap.xml, robots.txt and the guide's search index.
 GitHub Pages serves the result as it is; there is no other build step.
 """
@@ -24,6 +25,7 @@ HOME = pathlib.Path.home() / "Projects"
 POLICIES = HOME / "Policies and Licenses" / "Pilcrow"
 GUIDE = ROOT / "src" / "guide"
 ROADMAPS = HOME / "Support" / "Pilcrow" / "Roadmaps"  # the same round files the app reads
+POLYLOGUE_GUIDE = ROOT / "src" / "guide-polylogue"
 SITE = "https://plurialabs.com"
 EMAIL = "support@plurialabs.com"
 
@@ -57,11 +59,11 @@ LAYOUT = """<!doctype html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{site}/pilcrow/assets/og.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/svg+xml" href="/pilcrow/assets/favicon.svg">
-<link rel="icon" type="image/png" href="/pilcrow/assets/favicon.png">
-<link rel="apple-touch-icon" href="/pilcrow/assets/apple-touch-icon.png">
+<meta property="og:image" content="{site}{og}">
+<meta name="twitter:card" content="{card}">
+<link rel="icon" type="image/svg+xml" href="{assets}/favicon.svg">
+<link rel="icon" type="image/png" href="{assets}/favicon.png">
+<link rel="apple-touch-icon" href="{assets}/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css">
 {jsonld}</head>
 <body>
@@ -94,11 +96,25 @@ HEADER_PILCROW = """<header class="site-header">
 </div>
 </header>"""
 
+HEADER_POLYLOGUE = """<header class="site-header">
+<div class="wrap">
+<a class="brand" translate="no" href="/polylogue/" aria-label="Polylogue home"><img class="mark" src="/polylogue/assets/mark.svg" alt="" width="32" height="32">Polylogue</a>
+<nav class="nav" aria-label="Main">
+<a class="keep" href="/polylogue/features.html"{cur_features}>Features</a>
+<a class="keep" href="/polylogue/guide/"{cur_guide}>User Guide</a>
+<a href="/polylogue/support.html"{cur_support}>Support</a>
+<a href="/polylogue/privacy.html"{cur_privacy}>Privacy</a>
+<a class="btn btn-primary btn-sm" href="/polylogue/#get">Get Polylogue</a>
+</nav>
+</div>
+</header>"""
+
 HEADER_LABS = """<header class="site-header">
 <div class="wrap">
 <a class="brand" translate="no" href="/" aria-label="Pluria Labs home">Pluria Labs</a>
 <nav class="nav" aria-label="Main">
 <a class="keep" href="/pilcrow/">Pilcrow</a>
+<a class="keep" href="/polylogue/">Polylogue</a>
 <a href="/pilcrow/support.html">Support</a>
 <a href="https://github.com/PluriaLabs">GitHub</a>
 </nav>
@@ -129,6 +145,17 @@ FOOTER = """<footer class="site-footer">
 </ul>
 </div>
 <div>
+<h4>Polylogue</h4>
+<ul>
+<li><a href="/polylogue/">Overview</a></li>
+<li><a href="/polylogue/features.html">Features</a></li>
+<li><a href="/polylogue/guide/">User Guide</a></li>
+<li><a href="/polylogue/support.html">Support</a></li>
+<li><a href="/polylogue/privacy.html">Privacy policy</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></li>
+</ul>
+</div>
+<div>
 <h4>Pluria Labs</h4>
 <ul>
 <li><a href="mailto:""" + EMAIL + """">""" + EMAIL + """</a></li>
@@ -137,7 +164,7 @@ FOOTER = """<footer class="site-footer">
 </ul>
 </div>
 </div>
-<div class="legal"><span>&copy; 2026 Pluria Labs.</span><span>Mac and iPad are trademarks of Apple Inc.</span></div>
+<div class="legal"><span>&copy; 2026 Pluria Labs.</span><span>iPhone, iPad and Mac are trademarks of Apple Inc. Mastodon is a trademark of Mastodon gGmbH.</span></div>
 </div>
 </footer>"""
 
@@ -145,7 +172,12 @@ FOOTER = """<footer class="site-footer">
 def render(page: dict) -> str:
     path = page["path"]
     lang = page.get("lang", "en")
-    header = HEADER_LABS if page.get("section") == "labs" else HEADER_PILCROW.format(
+    polylogue = path.startswith("/polylogue/")
+    cur = lambda yes: ' aria-current="page"' if yes else ""
+    header = HEADER_LABS if page.get("section") == "labs" else HEADER_POLYLOGUE.format(
+        cur_features=cur(path == "/polylogue/features.html"), cur_guide=cur(path.startswith("/polylogue/guide/")),
+        cur_support=cur(path == "/polylogue/support.html"), cur_privacy=cur(path == "/polylogue/privacy.html"),
+    ) if polylogue else HEADER_PILCROW.format(
         cur_support=' aria-current="page"' if path == "/pilcrow/support.html" else "",
         cur_story=' aria-current="page"' if path == "/pilcrow/story.html" else "",
         cur_roadmap=' aria-current="page"' if path == "/pilcrow/roadmap.html" else "",
@@ -161,6 +193,9 @@ def render(page: dict) -> str:
         canonical=SITE + path,
         alternates=page.get("alternates", ""),
         site=SITE,
+        assets="/polylogue/assets" if polylogue else "/pilcrow/assets",
+        og="/polylogue/assets/icon-512.png" if polylogue else "/pilcrow/assets/og.jpg",
+        card="summary" if polylogue else "summary_large_image",
         jsonld=page.get("jsonld", ""),
         header=header,
         body=page["body"],
@@ -500,6 +535,19 @@ def build_privacy() -> list:
     return urls
 
 
+def build_polylogue_privacy() -> list:
+    """Polylogue's policy is in English only. It sits beside Pilcrow's folder in the Policies repo."""
+    source = POLICIES.parent / "Polylogue" / "privacy-policy.md"
+    title, desc, body = markdown(source.read_text(encoding="utf-8"), "en")
+    url = "/polylogue/privacy.html"
+    page_body = (
+        f'<div class="page-head"><div class="narrow"><p class="eyebrow">Polylogue</p><h1>{html.escape(title)}</h1></div></div>\n'
+        f'<div class="narrow prose">\n{body}\n</div>'
+    )
+    write(url, render({"path": url, "title": title, "description": desc, "body": page_body}))
+    return [url]
+
+
 # ---------------------------------------------------------------- user guide
 
 def slugify(text: str) -> str:
@@ -684,13 +732,32 @@ def parse_guide(md: str) -> dict:
     return {"intro": intro, "parts": parts}
 
 
-def guide_nav(parts: list, current: str = "") -> str:
+GUIDES = {
+    "pilcrow": {
+        "name": "Pilcrow", "index": "/assets/guide-index.json",
+        "lede": "Everything you need to write, organize, review and publish with Pilcrow.",
+        "description": "The complete task-based guide to Pilcrow for Mac and iPad: writing, organizing, reviewing and publishing plain text.",
+        "routes": [("New to Pilcrow", ["I", "II", "III"]), ("Writers and editors", ["IV", "V", "VI", "IX"]),
+                   ("Researchers and technical writers", ["IV", "VII", "VIII"]), ("Book authors", ["X"]),
+                   ("Syntax, themes and automation", ["XI", "XII", "XIII"])],
+    },
+    "polylogue": {
+        "name": "Polylogue", "index": "/assets/polylogue-guide-index.json",
+        "lede": "Read and reply across languages on iPhone, iPad and Mac.",
+        "description": "The task-based guide to Polylogue: signing in, translation, replying across languages, posting and your account.",
+        "routes": [("New to Polylogue", ["I", "II"]), ("Translation", ["III"]), ("Posting", ["IV"]),
+                   ("Account and help", ["V", "VI"])],
+    },
+}
+
+
+def guide_nav(parts: list, current: str = "", app: str = "pilcrow") -> str:
     out = []
     for p in parts:
         is_open = any(c["slug"] == current for c in p["chapters"])
         cur = ' aria-current="page"'
         links = "".join(
-            f'<li><a href="/pilcrow/guide/{c["slug"]}.html"{cur if c["slug"] == current else ""}>'
+            f'<li><a href="/{app}/guide/{c["slug"]}.html"{cur if c["slug"] == current else ""}>'
             f'<span class="num">{c["n"]}</span>{html.escape(c["title"])}</a></li>'
             for c in p["chapters"]
         )
@@ -716,11 +783,19 @@ def read_guide_source(path: pathlib.Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def build_guide(path: pathlib.Path) -> list:
+def search_box(app: str) -> str:
+    if app == "pilcrow":
+        return SEARCH_BOX
+    return SEARCH_BOX.replace('<input id="g-q"', f'<input data-index="{GUIDES[app]["index"]}" id="g-q"')
+
+
+def build_guide(path: pathlib.Path, app: str = "pilcrow") -> list:
+    info = GUIDES[app]
+    name, base = info["name"], f"/{app}/guide/"
     data = parse_guide(read_guide_source(path))
     parts = data["parts"]
     chapters = [c for p in parts for c in p["chapters"]]
-    urls, index = ["/pilcrow/guide/"], []
+    urls, index = [base], []
 
     for k, c in enumerate(chapters):
         body, heads, sections = guide_blocks(c["lines"])
@@ -729,7 +804,7 @@ def build_guide(path: pathlib.Path) -> list:
         for sid, stitle, text in sections:
             if text.strip():
                 index.append({
-                    "u": f"/pilcrow/guide/{c['slug']}.html" + (f"#{sid}" if sid else ""),
+                    "u": f"{base}{c['slug']}.html" + (f"#{sid}" if sid else ""),
                     "c": f"Chapter {c['n']}: {c['title']}", "p": f"Part {c['part']['roman']} · {c['part']['name']}",
                     "s": stitle, "x": text,
                 })
@@ -747,21 +822,21 @@ def build_guide(path: pathlib.Path) -> list:
             if not target:
                 return "<span></span>"
             return (
-                f'<a class="{cls}" href="/pilcrow/guide/{target["slug"]}.html"><span class="dir">{label}</span>'
+                f'<a class="{cls}" href="{base}{target["slug"]}.html"><span class="dir">{label}</span>'
                 f'<span class="ttl">{html.escape(target["title"])}</span></a>'
             )
 
         page_body = f"""<div class="guide wrap">
 <aside class="g-side">
-{SEARCH_BOX}
+{search_box(app)}
 <details class="g-nav" open><summary>Guide contents</summary>
 <nav aria-label="User Guide">
-<a class="g-home" href="/pilcrow/guide/">Guide home</a>
-{guide_nav(parts, c["slug"])}
+<a class="g-home" href="{base}">Guide home</a>
+{guide_nav(parts, c["slug"], app)}
 </nav></details>
 </aside>
 <article class="g-main">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/pilcrow/guide/">User Guide</a><span aria-hidden="true">›</span><span>Part {c["part"]["roman"]} · {html.escape(c["part"]["name"])}</span></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="{base}">User Guide</a><span aria-hidden="true">›</span><span>Part {c["part"]["roman"]} · {html.escape(c["part"]["name"])}</span></nav>
 <p class="eyebrow">Chapter {c["n"]}</p>
 <h1>{inline(c["title"], "en")}</h1>
 {c["html"]}
@@ -772,9 +847,9 @@ def build_guide(path: pathlib.Path) -> list:
 </article>
 {toc}
 </div>"""
-        url = f"/pilcrow/guide/{c['slug']}.html"
+        url = f"{base}{c['slug']}.html"
         write(url, render({
-            "path": url, "title": f"{plain(inline(c['title'], 'en'))} · Pilcrow User Guide",
+            "path": url, "title": f"{plain(inline(c['title'], 'en'))} · {name} User Guide",
             "description": c["desc"], "body": page_body, "extra": GUIDE_SCRIPT,
         }))
         urls.append(url)
@@ -787,36 +862,34 @@ def build_guide(path: pathlib.Path) -> list:
         lede = m.group(1)
     cards = "".join(
         f'<section class="g-card"><h3><span class="roman">{p["roman"]}</span>{html.escape(p["name"])}</h3><ul>'
-        + "".join(f'<li><a href="/pilcrow/guide/{c["slug"]}.html"><span class="num">{c["n"]}</span>{html.escape(c["title"])}</a></li>' for c in p["chapters"])
+        + "".join(f'<li><a href="{base}{c["slug"]}.html"><span class="num">{c["n"]}</span>{html.escape(c["title"])}</a></li>' for c in p["chapters"])
         + "</ul></section>"
         for p in parts
     )
     first = {p["roman"]: p["chapters"][0] for p in parts}
-    routes = [("New to Pilcrow", ["I", "II", "III"]), ("Writers and editors", ["IV", "V", "VI", "IX"]),
-              ("Researchers and technical writers", ["IV", "VII", "VIII"]), ("Book authors", ["X"]),
-              ("Syntax, themes and automation", ["XI", "XII", "XIII"])]
+    routes = info["routes"]
     start = "".join(
         f"<li><b>{who}</b> " + " ".join(
-            f'<a href="/pilcrow/guide/{first[r]["slug"]}.html" title="{html.escape(first[r]["part"]["name"], quote=True)}">Part {r}</a>'
+            f'<a href="{base}{first[r]["slug"]}.html" title="{html.escape(first[r]["part"]["name"], quote=True)}">Part {r}</a>'
             for r in romans) + "</li>"
         for who, romans in routes)
     home = f"""<div class="page-head g-head"><div class="wrap">
-<p class="eyebrow">Pilcrow</p>
+<p class="eyebrow">{name}</p>
 <h1>User Guide</h1>
-<p class="lede">{lede or "Everything you need to write, organize, review and publish with Pilcrow."}</p>
-{SEARCH_BOX}
+<p class="lede">{lede or info["lede"]}</p>
+{search_box(app)}
 </div></div>
 <div class="wrap g-home-body">
 <nav class="g-start" aria-label="Start here"><h2>Start here</h2><ul>{start}</ul></nav>
 <div class="g-cards">{cards}</div>
 </div>"""
-    write("/pilcrow/guide/index.html", render({
-        "path": "/pilcrow/guide/", "title": "Pilcrow User Guide · Pluria Labs",
-        "description": "The complete task-based guide to Pilcrow for Mac and iPad: writing, organizing, reviewing and publishing plain text.",
+    write(base + "index.html", render({
+        "path": base, "title": f"{name} User Guide · Pluria Labs",
+        "description": info["description"],
         "body": home, "extra": GUIDE_SCRIPT,
     }))
-    write("/assets/guide-index.json", json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n")
-    print(f"guide: {len(parts)} parts, {len(chapters)} chapters, {len(index)} searchable sections")
+    write(info["index"], json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n")
+    print(f"{app} guide: {len(parts)} parts, {len(chapters)} chapters, {len(index)} searchable sections")
     return urls
 
 
@@ -829,6 +902,7 @@ def main() -> None:
     args = ap.parse_args()
     POLICIES, GUIDE, ROADMAPS = args.policies, args.guide, args.roadmaps
     urls = build_pages() + build_themes() + build_roadmap() + build_privacy() + build_guide(GUIDE)
+    urls += build_polylogue_privacy() + build_guide(POLYLOGUE_GUIDE, "polylogue")
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}{u}</loc></url>" for u in sorted(set(urls))]
     sm.append("</urlset>")

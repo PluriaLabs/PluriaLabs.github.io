@@ -16,7 +16,7 @@
   function load() {
     if (index) return Promise.resolve(index);
     if (!loading) {
-      loading = fetch('/assets/guide-index.json').then(function (r) { return r.json(); }).then(function (rows) {
+      loading = fetch((input && input.getAttribute('data-index')) || '/assets/guide-index.json').then(function (r) { return r.json(); }).then(function (rows) {
         rows.forEach(function (r) { r._t = fold(r.c + ' ' + r.s); r._x = fold(r.x); });
         index = rows;
         return rows;

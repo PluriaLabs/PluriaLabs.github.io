@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Polylogue Privacy Policy</title>
+<meta name="description" content="Polylogue is a Mastodon app for iPhone, iPad and Mac that helps you read and reply across languages. It is designed to work without a Polylogue account, advertising, analytics or tracking.">
+<link rel="canonical" href="https://plurialabs.com/polylogue/privacy.html">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121819" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pluria Labs">
+<meta property="og:title" content="Polylogue Privacy Policy">
+<meta property="og:description" content="Polylogue is a Mastodon app for iPhone, iPad and Mac that helps you read and reply across languages. It is designed to work without a Polylogue account, advertising, analytics or tracking.">
+<meta property="og:url" content="https://plurialabs.com/polylogue/privacy.html">
+<meta property="og:image" content="https://plurialabs.com/polylogue/assets/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="/polylogue/assets/favicon.svg">
+<link rel="icon" type="image/png" href="/polylogue/assets/favicon.png">
+<link rel="apple-touch-icon" href="/polylogue/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" translate="no" href="/polylogue/" aria-label="Polylogue home"><img class="mark" src="/polylogue/assets/mark.svg" alt="" width="32" height="32">Polylogue</a>
+<nav class="nav" aria-label="Main">
+<a class="keep" href="/polylogue/features.html">Features</a>
+<a class="keep" href="/polylogue/guide/">User Guide</a>
+<a href="/polylogue/support.html">Support</a>
+<a href="/polylogue/privacy.html" aria-current="page">Privacy</a>
+<a class="btn btn-primary btn-sm" href="/polylogue/#get">Get Polylogue</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<div class="page-head"><div class="narrow"><p class="eyebrow">Polylogue</p><h1>Polylogue Privacy Policy</h1></div></div>
+<div class="narrow prose">
+<p><strong>Effective:</strong> when Polylogue is first released</p>
+<p><strong>Publisher:</strong> PluriaLabs</p>
+<p><strong>Privacy contact:</strong> support@plurialabs.com</p>
+<p>Polylogue is a Mastodon app for iPhone, iPad and Mac that helps you read and reply across languages. It is designed to work without a Polylogue account, advertising, analytics or tracking.</p>
+<p>This policy explains how the Polylogue app handles information. It also explains what PluriaLabs receives if you contact us directly. It does not govern Apple, your Mastodon server or any other server, an AI service you choose, a website you visit, or another third-party service. Those parties apply their own terms and privacy policies.</p>
+<h2>The short version</h2>
+<ul><li>Polylogue does not require or provide a Polylogue account. You sign in to a Mastodon server you choose.</li><li>Polylogue contains no advertising, analytics SDK, tracking SDK or PluriaLabs-operated telemetry service.</li><li>What you read and write travels between your device and your Mastodon server. PluriaLabs does not receive it.</li><li>Translation uses Apple's Translation framework on your device by default.</li><li>AI translation is off until you turn it on with your own API key. It then sends text of public and quiet public posts and replies directly to the service you chose. PluriaLabs does not receive it.</li><li>Every Polylogue feature is free. Optional support and roadmap voting are planned and are not in the app yet.</li></ul>
+<h2>Your Mastodon server</h2>
+<p>To sign in, Polylogue registers itself with the server you enter and opens that server's sign-in page in your web browser. You enter your password there; Polylogue never receives it. The server gives Polylogue an access token with permission to read, write, follow and receive push notifications for your account. Polylogue stores the token and the server address in the Keychain on that device only.</p>
+<p>Everything you do in Polylogue, such as posting, uploading media, voting in polls, searching, following, blocking, reporting and editing your profile, is sent to your server. Your server processes it under its own rules and privacy policy, and may share public and addressed content with other servers in the network. Deleting a post asks your server to delete it; copies held by other servers or people may remain.</p>
+<p>If you forward a report, the moderators of the other account's server receive it too.</p>
+<p>Signing out removes the token from your device. To withdraw Polylogue's access on the server as well, remove it from the authorized apps in your Mastodon account settings.</p>
+<h2>Other network connections</h2>
+<p>Showing a timeline means loading avatars, images, video and link previews from the addresses your server supplies, which may be on other servers. Opening a news article in Polylogue loads that website inside the app, and the site may set cookies or collect information as it would in a browser. Opening a link or sharing a post hands it to the app or browser you choose.</p>
+<p>Any host that is contacted can see ordinary connection information such as your IP address, the time and the address requested.</p>
+<h2>Translation</h2>
+<p><strong>Apple Translation and text recognition.</strong> Posts are translated, and text in images is recognized, on your device using Apple's frameworks. Apple may download language resources to your device under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+<p><strong>Optional AI translation.</strong> If you turn it on in <strong>Preferences</strong> and save an API key, Polylogue can send text to OpenAI, Anthropic, Google Gemini or an OpenAI-compatible HTTPS endpoint that you enter. Depending on your settings and what you do, a request may contain:</p>
+<ul><li>the text of a public or quiet public post, which may have been written by someone else;</li><li>text recognized in an image from such a post (the text, not the image);</li><li>the text of a public or quiet public reply you are writing, when you ask for a translated preview or ask for it to be shortened (the addresses at the start of the reply are left out);</li><li>the source and target language names and the instructions Polylogue supplies;</li><li>the model name and technical settings, and your API key for that service; and</li><li>ordinary network information such as your IP address.</li></ul>
+<p>Polylogue does not send followers-only or direct posts to an AI service. Content warnings can be added to public posts; a warning does not by itself stop a public post's text from being sent.</p>
+<p>Polylogue asks you to confirm the first time a post, recognized image text or a reply is sent to a service. It asks again for a different service or a different custom endpoint, and does not ask again for one you have confirmed. If you turn on automatic AI translation or put AI before Apple Translation, posts may be sent as they appear on screen without further prompts. Polylogue may also request the service's list of models, using your key.</p>
+<p>The service you choose is an independent recipient. It may keep requests, process them in other countries or use them as its terms allow, and may charge you. Review its policy before using it:</p>
+<ul><li><a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a></li><li><a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a></li><li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li><li>for any other endpoint, the operator's terms and privacy information</li></ul>
+<h2>Information stored on your device</h2>
+<ul><li><strong>Credentials.</strong> Your Mastodon token and any AI API keys are stored in the Keychain, on that device only.</li><li><strong>Settings.</strong> Preferences such as reading language, translation choices, AI service, model and endpoint.</li><li><strong>Drafts.</strong> Unfinished post and reply text, and your original text for replies you published in translation.</li><li><strong>Translation caches.</strong> Recent translations and text recognized in images, which may include text from private posts translated on your device.</li></ul>
+<p>Signing out does not erase drafts, translation caches, settings or AI keys. You can clear the translation cache and remove each API key in <strong>Preferences</strong>. Deleting the app removes its stored files; Keychain items and device backups are handled by Apple's systems and your settings.</p>
+<h2>Supporting Polylogue and roadmap voting</h2>
+<p>These features are planned and are <strong>not in the current app</strong>. When they are added, they are intended to work as they do in Pilcrow:</p>
+<ul><li>Every feature stays free. You may subscribe monthly for three voting credits, or buy single credits. Apple processes every purchase; Polylogue does not receive your payment-card details or Apple Account password.</li><li>Your credit list is kept on your device and, if you use iCloud, in your private iCloud database, which PluriaLabs cannot read.</li><li>A vote is recorded in a public iCloud (CloudKit) database that PluriaLabs operates. It holds the roadmap item and round, the credit used, a random identifier, an anonymous identifier CloudKit assigns for this app, and the time. It holds no name, email address, Mastodon account or post. Other users may be able to see vote records.</li></ul>
+<p>We will update this policy before these features become available.</p>
+<h2>Apple services and diagnostics</h2>
+<p>Apple processes App Store downloads, updates, purchases, device backups and other Apple services under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Apple may provide PluriaLabs with sales reporting and, if you have enabled sharing with app developers, crash or performance diagnostics. We use this only to distribute the app, understand crashes and improve reliability.</p>
+<h2>Information you send to PluriaLabs</h2>
+<p>If you email us or otherwise contact us, we receive what you choose to provide, such as your email address, name, message and attachments. We use it to respond, provide support, investigate reliability or security problems, keep appropriate records and comply with legal obligations, and keep it only as long as reasonably necessary. Our email and infrastructure providers may process it on our behalf, possibly in other countries, with safeguards where law requires them. We do not sell it, share it for cross-context behavioral advertising or use it to train an AI model.</p>
+<h2>Your choices and privacy rights</h2>
+<p>You can choose your server, leave AI translation off, remove API keys, clear the translation cache, sign out and revoke access on your server.</p>
+<p>Privacy laws may give you rights over personal information PluriaLabs holds about you, including access, correction, deletion, objection, restriction and portability. To make a request, email support@plurialabs.com. Because we do not receive your posts, account data or AI requests, contact your Mastodon server or AI service about information they hold. You may also complain to the data-protection authority where you live. PluriaLabs will not discriminate against you for exercising a privacy right.</p>
+<h2>Children</h2>
+<p>Polylogue is not directed to children, and PluriaLabs does not knowingly collect personal information from children through the app. Mastodon servers show content written by others and set their own minimum ages, as do AI services. If you believe a child sent personal information directly to PluriaLabs, contact support@plurialabs.com.</p>
+<h2>Security</h2>
+<p>Polylogue limits what reaches PluriaLabs by connecting your device directly to the services you choose. No storage or transmission method is completely secure. Protect your device, your Mastodon account and your API keys, and keep system software current.</p>
+<h2>Changes to this policy</h2>
+<p>We may update this policy to reflect changes in Polylogue, law or third-party services. The current version will be posted at this address with a revised effective date.</p>
+<h2>Contact</h2>
+<p><strong>PluriaLabs</strong></p>
+<p><strong>Email:</strong> support@plurialabs.com</p>
+</div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<a class="brand" translate="no" href="/">Pluria Labs</a>
+<p style="margin-top:.8rem;max-width:26rem">Software for people who write. Made with care, and with no tracking.</p>
+</div>
+<div>
+<h4>Pilcrow</h4>
+<ul>
+<li><a href="/pilcrow/">Overview</a></li>
+<li><a href="/pilcrow/#features">Features</a></li>
+<li><a href="/pilcrow/guide/">User Guide</a></li>
+<li><a href="/pilcrow/compare.html">How Pilcrow compares</a></li>
+<li><a href="/pilcrow/support.html">Support</a></li>
+<li><a href="/pilcrow/story.html">Story</a></li>
+<li><a href="/pilcrow/roadmap.html">Roadmap</a></li>
+<li><a href="/pilcrow/whats-new.html">What’s new</a></li>
+<li><a href="/pilcrow/themes.html">Themes</a></li>
+<li><a href="/pilcrow/privacy.html">Privacy policy</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></li>
+</ul>
+</div>
+<div>
+<h4>Polylogue</h4>
+<ul>
+<li><a href="/polylogue/">Overview</a></li>
+<li><a href="/polylogue/features.html">Features</a></li>
+<li><a href="/polylogue/guide/">User Guide</a></li>
+<li><a href="/polylogue/support.html">Support</a></li>
+<li><a href="/polylogue/privacy.html">Privacy policy</a></li>
+<li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></li>
+</ul>
+</div>
+<div>
+<h4>Pluria Labs</h4>
+<ul>
+<li><a href="mailto:support@plurialabs.com">support@plurialabs.com</a></li>
+<li><a href="https://github.com/PluriaLabs">GitHub</a></li>
+<li><a href="https://github.com/PluriaLabs/Support/issues/new/choose">Report a bug</a></li>
+</ul>
+</div>
+</div>
+<div class="legal"><span>&copy; 2026 Pluria Labs.</span><span>iPhone, iPad and Mac are trademarks of Apple Inc. Mastodon is a trademark of Mastodon gGmbH.</span></div>
+</div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
