@@ -27,7 +27,7 @@ JavaScript (`assets/site.js`).
 | `src/pages/polylogue/` | Overview, Features and Support |
 | `src/guide-polylogue/` | The Polylogue User Guide (Markdown, same headings as Pilcrow's) |
 | `Polylogue/privacy-policy.md` in `PluriaLabs/Policies-and-Licenses` | The privacy policy, English only. `--policies` names Pilcrow's folder; Polylogue's is found beside it |
-| `polylogue/assets/` | Icons and screenshots (taken in the iOS Simulator with the demo account) |
+| `polylogue/assets/` | Icons and screenshots. The Simulator cannot run Apple Translation, so these come from a scratch copy of the app (demo account, with the Hungarian sample swapped for French) whose translation cache was filled with Apple on-device translations made on a Mac |
 | `polylogue/` (HTML), `assets/polylogue-guide-index.json` | Build output |
 
 Before Polylogue's launch: add the App Store link, set the policy's effective date, and update the
